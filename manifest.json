@@ -1,0 +1,1565 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/NetEnhancements/NetEnhancements/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.html",
+          "hash": "xKG88ogi0B5nqizfnJtfUQMuis74B1+pg+MKWQlx+f0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.AreaControllerRoutingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.AreaControllerRoutingConvention.html",
+          "hash": "2he+zSoe1RfUAWVgiJR9yfhPg73OV/3GH8T3p+V//PA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.AreaPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.AreaPolicy.html",
+          "hash": "47O64DlctmgX4JffA8yvBRDT/mbn/KvpRtedBqkSXJ0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.AreaRoutingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.AreaRoutingAttribute.html",
+          "hash": "7NEWc+3gBJ/Vt0Y3TJ0zkbb2GUdc77p7Kt6EDlb/7VI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.ControllerModelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.ControllerModelExtensions.html",
+          "hash": "2C0TBY4t96iorifGCz1WgnW/TRx3RMgK9kh2GWPLIfI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html",
+          "hash": "NGrRsW3pVgdF0Fq8lRwHDfaJ7TFMdeuNgOFKx2QnqV0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.html",
+          "hash": "Acw9EJjPK+F/qDqGUG1GIr1i1g/fBniH0e+xqzAIddQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.html",
+          "hash": "Ldl5HPrUqAShLKHqAL2qEHfcL1ni4Kp3V3OdYnYYPVY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.RoutePrefixConvention-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.RoutePrefixConvention-1.html",
+          "hash": "LIlNEYdn6EwwqXFdB0IPNk4pAHuThJD7s+XrqWI3Vd8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Conventions.html",
+          "hash": "uSPbSsqhaOXfW99vdSWaEMWvv1FZkKSBsQj9PQetS10="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Filters.UnauthorizedAccessExceptionFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Filters.UnauthorizedAccessExceptionFilter.html",
+          "hash": "60IajP+Hgr2/svuDB/7Wwq2cxck7y7VmGOjiRAzq7gM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Filters.html",
+          "hash": "MxOuQpnBcYAdPmYKhU/ovuvKjvv3pgpPl9ECl+5CO0A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.HtmlHelperExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.HtmlHelperExtensions.html",
+          "hash": "wOuwyECiYZXY3T9SZr0+0jaSM4feEjglhx5RNFf/FRE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.HttpContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.HttpContextExtensions.html",
+          "hash": "2XMmCOrDlCttxq8W0OhaP2BIZmNX84XVpPYj6wkKtvw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.MvcOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.MvcOptionsExtensions.html",
+          "hash": "Q0Xa5ww6EfXJ/xuP3gTaJeUbxrBd0/sLvcMPmlDl26s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.RouteModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.RouteModel.html",
+          "hash": "vWP0EncixHUcv2s9/VoicqltXjSTiFAoDq0l9iWf00Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.SelectListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.SelectListExtensions.html",
+          "hash": "P7Z7DoJVu7EhpacU6GVKTMBpbUIPMuN4AaoRDsDt4D8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Session.SessionObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Session.SessionObject-1.html",
+          "hash": "zc+F0m3L+xFNuhA+VHW3C6m0h6xDwBSf3p/JvDdAOL8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Session.html",
+          "hash": "q8yRXtSozF0mT8FNDWxTDwpjmfLuy8XEqVWdFO97wSI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.SessionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.SessionExtensions.html",
+          "hash": "EKV2n57xU1ILKE/aUIBOt1VJ7evnEVgNOfXPX71AaG0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.SharedConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.SharedConstants.html",
+          "hash": "0dgKwQ9YVTMCpgZ988eIYarE7zDXeJtGnWWc7g5/pO0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html",
+          "hash": "9TihE52XLWRe640oTAa1dByrjA0VvHqtwfyrLv419Go="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.html",
+          "hash": "6eIt+QXRZRws3ZkJwwaOzYK8swmNsHH0jp2TgG/gSVU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.TagHelpers.PriceTagHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.TagHelpers.PriceTagHelper.html",
+          "hash": "A4INcjRDaaZ/nLF7vAK2wCudRZBrfw3zdH2WkLqA2uY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.TagHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.TagHelpers.html",
+          "hash": "ZXwR8AFiasBhuUUfE1W93jz+OHUDdt3wGrJpt/hukPg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Validation.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Validation.DependencyInjection.html",
+          "hash": "OMJfgrSeSRKYPMoN2e4/54LL8ZjiwXU/x10ewY09wEI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Validation.IVatValidatable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Validation.IVatValidatable.html",
+          "hash": "xmgz2NJyBr8vHjJqbwXlMOXBAKRESk3TVwTnxOtRp2A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Validation.ModelStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Validation.ModelStateExtensions.html",
+          "hash": "2jDgwsWElWlF9HuPpey9ka5enqX4R6ogci44cIzcBQk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Validation.NonZeroAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Validation.NonZeroAttribute.html",
+          "hash": "AwQO0NQQTtG3D+71ifEJwfHArbo/ZxDUMjXHSwz9u28="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions.html",
+          "hash": "/HHuy9DNwJwcge8454LgVokze8vClaAEfAv+OoIxpPg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Validation.VatNumberAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Validation.VatNumberAttribute.html",
+          "hash": "Uy4N9IUE+QiPi5TWxsvsEl9lknAs/RZB0n025XAMJSs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Validation.html",
+          "hash": "uJy7nQ1L7BbDnhGRKqSbofui6oudJp/qfSDnbgv5hwY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.ViewContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.ViewContextExtensions.html",
+          "hash": "THBrxhWi6F8GK+dRqZ5ZbizXH2BP9d1xql3BOaYOODw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.html",
+          "hash": "5xxJuSC1G3z4IuA/THVdXiwmdR/3venCAK096vX3fSg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Business.BusinessResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Business.BusinessResult-1.html",
+          "hash": "YvAjy9WL/imJpw3qt7csuPLf3yWVqs4ZKONBX0OnBS8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Business.BusinessResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Business.BusinessResult.html",
+          "hash": "Las2/w5ya7XeeH8lqUWQKW3P+pry+NOXD93Pw6FkR9Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html",
+          "hash": "peuSbng1FkdHCsMKLky6Dsr5JKNfApWJOH3E9ZjGMdo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Business.Managers.ManagerBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Business.Managers.ManagerBase-1.html",
+          "hash": "gXBp16yKfmLZWDCqse61HCtxHzBDmb9LWKC1B3Hb+PI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Business.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Business.Managers.html",
+          "hash": "hDucmjMgMTnNU8Jtp0yIO5g7kvHmIdHGldrn2fmi42E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Business.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Business.html",
+          "hash": "NOPqywUjRN6t6XgGnLWSXnPrQ4e0WHvXg6NUD8AUupc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.CellExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.CellExtensions.html",
+          "hash": "qyWzSDJP1yYEvzPeT7CGSNOZlTAIHD+h9I6t9R6FXHk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ColumnExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.ColumnExtensions.html",
+          "hash": "4uePkQade/pPLC6dTJjZIHHQDgpgr0AubhFQsVk3l3g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.RowParser-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.RowParser-1.html",
+          "hash": "h0/hgHj0uzx8k2sfGezzEC1k2PAPFA6v3YvTMGiTiR8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.WorksheetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.WorksheetExtensions.html",
+          "hash": "gI7FoxSTAIqAg22d91e7L/O0WlPjOSg6X999oiDhB40="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.html",
+          "hash": "6F9h76BoH+xXmXqWHrZuSMcYsIH64yPiUM9l8hqjwuw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.DateOnlyComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.DateOnlyComparer.html",
+          "hash": "G1NLtimP7/7avubLVGOEU5Af8q8ppMZCxN9yq3CAnVk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.DateOnlyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.DateOnlyConverter.html",
+          "hash": "lrEGywp6LvlZ8ufOXcR+Z/mUD2uSitkFVJBIFzXI+3w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.DbContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.DbContextExtensions.html",
+          "hash": "EB0tmY6Zjj5idEGwqk2BEuboDbDBPISh6r+Bh5MKGKw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.Entity.html",
+          "hash": "w8TrNFCyt9OHDsAvH8cZ2rCS/SFPiRVOmpaeuCTgkWw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.EntityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.EntityExtensions.html",
+          "hash": "M5h3werKn9Y/5bsvwlyW3msAQW7rHLTSzKCS5ZvL/1o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.EntityNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.EntityNotFoundException.html",
+          "hash": "lXZvbhYqt93zDJMADM7CuBiziPelW58yP4OSiJ50z6I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.GuidIdEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.GuidIdEntity.html",
+          "hash": "7d/wmTDGum5wdZX88djp11qhzpcsPkT48PNejukIVPw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.IGuidIdEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.IGuidIdEntity.html",
+          "hash": "G75EJjKNFklbi6mrQWUBqdasVP7sNBfA7EfkQEV1OEE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.ITimestampedEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.ITimestampedEntity.html",
+          "hash": "KReMzAKbL9t/nJVnGtft/jnUOvihuSZB71q1ewKt/kk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.IntIdEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.IntIdEntity.html",
+          "hash": "GU+uLa8loVkxW8dGoJR7TUGI7s5XS950oKWx4vK4ezA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.ModelBuilderExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.ModelBuilderExtension.html",
+          "hash": "ZWOBCElOtXHL9Zv7Ojj9Z4IQidu5CJ8k4wqcjHCqWHw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.html",
+          "hash": "9KXT0CzCJfoXAC2d3qMaw+4T8ZRdenSGklpn5rTR0MI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.NullableDateOnlyComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.NullableDateOnlyComparer.html",
+          "hash": "f9140XVpSzex5NWsIGGBwnpoSZJ5HKTCIo1nATmVe2Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.NullableDateOnlyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.NullableDateOnlyConverter.html",
+          "hash": "Hj6G6Rq0jcemxy/sONlotx23boZJjQHYsgqK/tN7w24="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.NullableTimeOnlyComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.NullableTimeOnlyComparer.html",
+          "hash": "TCNMghuZc3VuMJWbGTfojgKkAabRYubkWVriG7L8hOk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.NullableTimeOnlyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.NullableTimeOnlyConverter.html",
+          "hash": "3N5Us6JrnbPCb2V4D7xbKFWwkXfJVvIdjlxB+df5IkI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.Query.DataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.Query.DataQuery.html",
+          "hash": "6MgDLHLykxoGggaJ0Wt0IZjbaOx1XZ2nA+2ecjKY+1I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.Query.OrderDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.Query.OrderDirection.html",
+          "hash": "GsRaPJF94EjvOmB1yaRJJOEQ1jvlTq40Jm+8jpi1MwE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.Query.OrderExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.Query.OrderExpression.html",
+          "hash": "okzD2B600BVDQm4SNl9yMi4jrdy9/tePmaefrAcwjgg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.Query.PagedQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.Query.PagedQuery.html",
+          "hash": "UH1VKytxuIN2khkYokgCq29sB4hx1d7kTGaJKDF0oWw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.Query.PagedResults-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.Query.PagedResults-1.html",
+          "hash": "rLnFABQnUUX136U6YYZYG8ZoKAlcChYTITM0aISxylc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.Query.QueryExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.Query.QueryExpression.html",
+          "hash": "3nda0mnYMNq4ZHDwFP2ulzjKxRi5Yg0pqI7LAKsRTVI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.Query.html",
+          "hash": "gNuc1DGsbffKTiR0Uqgg93irpN1uahsBfTlAyKdGY1s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.TimeOnlyComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.TimeOnlyComparer.html",
+          "hash": "yf42XvYc1gKBryaOMKKggJlx0rVyxqMjaii0N4+y2Qc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.TimeOnlyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.TimeOnlyConverter.html",
+          "hash": "ZwgQrphEtaT4sWzVxfRcymviS7iixlQZfrH31JVKG1Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.TimestampedEntityAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.TimestampedEntityAttribute.html",
+          "hash": "Gde4NYqj/aWSEnSREt4u7Jk93rAS/pz+IB6JQIRU+5k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.html",
+          "hash": "lS4CBbHy3bdY01aHdto6YiI4418IK17Sy9lcB+90WUg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Configuration.IdentitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Configuration.IdentitySettings.html",
+          "hash": "LaO8H+RdCDKXY5ySat8qyoLctNoDm+9+jjIMNeBlQgs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Configuration.html",
+          "hash": "JYUJCx0DyY27Tavp4uJqp0Gc/+Vl8VLgEM0ZadWieVE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Data.ApplicationRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Data.ApplicationRole.html",
+          "hash": "QlytPOFLiv8dyvetOsHXy8Vj71baBPSaWT4Toxwus5o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Data.ApplicationUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Data.ApplicationUser.html",
+          "hash": "mHaeOLJXtn7LCpJzApKiSvA4GwZLPdnwgJXwD7BxNlw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Data.ApplicationUserRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Data.ApplicationUserRole.html",
+          "hash": "1RZ6LYsYQfwL7eEIlQ6OHqrlcvMGrf+i0yyud6h3oT8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Data.IdentityDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Data.IdentityDbContext.html",
+          "hash": "oGgfU2VuYbmKt1w4MjCvXUmLR/pRMI2mXFYlcqA8Iqk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Data.html",
+          "hash": "ocAOrIh5I/0M+B5Cp+8QrMNlWWkurdag5Ckhjw31zmw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.DependencyInjection.html",
+          "hash": "ZXnroKEPlGxfFt5sFowT+0+uLhOQolgnvrJnrxwKN/E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Extensions.IdentityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Extensions.IdentityExtensions.html",
+          "hash": "Q4Tdk1Y0bTYfav1Z7PMQHduHJNaemXeEVsyUubhsI60="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Extensions.html",
+          "hash": "1ZAuOIsKIF0iNUFqfVlDHys9iAu5CbJoO7u9cYIX9TM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Managers.ApplicationUserManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Managers.ApplicationUserManager.html",
+          "hash": "2+/HS7hS9teiZ4BRgljqWCUTUWqS2YZ5mSZeeEtxshE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.Managers.html",
+          "hash": "flrysQU1WMroCwFgNnIZjfvztlYEGQAxKzKnY4GA/QM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Identity.html",
+          "hash": "TeFqNkVbWf/fjfRReFfSzoO31oRNBfXSKH08qvkHmcc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.DependencyInjection.html",
+          "hash": "K+hU9PO7plCgOa3/HLLkIMAewVzsSFnVPtaY4bbS1pE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.EntityFramework.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.EntityFramework.Category.html",
+          "hash": "lOZuad4dKa/ubvcSh+wqYQn8DGPThkcDb/iz5cWh6V4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.EntityFramework.CategoryBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.EntityFramework.CategoryBase.html",
+          "hash": "W3+GKeNK+/XAdM6M1SJ+RGlmD17nOChKapK5jMTzDT8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.EntityFramework.Image.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.EntityFramework.Image.html",
+          "hash": "A4C5wT9Cf1v6ojm7ZeYXJVpytbAPYpRUO/VmDNPqgfk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html",
+          "hash": "Lx+490KPmwLJeYDCtOcqTlqaP0vLtN/3QRJLbciweT8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageCategory.html",
+          "hash": "Mn4gd/2esZ3AT7ir5pzFLNu/rSKrmrVjH0cibSalAdw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageCategoryBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageCategoryBase.html",
+          "hash": "s19NwKtnr4y/ySx0bt/Jc1T5avMIJjg72hWyzTcCQn4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.EntityFramework.ModelBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.EntityFramework.ModelBuilderExtensions.html",
+          "hash": "z9gnakcxrp/kwIg1OAfSWa0CJoiqb4hbBqUZ8WOZJEg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.EntityFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.EntityFramework.html",
+          "hash": "9uwhyDq/vnyZz8BFjqdyRZ8gTlDJ0wnWp3UgLXigCco="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.IImageInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.IImageInspector.html",
+          "hash": "2VMWW/fJFYOaWQ+Sfp0hhfljhN3znQlB90JtfB5P6Ww="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.IImageProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.IImageProcessor.html",
+          "hash": "0ta1pbLmNeSfLuYBG8S1o/pv5dpKzzcIp9GeWd7ZYAw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.IImageStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.IImageStore.html",
+          "hash": "Zl69wC62zvPn+utrtWh+bROFP9JBxkcDs9hhr9RyS0k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.ImageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.ImageInfo.html",
+          "hash": "MrIywWjIu3u81SckzyFfPWT9/yB30zMZyci2hGWyrZ0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.ImagingBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.ImagingBuilder.html",
+          "hash": "RG20k9Y9E7sJPE56bvpASqTqlU1+eL2XMimzOnDOzDk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.Resolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.Resolution.html",
+          "hash": "++IsEOEW46nIvbL2wsCpx9mEtdyfGgrwdahvdvxOkPI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.SizeCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.SizeCalculator.html",
+          "hash": "HoeqAL2D/EO93qvYWXHVdIzMsLnKsYgqaoh9J2f891s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.html",
+          "hash": "U8BwH6JRdB+ChAMWxK5p37+2weEiZ4ZiTPTVhaLPnlY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.OAuth.TokenGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.OAuth.TokenGenerator.html",
+          "hash": "szme/YUdc6saR7WLjsF0CHvmaaGNKc95SBr+sBZQoUc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.OAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.OAuth.html",
+          "hash": "dDllzs5L0V4Uo91R6EZmdWjnyFeI9wrinBf9FVADSYk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Services.ScheduledBackgroundService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Services.ScheduledBackgroundService.html",
+          "hash": "B4XuI0yCnRNENnlw/fZYfD5QcnYJhdiLmpwRfQIprgw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Services.html",
+          "hash": "iDadBfoQP1mWRVMOUc4/o/OTWZACo0e8tY8KSiD16Gg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.AppStatus.ApplicationStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.AppStatus.ApplicationStatus.html",
+          "hash": "51Xm/9YkfObT4BQgfj2gHTtOQKLRhymWbsLBG+OpAG4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.AppStatus.ApplicationStatusBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.AppStatus.ApplicationStatusBuilder.html",
+          "hash": "+LTTOC2OyjPAnO5RBtzyY4Bl8ilKzZRjYw2eZnReAt8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.AppStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.AppStatus.html",
+          "hash": "psOinkjiVHPXQlfxV+Jr8piSVbEqS06nZZY7Tad7bZU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.Configuration.ConfigurationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.Configuration.ConfigurationException.html",
+          "hash": "UnHkZxZgQYzHWtLOFvREztTDNaKTJ78cj6/yQ9iFcYs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.Configuration.ConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.Configuration.ConfigurationExtensions.html",
+          "hash": "skASw7aaemwq6H8rw2IjqlC68WH8ONCXVg+guj2qLRY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.Configuration.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.Configuration.DependencyInjection.html",
+          "hash": "JwB95HC4wNFjbf7qKP9GbrnBS4f1N0vVTsBxlaspdFo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.Configuration.LoggingSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.Configuration.LoggingSettings.html",
+          "hash": "9RBvPLOTpvUnqYnVCt5F0gmvJyFW5qLtjS5tiFL+zTM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.Configuration.html",
+          "hash": "OJGgy8dWxkBPdikZYWbDUQECrvlCqgVkM98eKn73Blk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.Logging.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.Logging.DependencyInjection.html",
+          "hash": "XDqfsCmg73bjsJWQCewa7v1VVX2B5EcJaD6qoM+Yr9Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Shared.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Shared.Logging.html",
+          "hash": "QV9aGgUVM/DLhvroWoDj7kf2EqngPCIx0ZJ0SEXSqAA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.AttributeValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.AttributeValidator.html",
+          "hash": "SiIl2ryta0vwzNsWn8fq6s97U5EyYCzcOQp4KJifBXk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.CollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.CollectionExtensions.html",
+          "hash": "fCozH9G5BS3JenjZBtQTSB7bgK2vvwNL5ObqYCxxkC8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.CultureInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.CultureInfoExtensions.html",
+          "hash": "SQbOJXNyOlKVWrCHGQle1jDplnBi3nxqT86wlf/YgUo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.DateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.DateExtensions.html",
+          "hash": "z3n9Vlo37yvoI4K/96d2ZZZw5/u43XcLPCbdNbX2ZgA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.EnumExtensions.html",
+          "hash": "7OgDWD9ohd9eOsAVLPBd4vzY2sn87KBGy2DxDEbIagM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.ExpressionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.ExpressionExtensions.html",
+          "hash": "sjwpkkjP6sSh1zKoOpzdCamkDNii/E+Gwp1uLLJH8jI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.Json.DateOnlyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.Json.DateOnlyConverter.html",
+          "hash": "MFV1fSUImM5U9MCYprbrryLC3oY7dMW9nRDo/M4Y7bk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverter-1.html",
+          "hash": "SIvrr2TxdOiRMuZP6Q8gWCESs3CpAVt4lwRXlsHGv/0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html",
+          "hash": "zZBGsSX3o724qP6NfVTx5Qsv5gqsdlW/gA+ihgO5oFo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.Json.ParsingConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.Json.ParsingConverter-1.html",
+          "hash": "hPfc8J9hfzdNwIcWdfiUAetRu7llReAN16delraOwtw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.Json.TimeOnlyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.Json.TimeOnlyConverter.html",
+          "hash": "dSm1BWcCOihhDMF0OwgENIjjUPlc3X09JLuqH7jS+Cs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.Json.html",
+          "hash": "gD3zwYKWrJaI2RL42sMiWzqGDwevD9edbw81jN0Osqo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.NumericExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.NumericExtensions.html",
+          "hash": "kIuLCOfUsyMAy0YihBe/blG4c3XzfGjBofR5UZxFtYw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.RandomExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.RandomExtensions.html",
+          "hash": "40x6sU0wzrm8DLFpX6n4aqimjN+glLdB30pckL5HeV4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.StreamExtensions.html",
+          "hash": "IRpUsVLMAxyYKoyrZDrME1Lfq/8+Wq0GVCl4Z8ZVypE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.StringExtensions.html",
+          "hash": "Xe5nBPIHX3jraSVicXYki+66lNqjLvzPsxRlq+MecsQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.VatNumberValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.VatNumberValidator.html",
+          "hash": "XDPh5qcyp84978QpLvhKuEZhOAfHvAwZUOJ+rZ9Cce4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.html",
+          "hash": "j5LX5fim2RWnJxfKc0hnHSczPLnjr+p492PCooiLK0A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "3Kx2N6NXlVh/X1TrYsWort5c8aMtIpoR5MAhDEVAy2s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "gFo0SzswKfe6TolkmUGtKYpVAyWopQzNkCgQG4B9RAw="
+        },
+        ".json": {
+          "relative_path": "api/toc.json",
+          "hash": "2htB2JbEXqVAY7wYHzefDBO44l9rI1MCEUtFmWSa1G0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "GfdYdNGoVmN0QfxQT38ay+SajKI7bht962OnvtoqgoA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+        },
+        ".json": {
+          "relative_path": "articles/toc.json",
+          "hash": "fyzooicK9ZpdtyFGEb/t662hrSHCQYpRH4hRTpRH4VQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ouohtdPJLF6bcPNWJcRnYtZoALbD8lxCY6LaAsqaCXY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+        },
+        ".json": {
+          "relative_path": "toc.json",
+          "hash": "CqtOfbLW6M+qL+1R1Zam8Ya5YvFHqRUdPr0fNZfPONU="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

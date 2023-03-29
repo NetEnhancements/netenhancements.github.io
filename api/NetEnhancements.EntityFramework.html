@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace NetEnhancements.EntityFramework
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace NetEnhancements.EntityFramework
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+  </head>
+
+  <body data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NetEnhancements.EntityFramework">
+
+  <h1 id="NetEnhancements_EntityFramework" data-uid="NetEnhancements.EntityFramework" class="text-break">Namespace NetEnhancements.EntityFramework
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.DateOnlyComparer.html">DateOnlyComparer</a></dt>
+      <dd><p>Compares <span class="xref">System.DateOnly</span>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.DateOnlyConverter.html">DateOnlyConverter</a></dt>
+      <dd><p>Converts <span class="xref">System.DateOnly</span> to <span class="xref">System.DateTime</span> and vice versa.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.DbContextExtensions.html">DbContextExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.Entity.html">Entity</a></dt>
+      <dd><p>Base entity with created/modified fields.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.EntityExtensions.html">EntityExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.EntityNotFoundException.html">EntityNotFoundException</a></dt>
+      <dd><p>An exception indicating an expected entity was not found.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.GuidIdEntity.html">GuidIdEntity</a></dt>
+      <dd><p>Base entity with a GUID as PK and created/modified fields.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.IntIdEntity.html">IntIdEntity</a></dt>
+      <dd><p>Base entity with an int as PK and created/modified fields.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.ModelBuilderExtension.html">ModelBuilderExtension</a></dt>
+      <dd><p>From various posts at <a href="https://stackoverflow.com/questions/47673524/ef-core-soft-delete-with-shadow-properties-and-query-filters">https://stackoverflow.com/questions/47673524/ef-core-soft-delete-with-shadow-properties-and-query-filters</a></p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.html">ModelConfigurationBuilderExtensions</a></dt>
+      <dd><p>Entity Framework doesn't support DateOnly/TimeOnly natively.</p>
+<p><a href="https://github.com/dotnet/efcore/issues/24507">https://github.com/dotnet/efcore/issues/24507</a>
+<a href="https://github.com/dotnet/SqlClient/issues/1009">https://github.com/dotnet/SqlClient/issues/1009</a></p>
+<p><a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew#dateonlytimeonly-supported-on-sql-server">https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew#dateonlytimeonly-supported-on-sql-server</a> (Soon)</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.NullableDateOnlyComparer.html">NullableDateOnlyComparer</a></dt>
+      <dd><p>Compares <span class="xref">System.Nullable&lt;T&gt;</span>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.NullableDateOnlyConverter.html">NullableDateOnlyConverter</a></dt>
+      <dd><p>Converts nullable <span class="xref">System.DateOnly</span> to nullable <span class="xref">System.DateTime</span> and vice versa.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.NullableTimeOnlyComparer.html">NullableTimeOnlyComparer</a></dt>
+      <dd><p>Compares <span class="xref">System.Nullable&lt;T&gt;</span>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.NullableTimeOnlyConverter.html">NullableTimeOnlyConverter</a></dt>
+      <dd><p>Converts nullable <span class="xref">System.TimeOnly</span> to nullable <span class="xref">System.TimeSpan</span> and vice versa.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.TimeOnlyComparer.html">TimeOnlyComparer</a></dt>
+      <dd><p>Compares <span class="xref">System.TimeOnly</span>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.TimeOnlyConverter.html">TimeOnlyConverter</a></dt>
+      <dd><p>Converts <span class="xref">System.TimeOnly</span> to nullable <span class="xref">System.TimeSpan</span> and vice versa.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.TimestampedEntityAttribute.html">TimestampedEntityAttribute</a></dt>
+      <dd><p>Entities annotated with this will have their</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.IGuidIdEntity.html">IGuidIdEntity</a></dt>
+      <dd><p>Denotes an entity with a <span class="xref">System.Guid</span> <a class="xref" href="NetEnhancements.EntityFramework.IGuidIdEntity.html#NetEnhancements_EntityFramework_IGuidIdEntity_Id">Id</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NetEnhancements.EntityFramework.ITimestampedEntity.html">ITimestampedEntity</a></dt>
+      <dd><p>Denotes an entity with a <a class="xref" href="NetEnhancements.EntityFramework.ITimestampedEntity.html#NetEnhancements_EntityFramework_ITimestampedEntity_Created">Created</a> and <a class="xref" href="NetEnhancements.EntityFramework.ITimestampedEntity.html#NetEnhancements_EntityFramework_ITimestampedEntity_Modified">Modified</a> property.</p>
+</dd>
+    </dl>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="../styles/docfx.min.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

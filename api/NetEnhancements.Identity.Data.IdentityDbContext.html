@@ -1,0 +1,515 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class IdentityDbContext
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class IdentityDbContext
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Identity_Data_IdentityDbContext.md&amp;value=---%0Auid%3A%20NetEnhancements.Identity.Data.IdentityDbContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <body data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NetEnhancements.Identity.Data.IdentityDbContext">
+
+
+  <h1 id="NetEnhancements_Identity_Data_IdentityDbContext" data-uid="NetEnhancements.Identity.Data.IdentityDbContext" class="text-break">
+    Class IdentityDbContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><span class="xref">NetEnhancements</span>.<a class="xref" href="NetEnhancements.Identity.html">Identity</a>.<a class="xref" href="NetEnhancements.Identity.Data.html">Data</a></dd></dl>
+    <dl><dt>Assembly</dt><dd>NetEnhancements.Identity.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Base class for a DbContext to be used with NetEnhancements.Identity.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class IdentityDbContext : IdentityDbContext&lt;ApplicationUser, ApplicationRole, Guid, IdentityUserClaim&lt;Guid&gt;, ApplicationUserRole, IdentityUserLogin&lt;Guid&gt;, IdentityRoleClaim&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IResettableService, IDisposable, IAsyncDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">DbContext</span></div>
+      <div><span class="xref">IdentityUserContext</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>, <span class="xref">Guid</span>, <span class="xref">IdentityUserClaim</span>&lt;<span class="xref">Guid</span>&gt;, <span class="xref">IdentityUserLogin</span>&lt;<span class="xref">Guid</span>&gt;, <span class="xref">IdentityUserToken</span>&lt;<span class="xref">Guid</span>&gt;&gt;</div>
+      <div><span class="xref">IdentityDbContext</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>, <a class="xref" href="NetEnhancements.Identity.Data.ApplicationRole.html">ApplicationRole</a>, <span class="xref">Guid</span>, <span class="xref">IdentityUserClaim</span>&lt;<span class="xref">Guid</span>&gt;, <a class="xref" href="NetEnhancements.Identity.Data.ApplicationUserRole.html">ApplicationUserRole</a>, <span class="xref">IdentityUserLogin</span>&lt;<span class="xref">Guid</span>&gt;, <span class="xref">IdentityRoleClaim</span>&lt;<span class="xref">Guid</span>&gt;, <span class="xref">IdentityUserToken</span>&lt;<span class="xref">Guid</span>&gt;&gt;</div>
+      <div><span class="xref">IdentityDbContext</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IInfrastructure</span>&lt;<span class="xref">IServiceProvider</span>&gt;</div>
+      <div><span class="xref">IDbContextDependencies</span></div>
+      <div><span class="xref">IDbSetCache</span></div>
+      <div><span class="xref">IDbContextPoolable</span></div>
+      <div><span class="xref">IResettableService</span></div>
+      <div><span class="xref">IDisposable</span></div>
+      <div><span class="xref">IAsyncDisposable</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">IdentityDbContext&lt;ApplicationUser, ApplicationRole, Guid, IdentityUserClaim&lt;Guid&gt;, ApplicationUserRole, IdentityUserLogin&lt;Guid&gt;, IdentityRoleClaim&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.OnModelCreating(ModelBuilder)</span>
+    </div>
+    <div>
+      <span class="xref">IdentityDbContext&lt;ApplicationUser, ApplicationRole, Guid, IdentityUserClaim&lt;Guid&gt;, ApplicationUserRole, IdentityUserLogin&lt;Guid&gt;, IdentityRoleClaim&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.UserRoles</span>
+    </div>
+    <div>
+      <span class="xref">IdentityDbContext&lt;ApplicationUser, ApplicationRole, Guid, IdentityUserClaim&lt;Guid&gt;, ApplicationUserRole, IdentityUserLogin&lt;Guid&gt;, IdentityRoleClaim&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.Roles</span>
+    </div>
+    <div>
+      <span class="xref">IdentityDbContext&lt;ApplicationUser, ApplicationRole, Guid, IdentityUserClaim&lt;Guid&gt;, ApplicationUserRole, IdentityUserLogin&lt;Guid&gt;, IdentityRoleClaim&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.RoleClaims</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUserContext&lt;ApplicationUser, Guid, IdentityUserClaim&lt;Guid&gt;, IdentityUserLogin&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.OnModelCreating(ModelBuilder)</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUserContext&lt;ApplicationUser, Guid, IdentityUserClaim&lt;Guid&gt;, IdentityUserLogin&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.Users</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUserContext&lt;ApplicationUser, Guid, IdentityUserClaim&lt;Guid&gt;, IdentityUserLogin&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.UserClaims</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUserContext&lt;ApplicationUser, Guid, IdentityUserClaim&lt;Guid&gt;, IdentityUserLogin&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.UserLogins</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUserContext&lt;ApplicationUser, Guid, IdentityUserClaim&lt;Guid&gt;, IdentityUserLogin&lt;Guid&gt;, IdentityUserToken&lt;Guid&gt;&gt;.UserTokens</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Set&lt;TEntity&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Set&lt;TEntity&gt;(string)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.OnConfiguring(DbContextOptionsBuilder)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.ConfigureConventions(ModelConfigurationBuilder)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.SaveChanges()</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.SaveChangesAsync(CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.DisposeAsync()</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Entry&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Entry(object)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Add&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.AddAsync&lt;TEntity&gt;(TEntity, CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Attach&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Update&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Remove&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Add(object)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.AddAsync(object, CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Attach(object)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Update(object)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Remove(object)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.AddRange(params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.AddRangeAsync(params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.AttachRange(params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.UpdateRange(params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.RemoveRange(params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.AddRange(IEnumerable&lt;object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.AddRangeAsync(IEnumerable&lt;object&gt;, CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.AttachRange(IEnumerable&lt;object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.UpdateRange(IEnumerable&lt;object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.RemoveRange(IEnumerable&lt;object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Find(Type, params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.FindAsync(Type, params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.FindAsync(Type, object[], CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Find&lt;TEntity&gt;(params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.FindAsync&lt;TEntity&gt;(params object[])</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.FindAsync&lt;TEntity&gt;(object[], CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.FromExpression&lt;TResult&gt;(Expression&lt;Func&lt;IQueryable&lt;TResult&gt;&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Database</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.ChangeTracker</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.Model</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.ContextId</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.SavingChanges</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.SavedChanges</span>
+    </div>
+    <div>
+      <span class="xref">DbContext.SaveChangesFailed</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0___0___">CollectionExtensions.In&lt;T&gt;(T?, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.In&lt;T&gt;(T?, IEnumerable&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+  <a id="NetEnhancements_Identity_Data_IdentityDbContext__ctor_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.#ctor*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_IdentityDbContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions)">
+  IdentityDbContext(DbContextOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IdentityDbContext(DbContextOptions options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <span class="xref">DbContextOptions</span></dt>
+    <dd><p>The options to be used by a <span class="xref">Microsoft.EntityFrameworkCore.DbContext</span>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+  <h3 id="NetEnhancements_Identity_Data_IdentityDbContext_IdentitySchema" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.IdentitySchema">
+  IdentitySchema
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Have Identity tables live in the Identity schema, e.g. [Identity].[Users].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string IdentitySchema = &quot;Identity&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <a id="NetEnhancements_Identity_Data_IdentityDbContext_OnModelCreating_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.OnModelCreating*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_IdentityDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+  OnModelCreating(ModelBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set up Identity tables.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnModelCreating(ModelBuilder builder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <span class="xref">ModelBuilder</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Data_IdentityDbContext_SaveChanges_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_IdentityDbContext_SaveChanges_System_Boolean_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges(System.Boolean)">
+  SaveChanges(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>TODO: does not belong here</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int SaveChanges(bool acceptAllChangesOnSuccess)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>acceptAllChangesOnSuccess</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Data_IdentityDbContext_SaveChangesAsync_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_IdentityDbContext_SaveChangesAsync_System_Boolean_System_Threading_CancellationToken_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)">
+  SaveChangesAsync(bool, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>TODO: does not belong here</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;int&gt; SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>acceptAllChangesOnSuccess</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <span class="xref">CancellationToken</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">int</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Identity_Data_IdentityDbContext.md&amp;value=---%0Auid%3A%20NetEnhancements.Identity.Data.IdentityDbContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="../styles/docfx.min.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

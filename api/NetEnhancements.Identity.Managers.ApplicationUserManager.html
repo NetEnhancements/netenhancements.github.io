@@ -1,0 +1,881 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ApplicationUserManager
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ApplicationUserManager
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Identity_Managers_ApplicationUserManager.md&amp;value=---%0Auid%3A%20NetEnhancements.Identity.Managers.ApplicationUserManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <body data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager">
+
+
+  <h1 id="NetEnhancements_Identity_Managers_ApplicationUserManager" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager" class="text-break">
+    Class ApplicationUserManager
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><span class="xref">NetEnhancements</span>.<a class="xref" href="NetEnhancements.Identity.html">Identity</a>.<a class="xref" href="NetEnhancements.Identity.Managers.html">Managers</a></dd></dl>
+    <dl><dt>Assembly</dt><dd>NetEnhancements.Identity.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApplicationUserManager : UserManager&lt;ApplicationUser&gt;, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">UserManager</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>&gt;</div>
+      <div><span class="xref">ApplicationUserManager</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IDisposable</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ResetPasswordTokenPurpose</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ChangePhoneNumberTokenPurpose</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ConfirmEmailTokenPurpose</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetUserName(ClaimsPrincipal)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetUserId(ClaimsPrincipal)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetUserAsync(ClaimsPrincipal)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GenerateConcurrencyStampAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.CreateAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.UpdateAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.DeleteAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.FindByIdAsync(string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.FindByNameAsync(string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.CreateAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.NormalizeName(string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.NormalizeEmail(string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.UpdateNormalizedUserNameAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetUserNameAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SetUserNameAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetUserIdAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.CheckPasswordAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.HasPasswordAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.AddPasswordAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ChangePasswordAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RemovePasswordAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.VerifyPasswordAsync(IUserPasswordStore&lt;ApplicationUser&gt;, ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetSecurityStampAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.UpdateSecurityStampAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GeneratePasswordResetTokenAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ResetPasswordAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.FindByLoginAsync(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RemoveLoginAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.AddLoginAsync(ApplicationUser, UserLoginInfo)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetLoginsAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.AddClaimAsync(ApplicationUser, Claim)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.AddClaimsAsync(ApplicationUser, IEnumerable&lt;Claim&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ReplaceClaimAsync(ApplicationUser, Claim, Claim)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RemoveClaimAsync(ApplicationUser, Claim)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RemoveClaimsAsync(ApplicationUser, IEnumerable&lt;Claim&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetClaimsAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.AddToRoleAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.AddToRolesAsync(ApplicationUser, IEnumerable&lt;string&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RemoveFromRoleAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RemoveFromRolesAsync(ApplicationUser, IEnumerable&lt;string&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetRolesAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.IsInRoleAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetEmailAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SetEmailAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.FindByEmailAsync(string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.UpdateNormalizedEmailAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GenerateEmailConfirmationTokenAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.IsEmailConfirmedAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GenerateChangeEmailTokenAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ChangeEmailAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetPhoneNumberAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SetPhoneNumberAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ChangePhoneNumberAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.IsPhoneNumberConfirmedAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GenerateChangePhoneNumberTokenAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.VerifyChangePhoneNumberTokenAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.VerifyUserTokenAsync(ApplicationUser, string, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GenerateUserTokenAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RegisterTokenProvider(string, IUserTwoFactorTokenProvider&lt;ApplicationUser&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetValidTwoFactorProvidersAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.VerifyTwoFactorTokenAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GenerateTwoFactorTokenAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetTwoFactorEnabledAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SetTwoFactorEnabledAsync(ApplicationUser, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.IsLockedOutAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SetLockoutEnabledAsync(ApplicationUser, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetLockoutEnabledAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetLockoutEndDateAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SetLockoutEndDateAsync(ApplicationUser, DateTimeOffset?)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.AccessFailedAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ResetAccessFailedCountAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetAccessFailedCountAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetUsersForClaimAsync(Claim)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetUsersInRoleAsync(string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetAuthenticationTokenAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SetAuthenticationTokenAsync(ApplicationUser, string, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RemoveAuthenticationTokenAsync(ApplicationUser, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetAuthenticatorKeyAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ResetAuthenticatorKeyAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GenerateNewAuthenticatorKey()</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GenerateNewTwoFactorRecoveryCodesAsync(ApplicationUser, int)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.CreateTwoFactorRecoveryCode()</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.RedeemTwoFactorRecoveryCodeAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.CountRecoveryCodesAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.Dispose(bool)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.CreateSecurityTokenAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.UpdatePasswordHash(ApplicationUser, string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.GetChangeEmailTokenPurpose(string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ValidateUserAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ValidatePasswordAsync(ApplicationUser, string)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.UpdateUserAsync(ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ThrowIfDisposed()</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.CancellationToken</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.Store</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.Logger</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.PasswordHasher</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.UserValidators</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.PasswordValidators</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.KeyNormalizer</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.ErrorDescriber</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.Options</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserAuthenticationTokens</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserAuthenticatorKey</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserTwoFactorRecoveryCodes</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserTwoFactor</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserPassword</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserSecurityStamp</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserRole</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserLogin</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserEmail</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserPhoneNumber</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserClaim</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsUserLockout</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.SupportsQueryableUsers</span>
+    </div>
+    <div>
+      <span class="xref">UserManager&lt;ApplicationUser&gt;.Users</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0___0___">CollectionExtensions.In&lt;T&gt;(T?, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.In&lt;T&gt;(T?, IEnumerable&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager__ctor_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.#ctor*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager__ctor_NetEnhancements_Identity_Data_IdentityDbContext_Microsoft_AspNetCore_Identity_RoleManager_NetEnhancements_Identity_Data_ApplicationRole__Microsoft_AspNetCore_Identity_IUserStore_NetEnhancements_Identity_Data_ApplicationUser__Microsoft_Extensions_Options_IOptions_Microsoft_AspNetCore_Identity_IdentityOptions__Microsoft_AspNetCore_Identity_IPasswordHasher_NetEnhancements_Identity_Data_ApplicationUser__System_Collections_Generic_IEnumerable_Microsoft_AspNetCore_Identity_IUserValidator_NetEnhancements_Identity_Data_ApplicationUser___System_Collections_Generic_IEnumerable_Microsoft_AspNetCore_Identity_IPasswordValidator_NetEnhancements_Identity_Data_ApplicationUser___Microsoft_AspNetCore_Identity_ILookupNormalizer_Microsoft_AspNetCore_Identity_IdentityErrorDescriber_System_IServiceProvider_Microsoft_Extensions_Logging_ILogger_Microsoft_AspNetCore_Identity_UserManager_NetEnhancements_Identity_Data_ApplicationUser___" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.#ctor(NetEnhancements.Identity.Data.IdentityDbContext,Microsoft.AspNetCore.Identity.RoleManager{NetEnhancements.Identity.Data.ApplicationRole},Microsoft.AspNetCore.Identity.IUserStore{NetEnhancements.Identity.Data.ApplicationUser},Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Identity.IdentityOptions},Microsoft.AspNetCore.Identity.IPasswordHasher{NetEnhancements.Identity.Data.ApplicationUser},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IUserValidator{NetEnhancements.Identity.Data.ApplicationUser}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IPasswordValidator{NetEnhancements.Identity.Data.ApplicationUser}},Microsoft.AspNetCore.Identity.ILookupNormalizer,Microsoft.AspNetCore.Identity.IdentityErrorDescriber,System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.UserManager{NetEnhancements.Identity.Data.ApplicationUser}})">
+  ApplicationUserManager(IdentityDbContext, RoleManager&lt;ApplicationRole&gt;, IUserStore&lt;ApplicationUser&gt;, IOptions&lt;IdentityOptions&gt;, IPasswordHasher&lt;ApplicationUser&gt;, IEnumerable&lt;IUserValidator&lt;ApplicationUser&gt;&gt;, IEnumerable&lt;IPasswordValidator&lt;ApplicationUser&gt;&gt;, ILookupNormalizer, IdentityErrorDescriber, IServiceProvider, ILogger&lt;UserManager&lt;ApplicationUser&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApplicationUserManager(IdentityDbContext dbContext, RoleManager&lt;ApplicationRole&gt; roleManager, IUserStore&lt;ApplicationUser&gt; store, IOptions&lt;IdentityOptions&gt; optionsAccessor, IPasswordHasher&lt;ApplicationUser&gt; passwordHasher, IEnumerable&lt;IUserValidator&lt;ApplicationUser&gt;&gt; userValidators, IEnumerable&lt;IPasswordValidator&lt;ApplicationUser&gt;&gt; passwordValidators, ILookupNormalizer keyNormalizer, IdentityErrorDescriber errors, IServiceProvider services, ILogger&lt;UserManager&lt;ApplicationUser&gt;&gt; logger)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dbContext</code> <a class="xref" href="NetEnhancements.Identity.Data.IdentityDbContext.html">IdentityDbContext</a></dt>
+    <dd></dd>
+    <dt><code>roleManager</code> <span class="xref">RoleManager</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationRole.html">ApplicationRole</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>store</code> <span class="xref">IUserStore</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>optionsAccessor</code> <span class="xref">IOptions</span>&lt;<span class="xref">IdentityOptions</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>passwordHasher</code> <span class="xref">IPasswordHasher</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>userValidators</code> <span class="xref">IEnumerable</span>&lt;<span class="xref">IUserValidator</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>&gt;&gt;</dt>
+    <dd></dd>
+    <dt><code>passwordValidators</code> <span class="xref">IEnumerable</span>&lt;<span class="xref">IPasswordValidator</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>&gt;&gt;</dt>
+    <dd></dd>
+    <dt><code>keyNormalizer</code> <span class="xref">ILookupNormalizer</span></dt>
+    <dd></dd>
+    <dt><code>errors</code> <span class="xref">IdentityErrorDescriber</span></dt>
+    <dd></dd>
+    <dt><code>services</code> <span class="xref">IServiceProvider</span></dt>
+    <dd></dd>
+    <dt><code>logger</code> <span class="xref">ILogger</span>&lt;<span class="xref">UserManager</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager_ConfirmEmailAsync_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.ConfirmEmailAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager_ConfirmEmailAsync_NetEnhancements_Identity_Data_ApplicationUser_System_String_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.ConfirmEmailAsync(NetEnhancements.Identity.Data.ApplicationUser,System.String)">
+  ConfirmEmailAsync(ApplicationUser, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;IdentityResult&gt; ConfirmEmailAsync(ApplicationUser user, string token)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a></dt>
+    <dd></dd>
+    <dt><code>token</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">IdentityResult</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager_FindAllUsersAsync_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.FindAllUsersAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager_FindAllUsersAsync_NetEnhancements_EntityFramework_Query_DataQuery_System_Boolean_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.FindAllUsersAsync(NetEnhancements.EntityFramework.Query.DataQuery,System.Boolean)">
+  FindAllUsersAsync(DataQuery, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PagedResults&lt;ApplicationUser&gt;&gt; FindAllUsersAsync(DataQuery query, bool includeRoles = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="NetEnhancements.EntityFramework.Query.DataQuery.html">DataQuery</a></dt>
+    <dd></dd>
+    <dt><code>includeRoles</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="NetEnhancements.EntityFramework.Query.PagedResults-1.html">PagedResults</a>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager_FindByIdAsync_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.FindByIdAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager_FindByIdAsync_System_Nullable_System_Guid__System_Boolean_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.FindByIdAsync(System.Nullable{System.Guid},System.Boolean)">
+  FindByIdAsync(Guid?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ApplicationUser?&gt; FindByIdAsync(Guid? userId, bool includeRoles = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">Guid</span>?</dt>
+    <dd></dd>
+    <dt><code>includeRoles</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager_GetAllRolesAsync_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.GetAllRolesAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager_GetAllRolesAsync" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.GetAllRolesAsync">
+  GetAllRolesAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns all roles known to the storage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;List&lt;ApplicationRole&gt;&gt; GetAllRolesAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationRole.html">ApplicationRole</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager_IncrementFailedAccessCountAsync_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.IncrementFailedAccessCountAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager_IncrementFailedAccessCountAsync_NetEnhancements_Identity_Data_ApplicationUser_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.IncrementFailedAccessCountAsync(NetEnhancements.Identity.Data.ApplicationUser)">
+  IncrementFailedAccessCountAsync(ApplicationUser)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task IncrementFailedAccessCountAsync(ApplicationUser user)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager_IsInRoleAsync_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.IsInRoleAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager_IsInRoleAsync_System_Nullable_System_Guid__System_String_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.IsInRoleAsync(System.Nullable{System.Guid},System.String)">
+  IsInRoleAsync(Guid?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; IsInRoleAsync(Guid? userId, string role)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">Guid</span>?</dt>
+    <dd></dd>
+    <dt><code>role</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager_UpdateEmailAsync_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.UpdateEmailAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager_UpdateEmailAsync_NetEnhancements_Identity_Data_ApplicationUser_System_String_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.UpdateEmailAsync(NetEnhancements.Identity.Data.ApplicationUser,System.String)">
+  UpdateEmailAsync(ApplicationUser, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the email address (and therefore username) for the given user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IdentityResult&gt; UpdateEmailAsync(ApplicationUser user, string newEmail)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a></dt>
+    <dd></dd>
+    <dt><code>newEmail</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">IdentityResult</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Managers_ApplicationUserManager_UpdateNameAsync_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.UpdateNameAsync*"></a>
+
+  <h3 id="NetEnhancements_Identity_Managers_ApplicationUserManager_UpdateNameAsync_NetEnhancements_Identity_Data_ApplicationUser_System_String_System_String_" data-uid="NetEnhancements.Identity.Managers.ApplicationUserManager.UpdateNameAsync(NetEnhancements.Identity.Data.ApplicationUser,System.String,System.String)">
+  UpdateNameAsync(ApplicationUser, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Managers/ApplicationUserManager.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change the first and last name for the given user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IdentityResult&gt; UpdateNameAsync(ApplicationUser user, string firstName, string lastName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a></dt>
+    <dd></dd>
+    <dt><code>firstName</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>lastName</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">IdentityResult</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Identity_Managers_ApplicationUserManager.md&amp;value=---%0Auid%3A%20NetEnhancements.Identity.Managers.ApplicationUserManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="../styles/docfx.min.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

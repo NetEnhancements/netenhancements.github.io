@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ApplicationUser
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ApplicationUser
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Identity_Data_ApplicationUser.md&amp;value=---%0Auid%3A%20NetEnhancements.Identity.Data.ApplicationUser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <body data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NetEnhancements.Identity.Data.ApplicationUser">
+
+
+  <h1 id="NetEnhancements_Identity_Data_ApplicationUser" data-uid="NetEnhancements.Identity.Data.ApplicationUser" class="text-break">
+    Class ApplicationUser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><span class="xref">NetEnhancements</span>.<a class="xref" href="NetEnhancements.Identity.html">Identity</a>.<a class="xref" href="NetEnhancements.Identity.Data.html">Data</a></dd></dl>
+    <dl><dt>Assembly</dt><dd>NetEnhancements.Identity.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApplicationUser : IdentityUser&lt;Guid&gt;, IGuidIdEntity</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">IdentityUser</span>&lt;<span class="xref">Guid</span>&gt;</div>
+      <div><span class="xref">ApplicationUser</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NetEnhancements.EntityFramework.IGuidIdEntity.html">IGuidIdEntity</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.Id</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.UserName</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.NormalizedUserName</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.Email</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.NormalizedEmail</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.EmailConfirmed</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.PasswordHash</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.SecurityStamp</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.ConcurrencyStamp</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.PhoneNumber</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.PhoneNumberConfirmed</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.TwoFactorEnabled</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.LockoutEnd</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.LockoutEnabled</span>
+    </div>
+    <div>
+      <span class="xref">IdentityUser&lt;Guid&gt;.AccessFailedCount</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0___0___">CollectionExtensions.In&lt;T&gt;(T?, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.In&lt;T&gt;(T?, IEnumerable&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser__ctor_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.#ctor*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser__ctor" data-uid="NetEnhancements.Identity.Data.ApplicationUser.#ctor">
+  ApplicationUser()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApplicationUser()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser__ctor_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.#ctor*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser__ctor_System_String_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.#ctor(System.String)">
+  ApplicationUser(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApplicationUser(string userName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userName</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser_EmailConfirmedDate_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.EmailConfirmedDate*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser_EmailConfirmedDate" data-uid="NetEnhancements.Identity.Data.ApplicationUser.EmailConfirmedDate">
+  EmailConfirmedDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? EmailConfirmedDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DateTimeOffset</span>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser_FirstName_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.FirstName*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser_FirstName" data-uid="NetEnhancements.Identity.Data.ApplicationUser.FirstName">
+  FirstName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[StringLength(100, MinimumLength = 1)]
+public string? FirstName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser_LastName_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.LastName*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser_LastName" data-uid="NetEnhancements.Identity.Data.ApplicationUser.LastName">
+  LastName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[StringLength(100, MinimumLength = 1)]
+public string? LastName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser_Registered_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.Registered*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser_Registered" data-uid="NetEnhancements.Identity.Data.ApplicationUser.Registered">
+  Registered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset Registered { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DateTimeOffset</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser_Roles_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.Roles*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser_Roles" data-uid="NetEnhancements.Identity.Data.ApplicationUser.Roles">
+  Roles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICollection&lt;ApplicationRole&gt;? Roles { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ICollection</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationRole.html">ApplicationRole</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser_GetFullName_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.GetFullName*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser_GetFullName" data-uid="NetEnhancements.Identity.Data.ApplicationUser.GetFullName">
+  GetFullName()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetFullName()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_Data_ApplicationUser_OrderClause_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.OrderClause*"></a>
+
+  <h3 id="NetEnhancements_Identity_Data_ApplicationUser_OrderClause_System_String_" data-uid="NetEnhancements.Identity.Data.ApplicationUser.OrderClause(System.String)">
+  OrderClause(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/ApplicationUser.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression&lt;Func&lt;ApplicationUser, object?&gt;&gt; OrderClause(string order)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>order</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;<a class="xref" href="NetEnhancements.Identity.Data.ApplicationUser.html">ApplicationUser</a>, <span class="xref">object</span>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Identity_Data_ApplicationUser.md&amp;value=---%0Auid%3A%20NetEnhancements.Identity.Data.ApplicationUser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="../styles/docfx.min.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
