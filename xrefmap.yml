@@ -4158,24 +4158,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.CollectionExtensions.Random
   nameWithType: CollectionExtensions.Random
-- uid: NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.ICollection{``0},System.Random)
-  name: Random<T>(ICollection<T>, Random)
-  href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_ICollection___0__System_Random_
-  commentId: M:NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.ICollection{``0},System.Random)
-  name.vb: Random(Of T)(ICollection(Of T), Random)
-  fullName: NetEnhancements.Util.CollectionExtensions.Random<T>(System.Collections.Generic.ICollection<T>, System.Random)
-  fullName.vb: NetEnhancements.Util.CollectionExtensions.Random(Of T)(System.Collections.Generic.ICollection(Of T), System.Random)
-  nameWithType: CollectionExtensions.Random<T>(ICollection<T>, Random)
-  nameWithType.vb: CollectionExtensions.Random(Of T)(ICollection(Of T), Random)
-- uid: NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.ICollection{``0})
-  name: Random<T>(ICollection<T>)
-  href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_ICollection___0__
-  commentId: M:NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.ICollection{``0})
-  name.vb: Random(Of T)(ICollection(Of T))
-  fullName: NetEnhancements.Util.CollectionExtensions.Random<T>(System.Collections.Generic.ICollection<T>)
-  fullName.vb: NetEnhancements.Util.CollectionExtensions.Random(Of T)(System.Collections.Generic.ICollection(Of T))
-  nameWithType: CollectionExtensions.Random<T>(ICollection<T>)
-  nameWithType.vb: CollectionExtensions.Random(Of T)(ICollection(Of T))
 - uid: NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Random)
   name: Random<T>(IReadOnlyCollection<T>, Random)
   href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_IReadOnlyCollection___0__System_Random_
