@@ -803,25 +803,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.AspNet.Validation.DependencyInjection.AddValidationAttributeLocalization
   nameWithType: DependencyInjection.AddValidationAttributeLocalization
-- uid: NetEnhancements.AspNet.Validation.IVatValidatable
-  name: IVatValidatable
-  href: api/NetEnhancements.AspNet.Validation.IVatValidatable.html
-  commentId: T:NetEnhancements.AspNet.Validation.IVatValidatable
-  fullName: NetEnhancements.AspNet.Validation.IVatValidatable
-  nameWithType: IVatValidatable
-- uid: NetEnhancements.AspNet.Validation.IVatValidatable.CountryCode
-  name: CountryCode
-  href: api/NetEnhancements.AspNet.Validation.IVatValidatable.html#NetEnhancements_AspNet_Validation_IVatValidatable_CountryCode
-  commentId: P:NetEnhancements.AspNet.Validation.IVatValidatable.CountryCode
-  fullName: NetEnhancements.AspNet.Validation.IVatValidatable.CountryCode
-  nameWithType: IVatValidatable.CountryCode
-- uid: NetEnhancements.AspNet.Validation.IVatValidatable.CountryCode*
-  name: CountryCode
-  href: api/NetEnhancements.AspNet.Validation.IVatValidatable.html#NetEnhancements_AspNet_Validation_IVatValidatable_CountryCode_
-  commentId: Overload:NetEnhancements.AspNet.Validation.IVatValidatable.CountryCode
-  isSpec: "True"
-  fullName: NetEnhancements.AspNet.Validation.IVatValidatable.CountryCode
-  nameWithType: IVatValidatable.CountryCode
 - uid: NetEnhancements.AspNet.Validation.ModelStateExtensions
   name: ModelStateExtensions
   href: api/NetEnhancements.AspNet.Validation.ModelStateExtensions.html
@@ -844,65 +825,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.AspNet.Validation.ModelStateExtensions.AddValidationErrors
   nameWithType: ModelStateExtensions.AddValidationErrors
-- uid: NetEnhancements.AspNet.Validation.NonZeroAttribute
-  name: NonZeroAttribute
-  href: api/NetEnhancements.AspNet.Validation.NonZeroAttribute.html
-  commentId: T:NetEnhancements.AspNet.Validation.NonZeroAttribute
-  fullName: NetEnhancements.AspNet.Validation.NonZeroAttribute
-  nameWithType: NonZeroAttribute
-- uid: NetEnhancements.AspNet.Validation.NonZeroAttribute.#ctor
-  name: NonZeroAttribute()
-  href: api/NetEnhancements.AspNet.Validation.NonZeroAttribute.html#NetEnhancements_AspNet_Validation_NonZeroAttribute__ctor
-  commentId: M:NetEnhancements.AspNet.Validation.NonZeroAttribute.#ctor
-  name.vb: New()
-  fullName: NetEnhancements.AspNet.Validation.NonZeroAttribute.NonZeroAttribute()
-  fullName.vb: NetEnhancements.AspNet.Validation.NonZeroAttribute.New()
-  nameWithType: NonZeroAttribute.NonZeroAttribute()
-  nameWithType.vb: NonZeroAttribute.New()
-- uid: NetEnhancements.AspNet.Validation.NonZeroAttribute.#ctor(System.Func{System.String})
-  name: NonZeroAttribute(Func<string>)
-  href: api/NetEnhancements.AspNet.Validation.NonZeroAttribute.html#NetEnhancements_AspNet_Validation_NonZeroAttribute__ctor_System_Func_System_String__
-  commentId: M:NetEnhancements.AspNet.Validation.NonZeroAttribute.#ctor(System.Func{System.String})
-  name.vb: New(Func(Of String))
-  fullName: NetEnhancements.AspNet.Validation.NonZeroAttribute.NonZeroAttribute(System.Func<string>)
-  fullName.vb: NetEnhancements.AspNet.Validation.NonZeroAttribute.New(System.Func(Of String))
-  nameWithType: NonZeroAttribute.NonZeroAttribute(Func<string>)
-  nameWithType.vb: NonZeroAttribute.New(Func(Of String))
-- uid: NetEnhancements.AspNet.Validation.NonZeroAttribute.#ctor(System.String)
-  name: NonZeroAttribute(string)
-  href: api/NetEnhancements.AspNet.Validation.NonZeroAttribute.html#NetEnhancements_AspNet_Validation_NonZeroAttribute__ctor_System_String_
-  commentId: M:NetEnhancements.AspNet.Validation.NonZeroAttribute.#ctor(System.String)
-  name.vb: New(String)
-  fullName: NetEnhancements.AspNet.Validation.NonZeroAttribute.NonZeroAttribute(string)
-  fullName.vb: NetEnhancements.AspNet.Validation.NonZeroAttribute.New(String)
-  nameWithType: NonZeroAttribute.NonZeroAttribute(string)
-  nameWithType.vb: NonZeroAttribute.New(String)
-- uid: NetEnhancements.AspNet.Validation.NonZeroAttribute.#ctor*
-  name: NonZeroAttribute
-  href: api/NetEnhancements.AspNet.Validation.NonZeroAttribute.html#NetEnhancements_AspNet_Validation_NonZeroAttribute__ctor_
-  commentId: Overload:NetEnhancements.AspNet.Validation.NonZeroAttribute.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetEnhancements.AspNet.Validation.NonZeroAttribute.NonZeroAttribute
-  fullName.vb: NetEnhancements.AspNet.Validation.NonZeroAttribute.New
-  nameWithType: NonZeroAttribute.NonZeroAttribute
-  nameWithType.vb: NonZeroAttribute.New
-- uid: NetEnhancements.AspNet.Validation.NonZeroAttribute.IsValid(System.Object)
-  name: IsValid(object?)
-  href: api/NetEnhancements.AspNet.Validation.NonZeroAttribute.html#NetEnhancements_AspNet_Validation_NonZeroAttribute_IsValid_System_Object_
-  commentId: M:NetEnhancements.AspNet.Validation.NonZeroAttribute.IsValid(System.Object)
-  name.vb: IsValid(Object)
-  fullName: NetEnhancements.AspNet.Validation.NonZeroAttribute.IsValid(object?)
-  fullName.vb: NetEnhancements.AspNet.Validation.NonZeroAttribute.IsValid(Object)
-  nameWithType: NonZeroAttribute.IsValid(object?)
-  nameWithType.vb: NonZeroAttribute.IsValid(Object)
-- uid: NetEnhancements.AspNet.Validation.NonZeroAttribute.IsValid*
-  name: IsValid
-  href: api/NetEnhancements.AspNet.Validation.NonZeroAttribute.html#NetEnhancements_AspNet_Validation_NonZeroAttribute_IsValid_
-  commentId: Overload:NetEnhancements.AspNet.Validation.NonZeroAttribute.IsValid
-  isSpec: "True"
-  fullName: NetEnhancements.AspNet.Validation.NonZeroAttribute.IsValid
-  nameWithType: NonZeroAttribute.IsValid
 - uid: NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions
   name: ValidationAttributeLocalizerOptions
   href: api/NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions.html
@@ -922,54 +844,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions.ValidationErrorResourceType
   nameWithType: ValidationAttributeLocalizerOptions.ValidationErrorResourceType
-- uid: NetEnhancements.AspNet.Validation.VatNumberAttribute
-  name: VatNumberAttribute
-  href: api/NetEnhancements.AspNet.Validation.VatNumberAttribute.html
-  commentId: T:NetEnhancements.AspNet.Validation.VatNumberAttribute
-  fullName: NetEnhancements.AspNet.Validation.VatNumberAttribute
-  nameWithType: VatNumberAttribute
-- uid: NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowEmpty
-  name: AllowEmpty
-  href: api/NetEnhancements.AspNet.Validation.VatNumberAttribute.html#NetEnhancements_AspNet_Validation_VatNumberAttribute_AllowEmpty
-  commentId: P:NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowEmpty
-  fullName: NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowEmpty
-  nameWithType: VatNumberAttribute.AllowEmpty
-- uid: NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowEmpty*
-  name: AllowEmpty
-  href: api/NetEnhancements.AspNet.Validation.VatNumberAttribute.html#NetEnhancements_AspNet_Validation_VatNumberAttribute_AllowEmpty_
-  commentId: Overload:NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowEmpty
-  isSpec: "True"
-  fullName: NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowEmpty
-  nameWithType: VatNumberAttribute.AllowEmpty
-- uid: NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowSeparatorChars
-  name: AllowSeparatorChars
-  href: api/NetEnhancements.AspNet.Validation.VatNumberAttribute.html#NetEnhancements_AspNet_Validation_VatNumberAttribute_AllowSeparatorChars
-  commentId: P:NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowSeparatorChars
-  fullName: NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowSeparatorChars
-  nameWithType: VatNumberAttribute.AllowSeparatorChars
-- uid: NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowSeparatorChars*
-  name: AllowSeparatorChars
-  href: api/NetEnhancements.AspNet.Validation.VatNumberAttribute.html#NetEnhancements_AspNet_Validation_VatNumberAttribute_AllowSeparatorChars_
-  commentId: Overload:NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowSeparatorChars
-  isSpec: "True"
-  fullName: NetEnhancements.AspNet.Validation.VatNumberAttribute.AllowSeparatorChars
-  nameWithType: VatNumberAttribute.AllowSeparatorChars
-- uid: NetEnhancements.AspNet.Validation.VatNumberAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object?, ValidationContext)
-  href: api/NetEnhancements.AspNet.Validation.VatNumberAttribute.html#NetEnhancements_AspNet_Validation_VatNumberAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
-  commentId: M:NetEnhancements.AspNet.Validation.VatNumberAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name.vb: IsValid(Object, ValidationContext)
-  fullName: NetEnhancements.AspNet.Validation.VatNumberAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
-  fullName.vb: NetEnhancements.AspNet.Validation.VatNumberAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: VatNumberAttribute.IsValid(object?, ValidationContext)
-  nameWithType.vb: VatNumberAttribute.IsValid(Object, ValidationContext)
-- uid: NetEnhancements.AspNet.Validation.VatNumberAttribute.IsValid*
-  name: IsValid
-  href: api/NetEnhancements.AspNet.Validation.VatNumberAttribute.html#NetEnhancements_AspNet_Validation_VatNumberAttribute_IsValid_
-  commentId: Overload:NetEnhancements.AspNet.Validation.VatNumberAttribute.IsValid
-  isSpec: "True"
-  fullName: NetEnhancements.AspNet.Validation.VatNumberAttribute.IsValid
-  nameWithType: VatNumberAttribute.IsValid
 - uid: NetEnhancements.AspNet.ViewContextExtensions
   name: ViewContextExtensions
   href: api/NetEnhancements.AspNet.ViewContextExtensions.html
@@ -5125,6 +4999,138 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.StringExtensions.Truncate
   nameWithType: StringExtensions.Truncate
+- uid: NetEnhancements.Util.Validation
+  name: NetEnhancements.Util.Validation
+  href: api/NetEnhancements.Util.Validation.html
+  commentId: N:NetEnhancements.Util.Validation
+  fullName: NetEnhancements.Util.Validation
+  nameWithType: NetEnhancements.Util.Validation
+- uid: NetEnhancements.Util.Validation.IVatValidatable
+  name: IVatValidatable
+  href: api/NetEnhancements.Util.Validation.IVatValidatable.html
+  commentId: T:NetEnhancements.Util.Validation.IVatValidatable
+  fullName: NetEnhancements.Util.Validation.IVatValidatable
+  nameWithType: IVatValidatable
+- uid: NetEnhancements.Util.Validation.IVatValidatable.CountryCode
+  name: CountryCode
+  href: api/NetEnhancements.Util.Validation.IVatValidatable.html#NetEnhancements_Util_Validation_IVatValidatable_CountryCode
+  commentId: P:NetEnhancements.Util.Validation.IVatValidatable.CountryCode
+  fullName: NetEnhancements.Util.Validation.IVatValidatable.CountryCode
+  nameWithType: IVatValidatable.CountryCode
+- uid: NetEnhancements.Util.Validation.IVatValidatable.CountryCode*
+  name: CountryCode
+  href: api/NetEnhancements.Util.Validation.IVatValidatable.html#NetEnhancements_Util_Validation_IVatValidatable_CountryCode_
+  commentId: Overload:NetEnhancements.Util.Validation.IVatValidatable.CountryCode
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Validation.IVatValidatable.CountryCode
+  nameWithType: IVatValidatable.CountryCode
+- uid: NetEnhancements.Util.Validation.NonZeroAttribute
+  name: NonZeroAttribute
+  href: api/NetEnhancements.Util.Validation.NonZeroAttribute.html
+  commentId: T:NetEnhancements.Util.Validation.NonZeroAttribute
+  fullName: NetEnhancements.Util.Validation.NonZeroAttribute
+  nameWithType: NonZeroAttribute
+- uid: NetEnhancements.Util.Validation.NonZeroAttribute.#ctor
+  name: NonZeroAttribute()
+  href: api/NetEnhancements.Util.Validation.NonZeroAttribute.html#NetEnhancements_Util_Validation_NonZeroAttribute__ctor
+  commentId: M:NetEnhancements.Util.Validation.NonZeroAttribute.#ctor
+  name.vb: New()
+  fullName: NetEnhancements.Util.Validation.NonZeroAttribute.NonZeroAttribute()
+  fullName.vb: NetEnhancements.Util.Validation.NonZeroAttribute.New()
+  nameWithType: NonZeroAttribute.NonZeroAttribute()
+  nameWithType.vb: NonZeroAttribute.New()
+- uid: NetEnhancements.Util.Validation.NonZeroAttribute.#ctor(System.Func{System.String})
+  name: NonZeroAttribute(Func<string>)
+  href: api/NetEnhancements.Util.Validation.NonZeroAttribute.html#NetEnhancements_Util_Validation_NonZeroAttribute__ctor_System_Func_System_String__
+  commentId: M:NetEnhancements.Util.Validation.NonZeroAttribute.#ctor(System.Func{System.String})
+  name.vb: New(Func(Of String))
+  fullName: NetEnhancements.Util.Validation.NonZeroAttribute.NonZeroAttribute(System.Func<string>)
+  fullName.vb: NetEnhancements.Util.Validation.NonZeroAttribute.New(System.Func(Of String))
+  nameWithType: NonZeroAttribute.NonZeroAttribute(Func<string>)
+  nameWithType.vb: NonZeroAttribute.New(Func(Of String))
+- uid: NetEnhancements.Util.Validation.NonZeroAttribute.#ctor(System.String)
+  name: NonZeroAttribute(string)
+  href: api/NetEnhancements.Util.Validation.NonZeroAttribute.html#NetEnhancements_Util_Validation_NonZeroAttribute__ctor_System_String_
+  commentId: M:NetEnhancements.Util.Validation.NonZeroAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NetEnhancements.Util.Validation.NonZeroAttribute.NonZeroAttribute(string)
+  fullName.vb: NetEnhancements.Util.Validation.NonZeroAttribute.New(String)
+  nameWithType: NonZeroAttribute.NonZeroAttribute(string)
+  nameWithType.vb: NonZeroAttribute.New(String)
+- uid: NetEnhancements.Util.Validation.NonZeroAttribute.#ctor*
+  name: NonZeroAttribute
+  href: api/NetEnhancements.Util.Validation.NonZeroAttribute.html#NetEnhancements_Util_Validation_NonZeroAttribute__ctor_
+  commentId: Overload:NetEnhancements.Util.Validation.NonZeroAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetEnhancements.Util.Validation.NonZeroAttribute.NonZeroAttribute
+  fullName.vb: NetEnhancements.Util.Validation.NonZeroAttribute.New
+  nameWithType: NonZeroAttribute.NonZeroAttribute
+  nameWithType.vb: NonZeroAttribute.New
+- uid: NetEnhancements.Util.Validation.NonZeroAttribute.IsValid(System.Object)
+  name: IsValid(object?)
+  href: api/NetEnhancements.Util.Validation.NonZeroAttribute.html#NetEnhancements_Util_Validation_NonZeroAttribute_IsValid_System_Object_
+  commentId: M:NetEnhancements.Util.Validation.NonZeroAttribute.IsValid(System.Object)
+  name.vb: IsValid(Object)
+  fullName: NetEnhancements.Util.Validation.NonZeroAttribute.IsValid(object?)
+  fullName.vb: NetEnhancements.Util.Validation.NonZeroAttribute.IsValid(Object)
+  nameWithType: NonZeroAttribute.IsValid(object?)
+  nameWithType.vb: NonZeroAttribute.IsValid(Object)
+- uid: NetEnhancements.Util.Validation.NonZeroAttribute.IsValid*
+  name: IsValid
+  href: api/NetEnhancements.Util.Validation.NonZeroAttribute.html#NetEnhancements_Util_Validation_NonZeroAttribute_IsValid_
+  commentId: Overload:NetEnhancements.Util.Validation.NonZeroAttribute.IsValid
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Validation.NonZeroAttribute.IsValid
+  nameWithType: NonZeroAttribute.IsValid
+- uid: NetEnhancements.Util.Validation.VatNumberAttribute
+  name: VatNumberAttribute
+  href: api/NetEnhancements.Util.Validation.VatNumberAttribute.html
+  commentId: T:NetEnhancements.Util.Validation.VatNumberAttribute
+  fullName: NetEnhancements.Util.Validation.VatNumberAttribute
+  nameWithType: VatNumberAttribute
+- uid: NetEnhancements.Util.Validation.VatNumberAttribute.AllowEmpty
+  name: AllowEmpty
+  href: api/NetEnhancements.Util.Validation.VatNumberAttribute.html#NetEnhancements_Util_Validation_VatNumberAttribute_AllowEmpty
+  commentId: P:NetEnhancements.Util.Validation.VatNumberAttribute.AllowEmpty
+  fullName: NetEnhancements.Util.Validation.VatNumberAttribute.AllowEmpty
+  nameWithType: VatNumberAttribute.AllowEmpty
+- uid: NetEnhancements.Util.Validation.VatNumberAttribute.AllowEmpty*
+  name: AllowEmpty
+  href: api/NetEnhancements.Util.Validation.VatNumberAttribute.html#NetEnhancements_Util_Validation_VatNumberAttribute_AllowEmpty_
+  commentId: Overload:NetEnhancements.Util.Validation.VatNumberAttribute.AllowEmpty
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Validation.VatNumberAttribute.AllowEmpty
+  nameWithType: VatNumberAttribute.AllowEmpty
+- uid: NetEnhancements.Util.Validation.VatNumberAttribute.AllowSeparatorChars
+  name: AllowSeparatorChars
+  href: api/NetEnhancements.Util.Validation.VatNumberAttribute.html#NetEnhancements_Util_Validation_VatNumberAttribute_AllowSeparatorChars
+  commentId: P:NetEnhancements.Util.Validation.VatNumberAttribute.AllowSeparatorChars
+  fullName: NetEnhancements.Util.Validation.VatNumberAttribute.AllowSeparatorChars
+  nameWithType: VatNumberAttribute.AllowSeparatorChars
+- uid: NetEnhancements.Util.Validation.VatNumberAttribute.AllowSeparatorChars*
+  name: AllowSeparatorChars
+  href: api/NetEnhancements.Util.Validation.VatNumberAttribute.html#NetEnhancements_Util_Validation_VatNumberAttribute_AllowSeparatorChars_
+  commentId: Overload:NetEnhancements.Util.Validation.VatNumberAttribute.AllowSeparatorChars
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Validation.VatNumberAttribute.AllowSeparatorChars
+  nameWithType: VatNumberAttribute.AllowSeparatorChars
+- uid: NetEnhancements.Util.Validation.VatNumberAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object?, ValidationContext)
+  href: api/NetEnhancements.Util.Validation.VatNumberAttribute.html#NetEnhancements_Util_Validation_VatNumberAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:NetEnhancements.Util.Validation.VatNumberAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: NetEnhancements.Util.Validation.VatNumberAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: NetEnhancements.Util.Validation.VatNumberAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: VatNumberAttribute.IsValid(object?, ValidationContext)
+  nameWithType.vb: VatNumberAttribute.IsValid(Object, ValidationContext)
+- uid: NetEnhancements.Util.Validation.VatNumberAttribute.IsValid*
+  name: IsValid
+  href: api/NetEnhancements.Util.Validation.VatNumberAttribute.html#NetEnhancements_Util_Validation_VatNumberAttribute_IsValid_
+  commentId: Overload:NetEnhancements.Util.Validation.VatNumberAttribute.IsValid
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Validation.VatNumberAttribute.IsValid
+  nameWithType: VatNumberAttribute.IsValid
 - uid: NetEnhancements.Util.VatNumberValidator
   name: VatNumberValidator
   href: api/NetEnhancements.Util.VatNumberValidator.html
