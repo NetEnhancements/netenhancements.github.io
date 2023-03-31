@@ -122,12 +122,12 @@
   "api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.html": {
     "href": "api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.html",
     "title": "Class DateTagHelper",
-    "keywords": "Class DateTagHelper Namespace NetEnhancements.AspNet.TagHelpers Assembly NetEnhancements.AspNet.dll [HtmlTargetElement(\"date\")] public class DateTagHelper : TagHelper, ITagHelper, ITagHelperComponent Inheritance object TagHelper DateTagHelper Implements ITagHelper ITagHelperComponent Inherited Members TagHelper.Init(TagHelperContext) TagHelper.ProcessAsync(TagHelperContext, TagHelperOutput) TagHelper.Order Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Properties Value public DateTimeOffset? Value { get; set; } Property Value DateTimeOffset? ValueIfNull public string? ValueIfNull { get; set; } Property Value string Methods Process(TagHelperContext, TagHelperOutput) public override void Process(TagHelperContext context, TagHelperOutput output) Parameters context TagHelperContext output TagHelperOutput"
+    "keywords": "Class DateTagHelper Namespace NetEnhancements.AspNet.TagHelpers Assembly NetEnhancements.AspNet.dll Prints a date and time value in a human-readable format, with the original date and time as an abbr tag's title. [HtmlTargetElement(\"date\")] public class DateTagHelper : TagHelper, ITagHelper, ITagHelperComponent Inheritance object TagHelper DateTagHelper Implements ITagHelper ITagHelperComponent Inherited Members TagHelper.Init(TagHelperContext) TagHelper.ProcessAsync(TagHelperContext, TagHelperOutput) TagHelper.Order Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Properties Value The date and time to print. public DateTimeOffset? Value { get; set; } Property Value DateTimeOffset? ValueIfNull The value to output if the Value is null. public string? ValueIfNull { get; set; } Property Value string Methods Process(TagHelperContext, TagHelperOutput) public override void Process(TagHelperContext context, TagHelperOutput output) Parameters context TagHelperContext output TagHelperOutput"
   },
   "api/NetEnhancements.AspNet.TagHelpers.html": {
     "href": "api/NetEnhancements.AspNet.TagHelpers.html",
     "title": "Namespace NetEnhancements.AspNet.TagHelpers",
-    "keywords": "Namespace NetEnhancements.AspNet.TagHelpers Classes DateTagHelper PriceTagHelper qMxX-QOV9tI"
+    "keywords": "Namespace NetEnhancements.AspNet.TagHelpers Classes DateTagHelper Prints a date and time value in a human-readable format, with the original date and time as an abbr tag's title. PriceTagHelper qMxX-QOV9tI"
   },
   "api/NetEnhancements.AspNet.TagHelpers.PriceTagHelper.html": {
     "href": "api/NetEnhancements.AspNet.TagHelpers.PriceTagHelper.html",
