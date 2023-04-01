@@ -1332,6 +1332,81 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.ColumnExtensions.LetterToIndex
   nameWithType: ColumnExtensions.LetterToIndex
+- uid: NetEnhancements.ClosedXML.ExcelColumnDisabled
+  name: ExcelColumnDisabled
+  href: api/NetEnhancements.ClosedXML.ExcelColumnDisabled.html
+  commentId: T:NetEnhancements.ClosedXML.ExcelColumnDisabled
+  fullName: NetEnhancements.ClosedXML.ExcelColumnDisabled
+  nameWithType: ExcelColumnDisabled
+- uid: NetEnhancements.ClosedXML.ExcelColumnName
+  name: ExcelColumnName
+  href: api/NetEnhancements.ClosedXML.ExcelColumnName.html
+  commentId: T:NetEnhancements.ClosedXML.ExcelColumnName
+  fullName: NetEnhancements.ClosedXML.ExcelColumnName
+  nameWithType: ExcelColumnName
+- uid: NetEnhancements.ClosedXML.ExcelColumnName.#ctor(System.String)
+  name: ExcelColumnName(string)
+  href: api/NetEnhancements.ClosedXML.ExcelColumnName.html#NetEnhancements_ClosedXML_ExcelColumnName__ctor_System_String_
+  commentId: M:NetEnhancements.ClosedXML.ExcelColumnName.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NetEnhancements.ClosedXML.ExcelColumnName.ExcelColumnName(string)
+  fullName.vb: NetEnhancements.ClosedXML.ExcelColumnName.New(String)
+  nameWithType: ExcelColumnName.ExcelColumnName(string)
+  nameWithType.vb: ExcelColumnName.New(String)
+- uid: NetEnhancements.ClosedXML.ExcelColumnName.#ctor*
+  name: ExcelColumnName
+  href: api/NetEnhancements.ClosedXML.ExcelColumnName.html#NetEnhancements_ClosedXML_ExcelColumnName__ctor_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnName.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetEnhancements.ClosedXML.ExcelColumnName.ExcelColumnName
+  fullName.vb: NetEnhancements.ClosedXML.ExcelColumnName.New
+  nameWithType: ExcelColumnName.ExcelColumnName
+  nameWithType.vb: ExcelColumnName.New
+- uid: NetEnhancements.ClosedXML.ExcelColumnName.ColumnName
+  name: ColumnName
+  href: api/NetEnhancements.ClosedXML.ExcelColumnName.html#NetEnhancements_ClosedXML_ExcelColumnName_ColumnName
+  commentId: F:NetEnhancements.ClosedXML.ExcelColumnName.ColumnName
+  fullName: NetEnhancements.ClosedXML.ExcelColumnName.ColumnName
+  nameWithType: ExcelColumnName.ColumnName
+- uid: NetEnhancements.ClosedXML.ExcelGenerator
+  name: ExcelGenerator
+  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html
+  commentId: T:NetEnhancements.ClosedXML.ExcelGenerator
+  fullName: NetEnhancements.ClosedXML.ExcelGenerator
+  nameWithType: ExcelGenerator
+- uid: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel*
+  name: GenerateExcel
+  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel
+  nameWithType: ExcelGenerator.GenerateExcel
+- uid: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IEnumerable{``0})
+  name: GenerateExcel<T>(IEnumerable<T>)
+  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: GenerateExcel(Of T)(IEnumerable(Of T))
+  fullName: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ExcelGenerator.GenerateExcel<T>(IEnumerable<T>)
+  nameWithType.vb: ExcelGenerator.GenerateExcel(Of T)(IEnumerable(Of T))
+- uid: NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet*
+  name: ToDataSet
+  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_ToDataSet_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet
+  nameWithType: ExcelGenerator.ToDataSet
+- uid: NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToDataSet<T>(IEnumerable<T>)
+  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_ToDataSet__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToDataSet(Of T)(IEnumerable(Of T))
+  fullName: NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ExcelGenerator.ToDataSet<T>(IEnumerable<T>)
+  nameWithType.vb: ExcelGenerator.ToDataSet(Of T)(IEnumerable(Of T))
 - uid: NetEnhancements.ClosedXML.RowParser`1
   name: RowParser<TRow>
   href: api/NetEnhancements.ClosedXML.RowParser-1.html
@@ -1383,6 +1458,22 @@ references:
   commentId: T:NetEnhancements.ClosedXML.WorksheetExtensions
   fullName: NetEnhancements.ClosedXML.WorksheetExtensions
   nameWithType: WorksheetExtensions
+- uid: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet*
+  name: AddSheet
+  href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_AddSheet_
+  commentId: Overload:NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet
+  nameWithType: WorksheetExtensions.AddSheet
+- uid: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet``1(ClosedXML.Excel.XLWorkbook,System.Collections.Generic.IEnumerable{``0},System.String)
+  name: AddSheet<T>(XLWorkbook, IEnumerable<T>, string)
+  href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_AddSheet__1_ClosedXML_Excel_XLWorkbook_System_Collections_Generic_IEnumerable___0__System_String_
+  commentId: M:NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet``1(ClosedXML.Excel.XLWorkbook,System.Collections.Generic.IEnumerable{``0},System.String)
+  name.vb: AddSheet(Of T)(XLWorkbook, IEnumerable(Of T), String)
+  fullName: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet<T>(ClosedXML.Excel.XLWorkbook, System.Collections.Generic.IEnumerable<T>, string)
+  fullName.vb: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet(Of T)(ClosedXML.Excel.XLWorkbook, System.Collections.Generic.IEnumerable(Of T), String)
+  nameWithType: WorksheetExtensions.AddSheet<T>(XLWorkbook, IEnumerable<T>, string)
+  nameWithType.vb: WorksheetExtensions.AddSheet(Of T)(XLWorkbook, IEnumerable(Of T), String)
 - uid: NetEnhancements.ClosedXML.WorksheetExtensions.ParseRowsAsync*
   name: ParseRowsAsync
   href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_ParseRowsAsync_
@@ -1399,6 +1490,19 @@ references:
   fullName.vb: NetEnhancements.ClosedXML.WorksheetExtensions.ParseRowsAsync(Of TRow)(ClosedXML.Excel.IXLWorksheet, Integer)
   nameWithType: WorksheetExtensions.ParseRowsAsync<TRow>(IXLWorksheet, int)
   nameWithType.vb: WorksheetExtensions.ParseRowsAsync(Of TRow)(IXLWorksheet, Integer)
+- uid: NetEnhancements.ClosedXML.WorksheetExtensions.ToBytes(ClosedXML.Excel.XLWorkbook)
+  name: ToBytes(XLWorkbook)
+  href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_ToBytes_ClosedXML_Excel_XLWorkbook_
+  commentId: M:NetEnhancements.ClosedXML.WorksheetExtensions.ToBytes(ClosedXML.Excel.XLWorkbook)
+  fullName: NetEnhancements.ClosedXML.WorksheetExtensions.ToBytes(ClosedXML.Excel.XLWorkbook)
+  nameWithType: WorksheetExtensions.ToBytes(XLWorkbook)
+- uid: NetEnhancements.ClosedXML.WorksheetExtensions.ToBytes*
+  name: ToBytes
+  href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_ToBytes_
+  commentId: Overload:NetEnhancements.ClosedXML.WorksheetExtensions.ToBytes
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.WorksheetExtensions.ToBytes
+  nameWithType: WorksheetExtensions.ToBytes
 - uid: NetEnhancements.EntityFramework
   name: NetEnhancements.EntityFramework
   href: api/NetEnhancements.EntityFramework.html

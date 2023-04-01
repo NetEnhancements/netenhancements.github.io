@@ -442,6 +442,39 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabled.html",
+          "hash": "naFRqdw7wDJgxoZcAQvcXYhu8ufHIeqyFQ2GMMee0yI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnName.html",
+          "hash": "QNaa19sl3KZ56+bdeENtkyqHlBG2LwUNPiI0K7PxnqQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelGenerator.html",
+          "hash": "iLMB9DaDy2fr0h12JaYRBvIaPlqaY+WKOFQWneqyyK8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.ClosedXML.RowParser-1.yml",
       "output": {
         ".html": {
@@ -457,7 +490,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.ClosedXML.WorksheetExtensions.html",
-          "hash": "ARuKId9laWzTGbr/Jc2sfN46clZefES1+MYd5MGBvKI="
+          "hash": "wg6b9PeTHNzoFR/u4CYqn+eFDhGZqwWsE6TtKryQJ0M="
         }
       },
       "version": ""
@@ -468,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.ClosedXML.html",
-          "hash": "9eSmj4XZ2uPdBUbHv9pQVVwNlA4NSM0UeirsIusAjI0="
+          "hash": "7NTgGpZ/+vdtTdaKubVfha3sgflBnqvSJ2Ax8J/a8dE="
         }
       },
       "version": ""
@@ -1513,11 +1546,11 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "tlMXpSQofQa7Hdiegw20vYsDVD7AXYLTnVlZUfN5Xdw="
+          "hash": "H16q3JldbL6fkVKLuVc84ZNEhj4H/31n7NCDpJCi3p0="
         },
         ".json": {
           "relative_path": "api/toc.json",
-          "hash": "rY2zcwoQWmUsk2SCvU6bzaBlEEdPLRdq6Fu1HM8B1Bc="
+          "hash": "Jy96kx/aTUhWibXK02jEUH30kRKE7w0Fl5KALr8P1mM="
         }
       },
       "version": ""
