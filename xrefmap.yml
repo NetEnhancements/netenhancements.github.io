@@ -1455,44 +1455,6 @@ references:
   fullName.vb: NetEnhancements.EntityFramework.DateOnlyConverter.New
   nameWithType: DateOnlyConverter.DateOnlyConverter
   nameWithType.vb: DateOnlyConverter.New
-- uid: NetEnhancements.EntityFramework.DbContextExtensions
-  name: DbContextExtensions
-  href: api/NetEnhancements.EntityFramework.DbContextExtensions.html
-  commentId: T:NetEnhancements.EntityFramework.DbContextExtensions
-  fullName: NetEnhancements.EntityFramework.DbContextExtensions
-  nameWithType: DbContextExtensions
-- uid: NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync*
-  name: EnableIdentityInsertAsync
-  href: api/NetEnhancements.EntityFramework.DbContextExtensions.html#NetEnhancements_EntityFramework_DbContextExtensions_EnableIdentityInsertAsync_
-  commentId: Overload:NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync
-  nameWithType: DbContextExtensions.EnableIdentityInsertAsync
-- uid: NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext,System.Boolean)
-  name: EnableIdentityInsertAsync<TEntity>(DbContext, bool)
-  href: api/NetEnhancements.EntityFramework.DbContextExtensions.html#NetEnhancements_EntityFramework_DbContextExtensions_EnableIdentityInsertAsync__1_Microsoft_EntityFrameworkCore_DbContext_System_Boolean_
-  commentId: M:NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext,System.Boolean)
-  name.vb: EnableIdentityInsertAsync(Of TEntity)(DbContext, Boolean)
-  fullName: NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync<TEntity>(Microsoft.EntityFrameworkCore.DbContext, bool)
-  fullName.vb: NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync(Of TEntity)(Microsoft.EntityFrameworkCore.DbContext, Boolean)
-  nameWithType: DbContextExtensions.EnableIdentityInsertAsync<TEntity>(DbContext, bool)
-  nameWithType.vb: DbContextExtensions.EnableIdentityInsertAsync(Of TEntity)(DbContext, Boolean)
-- uid: NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync*
-  name: SaveChangesWithIdentityInsertAsync
-  href: api/NetEnhancements.EntityFramework.DbContextExtensions.html#NetEnhancements_EntityFramework_DbContextExtensions_SaveChangesWithIdentityInsertAsync_
-  commentId: Overload:NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync
-  nameWithType: DbContextExtensions.SaveChangesWithIdentityInsertAsync
-- uid: NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext)
-  name: SaveChangesWithIdentityInsertAsync<TEntity>(DbContext)
-  href: api/NetEnhancements.EntityFramework.DbContextExtensions.html#NetEnhancements_EntityFramework_DbContextExtensions_SaveChangesWithIdentityInsertAsync__1_Microsoft_EntityFrameworkCore_DbContext_
-  commentId: M:NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext)
-  name.vb: SaveChangesWithIdentityInsertAsync(Of TEntity)(DbContext)
-  fullName: NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync<TEntity>(Microsoft.EntityFrameworkCore.DbContext)
-  fullName.vb: NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync(Of TEntity)(Microsoft.EntityFrameworkCore.DbContext)
-  nameWithType: DbContextExtensions.SaveChangesWithIdentityInsertAsync<TEntity>(DbContext)
-  nameWithType.vb: DbContextExtensions.SaveChangesWithIdentityInsertAsync(Of TEntity)(DbContext)
 - uid: NetEnhancements.EntityFramework.Entity
   name: Entity
   href: api/NetEnhancements.EntityFramework.Entity.html
@@ -2376,6 +2338,44 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.EntityFramework.Query.QueryExpression.Query
   nameWithType: QueryExpression.Query
+- uid: NetEnhancements.EntityFramework.SqlServerDbContextExtensions
+  name: SqlServerDbContextExtensions
+  href: api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.html
+  commentId: T:NetEnhancements.EntityFramework.SqlServerDbContextExtensions
+  fullName: NetEnhancements.EntityFramework.SqlServerDbContextExtensions
+  nameWithType: SqlServerDbContextExtensions
+- uid: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync*
+  name: EnableIdentityInsertAsync
+  href: api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.html#NetEnhancements_EntityFramework_SqlServerDbContextExtensions_EnableIdentityInsertAsync_
+  commentId: Overload:NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync
+  isSpec: "True"
+  fullName: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync
+  nameWithType: SqlServerDbContextExtensions.EnableIdentityInsertAsync
+- uid: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext,System.Boolean)
+  name: EnableIdentityInsertAsync<TEntity>(DbContext, bool)
+  href: api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.html#NetEnhancements_EntityFramework_SqlServerDbContextExtensions_EnableIdentityInsertAsync__1_Microsoft_EntityFrameworkCore_DbContext_System_Boolean_
+  commentId: M:NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext,System.Boolean)
+  name.vb: EnableIdentityInsertAsync(Of TEntity)(DbContext, Boolean)
+  fullName: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync<TEntity>(Microsoft.EntityFrameworkCore.DbContext, bool)
+  fullName.vb: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync(Of TEntity)(Microsoft.EntityFrameworkCore.DbContext, Boolean)
+  nameWithType: SqlServerDbContextExtensions.EnableIdentityInsertAsync<TEntity>(DbContext, bool)
+  nameWithType.vb: SqlServerDbContextExtensions.EnableIdentityInsertAsync(Of TEntity)(DbContext, Boolean)
+- uid: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync*
+  name: SaveChangesWithIdentityInsertAsync
+  href: api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.html#NetEnhancements_EntityFramework_SqlServerDbContextExtensions_SaveChangesWithIdentityInsertAsync_
+  commentId: Overload:NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync
+  isSpec: "True"
+  fullName: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync
+  nameWithType: SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync
+- uid: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext)
+  name: SaveChangesWithIdentityInsertAsync<TEntity>(DbContext)
+  href: api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.html#NetEnhancements_EntityFramework_SqlServerDbContextExtensions_SaveChangesWithIdentityInsertAsync__1_Microsoft_EntityFrameworkCore_DbContext_
+  commentId: M:NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext)
+  name.vb: SaveChangesWithIdentityInsertAsync(Of TEntity)(DbContext)
+  fullName: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync<TEntity>(Microsoft.EntityFrameworkCore.DbContext)
+  fullName.vb: NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync(Of TEntity)(Microsoft.EntityFrameworkCore.DbContext)
+  nameWithType: SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync<TEntity>(DbContext)
+  nameWithType.vb: SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync(Of TEntity)(DbContext)
 - uid: NetEnhancements.EntityFramework.TimeOnlyComparer
   name: TimeOnlyComparer
   href: api/NetEnhancements.EntityFramework.TimeOnlyComparer.html

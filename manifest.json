@@ -497,17 +497,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.EntityFramework.DbContextExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetEnhancements.EntityFramework.DbContextExtensions.html",
-          "hash": "6gRX+BXNT6dsNs3J3sAp+gKGCCZ22NDqYNCqlCKh2Qc="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.EntityFramework.Entity.yml",
       "output": {
         ".html": {
@@ -728,6 +717,17 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.html",
+          "hash": "Nafo/1vD9CiuIcZzSuxrMo0rhrb0eUbYLE4ZgqPKLWM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.EntityFramework.TimeOnlyComparer.yml",
       "output": {
         ".html": {
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.EntityFramework.html",
-          "hash": "TNpYg3dKG8m+r+t7ishziDUDTtmVIuaWwOyZMFincHY="
+          "hash": "MsxCXFkgrqG/HpWG5s0TuRlVdiuR8q6EPGmFHtz7bf8="
         }
       },
       "version": ""
@@ -1513,11 +1513,11 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "O0osIIdfyYuob0Hs2mHB6fqW8Y4L2+SEw/bPLd5P0Kw="
+          "hash": "tlMXpSQofQa7Hdiegw20vYsDVD7AXYLTnVlZUfN5Xdw="
         },
         ".json": {
           "relative_path": "api/toc.json",
-          "hash": "UZsvx/dmE+5p8HZWfQJZx55FKzx4On2wnvRkOS9xeVg="
+          "hash": "rY2zcwoQWmUsk2SCvU6bzaBlEEdPLRdq6Fu1HM8B1Bc="
         }
       },
       "version": ""

@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class DbContextExtensions
+      <title>Class SqlServerDbContextExtensions
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class DbContextExtensions
+      <meta name="title" content="Class SqlServerDbContextExtensions
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -15,7 +15,7 @@
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
-      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_EntityFramework_DbContextExtensions.md&amp;value=---%0Auid%3A%20NetEnhancements.EntityFramework.DbContextExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_EntityFramework_SqlServerDbContextExtensions.md&amp;value=---%0Auid%3A%20NetEnhancements.EntityFramework.SqlServerDbContextExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
 
       <script type="text/javascript" src="../styles/docfx.min.js"></script>
       <script type="text/javascript" src="../styles/main.js"></script>
@@ -64,13 +64,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="NetEnhancements.EntityFramework.DbContextExtensions">
+        <article data-uid="NetEnhancements.EntityFramework.SqlServerDbContextExtensions">
 
 
 
-  <h1 id="NetEnhancements_EntityFramework_DbContextExtensions" data-uid="NetEnhancements.EntityFramework.DbContextExtensions" class="text-break">
-    Class DbContextExtensions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/DbContextExtensions.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h1 id="NetEnhancements_EntityFramework_SqlServerDbContextExtensions" data-uid="NetEnhancements.EntityFramework.SqlServerDbContextExtensions" class="text-break">
+    Class SqlServerDbContextExtensions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/SqlServerDbContextExtensions.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -78,11 +78,12 @@
     <dl><dt>Assembly</dt><dd>NetEnhancements.EntityFramework.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>SQL Server extensions.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DbContextExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class SqlServerDbContextExtensions</code></pre>
   </div>
 
 
@@ -92,7 +93,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">DbContextExtensions</span></div>
+      <div><span class="xref">SqlServerDbContextExtensions</span></div>
     </dd>
   </dl>
 
@@ -108,14 +109,15 @@
 </h2>
 
 
-  <a id="NetEnhancements_EntityFramework_DbContextExtensions_EnableIdentityInsertAsync_" data-uid="NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync*"></a>
+  <a id="NetEnhancements_EntityFramework_SqlServerDbContextExtensions_EnableIdentityInsertAsync_" data-uid="NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync*"></a>
 
-  <h3 id="NetEnhancements_EntityFramework_DbContextExtensions_EnableIdentityInsertAsync__1_Microsoft_EntityFrameworkCore_DbContext_System_Boolean_" data-uid="NetEnhancements.EntityFramework.DbContextExtensions.EnableIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext,System.Boolean)">
+  <h3 id="NetEnhancements_EntityFramework_SqlServerDbContextExtensions_EnableIdentityInsertAsync__1_Microsoft_EntityFrameworkCore_DbContext_System_Boolean_" data-uid="NetEnhancements.EntityFramework.SqlServerDbContextExtensions.EnableIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext,System.Boolean)">
   EnableIdentityInsertAsync&lt;TEntity&gt;(DbContext, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/DbContextExtensions.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/SqlServerDbContextExtensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Enables or disables <a href="https://learn.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql">Identity Insert</a> for the given <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -151,14 +153,15 @@
 
 
 
-  <a id="NetEnhancements_EntityFramework_DbContextExtensions_SaveChangesWithIdentityInsertAsync_" data-uid="NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync*"></a>
+  <a id="NetEnhancements_EntityFramework_SqlServerDbContextExtensions_SaveChangesWithIdentityInsertAsync_" data-uid="NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync*"></a>
 
-  <h3 id="NetEnhancements_EntityFramework_DbContextExtensions_SaveChangesWithIdentityInsertAsync__1_Microsoft_EntityFrameworkCore_DbContext_" data-uid="NetEnhancements.EntityFramework.DbContextExtensions.SaveChangesWithIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext)">
+  <h3 id="NetEnhancements_EntityFramework_SqlServerDbContextExtensions_SaveChangesWithIdentityInsertAsync__1_Microsoft_EntityFrameworkCore_DbContext_" data-uid="NetEnhancements.EntityFramework.SqlServerDbContextExtensions.SaveChangesWithIdentityInsertAsync``1(Microsoft.EntityFrameworkCore.DbContext)">
   SaveChangesWithIdentityInsertAsync&lt;TEntity&gt;(DbContext)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/DbContextExtensions.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/SqlServerDbContextExtensions.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Enables <a href="https://learn.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql">Identity Insert</a> for the given <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code>, saves the changes and disables Identity Insert again, all wrapped in a transaction.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -196,7 +199,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_EntityFramework_DbContextExtensions.md&amp;value=---%0Auid%3A%20NetEnhancements.EntityFramework.DbContextExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_EntityFramework_SqlServerDbContextExtensions.md&amp;value=---%0Auid%3A%20NetEnhancements.EntityFramework.SqlServerDbContextExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
         </div>
       </div>
 
