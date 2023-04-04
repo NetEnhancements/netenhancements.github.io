@@ -70,7 +70,7 @@
 
   <h1 id="NetEnhancements_Business_BusinessResult_1" data-uid="NetEnhancements.Business.BusinessResult`1" class="text-break">
     Class BusinessResult&lt;T&gt;
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -150,9 +150,9 @@
 
   <a id="NetEnhancements_Business_BusinessResult_1__ctor_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor*"></a>
 
-  <h3 id="NetEnhancements_Business_BusinessResult_1__ctor__0_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor(`0)">
-  BusinessResult(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_Business_BusinessResult_1__ctor__0_System_String_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)">
+  BusinessResult(T, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>A successful result with data.</p>
@@ -160,12 +160,14 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BusinessResult(T data)</code></pre>
+    <pre><code class="lang-csharp hljs">public BusinessResult(T data, string? statusMessage = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>data</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>statusMessage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -184,7 +186,7 @@
 
   <h3 id="NetEnhancements_Business_BusinessResult_1__ctor_NetEnhancements_Business_BusinessResult_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor(NetEnhancements.Business.BusinessResult)">
   BusinessResult(BusinessResult)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>A failed result with another result's errors.</p>
@@ -216,7 +218,7 @@
 
   <h3 id="NetEnhancements_Business_BusinessResult_1__ctor_System_Boolean_System_Boolean_System_String_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor(System.Boolean,System.Boolean,System.String)">
   BusinessResult(bool, bool, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>A failed result without data.</p>
@@ -256,7 +258,7 @@
 
   <h3 id="NetEnhancements_Business_BusinessResult_1_Data" data-uid="NetEnhancements.Business.BusinessResult`1.Data">
   Data
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The data of the result. Not null when <a class="xref" href="NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1_Success">Success</a> is true.</p>
@@ -288,7 +290,7 @@
 
   <h3 id="NetEnhancements_Business_BusinessResult_1_Success" data-uid="NetEnhancements.Business.BusinessResult`1.Success">
   Success
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Indicates whether the call was successful.
@@ -325,7 +327,7 @@ When true, <a class="xref" href="NetEnhancements.Business.BusinessResult-1.html#
 
   <h3 id="NetEnhancements_Business_BusinessResult_1_FromError_System_String_" data-uid="NetEnhancements.Business.BusinessResult`1.FromError(System.String)">
   FromError(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns an error result.</p>
@@ -362,7 +364,7 @@ When true, <a class="xref" href="NetEnhancements.Business.BusinessResult-1.html#
 
   <h3 id="NetEnhancements_Business_BusinessResult_1_FromNotFound_System_String_" data-uid="NetEnhancements.Business.BusinessResult`1.FromNotFound(System.String)">
   FromNotFound(string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a result indicating something was not found.</p>
@@ -403,7 +405,7 @@ When true, <a class="xref" href="NetEnhancements.Business.BusinessResult-1.html#
 
   <h3 id="NetEnhancements_Business_BusinessResult_1_op_Implicit__0__NetEnhancements_Business_BusinessResult__0_" data-uid="NetEnhancements.Business.BusinessResult`1.op_Implicit(`0)~NetEnhancements.Business.BusinessResult{`0}">
   implicit operator BusinessResult&lt;T&gt;(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Convert a <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> to a successful <a class="xref" href="NetEnhancements.Business.BusinessResult-1.html">BusinessResult&lt;T&gt;</a>.</p>

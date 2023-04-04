@@ -996,15 +996,15 @@ references:
   fullName.vb: NetEnhancements.Business.BusinessResult(Of T)
   nameWithType: BusinessResult<T>
   nameWithType.vb: BusinessResult(Of T)
-- uid: NetEnhancements.Business.BusinessResult`1.#ctor(`0)
-  name: BusinessResult(T)
-  href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1__ctor__0_
-  commentId: M:NetEnhancements.Business.BusinessResult`1.#ctor(`0)
-  name.vb: New(T)
-  fullName: NetEnhancements.Business.BusinessResult<T>.BusinessResult(T)
-  fullName.vb: NetEnhancements.Business.BusinessResult(Of T).New(T)
-  nameWithType: BusinessResult<T>.BusinessResult(T)
-  nameWithType.vb: BusinessResult(Of T).New(T)
+- uid: NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)
+  name: BusinessResult(T, string?)
+  href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1__ctor__0_System_String_
+  commentId: M:NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)
+  name.vb: New(T, String)
+  fullName: NetEnhancements.Business.BusinessResult<T>.BusinessResult(T, string?)
+  fullName.vb: NetEnhancements.Business.BusinessResult(Of T).New(T, String)
+  nameWithType: BusinessResult<T>.BusinessResult(T, string?)
+  nameWithType.vb: BusinessResult(Of T).New(T, String)
 - uid: NetEnhancements.Business.BusinessResult`1.#ctor(NetEnhancements.Business.BusinessResult)
   name: BusinessResult(BusinessResult)
   href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1__ctor_NetEnhancements_Business_BusinessResult_
