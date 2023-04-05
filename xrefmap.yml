@@ -4850,6 +4850,22 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.NumericExtensions.HasDecimals
   nameWithType: NumericExtensions.HasDecimals
+- uid: NetEnhancements.Util.NumericExtensions.ParseDecimal(System.String)
+  name: ParseDecimal(string?)
+  href: api/NetEnhancements.Util.NumericExtensions.html#NetEnhancements_Util_NumericExtensions_ParseDecimal_System_String_
+  commentId: M:NetEnhancements.Util.NumericExtensions.ParseDecimal(System.String)
+  name.vb: ParseDecimal(String)
+  fullName: NetEnhancements.Util.NumericExtensions.ParseDecimal(string?)
+  fullName.vb: NetEnhancements.Util.NumericExtensions.ParseDecimal(String)
+  nameWithType: NumericExtensions.ParseDecimal(string?)
+  nameWithType.vb: NumericExtensions.ParseDecimal(String)
+- uid: NetEnhancements.Util.NumericExtensions.ParseDecimal*
+  name: ParseDecimal
+  href: api/NetEnhancements.Util.NumericExtensions.html#NetEnhancements_Util_NumericExtensions_ParseDecimal_
+  commentId: Overload:NetEnhancements.Util.NumericExtensions.ParseDecimal
+  isSpec: "True"
+  fullName: NetEnhancements.Util.NumericExtensions.ParseDecimal
+  nameWithType: NumericExtensions.ParseDecimal
 - uid: NetEnhancements.Util.NumericExtensions.ToPriceString(System.Decimal,System.Int32,System.IFormatProvider)
   name: ToPriceString(decimal, int, IFormatProvider?)
   href: api/NetEnhancements.Util.NumericExtensions.html#NetEnhancements_Util_NumericExtensions_ToPriceString_System_Decimal_System_Int32_System_IFormatProvider_
@@ -4900,6 +4916,22 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.NumericExtensions.ToValueString
   nameWithType: NumericExtensions.ToValueString
+- uid: NetEnhancements.Util.NumericExtensions.TryParseDecimal(System.String)
+  name: TryParseDecimal(string?)
+  href: api/NetEnhancements.Util.NumericExtensions.html#NetEnhancements_Util_NumericExtensions_TryParseDecimal_System_String_
+  commentId: M:NetEnhancements.Util.NumericExtensions.TryParseDecimal(System.String)
+  name.vb: TryParseDecimal(String)
+  fullName: NetEnhancements.Util.NumericExtensions.TryParseDecimal(string?)
+  fullName.vb: NetEnhancements.Util.NumericExtensions.TryParseDecimal(String)
+  nameWithType: NumericExtensions.TryParseDecimal(string?)
+  nameWithType.vb: NumericExtensions.TryParseDecimal(String)
+- uid: NetEnhancements.Util.NumericExtensions.TryParseDecimal*
+  name: TryParseDecimal
+  href: api/NetEnhancements.Util.NumericExtensions.html#NetEnhancements_Util_NumericExtensions_TryParseDecimal_
+  commentId: Overload:NetEnhancements.Util.NumericExtensions.TryParseDecimal
+  isSpec: "True"
+  fullName: NetEnhancements.Util.NumericExtensions.TryParseDecimal
+  nameWithType: NumericExtensions.TryParseDecimal
 - uid: NetEnhancements.Util.RandomExtensions
   name: RandomExtensions
   href: api/NetEnhancements.Util.RandomExtensions.html

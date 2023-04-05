@@ -70,7 +70,7 @@
 
   <h1 id="NetEnhancements_Util_NumericExtensions" data-uid="NetEnhancements.Util.NumericExtensions" class="text-break">
     Class NumericExtensions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -113,7 +113,7 @@
 
   <h3 id="NetEnhancements_Util_NumericExtensions_HasDecimals_System_Decimal_" data-uid="NetEnhancements.Util.NumericExtensions.HasDecimals(System.Decimal)">
   HasDecimals(decimal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns <code>true</code> when the decimal has decimals after the dot.</p>
@@ -146,11 +146,54 @@
 
 
 
+  <a id="NetEnhancements_Util_NumericExtensions_ParseDecimal_" data-uid="NetEnhancements.Util.NumericExtensions.ParseDecimal*"></a>
+
+  <h3 id="NetEnhancements_Util_NumericExtensions_ParseDecimal_System_String_" data-uid="NetEnhancements.Util.NumericExtensions.ParseDecimal(System.String)">
+  ParseDecimal(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Parse a decimal according to the invariant culture, replacing commas in the input with dots.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal ParseDecimal(this string? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>The input was null or could not be parsed to a decimal</p>
+</dd>
+  </dl>
+
+
+
   <a id="NetEnhancements_Util_NumericExtensions_ToPriceString_" data-uid="NetEnhancements.Util.NumericExtensions.ToPriceString*"></a>
 
   <h3 id="NetEnhancements_Util_NumericExtensions_ToPriceString_System_Decimal_System_Int32_System_IFormatProvider_" data-uid="NetEnhancements.Util.NumericExtensions.ToPriceString(System.Decimal,System.Int32,System.IFormatProvider)">
   ToPriceString(decimal, int, IFormatProvider?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>TODO: which currency is this anyway?</p>
@@ -191,7 +234,7 @@
 
   <h3 id="NetEnhancements_Util_NumericExtensions_ToPriceString_System_Nullable_System_Decimal__System_Int32_System_IFormatProvider_" data-uid="NetEnhancements.Util.NumericExtensions.ToPriceString(System.Nullable{System.Decimal},System.Int32,System.IFormatProvider)">
   ToPriceString(decimal?, int, IFormatProvider?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>TODO: which currency is this anyway?</p>
@@ -232,7 +275,7 @@
 
   <h3 id="NetEnhancements_Util_NumericExtensions_ToValueString_System_Decimal_" data-uid="NetEnhancements.Util.NumericExtensions.ToValueString(System.Decimal)">
   ToValueString(decimal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a string representing the given <code data-dev-comment-type="paramref" class="paramref">value</code>, with at least 2 decimals when not zero (otherwise returns &quot;0&quot;), more if specified in the <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
@@ -269,7 +312,7 @@
 
   <h3 id="NetEnhancements_Util_NumericExtensions_ToValueString_System_Nullable_System_Decimal__" data-uid="NetEnhancements.Util.NumericExtensions.ToValueString(System.Nullable{System.Decimal})">
   ToValueString(decimal?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a string representing the given <code data-dev-comment-type="paramref" class="paramref">value</code>, with at least 2 decimals when not zero or null (otherwise returns &quot;0&quot;), more if specified in the <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
@@ -289,6 +332,43 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Util_NumericExtensions_TryParseDecimal_" data-uid="NetEnhancements.Util.NumericExtensions.TryParseDecimal*"></a>
+
+  <h3 id="NetEnhancements_Util_NumericExtensions_TryParseDecimal_System_String_" data-uid="NetEnhancements.Util.NumericExtensions.TryParseDecimal(System.String)">
+  TryParseDecimal(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/NumericExtensions.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Parse a decimal according to the invariant culture, replacing commas in the input with dots.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal? TryParseDecimal(this string? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
     <dd></dd>
   </dl>
 
