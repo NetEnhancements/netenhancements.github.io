@@ -142,7 +142,7 @@
   "api/NetEnhancements.AspNet.Validation.html": {
     "href": "api/NetEnhancements.AspNet.Validation.html",
     "title": "Namespace NetEnhancements.AspNet.Validation",
-    "keywords": "Namespace NetEnhancements.AspNet.Validation Classes DependencyInjection Dependency Injection container extensions. ModelStateExtensions ModelStateDictionary extensions. ValidationAttributeLocalizerOptions"
+    "keywords": "Namespace NetEnhancements.AspNet.Validation Classes DependencyInjection Dependency Injection container extensions. ModelStateExtensions ModelStateDictionary extensions. ValidationAttributeLocalizerOptions Options class to configure the validation attribute localization."
   },
   "api/NetEnhancements.AspNet.Validation.ModelStateExtensions.html": {
     "href": "api/NetEnhancements.AspNet.Validation.ModelStateExtensions.html",
@@ -152,7 +152,7 @@
   "api/NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions.html": {
     "href": "api/NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions.html",
     "title": "Class ValidationAttributeLocalizerOptions",
-    "keywords": "Class ValidationAttributeLocalizerOptions Namespace NetEnhancements.AspNet.Validation Assembly NetEnhancements.AspNet.dll public class ValidationAttributeLocalizerOptions Inheritance object ValidationAttributeLocalizerOptions Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Properties ValidationErrorResourceType public Type? ValidationErrorResourceType { get; set; } Property Value Type"
+    "keywords": "Class ValidationAttributeLocalizerOptions Namespace NetEnhancements.AspNet.Validation Assembly NetEnhancements.AspNet.dll Options class to configure the validation attribute localization. public class ValidationAttributeLocalizerOptions Inheritance object ValidationAttributeLocalizerOptions Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Properties ValidationErrorResourceType The resource type containing strings for validation attribute error message translations. public Type? ValidationErrorResourceType { get; set; } Property Value Type"
   },
   "api/NetEnhancements.AspNet.ViewContextExtensions.html": {
     "href": "api/NetEnhancements.AspNet.ViewContextExtensions.html",
