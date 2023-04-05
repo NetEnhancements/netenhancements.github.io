@@ -442,22 +442,22 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabled.yml",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabled.html",
-          "hash": "naFRqdw7wDJgxoZcAQvcXYhu8ufHIeqyFQ2GMMee0yI="
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute.html",
+          "hash": "XabZV9WMb9a5H6r8d7sBriZzZ6SbWQglLRxwHQU8aN4="
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnName.yml",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnName.html",
-          "hash": "QNaa19sl3KZ56+bdeENtkyqHlBG2LwUNPiI0K7PxnqQ="
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.html",
+          "hash": "inPDcXjhvp5JLJs16N0XkFaRe/UuBsjK8mCAK9zzsik="
         }
       },
       "version": ""
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.ClosedXML.html",
-          "hash": "7NTgGpZ/+vdtTdaKubVfha3sgflBnqvSJ2Ax8J/a8dE="
+          "hash": "/G/NPaLKeVAenzDEV97+EzEMNAaoEVxsxwfVqY0/3JM="
         }
       },
       "version": ""
@@ -1546,11 +1546,11 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "H16q3JldbL6fkVKLuVc84ZNEhj4H/31n7NCDpJCi3p0="
+          "hash": "HIBenkem6R9qUk3IXNwa0XAlsPIccjxWjiIgtmELDUA="
         },
         ".json": {
           "relative_path": "api/toc.json",
-          "hash": "Jy96kx/aTUhWibXK02jEUH30kRKE7w0Fl5KALr8P1mM="
+          "hash": "g7y/Z7hrW+sLyNXIahliFKF9hVKDpxR5bApY3dgTnJs="
         }
       },
       "version": ""

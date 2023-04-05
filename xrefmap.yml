@@ -1332,43 +1332,50 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.ColumnExtensions.LetterToIndex
   nameWithType: ColumnExtensions.LetterToIndex
-- uid: NetEnhancements.ClosedXML.ExcelColumnDisabled
-  name: ExcelColumnDisabled
-  href: api/NetEnhancements.ClosedXML.ExcelColumnDisabled.html
-  commentId: T:NetEnhancements.ClosedXML.ExcelColumnDisabled
-  fullName: NetEnhancements.ClosedXML.ExcelColumnDisabled
-  nameWithType: ExcelColumnDisabled
-- uid: NetEnhancements.ClosedXML.ExcelColumnName
-  name: ExcelColumnName
-  href: api/NetEnhancements.ClosedXML.ExcelColumnName.html
-  commentId: T:NetEnhancements.ClosedXML.ExcelColumnName
-  fullName: NetEnhancements.ClosedXML.ExcelColumnName
-  nameWithType: ExcelColumnName
-- uid: NetEnhancements.ClosedXML.ExcelColumnName.#ctor(System.String)
-  name: ExcelColumnName(string)
-  href: api/NetEnhancements.ClosedXML.ExcelColumnName.html#NetEnhancements_ClosedXML_ExcelColumnName__ctor_System_String_
-  commentId: M:NetEnhancements.ClosedXML.ExcelColumnName.#ctor(System.String)
+- uid: NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute
+  name: ExcelColumnDisabledAttribute
+  href: api/NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute.html
+  commentId: T:NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute
+  fullName: NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute
+  nameWithType: ExcelColumnDisabledAttribute
+- uid: NetEnhancements.ClosedXML.ExcelColumnNameAttribute
+  name: ExcelColumnNameAttribute
+  href: api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.html
+  commentId: T:NetEnhancements.ClosedXML.ExcelColumnNameAttribute
+  fullName: NetEnhancements.ClosedXML.ExcelColumnNameAttribute
+  nameWithType: ExcelColumnNameAttribute
+- uid: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.#ctor(System.String)
+  name: ExcelColumnNameAttribute(string)
+  href: api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.html#NetEnhancements_ClosedXML_ExcelColumnNameAttribute__ctor_System_String_
+  commentId: M:NetEnhancements.ClosedXML.ExcelColumnNameAttribute.#ctor(System.String)
   name.vb: New(String)
-  fullName: NetEnhancements.ClosedXML.ExcelColumnName.ExcelColumnName(string)
-  fullName.vb: NetEnhancements.ClosedXML.ExcelColumnName.New(String)
-  nameWithType: ExcelColumnName.ExcelColumnName(string)
-  nameWithType.vb: ExcelColumnName.New(String)
-- uid: NetEnhancements.ClosedXML.ExcelColumnName.#ctor*
-  name: ExcelColumnName
-  href: api/NetEnhancements.ClosedXML.ExcelColumnName.html#NetEnhancements_ClosedXML_ExcelColumnName__ctor_
-  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnName.#ctor
+  fullName: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ExcelColumnNameAttribute(string)
+  fullName.vb: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.New(String)
+  nameWithType: ExcelColumnNameAttribute.ExcelColumnNameAttribute(string)
+  nameWithType.vb: ExcelColumnNameAttribute.New(String)
+- uid: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.#ctor*
+  name: ExcelColumnNameAttribute
+  href: api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.html#NetEnhancements_ClosedXML_ExcelColumnNameAttribute__ctor_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnNameAttribute.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: NetEnhancements.ClosedXML.ExcelColumnName.ExcelColumnName
-  fullName.vb: NetEnhancements.ClosedXML.ExcelColumnName.New
-  nameWithType: ExcelColumnName.ExcelColumnName
-  nameWithType.vb: ExcelColumnName.New
-- uid: NetEnhancements.ClosedXML.ExcelColumnName.ColumnName
+  fullName: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ExcelColumnNameAttribute
+  fullName.vb: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.New
+  nameWithType: ExcelColumnNameAttribute.ExcelColumnNameAttribute
+  nameWithType.vb: ExcelColumnNameAttribute.New
+- uid: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName
   name: ColumnName
-  href: api/NetEnhancements.ClosedXML.ExcelColumnName.html#NetEnhancements_ClosedXML_ExcelColumnName_ColumnName
-  commentId: F:NetEnhancements.ClosedXML.ExcelColumnName.ColumnName
-  fullName: NetEnhancements.ClosedXML.ExcelColumnName.ColumnName
-  nameWithType: ExcelColumnName.ColumnName
+  href: api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.html#NetEnhancements_ClosedXML_ExcelColumnNameAttribute_ColumnName
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName
+  fullName: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName
+  nameWithType: ExcelColumnNameAttribute.ColumnName
+- uid: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName*
+  name: ColumnName
+  href: api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.html#NetEnhancements_ClosedXML_ExcelColumnNameAttribute_ColumnName_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName
+  nameWithType: ExcelColumnNameAttribute.ColumnName
 - uid: NetEnhancements.ClosedXML.ExcelGenerator
   name: ExcelGenerator
   href: api/NetEnhancements.ClosedXML.ExcelGenerator.html

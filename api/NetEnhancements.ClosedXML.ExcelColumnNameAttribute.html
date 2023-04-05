@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ExcelColumnDisabled
+      <title>Class ExcelColumnNameAttribute
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ExcelColumnDisabled
+      <meta name="title" content="Class ExcelColumnNameAttribute
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -15,7 +15,7 @@
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
-      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_ExcelColumnDisabled.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.ExcelColumnDisabled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_ExcelColumnNameAttribute.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.ExcelColumnNameAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
 
       <script type="text/javascript" src="../styles/docfx.min.js"></script>
       <script type="text/javascript" src="../styles/main.js"></script>
@@ -64,13 +64,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="NetEnhancements.ClosedXML.ExcelColumnDisabled">
+        <article data-uid="NetEnhancements.ClosedXML.ExcelColumnNameAttribute">
 
 
 
-  <h1 id="NetEnhancements_ClosedXML_ExcelColumnDisabled" data-uid="NetEnhancements.ClosedXML.ExcelColumnDisabled" class="text-break">
-    Class ExcelColumnDisabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnDisabled.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="NetEnhancements_ClosedXML_ExcelColumnNameAttribute" data-uid="NetEnhancements.ClosedXML.ExcelColumnNameAttribute" class="text-break">
+    Class ExcelColumnNameAttribute
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnNameAttribute.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -78,12 +78,13 @@
     <dl><dt>Assembly</dt><dd>NetEnhancements.ClosedXML.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Marks property as to not be included when writing to Excel.</p>
+  <div class="markdown summary"><p>Gives the property a custom column name when writing to Excel.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ExcelColumnDisabled : Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Property)]
+public class ExcelColumnNameAttribute : Attribute</code></pre>
   </div>
 
 
@@ -94,7 +95,7 @@
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
-      <div><span class="xref">ExcelColumnDisabled</span></div>
+      <div><span class="xref">ExcelColumnNameAttribute</span></div>
     </dd>
   </dl>
 
@@ -231,11 +232,83 @@
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnNameAttribute__ctor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnNameAttribute.#ctor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnNameAttribute__ctor_System_String_" data-uid="NetEnhancements.ClosedXML.ExcelColumnNameAttribute.#ctor(System.String)">
+  ExcelColumnNameAttribute(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnNameAttribute.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gives the property a custom column name when writing to Excel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExcelColumnNameAttribute(string columnName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>columnName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnNameAttribute_ColumnName_" data-uid="NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnNameAttribute_ColumnName" data-uid="NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName">
+  ColumnName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnNameAttribute.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The name of the column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ColumnName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_ExcelColumnDisabled.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.ExcelColumnDisabled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_ExcelColumnNameAttribute.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.ExcelColumnNameAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
         </div>
       </div>
 
