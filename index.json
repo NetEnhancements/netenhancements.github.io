@@ -27,7 +27,7 @@
   "api/NetEnhancements.AspNet.Conventions.ControllerModelExtensions.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.ControllerModelExtensions.html",
     "title": "Class ControllerModelExtensions",
-    "keywords": "Class ControllerModelExtensions Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll public static class ControllerModelExtensions Inheritance object ControllerModelExtensions Methods RouteAreaNamespace(ControllerModel) Route this controller to an area based on their \"Areas.\" namespace, if any. This prevents having to put [Area(\"Foo\")] on it. public static void RouteAreaNamespace(this ControllerModel controller) Parameters controller ControllerModel"
+    "keywords": "Class ControllerModelExtensions Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll Extension methods for ControllerModel. public static class ControllerModelExtensions Inheritance object ControllerModelExtensions Methods RouteAreaNamespace(ControllerModel) Route this controller to an area based on their \"Areas.\" namespace, if any. This prevents having to put [Area(\"Foo\")] on it. public static void RouteAreaNamespace(this ControllerModel controller) Parameters controller ControllerModel"
   },
   "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html",
@@ -42,7 +42,7 @@
   "api/NetEnhancements.AspNet.Conventions.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.html",
     "title": "Namespace NetEnhancements.AspNet.Conventions",
-    "keywords": "Namespace NetEnhancements.AspNet.Conventions Classes AreaAuthorizationPolicyConvention Applies the provided policies to MVC Controllers and Razor Pages. AreaControllerRoutingConvention Apply this convention to route all controllers based on their \"Areas.\" namespace, if any. This prevents having to put [Area(\"Foo\")] on every controller. AreaPolicy AreaRoutingAttribute Apply to a controller to auto-route its area based on its namespace. So instead of [Area(\"Foo\")], use [AreaRouting] on a controller in the MyProject.Areas.Foo.Controllers namespace, inferring \"Foo\". ControllerModelExtensions DefaultAreaPolicy Registers filters for the \"default area policy\", i.e. not applicable to any other registered policy. DefaultAreaPolicyFilter Represents the default policy, applied to all unspecified areas (including no area). PageModelRoutePrefixConvention Apply to update or remove an area route prefix. RoutePrefixConvention<TControllerBase>"
+    "keywords": "Namespace NetEnhancements.AspNet.Conventions Classes AreaAuthorizationPolicyConvention Applies the provided policies to MVC Controllers and Razor Pages. AreaControllerRoutingConvention Apply this convention to route all controllers based on their \"Areas.\" namespace, if any. This prevents having to put [Area(\"Foo\")] on every controller. AreaPolicy AreaRoutingAttribute Apply to a controller to auto-route its area based on its namespace. So instead of [Area(\"Foo\")], use [AreaRouting] on a controller in the MyProject.Areas.Foo.Controllers namespace, inferring \"Foo\". ControllerModelExtensions Extension methods for ControllerModel. DefaultAreaPolicy Registers filters for the \"default area policy\", i.e. not applicable to any other registered policy. DefaultAreaPolicyFilter Represents the default policy, applied to all unspecified areas (including no area). PageModelRoutePrefixConvention Apply to update or remove an area route prefix. RoutePrefixConvention<TControllerBase>"
   },
   "api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.html",
@@ -694,14 +694,34 @@
     "title": "Class VatNumberValidator",
     "keywords": "Class VatNumberValidator Namespace NetEnhancements.Util Assembly NetEnhancements.Util.dll Validator for VAT numbers. public static class VatNumberValidator Inheritance object VatNumberValidator Methods Validate(string?, string?, bool, bool) Validate a VAT number. public static ValidationResult? Validate(string? vatNumber, string? countryCode, bool allowSeparatorChars, bool allowEmpty) Parameters vatNumber string countryCode string allowSeparatorChars bool allowEmpty bool Returns ValidationResult"
   },
-  "articles/intro.html": {
-    "href": "articles/intro.html",
+  "articles/aspnet/conventions/AreaControllerRouting.html": {
+    "href": "articles/aspnet/conventions/AreaControllerRouting.html",
+    "title": "Area Controller Routing Convention",
+    "keywords": "Area Controller Routing Convention With ASP.NET Core, if you have a controller that lives in an area, say FooController in the area Bar, you'll have to annotate the controller: namespace MyApp.Areas.Bar { [Area(\"Bar\")] public class FooController : Controller { } } This [Area(\"Bar\")] needs to be applied to all controllers within that area. Not anymore! Using our UseAreaControllerNamespace() you don't have to anymore: var mvcBuilder = builder.Services.AddMvc() // or .AddControllers() .AddMvcOptions(options => { options.UseAreaControllerNamespace(); } This method registers the AreaControllerRoutingConvention, which registers controllers within an Areas namespace as if they had the Area attribute applied. The rules: The controller must be in a namespace that contains \".Areas.\" What follows \"Areas.\" will be taken as area name: MyApp.Areas.Bar.FooController will be registered as having the area \"Bar\". If the controller has attribute routing applied ([Route(\"...\")]), it won't be registered. The route for the controller will be registered as \"[area]/[controller]/[action]/{id?}\", having [area] replaced with the detected area name from the namespace."
+  },
+  "articles/aspnet/conventions/index.html": {
+    "href": "articles/aspnet/conventions/index.html",
+    "title": "Conventions",
+    "keywords": "Conventions Area Controller Routing Convention"
+  },
+  "articles/aspnet/HtmlHelperExtensions.html": {
+    "href": "articles/aspnet/HtmlHelperExtensions.html",
+    "title": "HTML Helper Extensions",
+    "keywords": "HTML Helper Extensions TODO"
+  },
+  "articles/aspnet/index.html": {
+    "href": "articles/aspnet/index.html",
+    "title": "ASP.NET",
+    "keywords": "ASP.NET Conventions HTML Helper Extensions"
+  },
+  "articles/index.html": {
+    "href": "articles/index.html",
     "title": ".NET Enhancements",
     "keywords": ".NET Enhancements Util Extension methods for dates, strings, collections, enums... Shared Shared concepts between web, console, daemon application, such as configuration and logging. AspNet Conventions for routing, security, validation. EntityFramework DateOnly/TimeOnly, entities with GUID PKs, Created/Modified properties, ... Identity A ready-to-use ASP.NET Core Identity setup. Imaging Resizing images. Imaging.EntityFramework Saving image metadata in a database. Services Background services, especially: ScheduledBackgroundService, that allows a (de facto) singleton service to do its timed work in a scoped manner. Business Combining the above in easy-to-use application parts."
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE.",
-    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": ".NET Enhancements",
+    "keywords": ".NET Enhancements This site contains the documentation for the .NET Enhancements. See: Articles API Documentation"
   }
 }

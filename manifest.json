@@ -61,7 +61,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.AspNet.Conventions.ControllerModelExtensions.html",
-          "hash": "pvfeIZUaVS3eaBp9Yb8hGzLwEcj89ajkaAtb7NMXbwE="
+          "hash": "J9Dp7cTeyb3zmoepx4osvHF02zhmI7CwLVek5nkit1k="
         }
       },
       "version": ""
@@ -116,7 +116,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.AspNet.Conventions.html",
-          "hash": "2dL1WRfeNzddGnqxG85litJXOjg3jtLVCjazQcXyXA8="
+          "hash": "hhB8xl+0mDkZVlVl2OYocJ0D/KLW/oVWRjFY534PpK8="
         }
       },
       "version": ""
@@ -1557,11 +1557,58 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
+      "source_relative_path": "articles/aspnet/HtmlHelperExtensions.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "JTiQRQ6AWZSoUKSWk2A1uEsXSrMUO/Rf1hdodgegAng="
+          "relative_path": "articles/aspnet/HtmlHelperExtensions.html",
+          "hash": "xzfQ+l5hL6uEy5sgDIPZrHegrE+2Md0fBtfghRorP0w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/aspnet/conventions/AreaControllerRouting.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/aspnet/conventions/AreaControllerRouting.html",
+          "hash": "n82H/DHnPBKJSlyKe4s31+jlUjF1neCFS8GW/hHefms="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/aspnet/conventions/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/aspnet/conventions/index.html",
+          "hash": "+bTxmJj6/Hv9SfERlNtYST6WpxeKLs98i6aselS99N4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/aspnet/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/aspnet/index.html",
+          "hash": "ye/prBVGGq3BqGv26w14RgHT5FBVvNJljl6yAfK7Bic="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html",
+          "hash": "X1bcw0yBKQbVTZ6iwwM1BxCL6fehEkFXsgsQwVpY7k8="
         }
       },
       "version": ""
@@ -1572,11 +1619,11 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+          "hash": "o4/tdnxhgpN63527xtg3/o3rs1Rw0T/rTyBSNmTjOpY="
         },
         ".json": {
           "relative_path": "articles/toc.json",
-          "hash": "fyzooicK9ZpdtyFGEb/t662hrSHCQYpRH4hRTpRH4VQ="
+          "hash": "cxrj3HuxfA/eFsqdZtoFHfL3/ri5053ZP4e8zPeIH38="
         }
       },
       "version": ""
@@ -1587,7 +1634,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "o9YX5PIHyUgOF6q8tHs4ktrAJSEUkKrLY7T+PAO0oMQ="
+          "hash": "5lioQKO8wkqkBKhk1S2oO3fhPVdYBY2isAAf/BfTs1Y="
         }
       },
       "version": ""
@@ -1598,11 +1645,11 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+          "hash": "EGyUYBLt2v/p8v6dHeSURTA54khegYlrdj1Dowr++Es="
         },
         ".json": {
           "relative_path": "toc.json",
-          "hash": "CqtOfbLW6M+qL+1R1Zam8Ya5YvFHqRUdPr0fNZfPONU="
+          "hash": "iZ83AxhExKIycFsN/eA2LTzvtMBxc4EcmgJj9c3KpO8="
         }
       },
       "version": ""
