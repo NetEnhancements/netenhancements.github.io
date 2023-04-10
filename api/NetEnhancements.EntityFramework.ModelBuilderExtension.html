@@ -124,7 +124,7 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/ModelBuilderExtension.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Apply default Id, Created and Modified values for <em>all</em> <a class="xref" href="NetEnhancements.EntityFramework.IGuidIdEntity.html">IGuidIdEntity</a>/<a class="xref" href="NetEnhancements.EntityFramework.ITimestampedEntity.html">ITimestampedEntity</a>-derived types known to the context's <code data-dev-comment-type="paramref" class="paramref">modelBuilder</code> it's called on.</p>
+  <div class="markdown level1 summary"><p>Apply default Id, Created and Modified values for <em>all</em> <a class="xref" href="NetEnhancements.EntityFramework.IGuidIdEntity.html">IGuidIdEntity</a>/<a class="xref" href="NetEnhancements.EntityFramework.ITimestampedEntity.html">ITimestampedEntity</a>-derived types known to the context's <code class="paramref">modelBuilder</code> it's called on.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -157,7 +157,7 @@
   </h3>
 
   <div class="markdown level1 summary"><p>BROKEN, not covariant.</p>
-<p>Calls the <code data-dev-comment-type="paramref" class="paramref">expression</code> action with a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a> for each entity inheriting from <code data-dev-comment-type="typeparamref" class="typeparamref">TBase</code>.</p>
+<p>Calls the <code class="paramref">expression</code> action with a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a> for each entity inheriting from <code class="typeparamref">TBase</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -185,9 +185,9 @@
 
 
   <h4 class="section" id="NetEnhancements_EntityFramework_ModelBuilderExtension_ApplyEntityTypeBuilder__1_Microsoft_EntityFrameworkCore_ModelBuilder_System_Action_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder___0____examples">Examples</h4>
-  <pre><code>    modelBuilder.ApplyEntityTypeBuilder{OwnedEntity}(
-        e => e.HasOne(...)
-    );</code></pre>
+  <pre><code class="lang-csharp">modelBuilder.ApplyEntityTypeBuilder{OwnedEntity}(
+    e =&gt; e.HasOne(...)
+);</code></pre>
 
 
 
@@ -201,11 +201,11 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/ModelBuilderExtension.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Calls the <code data-dev-comment-type="paramref" class="paramref">expression</code> action with a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a> for each entity inheriting from <code data-dev-comment-type="typeparamref" class="typeparamref">TBase</code>.</p>
+  <div class="markdown level1 summary"><p>Calls the <code class="paramref">expression</code> action with a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a> for each entity inheriting from <code class="typeparamref">TBase</code>.</p>
 <p>Usage:</p>
-<pre><code>    modelBuilder.ApplyEntityTypeBuilder{OwnedEntity}(
-        e => e.HasOne(...)
-    );</code></pre>
+<pre><code class="lang-csharp">modelBuilder.ApplyEntityTypeBuilder{OwnedEntity}(
+    e =&gt; e.HasOne(...)
+);</code></pre>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -244,9 +244,9 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/ModelBuilderExtension.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Applies the given <code data-dev-comment-type="paramref" class="paramref">expression</code> query filter to all entities that are or inherit from <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code>.</p>
+  <div class="markdown level1 summary"><p>Applies the given <code class="paramref">expression</code> query filter to all entities that are or inherit from <code class="typeparamref">TEntity</code>.</p>
 <p>Usage:</p>
-<pre><code>    builder.ApplyGlobalFilters{BaseEntity, SoftDeleteAttribute}(e => e.Deleted == null);</code></pre>
+<pre><code class="lang-csharp">builder.ApplyGlobalFilters{BaseEntity, SoftDeleteAttribute}(e =&gt; e.Deleted == null);</code></pre>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -287,7 +287,7 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/ModelBuilderExtension.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Calls the <code data-dev-comment-type="paramref" class="paramref">expression</code> action with a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.propertybuilder">PropertyBuilder</a> for each entity inheriting from <code data-dev-comment-type="typeparamref" class="typeparamref">TBase</code>.</p>
+  <div class="markdown level1 summary"><p>Calls the <code class="paramref">expression</code> action with a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.propertybuilder">PropertyBuilder</a> for each entity inheriting from <code class="typeparamref">TBase</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -317,10 +317,10 @@
 
 
   <h4 class="section" id="NetEnhancements_EntityFramework_ModelBuilderExtension_ApplyPropertyBuilder__1_Microsoft_EntityFrameworkCore_ModelBuilder_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Action_Microsoft_EntityFrameworkCore_Metadata_Builders_PropertyBuilder___examples">Examples</h4>
-  <pre><code>    modelBuilder.ApplyPropertyBuilder{IGuidEntity}(
-        e => e.Id,
-        prop => prop.HasDefaultValueSql(&quot;NEWID()&quot;)
-    );</code></pre>
+  <pre><code class="lang-csharp">modelBuilder.ApplyPropertyBuilder{IGuidEntity}(
+    e =&gt; e.Id,
+    prop =&gt; prop.HasDefaultValueSql("NEWID()")
+);</code></pre>
 
 
 
@@ -378,7 +378,7 @@ TODO: the hardcoded 64 is not safe.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/ModelBuilderExtension.cs/#L196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns entities known to the ModelBuilder that are annotated with the given <code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code>.</p>
+  <div class="markdown level1 summary"><p>Returns entities known to the ModelBuilder that are annotated with the given <code class="typeparamref">TAttribute</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -422,7 +422,7 @@ TODO: the hardcoded 64 is not safe.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.EntityFramework/ModelBuilderExtension.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns entities known to the ModelBuilder that derive from the given <code data-dev-comment-type="typeparamref" class="typeparamref">TBase</code>.</p>
+  <div class="markdown level1 summary"><p>Returns entities known to the ModelBuilder that derive from the given <code class="typeparamref">TBase</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

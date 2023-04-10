@@ -124,10 +124,10 @@ when the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tex
 
 
   <h2 id="NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_examples">Examples</h2>
-  <pre><code>builder.Services.AddMvc()
-   .AddJsonOptions(options =>
+  <pre><code class="lang-csharp">builder.Services.AddMvc()
+   .AddJsonOptions(options =&gt;
    {
-       // &quot;&quot; == null for numbers.
+       // "" == null for numbers.
        options.JsonSerializerOptions.Converters.Add(new EmptyStringToNullNumberConverterFactory());
    });</code></pre>
 

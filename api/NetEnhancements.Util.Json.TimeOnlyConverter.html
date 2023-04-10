@@ -152,11 +152,11 @@
 
 
   <h2 id="NetEnhancements_Util_Json_TimeOnlyConverter_examples">Examples</h2>
-  <pre><code>builder.Services.AddMvc()
-   .AddJsonOptions(options =>
+  <pre><code class="lang-csharp">builder.Services.AddMvc()
+   .AddJsonOptions(options =&gt;
    {
        // Custom TimeOnly formats.
-       options.JsonSerializerOptions.Converters.Add(new TimeOnlyConverter(&quot;HH:mm&quot;, &quot;HHmm&quot;, &quot;HH:mm:ss.fff&quot;));
+       options.JsonSerializerOptions.Converters.Add(new TimeOnlyConverter("HH:mm", "HHmm", "HH:mm:ss.fff"));
    });</code></pre>
 
 
