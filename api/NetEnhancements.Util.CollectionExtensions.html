@@ -162,7 +162,7 @@
 
   <h4 class="section" id="NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0__System_Int32__examples">Examples</h4>
   <pre><code class="lang-csharp">List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3, 4 };
-IEnumerable&lt;IEnumerable&gt;&lt;int&gt;&gt; permutations = numbers.GetPermutations(2);
+IEnumerable&lt;IEnumerable&lt;int&gt;&gt; permutations = numbers.GetPermutations(2);
 foreach (IEnumerable&lt;int&gt; permutation in permutations)
 {
     Console.WriteLine(string.Join(", ", permutation));
