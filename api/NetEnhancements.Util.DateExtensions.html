@@ -392,7 +392,7 @@ Console.WriteLine($"The Unix time {unixTime} corresponds to {dt.ToString()}.");
 
   <h3 id="NetEnhancements_Util_DateExtensions_GetDayFrequency_System_DateOnly_System_DateOnly_" data-uid="NetEnhancements.Util.DateExtensions.GetDayFrequency(System.DateOnly,System.DateOnly)">
   GetDayFrequency(DateOnly, DateOnly)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L517"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L518"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get occurrences per <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a> between <code class="paramref">from</code> and <code class="paramref">until</code>.</p>
@@ -457,7 +457,7 @@ foreach (var kvp in dayFrequency)
 
   <h3 id="NetEnhancements_Util_DateExtensions_GetDayFrequency_System_DateTime_System_DateTime_" data-uid="NetEnhancements.Util.DateExtensions.GetDayFrequency(System.DateTime,System.DateTime)">
   GetDayFrequency(DateTime, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L483"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L484"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get occurrences per <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a> between <code class="paramref">from</code> and <code class="paramref">until</code>.</p>
@@ -806,7 +806,7 @@ Console.WriteLine($"The start of the previous month from {dt} is {startOfPrevMon
 
   <h3 id="NetEnhancements_Util_DateExtensions_StartOfWeek_System_DateTime_System_DayOfWeek_" data-uid="NetEnhancements.Util.DateExtensions.StartOfWeek(System.DateTime,System.DayOfWeek)">
   StartOfWeek(DateTime, DayOfWeek)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L451"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L452"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the start date of the week in which the given <code class="paramref">dateTime</code> falls, provided the week starts at the weekday <code class="paramref">startOfWeek</code>.</p>
@@ -1007,7 +1007,7 @@ Console.WriteLine($"The Unix time of {dateTime} is {unixTime}.");
 
   <h3 id="NetEnhancements_Util_DateExtensions_WeekNumbersUntil_System_DateOnly_System_DateOnly_System_String_System_String_" data-uid="NetEnhancements.Util.DateExtensions.WeekNumbersUntil(System.DateOnly,System.DateOnly,System.String,System.String)">
   WeekNumbersUntil(DateOnly, DateOnly, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L411"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L412"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a human-readable string representation of the number of calendar weeks between the first and last day.</p>
@@ -1056,6 +1056,12 @@ Console.WriteLine($"Week numbers: {weekNumbers}");
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown if <code class="paramref">lastDay</code> is before <code class="paramref">firstDay</code>.</p>
+</dd>
+  </dl>
 
 
 
