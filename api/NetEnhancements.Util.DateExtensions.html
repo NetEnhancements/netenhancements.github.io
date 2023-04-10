@@ -121,7 +121,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_DaysOrWeeksUntil_System_DateOnly_System_DateOnly_System_String_System_String_System_String_System_String_" data-uid="NetEnhancements.Util.DateExtensions.DaysOrWeeksUntil(System.DateOnly,System.DateOnly,System.String,System.String,System.String,System.String)">
   DaysOrWeeksUntil(DateOnly, DateOnly, string, string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L363"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a string representation of the number of days (when less than 7) or number of weeks between the first and last day.</p>
@@ -135,29 +135,42 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>firstDay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>The first day in the range.</p>
+</dd>
     <dt><code>lastDay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>The last day in the range.</p>
+</dd>
     <dt><code>day</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The singular name of a day.</p>
+</dd>
     <dt><code>days</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The plural name of days.</p>
+</dd>
     <dt><code>week</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The singular name of a week.</p>
+</dd>
     <dt><code>weeks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The plural name of weeks.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A string representation of the number of days or weeks between the two dates.</p>
+</dd>
   </dl>
 
 
 
 
 
+
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_DaysOrWeeksUntil_System_DateOnly_System_DateOnly_System_String_System_String_System_String_System_String__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateOnly firstDay = new DateOnly(2023, 4, 1);
+DateOnly lastDay = new DateOnly(2023, 4, 11);
+string result = firstDay.DaysOrWeeksUntil(lastDay);
+Console.WriteLine(result); // Output: 11 days</code></pre>
 
 
 
@@ -168,7 +181,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_DoDatesOverlap_System_DateTime_System_DateTime_System_DateTime_System_DateTime_" data-uid="NetEnhancements.Util.DateExtensions.DoDatesOverlap(System.DateTime,System.DateTime,System.DateTime,System.DateTime)">
   DoDatesOverlap(DateTime, DateTime, DateTime, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines if two date ranges overlap.</p>
@@ -207,6 +220,15 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_DoDatesOverlap_System_DateTime_System_DateTime_System_DateTime_System_DateTime__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTime aStart = new DateTime(2022, 01, 01);
+DateTime aEnd = new DateTime(2022, 01, 15);
+DateTime bStart = new DateTime(2022, 01, 10);
+DateTime bEnd = new DateTime(2022, 01, 20);
+bool overlap = DoDatesOverlap(aStart, aEnd, bStart, bEnd);
+Console.WriteLine($"Do the date ranges [{aStart:dd/MM/yyyy} - {aEnd:dd/MM/yyyy}] and [{bStart:dd/MM/yyyy} - {bEnd:dd/MM/yyyy}] overlap? {overlap}");
+// Output: Do the date ranges [01/01/2022 - 15/01/2022] and [10/01/2022 - 20/01/2022] overlap? True</code></pre>
+
 
 
 
@@ -216,7 +238,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_EachDay_System_DateTime_System_DateTime_" data-uid="NetEnhancements.Util.DateExtensions.EachDay(System.DateTime,System.DateTime)">
   EachDay(DateTime, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generates an enumerable sequence of DateTime objects, one for each day in the specified range.</p>
@@ -249,6 +271,27 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_EachDay_System_DateTime_System_DateTime__examples">Examples</h4>
+  <pre><code class="lang-csharp">var startDate = new DateTime(2023, 04, 01);
+var endDate = new DateTime(2023, 04, 10);
+var days = DateTimeExtensions.EachDay(startDate, endDate);
+foreach (var day in days)
+{
+    Console.WriteLine(day.ToString("yyyy-MM-dd"));
+}
+
+// Output:
+// 2023-04-01
+// 2023-04-02
+// 2023-04-03
+// 2023-04-04
+// 2023-04-05
+// 2023-04-06
+// 2023-04-07
+// 2023-04-08
+// 2023-04-09
+// 2023-04-10</code></pre>
+
 
 
 
@@ -258,7 +301,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_EndOfPreviousMonth_System_DateTime_" data-uid="NetEnhancements.Util.DateExtensions.EndOfPreviousMonth(System.DateTime)">
   EndOfPreviousMonth(DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L207"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the end of the previous month for a given DateTime.</p>
@@ -288,6 +331,12 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_EndOfPreviousMonth_System_DateTime__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTime today = DateTime.Now;
+DateTime endOfPreviousMonth = today.EndOfPreviousMonth();
+Console.WriteLine($"The end of the previous month from {today:D} is {endOfPreviousMonth:D}");
+// Output: The end of the previous month from Sunday, April 11, 2023 is Sunday, February 28, 2023</code></pre>
+
 
 
 
@@ -297,7 +346,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_FromUnixTime_System_Int64__" data-uid="NetEnhancements.Util.DateExtensions.FromUnixTime(System.Int64@)">
   FromUnixTime(in long)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts a Unix time to a DateTime object.</p>
@@ -327,6 +376,12 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_FromUnixTime_System_Int64___examples">Examples</h4>
+  <pre><code class="lang-csharp">long unixTime = 1649714568;
+DateTime dt = FromUnixTime(unixTime);
+Console.WriteLine($"The Unix time {unixTime} corresponds to {dt.ToString()}.");
+// Output: The Unix time 1649714568 corresponds to 2022-04-10 09:09:28 AM.</code></pre>
+
 
 
 
@@ -336,7 +391,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_GetDayFrequency_System_DateOnly_System_DateOnly_" data-uid="NetEnhancements.Util.DateExtensions.GetDayFrequency(System.DateOnly,System.DateOnly)">
   GetDayFrequency(DateOnly, DateOnly)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L498"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get occurrences per <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a> between <code class="paramref">from</code> and <code class="paramref">until</code>.</p>
@@ -350,15 +405,18 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>The starting date of the range to count.</p>
+</dd>
     <dt><code>until</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>The ending date of the range to count (inclusive).</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>A dictionary containing the number of occurrences of each <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a> in the range.</p>
+</dd>
   </dl>
 
 
@@ -366,8 +424,32 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_GetDayFrequency_System_DateOnly_System_DateOnly__examples">Examples</h4>
+  <pre><code class="lang-csharp">var from = new DateOnly(2022, 1, 1);
+var until = new DateOnly(2022, 12, 31);
+var dayFrequency = DateTimeExtensions.GetDayFrequency(from, until);
+
+foreach (var kvp in dayFrequency)
+{
+    Console.WriteLine($"{kvp.Key}: {kvp.Value} occurrences");
+}</code></pre>
+<p>This example will output:
+Monday: 52 occurrences
+Tuesday: 52 occurrences
+Wednesday: 52 occurrences
+Thursday: 52 occurrences
+Friday: 52 occurrences
+Saturday: 52 occurrences
+Sunday: 52 occurrences</p>
 
 
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown if <code class="paramref">until</code> is before <code class="paramref">from</code>.</p>
+</dd>
+  </dl>
 
 
 
@@ -375,7 +457,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_GetDayFrequency_System_DateTime_System_DateTime_" data-uid="NetEnhancements.Util.DateExtensions.GetDayFrequency(System.DateTime,System.DateTime)">
   GetDayFrequency(DateTime, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L463"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get occurrences per <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a> between <code class="paramref">from</code> and <code class="paramref">until</code>.</p>
@@ -389,21 +471,34 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
+    <dd><p>The start date for the calculation.</p>
+</dd>
     <dt><code>until</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
+    <dd><p>The end date for the calculation.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>A dictionary containing the frequency of occurrences for each day of the week.</p>
+</dd>
   </dl>
 
 
 
 
 
+
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_GetDayFrequency_System_DateTime_System_DateTime__examples">Examples</h4>
+  <pre><code class="lang-csharp">var from = new DateTime(2023, 1, 1);
+var until = new DateTime(2023, 1, 31);
+var result = DateTimeExtensions.GetDayFrequency(from, until);
+Console.WriteLine("Occurrences per day of the week:");
+foreach (var item in result)
+{
+    Console.WriteLine($"{item.Key}: {item.Value}");
+}</code></pre>
 
 
 
@@ -414,7 +509,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_GetFirstDayOfMonth_System_DateTime_System_DayOfWeek_" data-uid="NetEnhancements.Util.DateExtensions.GetFirstDayOfMonth(System.DateTime,System.DayOfWeek)">
   GetFirstDayOfMonth(DateTime, DayOfWeek)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the first occurrence of a specified day of the week in a given month.</p>
@@ -447,6 +542,12 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_GetFirstDayOfMonth_System_DateTime_System_DayOfWeek__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTime date = new DateTime(2023, 4, 1);
+DayOfWeek firstDayOfWeek = DayOfWeek.Monday;
+DateTime firstMondayOfMonth = date.GetFirstDayOfMonth(firstDayOfWeek);
+Console.WriteLine(firstMondayOfMonth); // Output: 04/03/2023 12:00:00 AM</code></pre>
+
 
 
 
@@ -456,7 +557,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_Humanize_System_TimeSpan_" data-uid="NetEnhancements.Util.DateExtensions.Humanize(System.TimeSpan)">
   Humanize(TimeSpan)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L250"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts a TimeSpan object into a human-readable string representation.</p>
@@ -486,6 +587,11 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_Humanize_System_TimeSpan__examples">Examples</h4>
+  <pre><code class="lang-csharp">TimeSpan duration = TimeSpan.FromSeconds(180);
+string humanizedDuration = duration.Humanize();
+Console.WriteLine(humanizedDuration); // Output: 3m</code></pre>
+
 
 
 
@@ -495,7 +601,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_IsBetweenTwoDates_System_DateTime_System_DateTime_System_DateTime_" data-uid="NetEnhancements.Util.DateExtensions.IsBetweenTwoDates(System.DateTime,System.DateTime,System.DateTime)">
   IsBetweenTwoDates(DateTime, DateTime, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines if a DateTime object falls between two specified DateTime objects.</p>
@@ -531,6 +637,13 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_IsBetweenTwoDates_System_DateTime_System_DateTime_System_DateTime__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTime now = DateTime.Now;
+DateTime start = new DateTime(2022, 1, 1);
+DateTime end = new DateTime(2022, 12, 31);
+bool isBetween = now.IsBetweenTwoDates(start, end);
+Console.WriteLine($"Is {now} between {start} and {end}? {isBetween}"); // Output: Is {now} between {start} and {end}? True or False</code></pre>
+
 
 
 
@@ -540,7 +653,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_RoundToNearest_System_DateTime_System_TimeSpan_" data-uid="NetEnhancements.Util.DateExtensions.RoundToNearest(System.DateTime,System.TimeSpan)">
   RoundToNearest(DateTime, TimeSpan)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rounds a DateTime object to the nearest TimeSpan.</p>
@@ -573,6 +686,12 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_RoundToNearest_System_DateTime_System_TimeSpan__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTime dt = new DateTime(2023, 4, 10, 14, 27, 36);
+TimeSpan ts = TimeSpan.FromMinutes(15);
+DateTime rounded = dt.RoundToNearest(ts);
+Console.WriteLine($"Rounded time: {rounded}"); // Output: Rounded time: 4/10/2023 2:30:00 PM</code></pre>
+
 
 
 
@@ -582,7 +701,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_RoundToNearest_System_TimeSpan_System_TimeSpan_" data-uid="NetEnhancements.Util.DateExtensions.RoundToNearest(System.TimeSpan,System.TimeSpan)">
   RoundToNearest(TimeSpan, TimeSpan)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rounds a TimeSpan object to the nearest TimeSpan.</p>
@@ -615,6 +734,11 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_RoundToNearest_System_TimeSpan_System_TimeSpan__examples">Examples</h4>
+  <pre><code class="lang-csharp">TimeSpan ts = TimeSpan.FromMinutes(75);
+TimeSpan rounded = ts.RoundToNearest(TimeSpan.FromMinutes(30));
+Console.WriteLine($"Rounded time: {rounded}"); // Output: Rounded time: 1:30:00</code></pre>
+
 
 
 
@@ -624,7 +748,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_StartOfPreviousMonth_System_DateTime_" data-uid="NetEnhancements.Util.DateExtensions.StartOfPreviousMonth(System.DateTime)">
   StartOfPreviousMonth(DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the start of the previous month for a given DateTime.</p>
@@ -654,6 +778,11 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_StartOfPreviousMonth_System_DateTime__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTime dt = DateTime.Now;
+DateTime startOfPrevMonth = dt.StartOfPreviousMonth();
+Console.WriteLine($"The start of the previous month from {dt} is {startOfPrevMonth}");</code></pre>
+
 
 
 
@@ -663,7 +792,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_StartOfWeek_System_DateTime_System_DayOfWeek_" data-uid="NetEnhancements.Util.DateExtensions.StartOfWeek(System.DateTime,System.DayOfWeek)">
   StartOfWeek(DateTime, DayOfWeek)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L439"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the start date of the week in which the given <code class="paramref">dateTime</code> falls, provided the week starts at the weekday <code class="paramref">startOfWeek</code>.</p>
@@ -677,21 +806,29 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
+    <dd><p>The date for which to calculate the start of the week.</p>
+</dd>
     <dt><code>startOfWeek</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a></dt>
-    <dd></dd>
+    <dd><p>The day of the week that starts the week.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
+    <dd><p>The start date of the week in which <code class="paramref">dateTime</code> falls.</p>
+</dd>
   </dl>
 
 
 
 
 
+
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_StartOfWeek_System_DateTime_System_DayOfWeek__examples">Examples</h4>
+  <p>This example returns the start date of the week containing the given date, assuming Monday starts the week:</p>
+<pre><code class="lang-csharp">DateTime date = new DateTime(2023, 4, 10);
+DateTime startOfWeek = date.StartOfWeek(DayOfWeek.Monday); // Returns 2023-04-10 (Monday)</code></pre>
 
 
 
@@ -702,7 +839,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_ToReadableString_System_DateTimeOffset_System_String_System_String_" data-uid="NetEnhancements.Util.DateExtensions.ToReadableString(System.DateTimeOffset,System.String,System.String)">
   ToReadableString(DateTimeOffset, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L324"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Readable date string: &quot;today, HH:mm:ss&quot;, &quot;yesterday, HH:mm:ss&quot;, &quot;Jan 01, HH:mm:ss&quot;, ...</p>
@@ -716,23 +853,34 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
-    <dd></dd>
+    <dd><p>The DateTimeOffset object to convert.</p>
+</dd>
     <dt><code>today</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The string to use for the current day.</p>
+</dd>
     <dt><code>yesterday</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The string to use for the previous day.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A human-readable string representing the DateTimeOffset object.</p>
+</dd>
   </dl>
 
 
 
 
 
+
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_ToReadableString_System_DateTimeOffset_System_String_System_String__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTimeOffset dateTime = DateTimeOffset.Now;
+string today = "today";
+string yesterday = "yesterday";
+string readableDateTime = dateTime.ToReadableString(today, yesterday);
+Console.WriteLine(readableDateTime); // Example output: "today, 12:34:56"</code></pre>
 
 
 
@@ -743,7 +891,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_ToReadableString_System_Nullable_System_DateTimeOffset__System_String_System_String_" data-uid="NetEnhancements.Util.DateExtensions.ToReadableString(System.Nullable{System.DateTimeOffset},System.String,System.String)">
   ToReadableString(DateTimeOffset?, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L306"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Readable date string: &quot;today, HH:mm:ss&quot;, &quot;yesterday, HH:mm:ss&quot;, &quot;Jan 01, HH:mm:ss&quot;, ...</p>
@@ -757,23 +905,36 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
-    <dd></dd>
+    <dd><p>The DateTimeOffset to represent as a string.</p>
+</dd>
     <dt><code>today</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The string to use to represent &quot;today&quot;. Defaults to &quot;today&quot;.</p>
+</dd>
     <dt><code>yesterday</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The string to use to represent &quot;yesterday&quot;. Defaults to &quot;yesterday&quot;.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A string representing the given DateTimeOffset in a human-readable format.</p>
+</dd>
   </dl>
 
 
 
 
 
+
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_ToReadableString_System_Nullable_System_DateTimeOffset__System_String_System_String__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTimeOffset dt1 = DateTimeOffset.Now;
+DateTimeOffset dt2 = DateTimeOffset.Now.AddDays(-1);
+DateTimeOffset dt3 = DateTimeOffset.Now.AddDays(-2);
+
+Console.WriteLine(dt1.ToReadableString()); // Output: "today, 14:30:45"
+Console.WriteLine(dt2.ToReadableString()); // Output: "yesterday, 14:30:45"
+Console.WriteLine(dt3.ToReadableString()); // Output: "Apr 08, 14:30:45"</code></pre>
 
 
 
@@ -784,7 +945,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_ToUnixTime_System_DateTime_" data-uid="NetEnhancements.Util.DateExtensions.ToUnixTime(System.DateTime)">
   ToUnixTime(DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts a DateTime object to Unix time.</p>
@@ -814,6 +975,11 @@
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_ToUnixTime_System_DateTime__examples">Examples</h4>
+  <pre><code class="lang-csharp">DateTime dateTime = new DateTime(2022, 4, 11, 13, 45, 0);
+long unixTime = dateTime.ToUnixTime();
+Console.WriteLine($"The Unix time of {dateTime} is {unixTime}.");</code></pre>
+
 
 
 
@@ -823,7 +989,7 @@
 
   <h3 id="NetEnhancements_Util_DateExtensions_WeekNumbersUntil_System_DateOnly_System_DateOnly_System_String_System_String_" data-uid="NetEnhancements.Util.DateExtensions.WeekNumbersUntil(System.DateOnly,System.DateOnly,System.String,System.String)">
   WeekNumbersUntil(DateOnly, DateOnly, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/DateExtensions.cs/#L401"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a human-readable string representation of the number of calendar weeks between the first and last day.</p>
@@ -838,25 +1004,36 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>firstDay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>The first day of the period to calculate the week numbers for.</p>
+</dd>
     <dt><code>lastDay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>The last day of the period to calculate the week numbers for.</p>
+</dd>
     <dt><code>week</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The text to use for the word &quot;Week&quot; in the output string.</p>
+</dd>
     <dt><code>until</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The text to use for the word &quot;until&quot; in the output string.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A human-readable string representation of the number of calendar weeks between the first and last day.</p>
+</dd>
   </dl>
 
 
 
 
 
+
+  <h4 class="section" id="NetEnhancements_Util_DateExtensions_WeekNumbersUntil_System_DateOnly_System_DateOnly_System_String_System_String__examples">Examples</h4>
+  <pre><code class="lang-csharp">var firstDay = new DateOnly(2023, 3, 27);
+var lastDay = new DateOnly(2023, 4, 30);
+var weekNumbers = firstDay.WeekNumbersUntil(lastDay);
+Console.WriteLine($"Week numbers: {weekNumbers}"); // Output: Week 13 until 17 2023</code></pre>
 
 
 
