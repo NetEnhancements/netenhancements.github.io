@@ -124,7 +124,8 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/CollectionExtensions.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Generates all permutations of a given length from the specified list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -134,29 +135,60 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
-    <dd></dd>
+    <dd><p>The input list to generate permutations from.</p>
+</dd>
     <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The length of the permutations to generate.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;&gt;</dt>
-    <dd></dd>
+    <dd><p>An enumerable of permutations, where each permutation is an enumerable of the same type as the input list.</p>
+</dd>
   </dl>
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>The type of the elements in the list.</p>
+</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0__System_Int32__examples">Examples</h4>
+  <pre><code class="lang-csharp">List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3, 4 };
+IEnumerable&lt;IEnumerable&gt;&lt;int&gt;&gt; permutations = numbers.GetPermutations(2);
+foreach (IEnumerable&lt;int&gt; permutation in permutations)
+{
+    Console.WriteLine(string.Join(", ", permutation));
+}
+// Output:
+// 1, 2
+// 1, 3
+// 1, 4
+// 2, 1
+// 2, 3
+// 2, 4
+// 3, 1
+// 3, 2
+// 3, 4
+// 4, 1
+// 4, 2
+// 4, 3</code></pre>
 
 
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
+    <dd><p>Thrown when the length is greater than the number of elements in the list.</p>
+</dd>
+  </dl>
 
 
 
