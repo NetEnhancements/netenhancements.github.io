@@ -37,14 +37,16 @@
             <img id="logo" class="svg" src="../logo.svg" alt="">
             
           </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <form class="d-flex ms-auto" role="search" id="search">
-              <i class="bi bi-search"></i>
-              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
-            </form>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
           </div>
         </div>
       </nav>
@@ -82,8 +84,8 @@
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><span class="xref">NetEnhancements</span>.<a class="xref" href="NetEnhancements.Business.html">Business</a></dd></dl>
-    <dl><dt>Assembly</dt><dd>NetEnhancements.Business.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NetEnhancements.html">NetEnhancements</a>.<a class="xref" href="NetEnhancements.Business.html">Business</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NetEnhancements.Business.dll</dd></dl>
   </div>
 
   <div class="markdown summary"><p>A wrapper class for calls into the business layer, so controllers don't have to do their own error handling.</p>
@@ -158,40 +160,6 @@
 
   <a id="NetEnhancements_Business_BusinessResult_1__ctor_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor*"></a>
 
-  <h3 id="NetEnhancements_Business_BusinessResult_1__ctor__0_System_String_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)">
-  BusinessResult(T, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L87"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>A successful result with data.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BusinessResult(T data, string? statusMessage = null)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>data</code> <span class="xref">T</span></dt>
-    <dd></dd>
-    <dt><code>statusMessage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="NetEnhancements_Business_BusinessResult_1__ctor_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor*"></a>
-
   <h3 id="NetEnhancements_Business_BusinessResult_1__ctor_NetEnhancements_Business_BusinessResult_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor(NetEnhancements.Business.BusinessResult)">
   BusinessResult(BusinessResult)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L95"><i class="bi bi-code-slash"></i></a>
@@ -242,6 +210,40 @@
     <dt><code>notFound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
     <dt><code>otherError</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>statusMessage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Business_BusinessResult_1__ctor_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor*"></a>
+
+  <h3 id="NetEnhancements_Business_BusinessResult_1__ctor__0_System_String_" data-uid="NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)">
+  BusinessResult(T, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A successful result with data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BusinessResult(T data, string? statusMessage = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>data</code> <span class="xref">T</span></dt>
     <dd></dd>
     <dt><code>statusMessage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
@@ -450,8 +452,10 @@ When true, <a class="xref" href="NetEnhancements.Business.BusinessResult-1.html#
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Business_BusinessResult_1.md&amp;value=---%0Auid%3A%20NetEnhancements.Business.BusinessResult%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Business/BusinessResult.cs/#L70" class="edit-link">Edit this page</a>
         </div>
+
+        
       </div>
 
       <div class="affix">

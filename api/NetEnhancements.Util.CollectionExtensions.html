@@ -37,14 +37,16 @@
             <img id="logo" class="svg" src="../logo.svg" alt="">
             
           </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <form class="d-flex ms-auto" role="search" id="search">
-              <i class="bi bi-search"></i>
-              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
-            </form>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
           </div>
         </div>
       </nav>
@@ -82,8 +84,8 @@
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><span class="xref">NetEnhancements</span>.<a class="xref" href="NetEnhancements.Util.html">Util</a></dd></dl>
-    <dl><dt>Assembly</dt><dd>NetEnhancements.Util.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NetEnhancements.html">NetEnhancements</a>.<a class="xref" href="NetEnhancements.Util.html">Util</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NetEnhancements.Util.dll</dd></dl>
   </div>
 
   <div class="markdown summary"><p>Provides extension methods for collections.</p>
@@ -115,6 +117,66 @@
 
   <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="NetEnhancements_Util_CollectionExtensions_GetPermutations_" data-uid="NetEnhancements.Util.CollectionExtensions.GetPermutations*"></a>
+
+  <h3 id="NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0__" data-uid="NetEnhancements.Util.CollectionExtensions.GetPermutations``1(System.Collections.Generic.IReadOnlyCollection{``0})">
+  GetPermutations&lt;T&gt;(IReadOnlyCollection&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/CollectionExtensions.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generates all permutations from the specified list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IEnumerable&lt;T&gt;&gt; GetPermutations&lt;T&gt;(this IReadOnlyCollection&lt;T&gt; list)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
+    <dd><p>The input list to generate permutations from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;&gt;</dt>
+    <dd><p>An enumerable of permutations, where each permutation is an enumerable of the same type as the input list.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the list.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0___examples">Examples</h4>
+  <pre><code class="lang-csharp">List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3 };
+IEnumerable&lt;IEnumerable&lt;int&gt;&gt; permutations = numbers.GetPermutations();
+foreach (IEnumerable&lt;int&gt; permutation in permutations)
+{
+    Console.WriteLine(string.Join(", ", permutation));
+}
+// Output:
+// 1, 2, 3
+// 1, 3, 2
+// 2, 1, 3
+// 2, 3, 1
+// 3, 1, 2
+// 3, 2, 1</code></pre>
+
+
+
+
 
 
   <a id="NetEnhancements_Util_CollectionExtensions_GetPermutations_" data-uid="NetEnhancements.Util.CollectionExtensions.GetPermutations*"></a>
@@ -192,39 +254,42 @@ foreach (IEnumerable&lt;int&gt; permutation in permutations)
 
 
 
-  <a id="NetEnhancements_Util_CollectionExtensions_GetPermutations_" data-uid="NetEnhancements.Util.CollectionExtensions.GetPermutations*"></a>
+  <a id="NetEnhancements_Util_CollectionExtensions_In_" data-uid="NetEnhancements.Util.CollectionExtensions.In*"></a>
 
-  <h3 id="NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0__" data-uid="NetEnhancements.Util.CollectionExtensions.GetPermutations``1(System.Collections.Generic.IReadOnlyCollection{``0})">
-  GetPermutations&lt;T&gt;(IReadOnlyCollection&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/CollectionExtensions.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0__" data-uid="NetEnhancements.Util.CollectionExtensions.In``1(``0,System.Collections.Generic.IEnumerable{``0})">
+  In&lt;T&gt;(T?, IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/CollectionExtensions.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Generates all permutations from the specified list.</p>
+  <div class="markdown level1 summary"><p>Returns whether <code class="paramref">value</code> is in <code class="paramref">matchingValues</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IEnumerable&lt;T&gt;&gt; GetPermutations&lt;T&gt;(this IReadOnlyCollection&lt;T&gt; list)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool In&lt;T&gt;(this T? value, IEnumerable&lt;T&gt; matchingValues)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
-    <dd><p>The input list to generate permutations from.</p>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>The value to check if it is in the <code class="paramref">matchingValues</code> collection.</p>
+</dd>
+    <dt><code>matchingValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to check if <code class="paramref">value</code> is in it.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;&gt;</dt>
-    <dd><p>An enumerable of permutations, where each permutation is an enumerable of the same type as the input list.</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true if <code class="paramref">value</code> is in <code class="paramref">matchingValues</code>, false otherwise.</p>
 </dd>
   </dl>
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd><p>The type of the elements in the list.</p>
+    <dd><p>Type of the elements in the collection</p>
 </dd>
   </dl>
 
@@ -232,20 +297,11 @@ foreach (IEnumerable&lt;int&gt; permutation in permutations)
 
 
 
-  <h4 class="section" id="NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0___examples">Examples</h4>
-  <pre><code class="lang-csharp">List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3 };
-IEnumerable&lt;IEnumerable&lt;int&gt;&gt; permutations = numbers.GetPermutations();
-foreach (IEnumerable&lt;int&gt; permutation in permutations)
-{
-    Console.WriteLine(string.Join(", ", permutation));
-}
-// Output:
-// 1, 2, 3
-// 1, 3, 2
-// 2, 1, 3
-// 2, 3, 1
-// 3, 1, 2
-// 3, 2, 1</code></pre>
+  <h4 class="section" id="NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0___examples">Examples</h4>
+  <pre><code class="lang-csharp">string value = "cat";
+List&lt;string&gt; animals = new List&lt;string&gt; { "dog", "cat", "fish", "bird" };
+bool isInAnimals = value.In(animals);
+Console.WriteLine($"Is {value} in {string.Join(", ", animals)}? {isInAnimals}"); // Output: Is cat in dog, cat, fish, bird? True</code></pre>
 
 
 
@@ -307,35 +363,32 @@ Console.WriteLine($"Is {value} in 6, 7, 8, 9, 10? {isTen}"); // Output: Is 5 in 
 
 
 
-  <a id="NetEnhancements_Util_CollectionExtensions_In_" data-uid="NetEnhancements.Util.CollectionExtensions.In*"></a>
+  <a id="NetEnhancements_Util_CollectionExtensions_Random_" data-uid="NetEnhancements.Util.CollectionExtensions.Random*"></a>
 
-  <h3 id="NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0__" data-uid="NetEnhancements.Util.CollectionExtensions.In``1(``0,System.Collections.Generic.IEnumerable{``0})">
-  In&lt;T&gt;(T?, IEnumerable&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/CollectionExtensions.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_IReadOnlyCollection___0__" data-uid="NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.IReadOnlyCollection{``0})">
+  Random&lt;T&gt;(IReadOnlyCollection&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/CollectionExtensions.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns whether <code class="paramref">value</code> is in <code class="paramref">matchingValues</code>.</p>
+  <div class="markdown level1 summary"><p>Takes one random element from the collection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool In&lt;T&gt;(this T? value, IEnumerable&lt;T&gt; matchingValues)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Random&lt;T&gt;(this IReadOnlyCollection&lt;T&gt; collection)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>value</code> <span class="xref">T</span></dt>
-    <dd><p>The value to check if it is in the <code class="paramref">matchingValues</code> collection.</p>
-</dd>
-    <dt><code>matchingValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>The collection to check if <code class="paramref">value</code> is in it.</p>
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
+    <dd><p>The collection to pick an element from.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>true if <code class="paramref">value</code> is in <code class="paramref">matchingValues</code>, false otherwise.</p>
+    <dt><span class="xref">T</span></dt>
+    <dd><p>A random element from the collection.</p>
 </dd>
   </dl>
 
@@ -350,14 +403,19 @@ Console.WriteLine($"Is {value} in 6, 7, 8, 9, 10? {isTen}"); // Output: Is 5 in 
 
 
 
-  <h4 class="section" id="NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0___examples">Examples</h4>
-  <pre><code class="lang-csharp">string value = "cat";
-List&lt;string&gt; animals = new List&lt;string&gt; { "dog", "cat", "fish", "bird" };
-bool isInAnimals = value.In(animals);
-Console.WriteLine($"Is {value} in {string.Join(", ", animals)}? {isInAnimals}"); // Output: Is cat in dog, cat, fish, bird? True</code></pre>
+  <h4 class="section" id="NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_IReadOnlyCollection___0___examples">Examples</h4>
+  <pre><code class="lang-csharp">List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3, 4, 5 };
+int randomElement = numbers.Random();
+Console.WriteLine($"A random element from {string.Join(", ", numbers)} is {randomElement}.");</code></pre>
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown when the collection is null or empty.</p>
+</dd>
+  </dl>
 
 
 
@@ -408,62 +466,6 @@ Console.WriteLine($"Is {value} in {string.Join(", ", animals)}? {isInAnimals}");
   <pre><code class="lang-csharp">List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3, 4, 5 };
 Random random = new Random();
 int randomElement = numbers.Random(random);
-Console.WriteLine($"A random element from {string.Join(", ", numbers)} is {randomElement}.");</code></pre>
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
-    <dd><p>Thrown when the collection is null or empty.</p>
-</dd>
-  </dl>
-
-
-
-  <a id="NetEnhancements_Util_CollectionExtensions_Random_" data-uid="NetEnhancements.Util.CollectionExtensions.Random*"></a>
-
-  <h3 id="NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_IReadOnlyCollection___0__" data-uid="NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.IReadOnlyCollection{``0})">
-  Random&lt;T&gt;(IReadOnlyCollection&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/CollectionExtensions.cs/#L118"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Takes one random element from the collection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Random&lt;T&gt;(this IReadOnlyCollection&lt;T&gt; collection)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
-    <dd><p>The collection to pick an element from.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
-    <dd><p>A random element from the collection.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>Type of the elements in the collection</p>
-</dd>
-  </dl>
-
-
-
-
-
-  <h4 class="section" id="NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_IReadOnlyCollection___0___examples">Examples</h4>
-  <pre><code class="lang-csharp">List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3, 4, 5 };
-int randomElement = numbers.Random();
 Console.WriteLine($"A random element from {string.Join(", ", numbers)} is {randomElement}.");</code></pre>
 
 
@@ -544,8 +546,10 @@ nullList.ThrowIfNullOrEmpty("myList"); // Throws ArgumentException with message 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Util_CollectionExtensions.md&amp;value=---%0Auid%3A%20NetEnhancements.Util.CollectionExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/CollectionExtensions.cs/#L11" class="edit-link">Edit this page</a>
         </div>
+
+        
       </div>
 
       <div class="affix">

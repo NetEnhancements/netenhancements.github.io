@@ -37,14 +37,16 @@
             <img id="logo" class="svg" src="../logo.svg" alt="">
             
           </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <form class="d-flex ms-auto" role="search" id="search">
-              <i class="bi bi-search"></i>
-              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
-            </form>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
           </div>
         </div>
       </nav>
@@ -117,7 +119,7 @@
     <dl class="jumplist">
       <dt><a class="xref" href="NetEnhancements.Imaging.IImageProcessor.html">IImageProcessor</a></dt>
       <dd><p>Contains methods for image manipulation.</p>
-<p>TODO: move logic from <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">SaveResizedAsync(Stream, string, string, string, Resolution)</a> to here.</p>
+<p>TODO: move logic from <a class="xref" href="NetEnhancements.Imaging.DiskImageStore.html#NetEnhancements.Imaging.DiskImageStore.SaveResizedAsync(System.IO.Stream,System.String,System.String,System.String,NetEnhancements.Imaging.Resolution)">SaveResizedAsync(Stream, string, string, string, Resolution)</a> to here.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -131,6 +133,8 @@
 
         <div class="contribution d-print-none">
         </div>
+
+        
       </div>
 
       <div class="affix">
