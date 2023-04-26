@@ -713,10 +713,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.EntityFramework.TimestampedEntityAttribute.yml",
+      "source_relative_path": "api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetEnhancements.EntityFramework.TimestampedEntityAttribute.html"
+          "relative_path": "api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.html"
         }
       },
       "version": ""

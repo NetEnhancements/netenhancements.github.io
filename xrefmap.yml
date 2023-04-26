@@ -2537,12 +2537,44 @@ references:
   fullName.vb: NetEnhancements.EntityFramework.TimeOnlyConverter.New
   nameWithType: TimeOnlyConverter.TimeOnlyConverter
   nameWithType.vb: TimeOnlyConverter.New
-- uid: NetEnhancements.EntityFramework.TimestampedEntityAttribute
-  name: TimestampedEntityAttribute
-  href: api/NetEnhancements.EntityFramework.TimestampedEntityAttribute.html
-  commentId: T:NetEnhancements.EntityFramework.TimestampedEntityAttribute
-  fullName: NetEnhancements.EntityFramework.TimestampedEntityAttribute
-  nameWithType: TimestampedEntityAttribute
+- uid: NetEnhancements.EntityFramework.TimestampedEntityInterceptor
+  name: TimestampedEntityInterceptor
+  href: api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.html
+  commentId: T:NetEnhancements.EntityFramework.TimestampedEntityInterceptor
+  fullName: NetEnhancements.EntityFramework.TimestampedEntityInterceptor
+  nameWithType: TimestampedEntityInterceptor
+- uid: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChanges(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData,Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult{System.Int32})
+  name: SavingChanges(DbContextEventData, InterceptionResult<int>)
+  href: api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.html#NetEnhancements_EntityFramework_TimestampedEntityInterceptor_SavingChanges_Microsoft_EntityFrameworkCore_Diagnostics_DbContextEventData_Microsoft_EntityFrameworkCore_Diagnostics_InterceptionResult_System_Int32__
+  commentId: M:NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChanges(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData,Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult{System.Int32})
+  name.vb: SavingChanges(DbContextEventData, InterceptionResult(Of Integer))
+  fullName: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChanges(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData, Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult<int>)
+  fullName.vb: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChanges(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData, Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult(Of Integer))
+  nameWithType: TimestampedEntityInterceptor.SavingChanges(DbContextEventData, InterceptionResult<int>)
+  nameWithType.vb: TimestampedEntityInterceptor.SavingChanges(DbContextEventData, InterceptionResult(Of Integer))
+- uid: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChanges*
+  name: SavingChanges
+  href: api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.html#NetEnhancements_EntityFramework_TimestampedEntityInterceptor_SavingChanges_
+  commentId: Overload:NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChanges
+  isSpec: "True"
+  fullName: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChanges
+  nameWithType: TimestampedEntityInterceptor.SavingChanges
+- uid: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChangesAsync(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData,Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult{System.Int32},System.Threading.CancellationToken)
+  name: SavingChangesAsync(DbContextEventData, InterceptionResult<int>, CancellationToken)
+  href: api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.html#NetEnhancements_EntityFramework_TimestampedEntityInterceptor_SavingChangesAsync_Microsoft_EntityFrameworkCore_Diagnostics_DbContextEventData_Microsoft_EntityFrameworkCore_Diagnostics_InterceptionResult_System_Int32__System_Threading_CancellationToken_
+  commentId: M:NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChangesAsync(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData,Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult{System.Int32},System.Threading.CancellationToken)
+  name.vb: SavingChangesAsync(DbContextEventData, InterceptionResult(Of Integer), CancellationToken)
+  fullName: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChangesAsync(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData, Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult<int>, System.Threading.CancellationToken)
+  fullName.vb: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChangesAsync(Microsoft.EntityFrameworkCore.Diagnostics.DbContextEventData, Microsoft.EntityFrameworkCore.Diagnostics.InterceptionResult(Of Integer), System.Threading.CancellationToken)
+  nameWithType: TimestampedEntityInterceptor.SavingChangesAsync(DbContextEventData, InterceptionResult<int>, CancellationToken)
+  nameWithType.vb: TimestampedEntityInterceptor.SavingChangesAsync(DbContextEventData, InterceptionResult(Of Integer), CancellationToken)
+- uid: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChangesAsync*
+  name: SavingChangesAsync
+  href: api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.html#NetEnhancements_EntityFramework_TimestampedEntityInterceptor_SavingChangesAsync_
+  commentId: Overload:NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChangesAsync
+  isSpec: "True"
+  fullName: NetEnhancements.EntityFramework.TimestampedEntityInterceptor.SavingChangesAsync
+  nameWithType: TimestampedEntityInterceptor.SavingChangesAsync
 - uid: NetEnhancements.Identity
   name: NetEnhancements.Identity
   href: api/NetEnhancements.Identity.html
@@ -2844,38 +2876,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Identity.Data.IdentityDbContext.OnModelCreating
   nameWithType: IdentityDbContext.OnModelCreating
-- uid: NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges(System.Boolean)
-  name: SaveChanges(bool)
-  href: api/NetEnhancements.Identity.Data.IdentityDbContext.html#NetEnhancements_Identity_Data_IdentityDbContext_SaveChanges_System_Boolean_
-  commentId: M:NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges(System.Boolean)
-  name.vb: SaveChanges(Boolean)
-  fullName: NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges(bool)
-  fullName.vb: NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges(Boolean)
-  nameWithType: IdentityDbContext.SaveChanges(bool)
-  nameWithType.vb: IdentityDbContext.SaveChanges(Boolean)
-- uid: NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges*
-  name: SaveChanges
-  href: api/NetEnhancements.Identity.Data.IdentityDbContext.html#NetEnhancements_Identity_Data_IdentityDbContext_SaveChanges_
-  commentId: Overload:NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges
-  isSpec: "True"
-  fullName: NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges
-  nameWithType: IdentityDbContext.SaveChanges
-- uid: NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)
-  name: SaveChangesAsync(bool, CancellationToken)
-  href: api/NetEnhancements.Identity.Data.IdentityDbContext.html#NetEnhancements_Identity_Data_IdentityDbContext_SaveChangesAsync_System_Boolean_System_Threading_CancellationToken_
-  commentId: M:NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)
-  name.vb: SaveChangesAsync(Boolean, CancellationToken)
-  fullName: NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync(bool, System.Threading.CancellationToken)
-  fullName.vb: NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync(Boolean, System.Threading.CancellationToken)
-  nameWithType: IdentityDbContext.SaveChangesAsync(bool, CancellationToken)
-  nameWithType.vb: IdentityDbContext.SaveChangesAsync(Boolean, CancellationToken)
-- uid: NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync*
-  name: SaveChangesAsync
-  href: api/NetEnhancements.Identity.Data.IdentityDbContext.html#NetEnhancements_Identity_Data_IdentityDbContext_SaveChangesAsync_
-  commentId: Overload:NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync
-  isSpec: "True"
-  fullName: NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync
-  nameWithType: IdentityDbContext.SaveChangesAsync
 - uid: NetEnhancements.Identity.DependencyInjection
   name: DependencyInjection
   href: api/NetEnhancements.Identity.DependencyInjection.html
@@ -2911,6 +2911,19 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Identity.DependencyInjection.ConfigureAuthCookies
   nameWithType: DependencyInjection.ConfigureAuthCookies
+- uid: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.DependencyInjection.IMvcBuilder)
+  name: RemoveIdentityPrefix(IdentityBuilder, IMvcBuilder)
+  href: api/NetEnhancements.Identity.DependencyInjection.html#NetEnhancements_Identity_DependencyInjection_RemoveIdentityPrefix_Microsoft_AspNetCore_Identity_IdentityBuilder_Microsoft_Extensions_DependencyInjection_IMvcBuilder_
+  commentId: M:NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.DependencyInjection.IMvcBuilder)
+  fullName: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder, Microsoft.Extensions.DependencyInjection.IMvcBuilder)
+  nameWithType: DependencyInjection.RemoveIdentityPrefix(IdentityBuilder, IMvcBuilder)
+- uid: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix*
+  name: RemoveIdentityPrefix
+  href: api/NetEnhancements.Identity.DependencyInjection.html#NetEnhancements_Identity_DependencyInjection_RemoveIdentityPrefix_
+  commentId: Overload:NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix
+  isSpec: "True"
+  fullName: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix
+  nameWithType: DependencyInjection.RemoveIdentityPrefix
 - uid: NetEnhancements.Identity.Extensions
   name: NetEnhancements.Identity.Extensions
   href: api/NetEnhancements.Identity.Extensions.html

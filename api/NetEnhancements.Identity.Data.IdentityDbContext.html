@@ -80,12 +80,12 @@
 
   <h1 id="NetEnhancements_Identity_Data_IdentityDbContext" data-uid="NetEnhancements.Identity.Data.IdentityDbContext" class="text-break">
     Class IdentityDbContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity.Data/IdentityDbContext.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
     <dl><dt>Namespace</dt><dd><a class="xref" href="NetEnhancements.html">NetEnhancements</a>.<a class="xref" href="NetEnhancements.Identity.html">Identity</a>.<a class="xref" href="NetEnhancements.Identity.Data.html">Data</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>NetEnhancements.Identity.dll</dd></dl>
+  <dl><dt>Assembly</dt><dd>NetEnhancements.Identity.Data.dll</dd></dl>
   </div>
 
   <div class="markdown summary"><p>Base class for a DbContext to be used with NetEnhancements.Identity.</p>
@@ -170,7 +170,13 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges">DbContext.SaveChanges()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges(system-boolean)">DbContext.SaveChanges(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesasync#microsoft-entityframeworkcore-dbcontext-savechangesasync(system-threading-cancellationtoken)">DbContext.SaveChangesAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesasync#microsoft-entityframeworkcore-dbcontext-savechangesasync(system-boolean-system-threading-cancellationtoken)">DbContext.SaveChangesAsync(bool, CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.dispose">DbContext.Dispose()</a>
@@ -311,7 +317,7 @@
 
   <h3 id="NetEnhancements_Identity_Data_IdentityDbContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions)">
   IdentityDbContext(DbContextOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity.Data/IdentityDbContext.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the class.</p>
@@ -347,7 +353,7 @@
 
   <h3 id="NetEnhancements_Identity_Data_IdentityDbContext_IdentitySchema" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.IdentitySchema">
   IdentitySchema
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity.Data/IdentityDbContext.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Have Identity tables live in the Identity schema, e.g. [Identity].[Users].</p>
@@ -383,7 +389,7 @@
 
   <h3 id="NetEnhancements_Identity_Data_IdentityDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
   OnModelCreating(ModelBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity.Data/IdentityDbContext.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set up Identity tables.</p>
@@ -411,87 +417,11 @@
 
 
 
-  <a id="NetEnhancements_Identity_Data_IdentityDbContext_SaveChanges_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges*"></a>
-
-  <h3 id="NetEnhancements_Identity_Data_IdentityDbContext_SaveChanges_System_Boolean_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.SaveChanges(System.Boolean)">
-  SaveChanges(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L89"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>TODO: does not belong here</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int SaveChanges(bool acceptAllChangesOnSuccess)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>acceptAllChangesOnSuccess</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="NetEnhancements_Identity_Data_IdentityDbContext_SaveChangesAsync_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync*"></a>
-
-  <h3 id="NetEnhancements_Identity_Data_IdentityDbContext_SaveChangesAsync_System_Boolean_System_Threading_CancellationToken_" data-uid="NetEnhancements.Identity.Data.IdentityDbContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)">
-  SaveChangesAsync(bool, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L99"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>TODO: does not belong here</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task&lt;int&gt; SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>acceptAllChangesOnSuccess</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/Data/IdentityDbContext.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity.Data/IdentityDbContext.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
         
