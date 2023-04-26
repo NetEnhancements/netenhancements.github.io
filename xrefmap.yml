@@ -2911,12 +2911,12 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Identity.DependencyInjection.ConfigureAuthCookies
   nameWithType: DependencyInjection.ConfigureAuthCookies
-- uid: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.DependencyInjection.IMvcBuilder)
-  name: RemoveIdentityPrefix(IdentityBuilder, IMvcBuilder)
-  href: api/NetEnhancements.Identity.DependencyInjection.html#NetEnhancements_Identity_DependencyInjection_RemoveIdentityPrefix_Microsoft_AspNetCore_Identity_IdentityBuilder_Microsoft_Extensions_DependencyInjection_IMvcBuilder_
-  commentId: M:NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.DependencyInjection.IMvcBuilder)
-  fullName: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder, Microsoft.Extensions.DependencyInjection.IMvcBuilder)
-  nameWithType: DependencyInjection.RemoveIdentityPrefix(IdentityBuilder, IMvcBuilder)
+- uid: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder)
+  name: RemoveIdentityPrefix(IdentityBuilder)
+  href: api/NetEnhancements.Identity.DependencyInjection.html#NetEnhancements_Identity_DependencyInjection_RemoveIdentityPrefix_Microsoft_AspNetCore_Identity_IdentityBuilder_
+  commentId: M:NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder)
+  fullName: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder)
+  nameWithType: DependencyInjection.RemoveIdentityPrefix(IdentityBuilder)
 - uid: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix*
   name: RemoveIdentityPrefix
   href: api/NetEnhancements.Identity.DependencyInjection.html#NetEnhancements_Identity_DependencyInjection_RemoveIdentityPrefix_
@@ -2924,6 +2924,19 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix
   nameWithType: DependencyInjection.RemoveIdentityPrefix
+- uid: NetEnhancements.Identity.DependencyInjection.SaveKeysToDisk(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+  name: SaveKeysToDisk(IdentityBuilder, IConfiguration)
+  href: api/NetEnhancements.Identity.DependencyInjection.html#NetEnhancements_Identity_DependencyInjection_SaveKeysToDisk_Microsoft_AspNetCore_Identity_IdentityBuilder_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:NetEnhancements.Identity.DependencyInjection.SaveKeysToDisk(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: NetEnhancements.Identity.DependencyInjection.SaveKeysToDisk(Microsoft.AspNetCore.Identity.IdentityBuilder, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: DependencyInjection.SaveKeysToDisk(IdentityBuilder, IConfiguration)
+- uid: NetEnhancements.Identity.DependencyInjection.SaveKeysToDisk*
+  name: SaveKeysToDisk
+  href: api/NetEnhancements.Identity.DependencyInjection.html#NetEnhancements_Identity_DependencyInjection_SaveKeysToDisk_
+  commentId: Overload:NetEnhancements.Identity.DependencyInjection.SaveKeysToDisk
+  isSpec: "True"
+  fullName: NetEnhancements.Identity.DependencyInjection.SaveKeysToDisk
+  nameWithType: DependencyInjection.SaveKeysToDisk
 - uid: NetEnhancements.Identity.Extensions
   name: NetEnhancements.Identity.Extensions
   href: api/NetEnhancements.Identity.Extensions.html

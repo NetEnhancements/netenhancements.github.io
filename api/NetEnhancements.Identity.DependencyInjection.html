@@ -80,7 +80,7 @@
 
   <h1 id="NetEnhancements_Identity_DependencyInjection" data-uid="NetEnhancements.Identity.DependencyInjection" class="text-break">
     Class DependencyInjection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -123,7 +123,7 @@
 
   <h3 id="NetEnhancements_Identity_DependencyInjection_AddIdentityService__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="NetEnhancements.Identity.DependencyInjection.AddIdentityService``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
   AddIdentityService&lt;TDbContext&gt;(IServiceCollection)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Register ASP.NET Core Identity services.</p>
@@ -165,7 +165,7 @@
 
   <h3 id="NetEnhancements_Identity_DependencyInjection_ConfigureAuthCookies_Microsoft_AspNetCore_Identity_IdentityBuilder_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="NetEnhancements.Identity.DependencyInjection.ConfigureAuthCookies(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.Configuration.IConfiguration)">
   ConfigureAuthCookies(IdentityBuilder, IConfiguration)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Configure the Identity cookie names by removing the &quot;.AspNetCore&quot; part.</p>
@@ -202,9 +202,9 @@
 
   <a id="NetEnhancements_Identity_DependencyInjection_RemoveIdentityPrefix_" data-uid="NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix*"></a>
 
-  <h3 id="NetEnhancements_Identity_DependencyInjection_RemoveIdentityPrefix_Microsoft_AspNetCore_Identity_IdentityBuilder_Microsoft_Extensions_DependencyInjection_IMvcBuilder_" data-uid="NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.DependencyInjection.IMvcBuilder)">
-  RemoveIdentityPrefix(IdentityBuilder, IMvcBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_Identity_DependencyInjection_RemoveIdentityPrefix_Microsoft_AspNetCore_Identity_IdentityBuilder_" data-uid="NetEnhancements.Identity.DependencyInjection.RemoveIdentityPrefix(Microsoft.AspNetCore.Identity.IdentityBuilder)">
+  RemoveIdentityPrefix(IdentityBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Remove the &quot;/Identity&quot; prefix from the routes introduced by using the ASP.NET Core Identity Default UI. Call after <code>AddDefaultUI()</code>.</p>
@@ -212,14 +212,52 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IdentityBuilder RemoveIdentityPrefix(this IdentityBuilder builder, IMvcBuilder mvcBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IdentityBuilder RemoveIdentityPrefix(this IdentityBuilder builder)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>builder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identitybuilder">IdentityBuilder</a></dt>
     <dd></dd>
-    <dt><code>mvcBuilder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.imvcbuilder">IMvcBuilder</a></dt>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identitybuilder">IdentityBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Identity_DependencyInjection_SaveKeysToDisk_" data-uid="NetEnhancements.Identity.DependencyInjection.SaveKeysToDisk*"></a>
+
+  <h3 id="NetEnhancements_Identity_DependencyInjection_SaveKeysToDisk_Microsoft_AspNetCore_Identity_IdentityBuilder_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="NetEnhancements.Identity.DependencyInjection.SaveKeysToDisk(Microsoft.AspNetCore.Identity.IdentityBuilder,Microsoft.Extensions.Configuration.IConfiguration)">
+  SaveKeysToDisk(IdentityBuilder, IConfiguration)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save keys (used to encrypt cookies) to disk, to the path and using the given application name.</p>
+<p>Requires an Identity configuration section, with the keys ApplicationName and KeyFilePath.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IdentityBuilder SaveKeysToDisk(this IdentityBuilder builder, IConfiguration configuration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identitybuilder">IdentityBuilder</a></dt>
+    <dd></dd>
+    <dt><code>configuration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfiguration">IConfiguration</a></dt>
     <dd></dd>
   </dl>
 
@@ -243,7 +281,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L18" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Identity/DependencyInjection.cs/#L20" class="edit-link">Edit this page</a>
         </div>
 
         
