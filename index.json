@@ -67,7 +67,7 @@
   "api/NetEnhancements.AspNet.html": {
     "href": "api/NetEnhancements.AspNet.html",
     "title": "Namespace NetEnhancements.AspNet",
-    "keywords": "Namespace NetEnhancements.AspNet Classes HtmlHelperExtensions HttpContextExtensions MvcOptionsExtensions RouteModel An ASP.NET Core route. SelectListExtensions SessionExtensions SharedConstants SnakeCaseNamingPolicy ViewContextExtensions"
+    "keywords": "Namespace NetEnhancements.AspNet Tag helpers, routing conventions. Classes HtmlHelperExtensions HttpContextExtensions MvcOptionsExtensions RouteModel An ASP.NET Core route. SelectListExtensions SessionExtensions SharedConstants SnakeCaseNamingPolicy ViewContextExtensions"
   },
   "api/NetEnhancements.AspNet.HtmlHelperExtensions.html": {
     "href": "api/NetEnhancements.AspNet.HtmlHelperExtensions.html",
@@ -217,7 +217,7 @@
   "api/NetEnhancements.ClosedXML.html": {
     "href": "api/NetEnhancements.ClosedXML.html",
     "title": "Namespace NetEnhancements.ClosedXML",
-    "keywords": "Namespace NetEnhancements.ClosedXML Classes CellExtensions Extension method container. ColumnExtensions Extension method container. ExcelColumnDisabledAttribute Marks property as to not be included when writing to Excel. ExcelColumnNameAttribute Gives the property a custom column name when writing to Excel. ExcelGenerator Provides methods for generating Excel workbooks and datasets from collections of objects. RowParser<TRow> Parses an ClosedXML.Excel.IXLRow into the given TRow type. WorksheetExtensions Provides extension methods for working with Excel worksheets and workbooks."
+    "keywords": "Namespace NetEnhancements.ClosedXML Readers and writers for objects-to-OpenXML. Classes CellExtensions Extension method container. ColumnExtensions Extension method container. ExcelColumnDisabledAttribute Marks property as to not be included when writing to Excel. ExcelColumnNameAttribute Gives the property a custom column name when writing to Excel. ExcelGenerator Provides methods for generating Excel workbooks and datasets from collections of objects. RowParser<TRow> Parses an ClosedXML.Excel.IXLRow into the given TRow type. WorksheetExtensions Provides extension methods for working with Excel worksheets and workbooks."
   },
   "api/NetEnhancements.ClosedXML.RowParser-1.html": {
     "href": "api/NetEnhancements.ClosedXML.RowParser-1.html",
@@ -262,7 +262,7 @@
   "api/NetEnhancements.EntityFramework.html": {
     "href": "api/NetEnhancements.EntityFramework.html",
     "title": "Namespace NetEnhancements.EntityFramework",
-    "keywords": "Namespace NetEnhancements.EntityFramework Classes DateOnlyComparer Compares DateOnly. DateOnlyConverter Converts DateOnly to DateTime and vice versa. Entity Base entity with created/modified fields. EntityExtensions EntityNotFoundException An exception indicating an expected entity was not found. GuidIdEntity Base entity with a GUID as PK and created/modified fields. IntIdEntity Base entity with an int as PK and created/modified fields. ModelBuilderExtension From various posts at https://stackoverflow.com/questions/47673524/ef-core-soft-delete-with-shadow-properties-and-query-filters ModelConfigurationBuilderExtensions Entity Framework doesn't support DateOnly/TimeOnly natively. https://github.com/dotnet/efcore/issues/24507 https://github.com/dotnet/SqlClient/issues/1009 https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew#dateonlytimeonly-supported-on-sql-server (Soon) NullableDateOnlyComparer Compares Nullable<T>. NullableDateOnlyConverter Converts nullable DateOnly to nullable DateTime and vice versa. NullableTimeOnlyComparer Compares Nullable<T>. NullableTimeOnlyConverter Converts nullable TimeOnly to nullable TimeSpan and vice versa. SqlServerDbContextExtensions SQL Server extensions. TimeOnlyComparer Compares TimeOnly. TimeOnlyConverter Converts TimeOnly to nullable TimeSpan and vice versa. TimestampedEntityAttribute Entities annotated with this will have their Interfaces IGuidIdEntity Denotes an entity with a Guid Id. ITimestampedEntity Denotes an entity with a Created and Modified property."
+    "keywords": "Namespace NetEnhancements.EntityFramework Extensions for Entity Framework. Classes DateOnlyComparer Compares DateOnly. DateOnlyConverter Converts DateOnly to DateTime and vice versa. Entity Base entity with created/modified fields. EntityExtensions EntityNotFoundException An exception indicating an expected entity was not found. GuidIdEntity Base entity with a GUID as PK and created/modified fields. IntIdEntity Base entity with an int as PK and created/modified fields. ModelBuilderExtension From various posts at https://stackoverflow.com/questions/47673524/ef-core-soft-delete-with-shadow-properties-and-query-filters ModelConfigurationBuilderExtensions Entity Framework doesn't support DateOnly/TimeOnly natively. https://github.com/dotnet/efcore/issues/24507 https://github.com/dotnet/SqlClient/issues/1009 https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew#dateonlytimeonly-supported-on-sql-server (Soon) NullableDateOnlyComparer Compares Nullable<T>. NullableDateOnlyConverter Converts nullable DateOnly to nullable DateTime and vice versa. NullableTimeOnlyComparer Compares Nullable<T>. NullableTimeOnlyConverter Converts nullable TimeOnly to nullable TimeSpan and vice versa. SqlServerDbContextExtensions SQL Server extensions. TimeOnlyComparer Compares TimeOnly. TimeOnlyConverter Converts TimeOnly to nullable TimeSpan and vice versa. TimestampedEntityAttribute Entities annotated with this will have their Interfaces IGuidIdEntity Denotes an entity with a Guid Id. ITimestampedEntity Denotes an entity with a Created and Modified property."
   },
   "api/NetEnhancements.EntityFramework.IGuidIdEntity.html": {
     "href": "api/NetEnhancements.EntityFramework.IGuidIdEntity.html",
@@ -417,7 +417,7 @@
   "api/NetEnhancements.Identity.html": {
     "href": "api/NetEnhancements.Identity.html",
     "title": "Namespace NetEnhancements.Identity",
-    "keywords": "Namespace NetEnhancements.Identity Classes DependencyInjection Dependency Injection extensions container."
+    "keywords": "Namespace NetEnhancements.Identity A default implementation of ASP.NET Identity, with GUID PKs, extension methods to look up users, an Identity database schema and an ApplicationUserManager. Classes DependencyInjection Dependency Injection extensions container."
   },
   "api/NetEnhancements.Identity.Managers.ApplicationUserManager.html": {
     "href": "api/NetEnhancements.Identity.Managers.ApplicationUserManager.html",
@@ -447,7 +447,7 @@
   "api/NetEnhancements.Imaging.EntityFramework.html": {
     "href": "api/NetEnhancements.Imaging.EntityFramework.html",
     "title": "Namespace NetEnhancements.Imaging.EntityFramework",
-    "keywords": "Namespace NetEnhancements.Imaging.EntityFramework Classes Category CategoryBase Image Default class for storing image metadata. ImageBase<TCategory> Base class for storing image metadata. ImageCategory ImageCategoryBase Junction table: relation between images and categories. ModelBuilderExtensions"
+    "keywords": "Namespace NetEnhancements.Imaging.EntityFramework Store image metadata through Entity Framework. Classes Category CategoryBase Image Default class for storing image metadata. ImageBase<TCategory> Base class for storing image metadata. ImageCategory ImageCategoryBase Junction table: relation between images and categories. ModelBuilderExtensions"
   },
   "api/NetEnhancements.Imaging.EntityFramework.Image.html": {
     "href": "api/NetEnhancements.Imaging.EntityFramework.Image.html",
@@ -477,7 +477,7 @@
   "api/NetEnhancements.Imaging.html": {
     "href": "api/NetEnhancements.Imaging.html",
     "title": "Namespace NetEnhancements.Imaging",
-    "keywords": "Namespace NetEnhancements.Imaging Classes DependencyInjection Dependency Injection extensions container. ImageInfo Image characteristics ImagingBuilder Imaging-specific Dependency Injection Builder. Resolution Width and height of media. SizeCalculator Calculates image sizes. Interfaces IImageInspector Retrieve image information. IImageProcessor Contains methods for image manipulation. TODO: move logic from SaveResizedAsync(Stream, string, string, string, Resolution) to here. IImageStore Image storage abstraction layer."
+    "keywords": "Namespace NetEnhancements.Imaging Lets you inspect images and resize them. Classes DependencyInjection Dependency Injection extensions container. ImageInfo Image characteristics ImagingBuilder Imaging-specific Dependency Injection Builder. Resolution Width and height of media. SizeCalculator Calculates image sizes. Interfaces IImageInspector Retrieve image information. IImageProcessor Contains methods for image manipulation. TODO: move logic from SaveResizedAsync(Stream, string, string, string, Resolution) to here. IImageStore Image storage abstraction layer."
   },
   "api/NetEnhancements.Imaging.IImageInspector.html": {
     "href": "api/NetEnhancements.Imaging.IImageInspector.html",
@@ -527,7 +527,7 @@
   "api/NetEnhancements.Services.html": {
     "href": "api/NetEnhancements.Services.html",
     "title": "Namespace NetEnhancements.Services",
-    "keywords": "Namespace NetEnhancements.Services Classes ScheduledBackgroundService A BackgroundService that calls ExecuteScheduledTaskAsync(IServiceProvider, CancellationToken) based on the CronSchedule."
+    "keywords": "Namespace NetEnhancements.Services Background services. Classes ScheduledBackgroundService A BackgroundService that calls ExecuteScheduledTaskAsync(IServiceProvider, CancellationToken) based on the CronSchedule."
   },
   "api/NetEnhancements.Services.ScheduledBackgroundService.html": {
     "href": "api/NetEnhancements.Services.ScheduledBackgroundService.html",
@@ -617,7 +617,7 @@
   "api/NetEnhancements.Util.html": {
     "href": "api/NetEnhancements.Util.html",
     "title": "Namespace NetEnhancements.Util",
-    "keywords": "Namespace NetEnhancements.Util The Util namespace contains extension methods for value types 'n such. Classes AttributeValidator Wraps TryValidateObject(object, ValidationContext, ICollection<ValidationResult>, bool) into an easier-to-use method. CollectionExtensions Provides extension methods for collections. CultureInfoExtensions Provides extension methods for CultureInfo. DateExtensions Provides extension methods for DateTimeOffset, DateTime, DateOnly and TimeSpan objects. EnumExtensions Provides extension methods for enums. ExpressionExtensions Provides extension methods for expressions. NumericExtensions Provides extension methods for numeric types. RandomExtensions Provides extension methods for Random. StreamExtensions Provides extension methods for Streams. StringExtensions Provides extension methods for strings. VatNumberValidator Validator for VAT numbers."
+    "keywords": "Namespace NetEnhancements.Util Extension methods for built-in value types and collections, as well as JSON helpers and validation attributes. Classes AttributeValidator Wraps TryValidateObject(object, ValidationContext, ICollection<ValidationResult>, bool) into an easier-to-use method. CollectionExtensions Provides extension methods for collections. CultureInfoExtensions Provides extension methods for CultureInfo. DateExtensions Provides extension methods for DateTimeOffset, DateTime, DateOnly and TimeSpan objects. EnumExtensions Provides extension methods for enums. ExpressionExtensions Provides extension methods for expressions. NumericExtensions Provides extension methods for numeric types. RandomExtensions Provides extension methods for Random. StreamExtensions Provides extension methods for Streams. StringExtensions Provides extension methods for strings. VatNumberValidator Validator for VAT numbers."
   },
   "api/NetEnhancements.Util.Json.DateOnlyConverter.html": {
     "href": "api/NetEnhancements.Util.Json.DateOnlyConverter.html",
