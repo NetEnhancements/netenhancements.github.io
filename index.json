@@ -177,7 +177,7 @@
   "api/NetEnhancements.Business.html": {
     "href": "api/NetEnhancements.Business.html",
     "title": "Namespace NetEnhancements.Business",
-    "keywords": "Namespace NetEnhancements.Business Classes BusinessResult A wrapper class for calls into the business layer, so controllers don't have to do their own error handling. BusinessResultToStatusCodeExtensions BusinessResult<T> A wrapper class for calls into the business layer, so controllers don't have to do their own error handling. Contains data when successful."
+    "keywords": "Namespace NetEnhancements.Business Brings Shared, EntityFramework and AspNet together. Classes BusinessResult A wrapper class for calls into the business layer, so controllers don't have to do their own error handling. BusinessResultToStatusCodeExtensions BusinessResult<T> A wrapper class for calls into the business layer, so controllers don't have to do their own error handling. Contains data when successful."
   },
   "api/NetEnhancements.Business.Managers.html": {
     "href": "api/NetEnhancements.Business.Managers.html",
