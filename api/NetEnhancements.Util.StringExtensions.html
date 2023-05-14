@@ -9,25 +9,28 @@
  ">
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
+      
+      
       <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Util_StringExtensions.md&amp;value=---%0Auid%3A%20NetEnhancements.Util.StringExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
 
-      <script>
-        MathJax = {
+      <script type="module">
+        import docfx from './../public/main.js'
+        window.docfx = docfx
+        window.MathJax = {
           options: {
             processHtmlClass: ['tex2jax_process', 'math']
           }
-        };
+        }
       </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      <script type="text/javascript" src="../public/docfx.min.js"></script>
   </head>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -123,7 +126,7 @@
 
   <h3 id="NetEnhancements_Util_StringExtensions_FromHexString_System_String_" data-uid="NetEnhancements.Util.StringExtensions.FromHexString(System.String)">
   FromHexString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Given a hexadecimal string, returns the UTF-16 string the bytes therein represent.</p>
@@ -137,13 +140,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The hexadecimal string to convert.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A UTF-16 string that represents the bytes represented by the input hexadecimal string.</p>
+</dd>
   </dl>
 
 
@@ -160,7 +165,7 @@
 
   <h3 id="NetEnhancements_Util_StringExtensions_IsDevelopmentOrDocker_System_String_" data-uid="NetEnhancements.Util.StringExtensions.IsDevelopmentOrDocker(System.String)">
   IsDevelopmentOrDocker(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns <code>true</code> for <see cref="!:Microsoft.Extensions.Hosting.IHostEnvironment.EnvironmentName"></see> strings like &quot;Development&quot;, &quot;Docker&quot;, &quot;Development.Docker&quot;, but not for &quot;Docker.Production&quot;.</p>
@@ -197,10 +202,10 @@
 
   <h3 id="NetEnhancements_Util_StringExtensions_RemoveEnd_System_String_System_String_System_StringComparison_" data-uid="NetEnhancements.Util.StringExtensions.RemoveEnd(System.String,System.String,System.StringComparison)">
   RemoveEnd(string, string, StringComparison)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Removes the given <code class="paramref">suffix</code> if the <code class="paramref">input</code> ends with that string.</p>
+  <div class="markdown level1 summary"><p>Removes the given suffix from the end of the input string, if it exists.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -211,17 +216,21 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The input string.</p>
+</dd>
     <dt><code>suffix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The suffix to remove from the input string.</p>
+</dd>
     <dt><code>comparisonType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.stringcomparison">StringComparison</a></dt>
-    <dd></dd>
+    <dd><p>The string comparison type to use. The default is InvariantCulture.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The input string with the suffix removed if it exists, otherwise the original input string.</p>
+</dd>
   </dl>
 
 
@@ -238,7 +247,7 @@
 
   <h3 id="NetEnhancements_Util_StringExtensions_ToBytes_System_String_" data-uid="NetEnhancements.Util.StringExtensions.ToBytes(System.String)">
   ToBytes(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Given a hexadecimal string, returns the bytes that string represents.</p>
@@ -252,13 +261,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The hexadecimal string to convert.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
-    <dd></dd>
+    <dd><p>An array of bytes that represent the input hexadecimal string.</p>
+</dd>
   </dl>
 
 
@@ -268,6 +279,12 @@
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
+    <dd><p>When the length of the input string is odd.</p>
+</dd>
+  </dl>
 
 
 
@@ -275,7 +292,7 @@
 
   <h3 id="NetEnhancements_Util_StringExtensions_ToHexString_System_Byte___" data-uid="NetEnhancements.Util.StringExtensions.ToHexString(System.Byte[])">
   ToHexString(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the hexadecimal representation of the input bytes.</p>
@@ -289,13 +306,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
-    <dd></dd>
+    <dd><p>The input bytes to convert.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A hexadecimal string that represents the input bytes.</p>
+</dd>
   </dl>
 
 
@@ -312,7 +331,7 @@
 
   <h3 id="NetEnhancements_Util_StringExtensions_ToHexString_System_String_" data-uid="NetEnhancements.Util.StringExtensions.ToHexString(System.String)">
   ToHexString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the hexadecimal representation of the input string in UTF-16 bytes.</p>
@@ -326,13 +345,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The input string to convert.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A hexadecimal string that represents the UTF-16 bytes of the input string.</p>
+</dd>
   </dl>
 
 
@@ -349,10 +370,10 @@
 
   <h3 id="NetEnhancements_Util_StringExtensions_ToSnakeCase_System_String_" data-uid="NetEnhancements.Util.StringExtensions.ToSnakeCase(System.String)">
   ToSnakeCase(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>to_snake_case</p>
+  <div class="markdown level1 summary"><p>Converts the given string to_snake_case.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -363,13 +384,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The string to convert.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A new string in snake case format.</p>
+</dd>
   </dl>
 
 
@@ -386,7 +409,7 @@
 
   <h3 id="NetEnhancements_Util_StringExtensions_Truncate_System_String_System_Int32_" data-uid="NetEnhancements.Util.StringExtensions.Truncate(System.String,System.Int32)">
   Truncate(string?, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/StringExtensions.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the original string, or truncates it to <code class="paramref">maxLength</code> if it's longer than that.</p>
@@ -400,15 +423,18 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The string to truncate, or <code>null</code>.</p>
+</dd>
     <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The maximum length of the string.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The original string if its length is less than or equal to <code class="paramref">maxLength</code>, or a truncated version of the string if its length is greater than <code class="paramref">maxLength</code>.</p>
+</dd>
   </dl>
 
 
@@ -421,7 +447,7 @@
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
-    <dd><p>When the length is less than 0.</p>
+    <dd><p>Thrown when the <code class="paramref">maxLength</code> is less than 0.</p>
 </dd>
   </dl>
 
