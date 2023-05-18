@@ -4683,6 +4683,25 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter
   nameWithType: EmptyStringToNullNumberConverterFactory.CreateConverter
+- uid: NetEnhancements.Util.Json.JsonSerializerOptionsExtensions
+  name: JsonSerializerOptionsExtensions
+  href: api/NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.html
+  commentId: T:NetEnhancements.Util.Json.JsonSerializerOptionsExtensions
+  fullName: NetEnhancements.Util.Json.JsonSerializerOptionsExtensions
+  nameWithType: JsonSerializerOptionsExtensions
+- uid: NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.WithShouldSerializeModifier(System.Text.Json.JsonSerializerOptions)
+  name: WithShouldSerializeModifier(JsonSerializerOptions)
+  href: api/NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.html#NetEnhancements_Util_Json_JsonSerializerOptionsExtensions_WithShouldSerializeModifier_System_Text_Json_JsonSerializerOptions_
+  commentId: M:NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.WithShouldSerializeModifier(System.Text.Json.JsonSerializerOptions)
+  fullName: NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.WithShouldSerializeModifier(System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonSerializerOptionsExtensions.WithShouldSerializeModifier(JsonSerializerOptions)
+- uid: NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.WithShouldSerializeModifier*
+  name: WithShouldSerializeModifier
+  href: api/NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.html#NetEnhancements_Util_Json_JsonSerializerOptionsExtensions_WithShouldSerializeModifier_
+  commentId: Overload:NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.WithShouldSerializeModifier
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.WithShouldSerializeModifier
+  nameWithType: JsonSerializerOptionsExtensions.WithShouldSerializeModifier
 - uid: NetEnhancements.Util.Json.ParsingConverter`1
   name: ParsingConverter<T>
   href: api/NetEnhancements.Util.Json.ParsingConverter-1.html

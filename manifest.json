@@ -1263,6 +1263,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.Util.Json.ParsingConverter-1.yml",
       "output": {
         ".html": {
