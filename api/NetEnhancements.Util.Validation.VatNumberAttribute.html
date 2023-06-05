@@ -354,7 +354,8 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/Validation/VatNumberAttribute.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Validates the specified value with respect to the current validation attribute.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -364,15 +365,18 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>The value to validate.</p>
+</dd>
     <dt><code>validationContext</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationcontext">ValidationContext</a></dt>
-    <dd></dd>
+    <dd><p>The context information about the validation operation.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationresult">ValidationResult</a></dt>
-    <dd></dd>
+    <dd><p>An instance of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationresult">ValidationResult</a> class.</p>
+</dd>
   </dl>
 
 
@@ -382,6 +386,15 @@
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>The current attribute is malformed.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.notimplementedexception">NotImplementedException</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.isvalid#system-componentmodel-dataannotations-validationattribute-isvalid(system-object-system-componentmodel-dataannotations-validationcontext)">IsValid(object, ValidationContext)</a> has not been implemented by a derived class.</p>
+</dd>
+  </dl>
 
 
 

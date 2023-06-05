@@ -1393,6 +1393,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.Week.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.Week.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.Util.yml",
       "output": {
         ".html": {

@@ -4365,6 +4365,22 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.DateExtensions.IsBetweenTwoDates
   nameWithType: DateExtensions.IsBetweenTwoDates
+- uid: NetEnhancements.Util.DateExtensions.Next(System.DateOnly,System.DayOfWeek,System.Boolean)
+  name: Next(DateOnly, DayOfWeek, bool)
+  href: api/NetEnhancements.Util.DateExtensions.html#NetEnhancements_Util_DateExtensions_Next_System_DateOnly_System_DayOfWeek_System_Boolean_
+  commentId: M:NetEnhancements.Util.DateExtensions.Next(System.DateOnly,System.DayOfWeek,System.Boolean)
+  name.vb: Next(DateOnly, DayOfWeek, Boolean)
+  fullName: NetEnhancements.Util.DateExtensions.Next(System.DateOnly, System.DayOfWeek, bool)
+  fullName.vb: NetEnhancements.Util.DateExtensions.Next(System.DateOnly, System.DayOfWeek, Boolean)
+  nameWithType: DateExtensions.Next(DateOnly, DayOfWeek, bool)
+  nameWithType.vb: DateExtensions.Next(DateOnly, DayOfWeek, Boolean)
+- uid: NetEnhancements.Util.DateExtensions.Next*
+  name: Next
+  href: api/NetEnhancements.Util.DateExtensions.html#NetEnhancements_Util_DateExtensions_Next_
+  commentId: Overload:NetEnhancements.Util.DateExtensions.Next
+  isSpec: "True"
+  fullName: NetEnhancements.Util.DateExtensions.Next
+  nameWithType: DateExtensions.Next
 - uid: NetEnhancements.Util.DateExtensions.RoundToNearest(System.DateTime,System.TimeSpan)
   name: RoundToNearest(DateTime, TimeSpan)
   href: api/NetEnhancements.Util.DateExtensions.html#NetEnhancements_Util_DateExtensions_RoundToNearest_System_DateTime_System_TimeSpan_
@@ -5325,3 +5341,80 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.VatNumberValidator.Validate
   nameWithType: VatNumberValidator.Validate
+- uid: NetEnhancements.Util.Week
+  name: Week
+  href: api/NetEnhancements.Util.Week.html
+  commentId: T:NetEnhancements.Util.Week
+  fullName: NetEnhancements.Util.Week
+  nameWithType: Week
+- uid: NetEnhancements.Util.Week.#ctor(System.DateOnly,System.DateOnly)
+  name: Week(DateOnly, DateOnly)
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week__ctor_System_DateOnly_System_DateOnly_
+  commentId: M:NetEnhancements.Util.Week.#ctor(System.DateOnly,System.DateOnly)
+  name.vb: New(DateOnly, DateOnly)
+  fullName: NetEnhancements.Util.Week.Week(System.DateOnly, System.DateOnly)
+  fullName.vb: NetEnhancements.Util.Week.New(System.DateOnly, System.DateOnly)
+  nameWithType: Week.Week(DateOnly, DateOnly)
+  nameWithType.vb: Week.New(DateOnly, DateOnly)
+- uid: NetEnhancements.Util.Week.#ctor*
+  name: Week
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week__ctor_
+  commentId: Overload:NetEnhancements.Util.Week.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetEnhancements.Util.Week.Week
+  fullName.vb: NetEnhancements.Util.Week.New
+  nameWithType: Week.Week
+  nameWithType.vb: Week.New
+- uid: NetEnhancements.Util.Week.End
+  name: End
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week_End
+  commentId: P:NetEnhancements.Util.Week.End
+  fullName: NetEnhancements.Util.Week.End
+  nameWithType: Week.End
+- uid: NetEnhancements.Util.Week.End*
+  name: End
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week_End_
+  commentId: Overload:NetEnhancements.Util.Week.End
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Week.End
+  nameWithType: Week.End
+- uid: NetEnhancements.Util.Week.GetBetween(System.DateOnly,System.DateOnly,System.DayOfWeek)
+  name: GetBetween(DateOnly, DateOnly, DayOfWeek)
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week_GetBetween_System_DateOnly_System_DateOnly_System_DayOfWeek_
+  commentId: M:NetEnhancements.Util.Week.GetBetween(System.DateOnly,System.DateOnly,System.DayOfWeek)
+  fullName: NetEnhancements.Util.Week.GetBetween(System.DateOnly, System.DateOnly, System.DayOfWeek)
+  nameWithType: Week.GetBetween(DateOnly, DateOnly, DayOfWeek)
+- uid: NetEnhancements.Util.Week.GetBetween*
+  name: GetBetween
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week_GetBetween_
+  commentId: Overload:NetEnhancements.Util.Week.GetBetween
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Week.GetBetween
+  nameWithType: Week.GetBetween
+- uid: NetEnhancements.Util.Week.Number
+  name: Number
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week_Number
+  commentId: P:NetEnhancements.Util.Week.Number
+  fullName: NetEnhancements.Util.Week.Number
+  nameWithType: Week.Number
+- uid: NetEnhancements.Util.Week.Number*
+  name: Number
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week_Number_
+  commentId: Overload:NetEnhancements.Util.Week.Number
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Week.Number
+  nameWithType: Week.Number
+- uid: NetEnhancements.Util.Week.Start
+  name: Start
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week_Start
+  commentId: P:NetEnhancements.Util.Week.Start
+  fullName: NetEnhancements.Util.Week.Start
+  nameWithType: Week.Start
+- uid: NetEnhancements.Util.Week.Start*
+  name: Start
+  href: api/NetEnhancements.Util.Week.html#NetEnhancements_Util_Week_Start_
+  commentId: Overload:NetEnhancements.Util.Week.Start
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Week.Start
+  nameWithType: Week.Start
