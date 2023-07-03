@@ -129,7 +129,7 @@
 
   <h3 id="NetEnhancements_Imaging_IImageStore_DeleteAsync_System_String_System_String_System_String_System_Collections_Generic_ICollection_NetEnhancements_Imaging_Resolution__System_Boolean_" data-uid="NetEnhancements.Imaging.IImageStore.DeleteAsync(System.String,System.String,System.String,System.Collections.Generic.ICollection{NetEnhancements.Imaging.Resolution},System.Boolean)">
   DeleteAsync(string, string, string, ICollection&lt;Resolution&gt;?, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageStore.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageStore.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deletes an original image, and the specified resized ones (<code class="paramref">sizesToRemove</code>). When <code class="paramref">moveToTrash</code> is <code>true</code>, the original will be moved to a location from where it can be (manually) restored.</p>
@@ -213,19 +213,19 @@
 
 
 
-  <a id="NetEnhancements_Imaging_IImageStore_SaveOriginalAsync_" data-uid="NetEnhancements.Imaging.IImageStore.SaveOriginalAsync*"></a>
+  <a id="NetEnhancements_Imaging_IImageStore_SaveImageAsync_" data-uid="NetEnhancements.Imaging.IImageStore.SaveImageAsync*"></a>
 
-  <h3 id="NetEnhancements_Imaging_IImageStore_SaveOriginalAsync_System_IO_Stream_System_String_System_String_System_String_" data-uid="NetEnhancements.Imaging.IImageStore.SaveOriginalAsync(System.IO.Stream,System.String,System.String,System.String)">
-  SaveOriginalAsync(Stream, string, string, string)
+  <h3 id="NetEnhancements_Imaging_IImageStore_SaveImageAsync_System_IO_Stream_System_String_System_String_System_String_" data-uid="NetEnhancements.Imaging.IImageStore.SaveImageAsync(System.IO.Stream,System.String,System.String,System.String)">
+  SaveImageAsync(Stream, string, string, string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageStore.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Saves the original version of an image.</p>
+  <div class="markdown level1 summary"><p>Saves an image to storage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task SaveOriginalAsync(Stream imageStream, string locationIdentifier, string imageIdentifier, string extension)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;ImageInfo&gt; SaveImageAsync(Stream imageStream, string locationIdentifier, string imageIdentifier, string extension)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -242,52 +242,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="NetEnhancements_Imaging_IImageStore_SaveResizedAsync_" data-uid="NetEnhancements.Imaging.IImageStore.SaveResizedAsync*"></a>
-
-  <h3 id="NetEnhancements_Imaging_IImageStore_SaveResizedAsync_System_IO_Stream_System_String_System_String_System_String_NetEnhancements_Imaging_Resolution_" data-uid="NetEnhancements.Imaging.IImageStore.SaveResizedAsync(System.IO.Stream,System.String,System.String,System.String,NetEnhancements.Imaging.Resolution)">
-  SaveResizedAsync(Stream, string, string, string, Resolution)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageStore.cs/#L21"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Saves resized version of an original image.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task SaveResizedAsync(Stream imageStream, string locationIdentifier, string imageIdentifier, string extension, Resolution resolution)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>imageStream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
-    <dd></dd>
-    <dt><code>locationIdentifier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>imageIdentifier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>extension</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>resolution</code> <a class="xref" href="NetEnhancements.Imaging.Resolution.html">Resolution</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="NetEnhancements.Imaging.ImageInfo.html">ImageInfo</a>&gt;</dt>
     <dd></dd>
   </dl>
 

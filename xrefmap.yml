@@ -3262,6 +3262,23 @@ references:
   fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).ContentType
   nameWithType: ImageBase<TCategory>.ContentType
   nameWithType.vb: ImageBase(Of TCategory).ContentType
+- uid: NetEnhancements.Imaging.EntityFramework.ImageBase`1.FileSize
+  name: FileSize
+  href: api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html#NetEnhancements_Imaging_EntityFramework_ImageBase_1_FileSize
+  commentId: P:NetEnhancements.Imaging.EntityFramework.ImageBase`1.FileSize
+  fullName: NetEnhancements.Imaging.EntityFramework.ImageBase<TCategory>.FileSize
+  fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).FileSize
+  nameWithType: ImageBase<TCategory>.FileSize
+  nameWithType.vb: ImageBase(Of TCategory).FileSize
+- uid: NetEnhancements.Imaging.EntityFramework.ImageBase`1.FileSize*
+  name: FileSize
+  href: api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html#NetEnhancements_Imaging_EntityFramework_ImageBase_1_FileSize_
+  commentId: Overload:NetEnhancements.Imaging.EntityFramework.ImageBase`1.FileSize
+  isSpec: "True"
+  fullName: NetEnhancements.Imaging.EntityFramework.ImageBase<TCategory>.FileSize
+  fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).FileSize
+  nameWithType: ImageBase<TCategory>.FileSize
+  nameWithType.vb: ImageBase(Of TCategory).FileSize
 - uid: NetEnhancements.Imaging.EntityFramework.ImageBase`1.Name
   name: Name
   href: api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html#NetEnhancements_Imaging_EntityFramework_ImageBase_1_Name
@@ -3409,6 +3426,19 @@ references:
   commentId: T:NetEnhancements.Imaging.IImageProcessor
   fullName: NetEnhancements.Imaging.IImageProcessor
   nameWithType: IImageProcessor
+- uid: NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream,NetEnhancements.Imaging.Resolution)
+  name: ResizeAsync(Stream, Resolution)
+  href: api/NetEnhancements.Imaging.IImageProcessor.html#NetEnhancements_Imaging_IImageProcessor_ResizeAsync_System_IO_Stream_NetEnhancements_Imaging_Resolution_
+  commentId: M:NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream,NetEnhancements.Imaging.Resolution)
+  fullName: NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream, NetEnhancements.Imaging.Resolution)
+  nameWithType: IImageProcessor.ResizeAsync(Stream, Resolution)
+- uid: NetEnhancements.Imaging.IImageProcessor.ResizeAsync*
+  name: ResizeAsync
+  href: api/NetEnhancements.Imaging.IImageProcessor.html#NetEnhancements_Imaging_IImageProcessor_ResizeAsync_
+  commentId: Overload:NetEnhancements.Imaging.IImageProcessor.ResizeAsync
+  isSpec: "True"
+  fullName: NetEnhancements.Imaging.IImageProcessor.ResizeAsync
+  nameWithType: IImageProcessor.ResizeAsync
 - uid: NetEnhancements.Imaging.IImageStore
   name: IImageStore
   href: api/NetEnhancements.Imaging.IImageStore.html
@@ -3447,53 +3477,37 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Imaging.IImageStore.OpenStreamAsync
   nameWithType: IImageStore.OpenStreamAsync
-- uid: NetEnhancements.Imaging.IImageStore.SaveOriginalAsync(System.IO.Stream,System.String,System.String,System.String)
-  name: SaveOriginalAsync(Stream, string, string, string)
-  href: api/NetEnhancements.Imaging.IImageStore.html#NetEnhancements_Imaging_IImageStore_SaveOriginalAsync_System_IO_Stream_System_String_System_String_System_String_
-  commentId: M:NetEnhancements.Imaging.IImageStore.SaveOriginalAsync(System.IO.Stream,System.String,System.String,System.String)
-  name.vb: SaveOriginalAsync(Stream, String, String, String)
-  fullName: NetEnhancements.Imaging.IImageStore.SaveOriginalAsync(System.IO.Stream, string, string, string)
-  fullName.vb: NetEnhancements.Imaging.IImageStore.SaveOriginalAsync(System.IO.Stream, String, String, String)
-  nameWithType: IImageStore.SaveOriginalAsync(Stream, string, string, string)
-  nameWithType.vb: IImageStore.SaveOriginalAsync(Stream, String, String, String)
-- uid: NetEnhancements.Imaging.IImageStore.SaveOriginalAsync*
-  name: SaveOriginalAsync
-  href: api/NetEnhancements.Imaging.IImageStore.html#NetEnhancements_Imaging_IImageStore_SaveOriginalAsync_
-  commentId: Overload:NetEnhancements.Imaging.IImageStore.SaveOriginalAsync
+- uid: NetEnhancements.Imaging.IImageStore.SaveImageAsync(System.IO.Stream,System.String,System.String,System.String)
+  name: SaveImageAsync(Stream, string, string, string)
+  href: api/NetEnhancements.Imaging.IImageStore.html#NetEnhancements_Imaging_IImageStore_SaveImageAsync_System_IO_Stream_System_String_System_String_System_String_
+  commentId: M:NetEnhancements.Imaging.IImageStore.SaveImageAsync(System.IO.Stream,System.String,System.String,System.String)
+  name.vb: SaveImageAsync(Stream, String, String, String)
+  fullName: NetEnhancements.Imaging.IImageStore.SaveImageAsync(System.IO.Stream, string, string, string)
+  fullName.vb: NetEnhancements.Imaging.IImageStore.SaveImageAsync(System.IO.Stream, String, String, String)
+  nameWithType: IImageStore.SaveImageAsync(Stream, string, string, string)
+  nameWithType.vb: IImageStore.SaveImageAsync(Stream, String, String, String)
+- uid: NetEnhancements.Imaging.IImageStore.SaveImageAsync*
+  name: SaveImageAsync
+  href: api/NetEnhancements.Imaging.IImageStore.html#NetEnhancements_Imaging_IImageStore_SaveImageAsync_
+  commentId: Overload:NetEnhancements.Imaging.IImageStore.SaveImageAsync
   isSpec: "True"
-  fullName: NetEnhancements.Imaging.IImageStore.SaveOriginalAsync
-  nameWithType: IImageStore.SaveOriginalAsync
-- uid: NetEnhancements.Imaging.IImageStore.SaveResizedAsync(System.IO.Stream,System.String,System.String,System.String,NetEnhancements.Imaging.Resolution)
-  name: SaveResizedAsync(Stream, string, string, string, Resolution)
-  href: api/NetEnhancements.Imaging.IImageStore.html#NetEnhancements_Imaging_IImageStore_SaveResizedAsync_System_IO_Stream_System_String_System_String_System_String_NetEnhancements_Imaging_Resolution_
-  commentId: M:NetEnhancements.Imaging.IImageStore.SaveResizedAsync(System.IO.Stream,System.String,System.String,System.String,NetEnhancements.Imaging.Resolution)
-  name.vb: SaveResizedAsync(Stream, String, String, String, Resolution)
-  fullName: NetEnhancements.Imaging.IImageStore.SaveResizedAsync(System.IO.Stream, string, string, string, NetEnhancements.Imaging.Resolution)
-  fullName.vb: NetEnhancements.Imaging.IImageStore.SaveResizedAsync(System.IO.Stream, String, String, String, NetEnhancements.Imaging.Resolution)
-  nameWithType: IImageStore.SaveResizedAsync(Stream, string, string, string, Resolution)
-  nameWithType.vb: IImageStore.SaveResizedAsync(Stream, String, String, String, Resolution)
-- uid: NetEnhancements.Imaging.IImageStore.SaveResizedAsync*
-  name: SaveResizedAsync
-  href: api/NetEnhancements.Imaging.IImageStore.html#NetEnhancements_Imaging_IImageStore_SaveResizedAsync_
-  commentId: Overload:NetEnhancements.Imaging.IImageStore.SaveResizedAsync
-  isSpec: "True"
-  fullName: NetEnhancements.Imaging.IImageStore.SaveResizedAsync
-  nameWithType: IImageStore.SaveResizedAsync
+  fullName: NetEnhancements.Imaging.IImageStore.SaveImageAsync
+  nameWithType: IImageStore.SaveImageAsync
 - uid: NetEnhancements.Imaging.ImageInfo
   name: ImageInfo
   href: api/NetEnhancements.Imaging.ImageInfo.html
   commentId: T:NetEnhancements.Imaging.ImageInfo
   fullName: NetEnhancements.Imaging.ImageInfo
   nameWithType: ImageInfo
-- uid: NetEnhancements.Imaging.ImageInfo.#ctor(System.String,System.Int32,System.Int32)
-  name: ImageInfo(string, int, int)
-  href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo__ctor_System_String_System_Int32_System_Int32_
-  commentId: M:NetEnhancements.Imaging.ImageInfo.#ctor(System.String,System.Int32,System.Int32)
-  name.vb: New(String, Integer, Integer)
-  fullName: NetEnhancements.Imaging.ImageInfo.ImageInfo(string, int, int)
-  fullName.vb: NetEnhancements.Imaging.ImageInfo.New(String, Integer, Integer)
-  nameWithType: ImageInfo.ImageInfo(string, int, int)
-  nameWithType.vb: ImageInfo.New(String, Integer, Integer)
+- uid: NetEnhancements.Imaging.ImageInfo.#ctor(System.String,System.Int32,System.Int32,System.Int64)
+  name: ImageInfo(string, int, int, long)
+  href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo__ctor_System_String_System_Int32_System_Int32_System_Int64_
+  commentId: M:NetEnhancements.Imaging.ImageInfo.#ctor(System.String,System.Int32,System.Int32,System.Int64)
+  name.vb: New(String, Integer, Integer, Long)
+  fullName: NetEnhancements.Imaging.ImageInfo.ImageInfo(string, int, int, long)
+  fullName.vb: NetEnhancements.Imaging.ImageInfo.New(String, Integer, Integer, Long)
+  nameWithType: ImageInfo.ImageInfo(string, int, int, long)
+  nameWithType.vb: ImageInfo.New(String, Integer, Integer, Long)
 - uid: NetEnhancements.Imaging.ImageInfo.#ctor*
   name: ImageInfo
   href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo__ctor_
@@ -3504,6 +3518,19 @@ references:
   fullName.vb: NetEnhancements.Imaging.ImageInfo.New
   nameWithType: ImageInfo.ImageInfo
   nameWithType.vb: ImageInfo.New
+- uid: NetEnhancements.Imaging.ImageInfo.FileSize
+  name: FileSize
+  href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo_FileSize
+  commentId: P:NetEnhancements.Imaging.ImageInfo.FileSize
+  fullName: NetEnhancements.Imaging.ImageInfo.FileSize
+  nameWithType: ImageInfo.FileSize
+- uid: NetEnhancements.Imaging.ImageInfo.FileSize*
+  name: FileSize
+  href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo_FileSize_
+  commentId: Overload:NetEnhancements.Imaging.ImageInfo.FileSize
+  isSpec: "True"
+  fullName: NetEnhancements.Imaging.ImageInfo.FileSize
+  nameWithType: ImageInfo.FileSize
 - uid: NetEnhancements.Imaging.ImageInfo.Format
   name: Format
   href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo_Format

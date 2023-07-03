@@ -83,7 +83,7 @@
 
   <h1 id="NetEnhancements_Imaging_IImageProcessor" data-uid="NetEnhancements.Imaging.IImageProcessor" class="text-break">
     Interface IImageProcessor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageProcessor.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageProcessor.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -92,7 +92,6 @@
   </div>
 
   <div class="markdown summary"><p>Contains methods for image manipulation.</p>
-<p>TODO: move logic from <a class="xref" href="NetEnhancements.Imaging.DiskImageStore.html#NetEnhancements.Imaging.DiskImageStore.SaveResizedAsync(System.IO.Stream,System.String,System.String,System.String,NetEnhancements.Imaging.Resolution)">SaveResizedAsync(Stream, string, string, string, Resolution)</a> to here.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -122,11 +121,57 @@
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NetEnhancements_Imaging_IImageProcessor_ResizeAsync_" data-uid="NetEnhancements.Imaging.IImageProcessor.ResizeAsync*"></a>
+
+  <h3 id="NetEnhancements_Imaging_IImageProcessor_ResizeAsync_System_IO_Stream_NetEnhancements_Imaging_Resolution_" data-uid="NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream,NetEnhancements.Imaging.Resolution)">
+  ResizeAsync(Stream, Resolution)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageProcessor.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resizes an image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Stream&gt; ResizeAsync(Stream imageStream, Resolution resolution)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageStream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd><p>Source image.</p>
+</dd>
+    <dt><code>resolution</code> <a class="xref" href="NetEnhancements.Imaging.Resolution.html">Resolution</a></dt>
+    <dd><p>Target resolution.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a>&gt;</dt>
+    <dd><p>A stream to the resized image.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageProcessor.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/IImageProcessor.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
         

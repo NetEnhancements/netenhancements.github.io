@@ -152,8 +152,8 @@
 
   <a id="NetEnhancements_Imaging_ImageInfo__ctor_" data-uid="NetEnhancements.Imaging.ImageInfo.#ctor*"></a>
 
-  <h3 id="NetEnhancements_Imaging_ImageInfo__ctor_System_String_System_Int32_System_Int32_" data-uid="NetEnhancements.Imaging.ImageInfo.#ctor(System.String,System.Int32,System.Int32)">
-  ImageInfo(string, int, int)
+  <h3 id="NetEnhancements_Imaging_ImageInfo__ctor_System_String_System_Int32_System_Int32_System_Int64_" data-uid="NetEnhancements.Imaging.ImageInfo.#ctor(System.String,System.Int32,System.Int32,System.Int64)">
+  ImageInfo(string, int, int, long)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/ImageInfo.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -162,7 +162,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ImageInfo(string Format, int Width, int Height)</code></pre>
+    <pre><code class="lang-csharp hljs">public ImageInfo(string Format, int Width, int Height, long FileSize)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -172,6 +172,8 @@
     <dt><code>Width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
     <dt><code>Height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>FileSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
   </dl>
 
@@ -188,6 +190,37 @@
 
   <h2 class="section" id="properties">Properties
 </h2>
+
+
+  <a id="NetEnhancements_Imaging_ImageInfo_FileSize_" data-uid="NetEnhancements.Imaging.ImageInfo.FileSize*"></a>
+
+  <h3 id="NetEnhancements_Imaging_ImageInfo_FileSize" data-uid="NetEnhancements.Imaging.ImageInfo.FileSize">
+  FileSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/ImageInfo.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long FileSize { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="NetEnhancements_Imaging_ImageInfo_Format_" data-uid="NetEnhancements.Imaging.ImageInfo.Format*"></a>
