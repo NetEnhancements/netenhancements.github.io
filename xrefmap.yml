@@ -3279,6 +3279,23 @@ references:
   fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).FileSize
   nameWithType: ImageBase<TCategory>.FileSize
   nameWithType.vb: ImageBase(Of TCategory).FileSize
+- uid: NetEnhancements.Imaging.EntityFramework.ImageBase`1.Height
+  name: Height
+  href: api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html#NetEnhancements_Imaging_EntityFramework_ImageBase_1_Height
+  commentId: P:NetEnhancements.Imaging.EntityFramework.ImageBase`1.Height
+  fullName: NetEnhancements.Imaging.EntityFramework.ImageBase<TCategory>.Height
+  fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).Height
+  nameWithType: ImageBase<TCategory>.Height
+  nameWithType.vb: ImageBase(Of TCategory).Height
+- uid: NetEnhancements.Imaging.EntityFramework.ImageBase`1.Height*
+  name: Height
+  href: api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html#NetEnhancements_Imaging_EntityFramework_ImageBase_1_Height_
+  commentId: Overload:NetEnhancements.Imaging.EntityFramework.ImageBase`1.Height
+  isSpec: "True"
+  fullName: NetEnhancements.Imaging.EntityFramework.ImageBase<TCategory>.Height
+  fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).Height
+  nameWithType: ImageBase<TCategory>.Height
+  nameWithType.vb: ImageBase(Of TCategory).Height
 - uid: NetEnhancements.Imaging.EntityFramework.ImageBase`1.Name
   name: Name
   href: api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html#NetEnhancements_Imaging_EntityFramework_ImageBase_1_Name
@@ -3296,6 +3313,23 @@ references:
   fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).Name
   nameWithType: ImageBase<TCategory>.Name
   nameWithType.vb: ImageBase(Of TCategory).Name
+- uid: NetEnhancements.Imaging.EntityFramework.ImageBase`1.Width
+  name: Width
+  href: api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html#NetEnhancements_Imaging_EntityFramework_ImageBase_1_Width
+  commentId: P:NetEnhancements.Imaging.EntityFramework.ImageBase`1.Width
+  fullName: NetEnhancements.Imaging.EntityFramework.ImageBase<TCategory>.Width
+  fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).Width
+  nameWithType: ImageBase<TCategory>.Width
+  nameWithType.vb: ImageBase(Of TCategory).Width
+- uid: NetEnhancements.Imaging.EntityFramework.ImageBase`1.Width*
+  name: Width
+  href: api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html#NetEnhancements_Imaging_EntityFramework_ImageBase_1_Width_
+  commentId: Overload:NetEnhancements.Imaging.EntityFramework.ImageBase`1.Width
+  isSpec: "True"
+  fullName: NetEnhancements.Imaging.EntityFramework.ImageBase<TCategory>.Width
+  fullName.vb: NetEnhancements.Imaging.EntityFramework.ImageBase(Of TCategory).Width
+  nameWithType: ImageBase<TCategory>.Width
+  nameWithType.vb: ImageBase(Of TCategory).Width
 - uid: NetEnhancements.Imaging.EntityFramework.ImageCategory
   name: ImageCategory
   href: api/NetEnhancements.Imaging.EntityFramework.ImageCategory.html
