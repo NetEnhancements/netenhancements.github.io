@@ -160,7 +160,7 @@
 
   <h3 id="NetEnhancements_Services_ScheduledBackgroundService__ctor_Microsoft_Extensions_Logging_ILogger_NetEnhancements_Services_ScheduledBackgroundService__System_IServiceProvider_" data-uid="NetEnhancements.Services.ScheduledBackgroundService.#ctor(Microsoft.Extensions.Logging.ILogger{NetEnhancements.Services.ScheduledBackgroundService},System.IServiceProvider)">
   ScheduledBackgroundService(ILogger&lt;ScheduledBackgroundService&gt;, IServiceProvider)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Insantiates the service.</p>
@@ -197,10 +197,11 @@
 
   <h3 id="NetEnhancements_Services_ScheduledBackgroundService_Logger" data-uid="NetEnhancements.Services.ScheduledBackgroundService.Logger">
   Logger
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The logger.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -227,7 +228,7 @@
 
   <h3 id="NetEnhancements_Services_ScheduledBackgroundService_SkipInitialRun" data-uid="NetEnhancements.Services.ScheduledBackgroundService.SkipInitialRun">
   SkipInitialRun
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>When the service starts, it will by default run <a class="xref" href="NetEnhancements.Services.ScheduledBackgroundService.html#NetEnhancements_Services_ScheduledBackgroundService_ExecuteAsync_System_Threading_CancellationToken_">ExecuteAsync(CancellationToken)</a> once.
@@ -264,10 +265,11 @@ Set this property to <code>true</code> in the constructor to skip that initial r
 
   <h3 id="NetEnhancements_Services_ScheduledBackgroundService_CronSchedule" data-uid="NetEnhancements.Services.ScheduledBackgroundService.CronSchedule">
   CronSchedule
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The cron schedule pattern, including seconds.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -299,7 +301,7 @@ Set this property to <code>true</code> in the constructor to skip that initial r
 
   <h3 id="NetEnhancements_Services_ScheduledBackgroundService_ExecuteAsync_System_Threading_CancellationToken_" data-uid="NetEnhancements.Services.ScheduledBackgroundService.ExecuteAsync(System.Threading.CancellationToken)">
   ExecuteAsync(CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>This method is called when the <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice">IHostedService</a> starts. The implementation should return a task that represents
@@ -342,7 +344,7 @@ the lifetime of the long running operation(s) being performed.</p>
 
   <h3 id="NetEnhancements_Services_ScheduledBackgroundService_ExecuteScheduledTaskAsync_System_IServiceProvider_System_Threading_CancellationToken_" data-uid="NetEnhancements.Services.ScheduledBackgroundService.ExecuteScheduledTaskAsync(System.IServiceProvider,System.Threading.CancellationToken)">
   ExecuteScheduledTaskAsync(IServiceProvider, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Services/ScheduledBackgroundService.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Implement this method instead of <a class="xref" href="NetEnhancements.Services.ScheduledBackgroundService.html#NetEnhancements_Services_ScheduledBackgroundService_ExecuteAsync_System_Threading_CancellationToken_">ExecuteAsync(CancellationToken)</a> to do your work.</p>
