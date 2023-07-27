@@ -3784,6 +3784,12 @@ references:
   commentId: F:NetEnhancements.Services.ScheduledBackgroundService.Logger
   fullName: NetEnhancements.Services.ScheduledBackgroundService.Logger
   nameWithType: ScheduledBackgroundService.Logger
+- uid: NetEnhancements.Services.ScheduledBackgroundService.SkipInitialRun
+  name: SkipInitialRun
+  href: api/NetEnhancements.Services.ScheduledBackgroundService.html#NetEnhancements_Services_ScheduledBackgroundService_SkipInitialRun
+  commentId: F:NetEnhancements.Services.ScheduledBackgroundService.SkipInitialRun
+  fullName: NetEnhancements.Services.ScheduledBackgroundService.SkipInitialRun
+  nameWithType: ScheduledBackgroundService.SkipInitialRun
 - uid: NetEnhancements.Shared.AppStatus
   name: NetEnhancements.Shared.AppStatus
   href: api/NetEnhancements.Shared.AppStatus.html
