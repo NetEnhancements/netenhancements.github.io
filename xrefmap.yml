@@ -3700,12 +3700,15 @@ references:
   commentId: T:NetEnhancements.Imaging.IImageProcessor
   fullName: NetEnhancements.Imaging.IImageProcessor
   nameWithType: IImageProcessor
-- uid: NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream,NetEnhancements.Imaging.Resolution)
-  name: ResizeAsync(Stream, Resolution)
-  href: api/NetEnhancements.Imaging.IImageProcessor.html#NetEnhancements_Imaging_IImageProcessor_ResizeAsync_System_IO_Stream_NetEnhancements_Imaging_Resolution_
-  commentId: M:NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream,NetEnhancements.Imaging.Resolution)
-  fullName: NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream, NetEnhancements.Imaging.Resolution)
-  nameWithType: IImageProcessor.ResizeAsync(Stream, Resolution)
+- uid: NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream,NetEnhancements.Imaging.Resolution,System.Nullable{NetEnhancements.Imaging.ImageFormat},System.Int32)
+  name: ResizeAsync(Stream, Resolution, ImageFormat?, int)
+  href: api/NetEnhancements.Imaging.IImageProcessor.html#NetEnhancements_Imaging_IImageProcessor_ResizeAsync_System_IO_Stream_NetEnhancements_Imaging_Resolution_System_Nullable_NetEnhancements_Imaging_ImageFormat__System_Int32_
+  commentId: M:NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream,NetEnhancements.Imaging.Resolution,System.Nullable{NetEnhancements.Imaging.ImageFormat},System.Int32)
+  name.vb: ResizeAsync(Stream, Resolution, ImageFormat?, Integer)
+  fullName: NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream, NetEnhancements.Imaging.Resolution, NetEnhancements.Imaging.ImageFormat?, int)
+  fullName.vb: NetEnhancements.Imaging.IImageProcessor.ResizeAsync(System.IO.Stream, NetEnhancements.Imaging.Resolution, NetEnhancements.Imaging.ImageFormat?, Integer)
+  nameWithType: IImageProcessor.ResizeAsync(Stream, Resolution, ImageFormat?, int)
+  nameWithType.vb: IImageProcessor.ResizeAsync(Stream, Resolution, ImageFormat?, Integer)
 - uid: NetEnhancements.Imaging.IImageProcessor.ResizeAsync*
   name: ResizeAsync
   href: api/NetEnhancements.Imaging.IImageProcessor.html#NetEnhancements_Imaging_IImageProcessor_ResizeAsync_
@@ -3767,21 +3770,45 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Imaging.IImageStore.SaveImageAsync
   nameWithType: IImageStore.SaveImageAsync
+- uid: NetEnhancements.Imaging.ImageFormat
+  name: ImageFormat
+  href: api/NetEnhancements.Imaging.ImageFormat.html
+  commentId: T:NetEnhancements.Imaging.ImageFormat
+  fullName: NetEnhancements.Imaging.ImageFormat
+  nameWithType: ImageFormat
+- uid: NetEnhancements.Imaging.ImageFormat.Jpeg
+  name: Jpeg
+  href: api/NetEnhancements.Imaging.ImageFormat.html#NetEnhancements_Imaging_ImageFormat_Jpeg
+  commentId: F:NetEnhancements.Imaging.ImageFormat.Jpeg
+  fullName: NetEnhancements.Imaging.ImageFormat.Jpeg
+  nameWithType: ImageFormat.Jpeg
+- uid: NetEnhancements.Imaging.ImageFormat.Png
+  name: Png
+  href: api/NetEnhancements.Imaging.ImageFormat.html#NetEnhancements_Imaging_ImageFormat_Png
+  commentId: F:NetEnhancements.Imaging.ImageFormat.Png
+  fullName: NetEnhancements.Imaging.ImageFormat.Png
+  nameWithType: ImageFormat.Png
+- uid: NetEnhancements.Imaging.ImageFormat.WebP
+  name: WebP
+  href: api/NetEnhancements.Imaging.ImageFormat.html#NetEnhancements_Imaging_ImageFormat_WebP
+  commentId: F:NetEnhancements.Imaging.ImageFormat.WebP
+  fullName: NetEnhancements.Imaging.ImageFormat.WebP
+  nameWithType: ImageFormat.WebP
 - uid: NetEnhancements.Imaging.ImageInfo
   name: ImageInfo
   href: api/NetEnhancements.Imaging.ImageInfo.html
   commentId: T:NetEnhancements.Imaging.ImageInfo
   fullName: NetEnhancements.Imaging.ImageInfo
   nameWithType: ImageInfo
-- uid: NetEnhancements.Imaging.ImageInfo.#ctor(System.String,System.Int32,System.Int32,System.Int64)
-  name: ImageInfo(string, int, int, long)
-  href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo__ctor_System_String_System_Int32_System_Int32_System_Int64_
-  commentId: M:NetEnhancements.Imaging.ImageInfo.#ctor(System.String,System.Int32,System.Int32,System.Int64)
-  name.vb: New(String, Integer, Integer, Long)
-  fullName: NetEnhancements.Imaging.ImageInfo.ImageInfo(string, int, int, long)
-  fullName.vb: NetEnhancements.Imaging.ImageInfo.New(String, Integer, Integer, Long)
-  nameWithType: ImageInfo.ImageInfo(string, int, int, long)
-  nameWithType.vb: ImageInfo.New(String, Integer, Integer, Long)
+- uid: NetEnhancements.Imaging.ImageInfo.#ctor(NetEnhancements.Imaging.ImageFormat,System.Int32,System.Int32,System.Int64)
+  name: ImageInfo(ImageFormat, int, int, long)
+  href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo__ctor_NetEnhancements_Imaging_ImageFormat_System_Int32_System_Int32_System_Int64_
+  commentId: M:NetEnhancements.Imaging.ImageInfo.#ctor(NetEnhancements.Imaging.ImageFormat,System.Int32,System.Int32,System.Int64)
+  name.vb: New(ImageFormat, Integer, Integer, Long)
+  fullName: NetEnhancements.Imaging.ImageInfo.ImageInfo(NetEnhancements.Imaging.ImageFormat, int, int, long)
+  fullName.vb: NetEnhancements.Imaging.ImageInfo.New(NetEnhancements.Imaging.ImageFormat, Integer, Integer, Long)
+  nameWithType: ImageInfo.ImageInfo(ImageFormat, int, int, long)
+  nameWithType.vb: ImageInfo.New(ImageFormat, Integer, Integer, Long)
 - uid: NetEnhancements.Imaging.ImageInfo.#ctor*
   name: ImageInfo
   href: api/NetEnhancements.Imaging.ImageInfo.html#NetEnhancements_Imaging_ImageInfo__ctor_

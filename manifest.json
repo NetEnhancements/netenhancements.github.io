@@ -993,6 +993,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Imaging.ImageFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Imaging.ImageFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.Imaging.ImageInfo.yml",
       "output": {
         ".html": {

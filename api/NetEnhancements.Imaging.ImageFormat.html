@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace NetEnhancements.Imaging
+      <title>Enum ImageFormat
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace NetEnhancements.Imaging
+      <meta name="title" content="Enum ImageFormat
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/blob/main/docfx/namespaces/NetEnhancements.Imaging.md/#L2">
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_Imaging_ImageFormat.md&amp;value=---%0Auid%3A%20NetEnhancements.Imaging.ImageFormat%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -77,76 +77,70 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="NetEnhancements.Imaging">
+        <article data-uid="NetEnhancements.Imaging.ImageFormat">
 
-  <h1 id="NetEnhancements_Imaging" data-uid="NetEnhancements.Imaging" class="text-break">Namespace NetEnhancements.Imaging
-</h1>
-  <div class="markdown level0 summary">
-<p>Lets you inspect images and resize them.</p>
+
+
+
+  <h1 id="NetEnhancements_Imaging_ImageFormat" data-uid="NetEnhancements.Imaging.ImageFormat" class="text-break">
+    Enum ImageFormat
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/ImageFormat.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NetEnhancements.html">NetEnhancements</a>.<a class="xref" href="NetEnhancements.Imaging.html">Imaging</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NetEnhancements.Imaging.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Image encoding format.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
+  <div class="markdown conceptual"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.DependencyInjection.html">DependencyInjection</a></dt>
-      <dd><p>Dependency Injection extensions container.</p>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum ImageFormat</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0___0___">CollectionExtensions.In&lt;T&gt;(T?, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.In&lt;T&gt;(T?, IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.EnumExtensions.html#NetEnhancements_Util_EnumExtensions_GetDisplayName_System_Enum_">EnumExtensions.GetDisplayName(Enum)</a>
+  </div>
+  </dd></dl>
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="NetEnhancements_Imaging_ImageFormat_Jpeg"><code>Jpeg = 0</code></dt>
+    <dd><p>The JPEG image format.</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.ImageInfo.html">ImageInfo</a></dt>
-      <dd><p>Image characteristics</p>
+    <dt id="NetEnhancements_Imaging_ImageFormat_Png"><code>Png = 1</code></dt>
+    <dd><p>The PNG image format.</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.ImagingBuilder.html">ImagingBuilder</a></dt>
-      <dd><p>Imaging-specific Dependency Injection Builder.</p>
+    <dt id="NetEnhancements_Imaging_ImageFormat_WebP"><code>WebP = 2</code></dt>
+    <dd><p>The WBMP image format.</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.Resolution.html">Resolution</a></dt>
-      <dd><p>Width and height of media.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.SizeCalculator.html">SizeCalculator</a></dt>
-      <dd><p>Calculates image sizes.</p>
-</dd>
-    </dl>
-    <h3 id="interfaces">
-Interfaces
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.IImageInspector.html">IImageInspector</a></dt>
-      <dd><p>Retrieve image information.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.IImageProcessor.html">IImageProcessor</a></dt>
-      <dd><p>Contains methods for image manipulation.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.IImageStore.html">IImageStore</a></dt>
-      <dd><p>Image storage abstraction layer.</p>
-</dd>
-    </dl>
-    <h3 id="enums">
-Enums
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="NetEnhancements.Imaging.ImageFormat.html">ImageFormat</a></dt>
-      <dd><p>Image encoding format.</p>
-</dd>
-    </dl>
+  </dl>
+
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/docfx/namespaces/NetEnhancements.Imaging.md/#L2" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Imaging/ImageFormat.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
         
