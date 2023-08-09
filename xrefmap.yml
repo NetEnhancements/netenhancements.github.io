@@ -987,6 +987,44 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Business.BusinessResult.Success
   nameWithType: BusinessResult.Success
+- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions
+  name: BusinessResultToStatusCodeExtensions
+  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html
+  commentId: T:NetEnhancements.Business.BusinessResultToStatusCodeExtensions
+  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions
+  nameWithType: BusinessResultToStatusCodeExtensions
+- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.Controller,NetEnhancements.Business.BusinessResult)
+  name: BusinessResult(Controller, BusinessResult)
+  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_BusinessResult_Microsoft_AspNetCore_Mvc_Controller_NetEnhancements_Business_BusinessResult_
+  commentId: M:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.Controller,NetEnhancements.Business.BusinessResult)
+  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.Controller, NetEnhancements.Business.BusinessResult)
+  nameWithType: BusinessResultToStatusCodeExtensions.BusinessResult(Controller, BusinessResult)
+- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.RazorPages.PageModel,NetEnhancements.Business.BusinessResult)
+  name: BusinessResult(PageModel, BusinessResult)
+  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_BusinessResult_Microsoft_AspNetCore_Mvc_RazorPages_PageModel_NetEnhancements_Business_BusinessResult_
+  commentId: M:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.RazorPages.PageModel,NetEnhancements.Business.BusinessResult)
+  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.RazorPages.PageModel, NetEnhancements.Business.BusinessResult)
+  nameWithType: BusinessResultToStatusCodeExtensions.BusinessResult(PageModel, BusinessResult)
+- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult*
+  name: BusinessResult
+  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_BusinessResult_
+  commentId: Overload:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult
+  isSpec: "True"
+  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult
+  nameWithType: BusinessResultToStatusCodeExtensions.BusinessResult
+- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode(NetEnhancements.Business.BusinessResult)
+  name: ToStatusCode(BusinessResult)
+  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_ToStatusCode_NetEnhancements_Business_BusinessResult_
+  commentId: M:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode(NetEnhancements.Business.BusinessResult)
+  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode(NetEnhancements.Business.BusinessResult)
+  nameWithType: BusinessResultToStatusCodeExtensions.ToStatusCode(BusinessResult)
+- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode*
+  name: ToStatusCode
+  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_ToStatusCode_
+  commentId: Overload:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode
+  isSpec: "True"
+  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode
+  nameWithType: BusinessResultToStatusCodeExtensions.ToStatusCode
 - uid: NetEnhancements.Business.BusinessResult`1
   name: BusinessResult<T>
   href: api/NetEnhancements.Business.BusinessResult-1.html
@@ -996,15 +1034,6 @@ references:
   fullName.vb: NetEnhancements.Business.BusinessResult(Of T)
   nameWithType: BusinessResult<T>
   nameWithType.vb: BusinessResult(Of T)
-- uid: NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)
-  name: BusinessResult(T, string?)
-  href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1__ctor__0_System_String_
-  commentId: M:NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)
-  name.vb: New(T, String)
-  fullName: NetEnhancements.Business.BusinessResult<T>.BusinessResult(T, string?)
-  fullName.vb: NetEnhancements.Business.BusinessResult(Of T).New(T, String)
-  nameWithType: BusinessResult<T>.BusinessResult(T, string?)
-  nameWithType.vb: BusinessResult(Of T).New(T, String)
 - uid: NetEnhancements.Business.BusinessResult`1.#ctor(NetEnhancements.Business.BusinessResult)
   name: BusinessResult(BusinessResult)
   href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1__ctor_NetEnhancements_Business_BusinessResult_
@@ -1023,6 +1052,15 @@ references:
   fullName.vb: NetEnhancements.Business.BusinessResult(Of T).New(Boolean, Boolean, String)
   nameWithType: BusinessResult<T>.BusinessResult(bool, bool, string?)
   nameWithType.vb: BusinessResult(Of T).New(Boolean, Boolean, String)
+- uid: NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)
+  name: BusinessResult(T, string?)
+  href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1__ctor__0_System_String_
+  commentId: M:NetEnhancements.Business.BusinessResult`1.#ctor(`0,System.String)
+  name.vb: New(T, String)
+  fullName: NetEnhancements.Business.BusinessResult<T>.BusinessResult(T, string?)
+  fullName.vb: NetEnhancements.Business.BusinessResult(Of T).New(T, String)
+  nameWithType: BusinessResult<T>.BusinessResult(T, string?)
+  nameWithType.vb: BusinessResult(Of T).New(T, String)
 - uid: NetEnhancements.Business.BusinessResult`1.#ctor*
   name: BusinessResult
   href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1__ctor_
@@ -1086,6 +1124,23 @@ references:
   fullName.vb: NetEnhancements.Business.BusinessResult(Of T).FromNotFound
   nameWithType: BusinessResult<T>.FromNotFound
   nameWithType.vb: BusinessResult(Of T).FromNotFound
+- uid: NetEnhancements.Business.BusinessResult`1.Success
+  name: Success
+  href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1_Success
+  commentId: P:NetEnhancements.Business.BusinessResult`1.Success
+  fullName: NetEnhancements.Business.BusinessResult<T>.Success
+  fullName.vb: NetEnhancements.Business.BusinessResult(Of T).Success
+  nameWithType: BusinessResult<T>.Success
+  nameWithType.vb: BusinessResult(Of T).Success
+- uid: NetEnhancements.Business.BusinessResult`1.Success*
+  name: Success
+  href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1_Success_
+  commentId: Overload:NetEnhancements.Business.BusinessResult`1.Success
+  isSpec: "True"
+  fullName: NetEnhancements.Business.BusinessResult<T>.Success
+  fullName.vb: NetEnhancements.Business.BusinessResult(Of T).Success
+  nameWithType: BusinessResult<T>.Success
+  nameWithType.vb: BusinessResult(Of T).Success
 - uid: NetEnhancements.Business.BusinessResult`1.op_Implicit(`0)~NetEnhancements.Business.BusinessResult{`0}
   name: implicit operator BusinessResult<T>(T)
   href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1_op_Implicit__0__NetEnhancements_Business_BusinessResult__0_
@@ -1105,61 +1160,6 @@ references:
   fullName.vb: NetEnhancements.Business.BusinessResult(Of T).CType
   nameWithType: BusinessResult<T>.implicit operator
   nameWithType.vb: BusinessResult(Of T).CType
-- uid: NetEnhancements.Business.BusinessResult`1.Success
-  name: Success
-  href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1_Success
-  commentId: P:NetEnhancements.Business.BusinessResult`1.Success
-  fullName: NetEnhancements.Business.BusinessResult<T>.Success
-  fullName.vb: NetEnhancements.Business.BusinessResult(Of T).Success
-  nameWithType: BusinessResult<T>.Success
-  nameWithType.vb: BusinessResult(Of T).Success
-- uid: NetEnhancements.Business.BusinessResult`1.Success*
-  name: Success
-  href: api/NetEnhancements.Business.BusinessResult-1.html#NetEnhancements_Business_BusinessResult_1_Success_
-  commentId: Overload:NetEnhancements.Business.BusinessResult`1.Success
-  isSpec: "True"
-  fullName: NetEnhancements.Business.BusinessResult<T>.Success
-  fullName.vb: NetEnhancements.Business.BusinessResult(Of T).Success
-  nameWithType: BusinessResult<T>.Success
-  nameWithType.vb: BusinessResult(Of T).Success
-- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions
-  name: BusinessResultToStatusCodeExtensions
-  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html
-  commentId: T:NetEnhancements.Business.BusinessResultToStatusCodeExtensions
-  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions
-  nameWithType: BusinessResultToStatusCodeExtensions
-- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.Controller,NetEnhancements.Business.BusinessResult)
-  name: BusinessResult(Controller, BusinessResult)
-  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_BusinessResult_Microsoft_AspNetCore_Mvc_Controller_NetEnhancements_Business_BusinessResult_
-  commentId: M:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.Controller,NetEnhancements.Business.BusinessResult)
-  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.Controller, NetEnhancements.Business.BusinessResult)
-  nameWithType: BusinessResultToStatusCodeExtensions.BusinessResult(Controller, BusinessResult)
-- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.RazorPages.PageModel,NetEnhancements.Business.BusinessResult)
-  name: BusinessResult(PageModel, BusinessResult)
-  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_BusinessResult_Microsoft_AspNetCore_Mvc_RazorPages_PageModel_NetEnhancements_Business_BusinessResult_
-  commentId: M:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.RazorPages.PageModel,NetEnhancements.Business.BusinessResult)
-  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult(Microsoft.AspNetCore.Mvc.RazorPages.PageModel, NetEnhancements.Business.BusinessResult)
-  nameWithType: BusinessResultToStatusCodeExtensions.BusinessResult(PageModel, BusinessResult)
-- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult*
-  name: BusinessResult
-  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_BusinessResult_
-  commentId: Overload:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult
-  isSpec: "True"
-  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.BusinessResult
-  nameWithType: BusinessResultToStatusCodeExtensions.BusinessResult
-- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode(NetEnhancements.Business.BusinessResult)
-  name: ToStatusCode(BusinessResult)
-  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_ToStatusCode_NetEnhancements_Business_BusinessResult_
-  commentId: M:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode(NetEnhancements.Business.BusinessResult)
-  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode(NetEnhancements.Business.BusinessResult)
-  nameWithType: BusinessResultToStatusCodeExtensions.ToStatusCode(BusinessResult)
-- uid: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode*
-  name: ToStatusCode
-  href: api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html#NetEnhancements_Business_BusinessResultToStatusCodeExtensions_ToStatusCode_
-  commentId: Overload:NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode
-  isSpec: "True"
-  fullName: NetEnhancements.Business.BusinessResultToStatusCodeExtensions.ToStatusCode
-  nameWithType: BusinessResultToStatusCodeExtensions.ToStatusCode
 - uid: NetEnhancements.Business.Managers
   name: NetEnhancements.Business.Managers
   href: api/NetEnhancements.Business.Managers.html
@@ -1264,15 +1264,6 @@ references:
   fullName.vb: NetEnhancements.Business.Managers.ManagerBase(Of TDbContext).TryAsync
   nameWithType: ManagerBase<TDbContext>.TryAsync
   nameWithType.vb: ManagerBase(Of TDbContext).TryAsync
-- uid: NetEnhancements.Business.Managers.ManagerBase`1.TryAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.String)
-  name: TryAsync<TResult>(Func<Task<TResult?>>, string?)
-  href: api/NetEnhancements.Business.Managers.ManagerBase-1.html#NetEnhancements_Business_Managers_ManagerBase_1_TryAsync__1_System_Func_System_Threading_Tasks_Task___0___System_String_
-  commentId: M:NetEnhancements.Business.Managers.ManagerBase`1.TryAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.String)
-  name.vb: TryAsync(Of TResult)(Func(Of Task(Of TResult)), String)
-  fullName: NetEnhancements.Business.Managers.ManagerBase<TDbContext>.TryAsync<TResult>(System.Func<System.Threading.Tasks.Task<TResult?>>, string?)
-  fullName.vb: NetEnhancements.Business.Managers.ManagerBase(Of TDbContext).TryAsync(Of TResult)(System.Func(Of System.Threading.Tasks.Task(Of TResult)), String)
-  nameWithType: ManagerBase<TDbContext>.TryAsync<TResult>(Func<Task<TResult?>>, string?)
-  nameWithType.vb: ManagerBase(Of TDbContext).TryAsync(Of TResult)(Func(Of Task(Of TResult)), String)
 - uid: NetEnhancements.Business.Managers.ManagerBase`1.TryAsync``1(System.Func{System.Threading.Tasks.Task{NetEnhancements.Business.BusinessResult{``0}}},System.String)
   name: TryAsync<TResult>(Func<Task<BusinessResult<TResult>>>, string?)
   href: api/NetEnhancements.Business.Managers.ManagerBase-1.html#NetEnhancements_Business_Managers_ManagerBase_1_TryAsync__1_System_Func_System_Threading_Tasks_Task_NetEnhancements_Business_BusinessResult___0____System_String_
@@ -1282,6 +1273,15 @@ references:
   fullName.vb: NetEnhancements.Business.Managers.ManagerBase(Of TDbContext).TryAsync(Of TResult)(System.Func(Of System.Threading.Tasks.Task(Of NetEnhancements.Business.BusinessResult(Of TResult))), String)
   nameWithType: ManagerBase<TDbContext>.TryAsync<TResult>(Func<Task<BusinessResult<TResult>>>, string?)
   nameWithType.vb: ManagerBase(Of TDbContext).TryAsync(Of TResult)(Func(Of Task(Of BusinessResult(Of TResult))), String)
+- uid: NetEnhancements.Business.Managers.ManagerBase`1.TryAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.String)
+  name: TryAsync<TResult>(Func<Task<TResult?>>, string?)
+  href: api/NetEnhancements.Business.Managers.ManagerBase-1.html#NetEnhancements_Business_Managers_ManagerBase_1_TryAsync__1_System_Func_System_Threading_Tasks_Task___0___System_String_
+  commentId: M:NetEnhancements.Business.Managers.ManagerBase`1.TryAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.String)
+  name.vb: TryAsync(Of TResult)(Func(Of Task(Of TResult)), String)
+  fullName: NetEnhancements.Business.Managers.ManagerBase<TDbContext>.TryAsync<TResult>(System.Func<System.Threading.Tasks.Task<TResult?>>, string?)
+  fullName.vb: NetEnhancements.Business.Managers.ManagerBase(Of TDbContext).TryAsync(Of TResult)(System.Func(Of System.Threading.Tasks.Task(Of TResult)), String)
+  nameWithType: ManagerBase<TDbContext>.TryAsync<TResult>(Func<Task<TResult?>>, string?)
+  nameWithType.vb: ManagerBase(Of TDbContext).TryAsync(Of TResult)(Func(Of Task(Of TResult)), String)
 - uid: NetEnhancements.ClosedXML
   name: NetEnhancements.ClosedXML
   href: api/NetEnhancements.ClosedXML.html
@@ -1376,6 +1376,246 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.ExcelColumnNameAttribute.ColumnName
   nameWithType: ExcelColumnNameAttribute.ColumnName
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute
+  name: ExcelColumnStyleAttribute
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html
+  commentId: T:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute
+  nameWithType: ExcelColumnStyleAttribute
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorder
+  name: BottomBorder
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_BottomBorder
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorder
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorder
+  nameWithType: ExcelColumnStyleAttribute.BottomBorder
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorder*
+  name: BottomBorder
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_BottomBorder_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorder
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorder
+  nameWithType: ExcelColumnStyleAttribute.BottomBorder
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorderColor
+  name: BottomBorderColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_BottomBorderColor
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorderColor
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorderColor
+  nameWithType: ExcelColumnStyleAttribute.BottomBorderColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorderColor*
+  name: BottomBorderColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_BottomBorderColor_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorderColor
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorderColor
+  nameWithType: ExcelColumnStyleAttribute.BottomBorderColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.DateFormat
+  name: DateFormat
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_DateFormat
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.DateFormat
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.DateFormat
+  nameWithType: ExcelColumnStyleAttribute.DateFormat
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.DateFormat*
+  name: DateFormat
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_DateFormat_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.DateFormat
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.DateFormat
+  nameWithType: ExcelColumnStyleAttribute.DateFormat
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FillColor
+  name: FillColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FillColor
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FillColor
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FillColor
+  nameWithType: ExcelColumnStyleAttribute.FillColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FillColor*
+  name: FillColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FillColor_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FillColor
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FillColor
+  nameWithType: ExcelColumnStyleAttribute.FillColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontBold
+  name: FontBold
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FontBold
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontBold
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontBold
+  nameWithType: ExcelColumnStyleAttribute.FontBold
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontBold*
+  name: FontBold
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FontBold_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontBold
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontBold
+  nameWithType: ExcelColumnStyleAttribute.FontBold
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontColor
+  name: FontColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FontColor
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontColor
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontColor
+  nameWithType: ExcelColumnStyleAttribute.FontColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontColor*
+  name: FontColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FontColor_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontColor
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontColor
+  nameWithType: ExcelColumnStyleAttribute.FontColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.HorizontalAlignment
+  name: HorizontalAlignment
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_HorizontalAlignment
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.HorizontalAlignment
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.HorizontalAlignment
+  nameWithType: ExcelColumnStyleAttribute.HorizontalAlignment
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.HorizontalAlignment*
+  name: HorizontalAlignment
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_HorizontalAlignment_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.HorizontalAlignment
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.HorizontalAlignment
+  nameWithType: ExcelColumnStyleAttribute.HorizontalAlignment
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IncludeQuotePrefix
+  name: IncludeQuotePrefix
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_IncludeQuotePrefix
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IncludeQuotePrefix
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IncludeQuotePrefix
+  nameWithType: ExcelColumnStyleAttribute.IncludeQuotePrefix
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IncludeQuotePrefix*
+  name: IncludeQuotePrefix
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_IncludeQuotePrefix_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IncludeQuotePrefix
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IncludeQuotePrefix
+  nameWithType: ExcelColumnStyleAttribute.IncludeQuotePrefix
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IsProtected
+  name: IsProtected
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_IsProtected
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IsProtected
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IsProtected
+  nameWithType: ExcelColumnStyleAttribute.IsProtected
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IsProtected*
+  name: IsProtected
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_IsProtected_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IsProtected
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IsProtected
+  nameWithType: ExcelColumnStyleAttribute.IsProtected
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorder
+  name: LeftBorder
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_LeftBorder
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorder
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorder
+  nameWithType: ExcelColumnStyleAttribute.LeftBorder
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorder*
+  name: LeftBorder
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_LeftBorder_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorder
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorder
+  nameWithType: ExcelColumnStyleAttribute.LeftBorder
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorderColor
+  name: LeftBorderColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_LeftBorderColor
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorderColor
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorderColor
+  nameWithType: ExcelColumnStyleAttribute.LeftBorderColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorderColor*
+  name: LeftBorderColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_LeftBorderColor_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorderColor
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorderColor
+  nameWithType: ExcelColumnStyleAttribute.LeftBorderColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.NumberFormat
+  name: NumberFormat
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_NumberFormat
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.NumberFormat
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.NumberFormat
+  nameWithType: ExcelColumnStyleAttribute.NumberFormat
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.NumberFormat*
+  name: NumberFormat
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_NumberFormat_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.NumberFormat
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.NumberFormat
+  nameWithType: ExcelColumnStyleAttribute.NumberFormat
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorder
+  name: RightBorder
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_RightBorder
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorder
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorder
+  nameWithType: ExcelColumnStyleAttribute.RightBorder
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorder*
+  name: RightBorder
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_RightBorder_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorder
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorder
+  nameWithType: ExcelColumnStyleAttribute.RightBorder
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorderColor
+  name: RightBorderColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_RightBorderColor
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorderColor
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorderColor
+  nameWithType: ExcelColumnStyleAttribute.RightBorderColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorderColor*
+  name: RightBorderColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_RightBorderColor_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorderColor
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorderColor
+  nameWithType: ExcelColumnStyleAttribute.RightBorderColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.SetIncludeQuotePrefix
+  name: SetIncludeQuotePrefix
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_SetIncludeQuotePrefix
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.SetIncludeQuotePrefix
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.SetIncludeQuotePrefix
+  nameWithType: ExcelColumnStyleAttribute.SetIncludeQuotePrefix
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.SetIncludeQuotePrefix*
+  name: SetIncludeQuotePrefix
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_SetIncludeQuotePrefix_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.SetIncludeQuotePrefix
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.SetIncludeQuotePrefix
+  nameWithType: ExcelColumnStyleAttribute.SetIncludeQuotePrefix
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorder
+  name: TopBorder
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_TopBorder
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorder
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorder
+  nameWithType: ExcelColumnStyleAttribute.TopBorder
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorder*
+  name: TopBorder
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_TopBorder_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorder
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorder
+  nameWithType: ExcelColumnStyleAttribute.TopBorder
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorderColor
+  name: TopBorderColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_TopBorderColor
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorderColor
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorderColor
+  nameWithType: ExcelColumnStyleAttribute.TopBorderColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorderColor*
+  name: TopBorderColor
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_TopBorderColor_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorderColor
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorderColor
+  nameWithType: ExcelColumnStyleAttribute.TopBorderColor
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.VerticalAlignment
+  name: VerticalAlignment
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_VerticalAlignment
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.VerticalAlignment
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.VerticalAlignment
+  nameWithType: ExcelColumnStyleAttribute.VerticalAlignment
+- uid: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.VerticalAlignment*
+  name: VerticalAlignment
+  href: api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_VerticalAlignment_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.VerticalAlignment
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.VerticalAlignment
+  nameWithType: ExcelColumnStyleAttribute.VerticalAlignment
 - uid: NetEnhancements.ClosedXML.ExcelGenerator
   name: ExcelGenerator
   href: api/NetEnhancements.ClosedXML.ExcelGenerator.html
@@ -1389,15 +1629,15 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel
   nameWithType: ExcelGenerator.GenerateExcel
-- uid: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IEnumerable{``0})
-  name: GenerateExcel<T>(IEnumerable<T>)
-  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel__1_System_Collections_Generic_IEnumerable___0__
-  commentId: M:NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IEnumerable{``0})
-  name.vb: GenerateExcel(Of T)(IEnumerable(Of T))
-  fullName: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel<T>(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel(Of T)(System.Collections.Generic.IEnumerable(Of T))
-  nameWithType: ExcelGenerator.GenerateExcel<T>(IEnumerable<T>)
-  nameWithType.vb: ExcelGenerator.GenerateExcel(Of T)(IEnumerable(Of T))
+- uid: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.Int32,System.String)
+  name: GenerateExcel<T>(IReadOnlyCollection<T>, int, int, string)
+  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel__1_System_Collections_Generic_IReadOnlyCollection___0__System_Int32_System_Int32_System_String_
+  commentId: M:NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.Int32,System.String)
+  name.vb: GenerateExcel(Of T)(IReadOnlyCollection(Of T), Integer, Integer, String)
+  fullName: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel<T>(System.Collections.Generic.IReadOnlyCollection<T>, int, int, string)
+  fullName.vb: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T), Integer, Integer, String)
+  nameWithType: ExcelGenerator.GenerateExcel<T>(IReadOnlyCollection<T>, int, int, string)
+  nameWithType.vb: ExcelGenerator.GenerateExcel(Of T)(IReadOnlyCollection(Of T), Integer, Integer, String)
 - uid: NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet*
   name: ToDataSet
   href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_ToDataSet_
@@ -1472,15 +1712,15 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet
   nameWithType: WorksheetExtensions.AddSheet
-- uid: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet``1(ClosedXML.Excel.XLWorkbook,System.Collections.Generic.IEnumerable{``0},System.String)
-  name: AddSheet<T>(XLWorkbook, IEnumerable<T>, string)
-  href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_AddSheet__1_ClosedXML_Excel_XLWorkbook_System_Collections_Generic_IEnumerable___0__System_String_
-  commentId: M:NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet``1(ClosedXML.Excel.XLWorkbook,System.Collections.Generic.IEnumerable{``0},System.String)
-  name.vb: AddSheet(Of T)(XLWorkbook, IEnumerable(Of T), String)
-  fullName: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet<T>(ClosedXML.Excel.XLWorkbook, System.Collections.Generic.IEnumerable<T>, string)
-  fullName.vb: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet(Of T)(ClosedXML.Excel.XLWorkbook, System.Collections.Generic.IEnumerable(Of T), String)
-  nameWithType: WorksheetExtensions.AddSheet<T>(XLWorkbook, IEnumerable<T>, string)
-  nameWithType.vb: WorksheetExtensions.AddSheet(Of T)(XLWorkbook, IEnumerable(Of T), String)
+- uid: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet``1(ClosedXML.Excel.XLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.Int32,System.String)
+  name: AddSheet<T>(XLWorkbook, IReadOnlyCollection<T>, int, int, string)
+  href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_AddSheet__1_ClosedXML_Excel_XLWorkbook_System_Collections_Generic_IReadOnlyCollection___0__System_Int32_System_Int32_System_String_
+  commentId: M:NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet``1(ClosedXML.Excel.XLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.Int32,System.String)
+  name.vb: AddSheet(Of T)(XLWorkbook, IReadOnlyCollection(Of T), Integer, Integer, String)
+  fullName: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet<T>(ClosedXML.Excel.XLWorkbook, System.Collections.Generic.IReadOnlyCollection<T>, int, int, string)
+  fullName.vb: NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet(Of T)(ClosedXML.Excel.XLWorkbook, System.Collections.Generic.IReadOnlyCollection(Of T), Integer, Integer, String)
+  nameWithType: WorksheetExtensions.AddSheet<T>(XLWorkbook, IReadOnlyCollection<T>, int, int, string)
+  nameWithType.vb: WorksheetExtensions.AddSheet(Of T)(XLWorkbook, IReadOnlyCollection(Of T), Integer, Integer, String)
 - uid: NetEnhancements.ClosedXML.WorksheetExtensions.ParseRowsAsync*
   name: ParseRowsAsync
   href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_ParseRowsAsync_
@@ -1696,25 +1936,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.EntityFramework.IGuidIdEntity.Id
   nameWithType: IGuidIdEntity.Id
-- uid: NetEnhancements.EntityFramework.IntIdEntity
-  name: IntIdEntity
-  href: api/NetEnhancements.EntityFramework.IntIdEntity.html
-  commentId: T:NetEnhancements.EntityFramework.IntIdEntity
-  fullName: NetEnhancements.EntityFramework.IntIdEntity
-  nameWithType: IntIdEntity
-- uid: NetEnhancements.EntityFramework.IntIdEntity.Id
-  name: Id
-  href: api/NetEnhancements.EntityFramework.IntIdEntity.html#NetEnhancements_EntityFramework_IntIdEntity_Id
-  commentId: P:NetEnhancements.EntityFramework.IntIdEntity.Id
-  fullName: NetEnhancements.EntityFramework.IntIdEntity.Id
-  nameWithType: IntIdEntity.Id
-- uid: NetEnhancements.EntityFramework.IntIdEntity.Id*
-  name: Id
-  href: api/NetEnhancements.EntityFramework.IntIdEntity.html#NetEnhancements_EntityFramework_IntIdEntity_Id_
-  commentId: Overload:NetEnhancements.EntityFramework.IntIdEntity.Id
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.IntIdEntity.Id
-  nameWithType: IntIdEntity.Id
 - uid: NetEnhancements.EntityFramework.ITimestampedEntity
   name: ITimestampedEntity
   href: api/NetEnhancements.EntityFramework.ITimestampedEntity.html
@@ -1747,6 +1968,25 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.EntityFramework.ITimestampedEntity.Modified
   nameWithType: ITimestampedEntity.Modified
+- uid: NetEnhancements.EntityFramework.IntIdEntity
+  name: IntIdEntity
+  href: api/NetEnhancements.EntityFramework.IntIdEntity.html
+  commentId: T:NetEnhancements.EntityFramework.IntIdEntity
+  fullName: NetEnhancements.EntityFramework.IntIdEntity
+  nameWithType: IntIdEntity
+- uid: NetEnhancements.EntityFramework.IntIdEntity.Id
+  name: Id
+  href: api/NetEnhancements.EntityFramework.IntIdEntity.html#NetEnhancements_EntityFramework_IntIdEntity_Id
+  commentId: P:NetEnhancements.EntityFramework.IntIdEntity.Id
+  fullName: NetEnhancements.EntityFramework.IntIdEntity.Id
+  nameWithType: IntIdEntity.Id
+- uid: NetEnhancements.EntityFramework.IntIdEntity.Id*
+  name: Id
+  href: api/NetEnhancements.EntityFramework.IntIdEntity.html#NetEnhancements_EntityFramework_IntIdEntity_Id_
+  commentId: Overload:NetEnhancements.EntityFramework.IntIdEntity.Id
+  isSpec: "True"
+  fullName: NetEnhancements.EntityFramework.IntIdEntity.Id
+  nameWithType: IntIdEntity.Id
 - uid: NetEnhancements.EntityFramework.ModelBuilderExtension
   name: ModelBuilderExtension
   href: api/NetEnhancements.EntityFramework.ModelBuilderExtension.html
@@ -2209,6 +2449,19 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.EntityFramework.Query.OrderExpression.Direction
   nameWithType: OrderExpression.Direction
+- uid: NetEnhancements.EntityFramework.Query.OrderExpression.Order
+  name: Order
+  href: api/NetEnhancements.EntityFramework.Query.OrderExpression.html#NetEnhancements_EntityFramework_Query_OrderExpression_Order
+  commentId: P:NetEnhancements.EntityFramework.Query.OrderExpression.Order
+  fullName: NetEnhancements.EntityFramework.Query.OrderExpression.Order
+  nameWithType: OrderExpression.Order
+- uid: NetEnhancements.EntityFramework.Query.OrderExpression.Order*
+  name: Order
+  href: api/NetEnhancements.EntityFramework.Query.OrderExpression.html#NetEnhancements_EntityFramework_Query_OrderExpression_Order_
+  commentId: Overload:NetEnhancements.EntityFramework.Query.OrderExpression.Order
+  isSpec: "True"
+  fullName: NetEnhancements.EntityFramework.Query.OrderExpression.Order
+  nameWithType: OrderExpression.Order
 - uid: NetEnhancements.EntityFramework.Query.OrderExpression.op_Implicit(System.String)~NetEnhancements.EntityFramework.Query.OrderExpression
   name: implicit operator OrderExpression(string)
   href: api/NetEnhancements.EntityFramework.Query.OrderExpression.html#NetEnhancements_EntityFramework_Query_OrderExpression_op_Implicit_System_String__NetEnhancements_EntityFramework_Query_OrderExpression
@@ -2228,19 +2481,6 @@ references:
   fullName.vb: NetEnhancements.EntityFramework.Query.OrderExpression.CType
   nameWithType: OrderExpression.implicit operator
   nameWithType.vb: OrderExpression.CType
-- uid: NetEnhancements.EntityFramework.Query.OrderExpression.Order
-  name: Order
-  href: api/NetEnhancements.EntityFramework.Query.OrderExpression.html#NetEnhancements_EntityFramework_Query_OrderExpression_Order
-  commentId: P:NetEnhancements.EntityFramework.Query.OrderExpression.Order
-  fullName: NetEnhancements.EntityFramework.Query.OrderExpression.Order
-  nameWithType: OrderExpression.Order
-- uid: NetEnhancements.EntityFramework.Query.OrderExpression.Order*
-  name: Order
-  href: api/NetEnhancements.EntityFramework.Query.OrderExpression.html#NetEnhancements_EntityFramework_Query_OrderExpression_Order_
-  commentId: Overload:NetEnhancements.EntityFramework.Query.OrderExpression.Order
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.Query.OrderExpression.Order
-  nameWithType: OrderExpression.Order
 - uid: NetEnhancements.EntityFramework.Query.PagedQuery
   name: PagedQuery
   href: api/NetEnhancements.EntityFramework.Query.PagedQuery.html
@@ -2417,6 +2657,19 @@ references:
   fullName.vb: NetEnhancements.EntityFramework.Query.QueryExpression.New
   nameWithType: QueryExpression.QueryExpression
   nameWithType.vb: QueryExpression.New
+- uid: NetEnhancements.EntityFramework.Query.QueryExpression.Query
+  name: Query
+  href: api/NetEnhancements.EntityFramework.Query.QueryExpression.html#NetEnhancements_EntityFramework_Query_QueryExpression_Query
+  commentId: P:NetEnhancements.EntityFramework.Query.QueryExpression.Query
+  fullName: NetEnhancements.EntityFramework.Query.QueryExpression.Query
+  nameWithType: QueryExpression.Query
+- uid: NetEnhancements.EntityFramework.Query.QueryExpression.Query*
+  name: Query
+  href: api/NetEnhancements.EntityFramework.Query.QueryExpression.html#NetEnhancements_EntityFramework_Query_QueryExpression_Query_
+  commentId: Overload:NetEnhancements.EntityFramework.Query.QueryExpression.Query
+  isSpec: "True"
+  fullName: NetEnhancements.EntityFramework.Query.QueryExpression.Query
+  nameWithType: QueryExpression.Query
 - uid: NetEnhancements.EntityFramework.Query.QueryExpression.op_Implicit(System.String)~NetEnhancements.EntityFramework.Query.QueryExpression
   name: implicit operator QueryExpression(string)
   href: api/NetEnhancements.EntityFramework.Query.QueryExpression.html#NetEnhancements_EntityFramework_Query_QueryExpression_op_Implicit_System_String__NetEnhancements_EntityFramework_Query_QueryExpression
@@ -2436,19 +2689,6 @@ references:
   fullName.vb: NetEnhancements.EntityFramework.Query.QueryExpression.CType
   nameWithType: QueryExpression.implicit operator
   nameWithType.vb: QueryExpression.CType
-- uid: NetEnhancements.EntityFramework.Query.QueryExpression.Query
-  name: Query
-  href: api/NetEnhancements.EntityFramework.Query.QueryExpression.html#NetEnhancements_EntityFramework_Query_QueryExpression_Query
-  commentId: P:NetEnhancements.EntityFramework.Query.QueryExpression.Query
-  fullName: NetEnhancements.EntityFramework.Query.QueryExpression.Query
-  nameWithType: QueryExpression.Query
-- uid: NetEnhancements.EntityFramework.Query.QueryExpression.Query*
-  name: Query
-  href: api/NetEnhancements.EntityFramework.Query.QueryExpression.html#NetEnhancements_EntityFramework_Query_QueryExpression_Query_
-  commentId: Overload:NetEnhancements.EntityFramework.Query.QueryExpression.Query
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.Query.QueryExpression.Query
-  nameWithType: QueryExpression.Query
 - uid: NetEnhancements.EntityFramework.SqlServerDbContextExtensions
   name: SqlServerDbContextExtensions
   href: api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.html
@@ -4170,15 +4410,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.CollectionExtensions.GetPermutations
   nameWithType: CollectionExtensions.GetPermutations
-- uid: NetEnhancements.Util.CollectionExtensions.GetPermutations``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32)
-  name: GetPermutations<T>(IReadOnlyCollection<T>, int)
-  href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0__System_Int32_
-  commentId: M:NetEnhancements.Util.CollectionExtensions.GetPermutations``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32)
-  name.vb: GetPermutations(Of T)(IReadOnlyCollection(Of T), Integer)
-  fullName: NetEnhancements.Util.CollectionExtensions.GetPermutations<T>(System.Collections.Generic.IReadOnlyCollection<T>, int)
-  fullName.vb: NetEnhancements.Util.CollectionExtensions.GetPermutations(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T), Integer)
-  nameWithType: CollectionExtensions.GetPermutations<T>(IReadOnlyCollection<T>, int)
-  nameWithType.vb: CollectionExtensions.GetPermutations(Of T)(IReadOnlyCollection(Of T), Integer)
 - uid: NetEnhancements.Util.CollectionExtensions.GetPermutations``1(System.Collections.Generic.IReadOnlyCollection{``0})
   name: GetPermutations<T>(IReadOnlyCollection<T>)
   href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0__
@@ -4188,6 +4419,15 @@ references:
   fullName.vb: NetEnhancements.Util.CollectionExtensions.GetPermutations(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T))
   nameWithType: CollectionExtensions.GetPermutations<T>(IReadOnlyCollection<T>)
   nameWithType.vb: CollectionExtensions.GetPermutations(Of T)(IReadOnlyCollection(Of T))
+- uid: NetEnhancements.Util.CollectionExtensions.GetPermutations``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32)
+  name: GetPermutations<T>(IReadOnlyCollection<T>, int)
+  href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_GetPermutations__1_System_Collections_Generic_IReadOnlyCollection___0__System_Int32_
+  commentId: M:NetEnhancements.Util.CollectionExtensions.GetPermutations``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32)
+  name.vb: GetPermutations(Of T)(IReadOnlyCollection(Of T), Integer)
+  fullName: NetEnhancements.Util.CollectionExtensions.GetPermutations<T>(System.Collections.Generic.IReadOnlyCollection<T>, int)
+  fullName.vb: NetEnhancements.Util.CollectionExtensions.GetPermutations(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T), Integer)
+  nameWithType: CollectionExtensions.GetPermutations<T>(IReadOnlyCollection<T>, int)
+  nameWithType.vb: CollectionExtensions.GetPermutations(Of T)(IReadOnlyCollection(Of T), Integer)
 - uid: NetEnhancements.Util.CollectionExtensions.In*
   name: In
   href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In_
@@ -4195,15 +4435,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.CollectionExtensions.In
   nameWithType: CollectionExtensions.In
-- uid: NetEnhancements.Util.CollectionExtensions.In``1(``0,``0[])
-  name: In<T>(T?, params T[])
-  href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0___0___
-  commentId: M:NetEnhancements.Util.CollectionExtensions.In``1(``0,``0[])
-  name.vb: In(Of T)(T, ParamArray T())
-  fullName: NetEnhancements.Util.CollectionExtensions.In<T>(T?, params T[])
-  fullName.vb: NetEnhancements.Util.CollectionExtensions.In(Of T)(T, ParamArray T())
-  nameWithType: CollectionExtensions.In<T>(T?, params T[])
-  nameWithType.vb: CollectionExtensions.In(Of T)(T, ParamArray T())
 - uid: NetEnhancements.Util.CollectionExtensions.In``1(``0,System.Collections.Generic.IEnumerable{``0})
   name: In<T>(T?, IEnumerable<T>)
   href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0__
@@ -4213,6 +4444,15 @@ references:
   fullName.vb: NetEnhancements.Util.CollectionExtensions.In(Of T)(T, System.Collections.Generic.IEnumerable(Of T))
   nameWithType: CollectionExtensions.In<T>(T?, IEnumerable<T>)
   nameWithType.vb: CollectionExtensions.In(Of T)(T, IEnumerable(Of T))
+- uid: NetEnhancements.Util.CollectionExtensions.In``1(``0,``0[])
+  name: In<T>(T?, params T[])
+  href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0___0___
+  commentId: M:NetEnhancements.Util.CollectionExtensions.In``1(``0,``0[])
+  name.vb: In(Of T)(T, ParamArray T())
+  fullName: NetEnhancements.Util.CollectionExtensions.In<T>(T?, params T[])
+  fullName.vb: NetEnhancements.Util.CollectionExtensions.In(Of T)(T, ParamArray T())
+  nameWithType: CollectionExtensions.In<T>(T?, params T[])
+  nameWithType.vb: CollectionExtensions.In(Of T)(T, ParamArray T())
 - uid: NetEnhancements.Util.CollectionExtensions.Random*
   name: Random
   href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_Random_
@@ -4220,15 +4460,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.CollectionExtensions.Random
   nameWithType: CollectionExtensions.Random
-- uid: NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Random)
-  name: Random<T>(IReadOnlyCollection<T>, Random)
-  href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_IReadOnlyCollection___0__System_Random_
-  commentId: M:NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Random)
-  name.vb: Random(Of T)(IReadOnlyCollection(Of T), Random)
-  fullName: NetEnhancements.Util.CollectionExtensions.Random<T>(System.Collections.Generic.IReadOnlyCollection<T>, System.Random)
-  fullName.vb: NetEnhancements.Util.CollectionExtensions.Random(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T), System.Random)
-  nameWithType: CollectionExtensions.Random<T>(IReadOnlyCollection<T>, Random)
-  nameWithType.vb: CollectionExtensions.Random(Of T)(IReadOnlyCollection(Of T), Random)
 - uid: NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.IReadOnlyCollection{``0})
   name: Random<T>(IReadOnlyCollection<T>)
   href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_IReadOnlyCollection___0__
@@ -4238,6 +4469,15 @@ references:
   fullName.vb: NetEnhancements.Util.CollectionExtensions.Random(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T))
   nameWithType: CollectionExtensions.Random<T>(IReadOnlyCollection<T>)
   nameWithType.vb: CollectionExtensions.Random(Of T)(IReadOnlyCollection(Of T))
+- uid: NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Random)
+  name: Random<T>(IReadOnlyCollection<T>, Random)
+  href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_Random__1_System_Collections_Generic_IReadOnlyCollection___0__System_Random_
+  commentId: M:NetEnhancements.Util.CollectionExtensions.Random``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Random)
+  name.vb: Random(Of T)(IReadOnlyCollection(Of T), Random)
+  fullName: NetEnhancements.Util.CollectionExtensions.Random<T>(System.Collections.Generic.IReadOnlyCollection<T>, System.Random)
+  fullName.vb: NetEnhancements.Util.CollectionExtensions.Random(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T), System.Random)
+  nameWithType: CollectionExtensions.Random<T>(IReadOnlyCollection<T>, Random)
+  nameWithType.vb: CollectionExtensions.Random(Of T)(IReadOnlyCollection(Of T), Random)
 - uid: NetEnhancements.Util.CollectionExtensions.ThrowIfNullOrEmpty*
   name: ThrowIfNullOrEmpty
   href: api/NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_ThrowIfNullOrEmpty_
@@ -4673,6 +4913,38 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.Json.DateOnlyConverter.ToStringValue
   nameWithType: DateOnlyConverter.ToStringValue
+- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory
+  name: EmptyStringToNullNumberConverterFactory
+  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html
+  commentId: T:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory
+  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory
+  nameWithType: EmptyStringToNullNumberConverterFactory
+- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert(System.Type)
+  name: CanConvert(Type)
+  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html#NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_CanConvert_System_Type_
+  commentId: M:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert(System.Type)
+  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert(System.Type)
+  nameWithType: EmptyStringToNullNumberConverterFactory.CanConvert(Type)
+- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert*
+  name: CanConvert
+  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html#NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_CanConvert_
+  commentId: Overload:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert
+  nameWithType: EmptyStringToNullNumberConverterFactory.CanConvert
+- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions)
+  name: CreateConverter(Type, JsonSerializerOptions)
+  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html#NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_CreateConverter_System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions)
+  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter(System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: EmptyStringToNullNumberConverterFactory.CreateConverter(Type, JsonSerializerOptions)
+- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter*
+  name: CreateConverter
+  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html#NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_CreateConverter_
+  commentId: Overload:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter
+  isSpec: "True"
+  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter
+  nameWithType: EmptyStringToNullNumberConverterFactory.CreateConverter
 - uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverter`1
   name: EmptyStringToNullNumberConverter<TNumber>
   href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverter-1.html
@@ -4734,38 +5006,6 @@ references:
   fullName.vb: NetEnhancements.Util.Json.EmptyStringToNullNumberConverter(Of TNumber).Write
   nameWithType: EmptyStringToNullNumberConverter<TNumber>.Write
   nameWithType.vb: EmptyStringToNullNumberConverter(Of TNumber).Write
-- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory
-  name: EmptyStringToNullNumberConverterFactory
-  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html
-  commentId: T:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory
-  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory
-  nameWithType: EmptyStringToNullNumberConverterFactory
-- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert(System.Type)
-  name: CanConvert(Type)
-  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html#NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_CanConvert_System_Type_
-  commentId: M:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert(System.Type)
-  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert(System.Type)
-  nameWithType: EmptyStringToNullNumberConverterFactory.CanConvert(Type)
-- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert*
-  name: CanConvert
-  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html#NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_CanConvert_
-  commentId: Overload:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert
-  isSpec: "True"
-  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CanConvert
-  nameWithType: EmptyStringToNullNumberConverterFactory.CanConvert
-- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions)
-  name: CreateConverter(Type, JsonSerializerOptions)
-  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html#NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_CreateConverter_System_Type_System_Text_Json_JsonSerializerOptions_
-  commentId: M:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions)
-  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter(System.Type, System.Text.Json.JsonSerializerOptions)
-  nameWithType: EmptyStringToNullNumberConverterFactory.CreateConverter(Type, JsonSerializerOptions)
-- uid: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter*
-  name: CreateConverter
-  href: api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html#NetEnhancements_Util_Json_EmptyStringToNullNumberConverterFactory_CreateConverter_
-  commentId: Overload:NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter
-  isSpec: "True"
-  fullName: NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.CreateConverter
-  nameWithType: EmptyStringToNullNumberConverterFactory.CreateConverter
 - uid: NetEnhancements.Util.Json.JsonSerializerOptionsExtensions
   name: JsonSerializerOptionsExtensions
   href: api/NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.html

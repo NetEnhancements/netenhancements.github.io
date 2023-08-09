@@ -83,7 +83,7 @@
 
   <h1 id="NetEnhancements_ClosedXML_WorksheetExtensions" data-uid="NetEnhancements.ClosedXML.WorksheetExtensions" class="text-break">
     Class WorksheetExtensions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -124,9 +124,9 @@
 
   <a id="NetEnhancements_ClosedXML_WorksheetExtensions_AddSheet_" data-uid="NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet*"></a>
 
-  <h3 id="NetEnhancements_ClosedXML_WorksheetExtensions_AddSheet__1_ClosedXML_Excel_XLWorkbook_System_Collections_Generic_IEnumerable___0__System_String_" data-uid="NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet``1(ClosedXML.Excel.XLWorkbook,System.Collections.Generic.IEnumerable{``0},System.String)">
-  AddSheet&lt;T&gt;(XLWorkbook, IEnumerable&lt;T&gt;, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_ClosedXML_WorksheetExtensions_AddSheet__1_ClosedXML_Excel_XLWorkbook_System_Collections_Generic_IReadOnlyCollection___0__System_Int32_System_Int32_System_String_" data-uid="NetEnhancements.ClosedXML.WorksheetExtensions.AddSheet``1(ClosedXML.Excel.XLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.Int32,System.String)">
+  AddSheet&lt;T&gt;(XLWorkbook, IReadOnlyCollection&lt;T&gt;, int, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a new worksheet to the workbook containing the data from a collection of objects.</p>
@@ -134,7 +134,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static XLWorkbook AddSheet&lt;T&gt;(this XLWorkbook workbook, IEnumerable&lt;T&gt; dataList, string sheetName = &quot;&quot;) where T : class, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public static XLWorkbook AddSheet&lt;T&gt;(this XLWorkbook workbook, IReadOnlyCollection&lt;T&gt; dataList, int startingRow = 1, int startingColumn = 1, string sheetName = &quot;&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -142,8 +142,14 @@
     <dt><code>workbook</code> <span class="xref">XLWorkbook</span></dt>
     <dd><p>The workbook to add the worksheet to.</p>
 </dd>
-    <dt><code>dataList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dt><code>dataList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
     <dd><p>The collection of objects to add to the worksheet.</p>
+</dd>
+    <dt><code>startingRow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The row where the data table should start</p>
+</dd>
+    <dt><code>startingColumn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The column where the data table should start</p>
 </dd>
     <dt><code>sheetName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The name to give to the new worksheet.</p>
@@ -177,7 +183,7 @@
 
   <h3 id="NetEnhancements_ClosedXML_WorksheetExtensions_ParseRowsAsync__1_ClosedXML_Excel_IXLWorksheet_System_Int32_" data-uid="NetEnhancements.ClosedXML.WorksheetExtensions.ParseRowsAsync``1(ClosedXML.Excel.IXLWorksheet,System.Int32)">
   ParseRowsAsync&lt;TRow&gt;(IXLWorksheet, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Read a sheet's used rows into a collection of objects.</p>
@@ -221,7 +227,7 @@
 
   <h3 id="NetEnhancements_ClosedXML_WorksheetExtensions_ToBytes_ClosedXML_Excel_XLWorkbook_" data-uid="NetEnhancements.ClosedXML.WorksheetExtensions.ToBytes(ClosedXML.Excel.XLWorkbook)">
   ToBytes(XLWorkbook)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Saves the workbook as a byte array in the Excel file format.</p>
@@ -260,7 +266,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorksheetExtensions.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
         

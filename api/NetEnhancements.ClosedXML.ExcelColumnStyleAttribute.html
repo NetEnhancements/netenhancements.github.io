@@ -1,0 +1,853 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ExcelColumnStyleAttribute
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ExcelColumnStyleAttribute
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_ExcelColumnStyleAttribute.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.ExcelColumnStyleAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute">
+
+
+
+  <h1 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute" class="text-break">
+    Class ExcelColumnStyleAttribute
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NetEnhancements.html">NetEnhancements</a>.<a class="xref" href="NetEnhancements.ClosedXML.html">ClosedXML</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NetEnhancements.ClosedXML.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Gives the property a custom style name when writing to Excel.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Property)]
+public class ExcelColumnStyleAttribute : Attribute</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
+      <div><span class="xref">ExcelColumnStyleAttribute</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.equals">Attribute.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)">Attribute.GetCustomAttribute(Assembly, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)">Attribute.GetCustomAttribute(Assembly, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type)">Attribute.GetCustomAttribute(MemberInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type-system-boolean)">Attribute.GetCustomAttribute(MemberInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type)">Attribute.GetCustomAttribute(Module, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type-system-boolean)">Attribute.GetCustomAttribute(Module, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type)">Attribute.GetCustomAttribute(ParameterInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type-system-boolean)">Attribute.GetCustomAttribute(ParameterInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly)">Attribute.GetCustomAttributes(Assembly)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-boolean)">Attribute.GetCustomAttributes(Assembly, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type)">Attribute.GetCustomAttributes(Assembly, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type-system-boolean)">Attribute.GetCustomAttributes(Assembly, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo)">Attribute.GetCustomAttributes(MemberInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-boolean)">Attribute.GetCustomAttributes(MemberInfo, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)">Attribute.GetCustomAttributes(MemberInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type-system-boolean)">Attribute.GetCustomAttributes(MemberInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module)">Attribute.GetCustomAttributes(Module)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-boolean)">Attribute.GetCustomAttributes(Module, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type)">Attribute.GetCustomAttributes(Module, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type-system-boolean)">Attribute.GetCustomAttributes(Module, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo)">Attribute.GetCustomAttributes(ParameterInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-boolean)">Attribute.GetCustomAttributes(ParameterInfo, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type)">Attribute.GetCustomAttributes(ParameterInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type-system-boolean)">Attribute.GetCustomAttributes(ParameterInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.gethashcode">Attribute.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefaultattribute">Attribute.IsDefaultAttribute()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type)">Attribute.IsDefined(Assembly, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type-system-boolean)">Attribute.IsDefined(Assembly, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type)">Attribute.IsDefined(MemberInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type-system-boolean)">Attribute.IsDefined(MemberInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type)">Attribute.IsDefined(Module, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type-system-boolean)">Attribute.IsDefined(Module, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type)">Attribute.IsDefined(ParameterInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type-system-boolean)">Attribute.IsDefined(ParameterInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.match">Attribute.Match(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.typeid">Attribute.TypeId</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0___0___">CollectionExtensions.In&lt;T&gt;(T?, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="NetEnhancements.Util.CollectionExtensions.html#NetEnhancements_Util_CollectionExtensions_In__1___0_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.In&lt;T&gt;(T?, IEnumerable&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_BottomBorder_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorder*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_BottomBorder" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorder">
+  BottomBorder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's bottom border.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XLBorderStyleValues BottomBorder { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">XLBorderStyleValues</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_BottomBorderColor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorderColor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_BottomBorderColor" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.BottomBorderColor">
+  BottomBorderColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's bottom border color using a hex value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? BottomBorderColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_DateFormat_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.DateFormat*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_DateFormat" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.DateFormat">
+  DateFormat
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's date format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? DateFormat { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FillColor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FillColor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FillColor" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FillColor">
+  FillColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's background color using a hex value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? FillColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FontBold_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontBold*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FontBold" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontBold">
+  FontBold
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's font weight to bold.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FontBold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FontColor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontColor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_FontColor" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.FontColor">
+  FontColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's font color using a hex value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? FontColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_HorizontalAlignment_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.HorizontalAlignment*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_HorizontalAlignment" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.HorizontalAlignment">
+  HorizontalAlignment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's horizontal alignment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XLAlignmentHorizontalValues HorizontalAlignment { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">XLAlignmentHorizontalValues</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_IncludeQuotePrefix_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IncludeQuotePrefix*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_IncludeQuotePrefix" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IncludeQuotePrefix">
+  IncludeQuotePrefix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should the text values of a cell saved to the file be prefixed by a quote (<code>'</code>) character?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IncludeQuotePrefix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_IsProtected_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IsProtected*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_IsProtected" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.IsProtected">
+  IsProtected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's locked state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsProtected { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_LeftBorder_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorder*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_LeftBorder" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorder">
+  LeftBorder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's left border.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XLBorderStyleValues LeftBorder { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">XLBorderStyleValues</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_LeftBorderColor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorderColor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_LeftBorderColor" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.LeftBorderColor">
+  LeftBorderColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's left border color using a hex value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? LeftBorderColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_NumberFormat_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.NumberFormat*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_NumberFormat" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.NumberFormat">
+  NumberFormat
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's number format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? NumberFormat { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_RightBorder_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorder*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_RightBorder" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorder">
+  RightBorder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's right border.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XLBorderStyleValues RightBorder { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">XLBorderStyleValues</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_RightBorderColor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorderColor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_RightBorderColor" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.RightBorderColor">
+  RightBorderColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's right border color using a hex value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? RightBorderColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_SetIncludeQuotePrefix_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.SetIncludeQuotePrefix*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_SetIncludeQuotePrefix" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.SetIncludeQuotePrefix">
+  SetIncludeQuotePrefix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should the text values of a cell saved to the file be prefixed by a quote (<code>'</code>) character?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetIncludeQuotePrefix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_TopBorder_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorder*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_TopBorder" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorder">
+  TopBorder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's top border.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XLBorderStyleValues TopBorder { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">XLBorderStyleValues</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_TopBorderColor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorderColor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_TopBorderColor" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.TopBorderColor">
+  TopBorderColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's top border color using a hex value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? TopBorderColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_VerticalAlignment_" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.VerticalAlignment*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnStyleAttribute_VerticalAlignment" data-uid="NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.VerticalAlignment">
+  VerticalAlignment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the cell's vertical alignment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XLAlignmentVerticalValues VerticalAlignment { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">XLAlignmentVerticalValues</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnStyleAttribute.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

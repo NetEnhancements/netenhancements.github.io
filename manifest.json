@@ -423,6 +423,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelGenerator.yml",
       "output": {
         ".html": {

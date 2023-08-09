@@ -124,9 +124,9 @@
 
   <a id="NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel_" data-uid="NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel*"></a>
 
-  <h3 id="NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel__1_System_Collections_Generic_IEnumerable___0__" data-uid="NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IEnumerable{``0})">
-  GenerateExcel&lt;T&gt;(IEnumerable&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelGenerator.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel__1_System_Collections_Generic_IReadOnlyCollection___0__System_Int32_System_Int32_System_String_" data-uid="NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Int32,System.Int32,System.String)">
+  GenerateExcel&lt;T&gt;(IReadOnlyCollection&lt;T&gt;, int, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelGenerator.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generates an Excel workbook containing one worksheet with the data from a collection of objects.</p>
@@ -134,13 +134,22 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static XLWorkbook GenerateExcel&lt;T&gt;(IEnumerable&lt;T&gt; dataList) where T : class, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public static XLWorkbook GenerateExcel&lt;T&gt;(IReadOnlyCollection&lt;T&gt; dataList, int startingRow = 1, int startingColumn = 1, string sheetName = &quot;&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>dataList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dt><code>dataList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
     <dd><p>The collection of objects to add to the worksheet.</p>
+</dd>
+    <dt><code>startingRow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The row where the data table should start</p>
+</dd>
+    <dt><code>startingColumn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The column where the data table should start</p>
+</dd>
+    <dt><code>sheetName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name to give to the new worksheet.</p>
 </dd>
   </dl>
 
@@ -171,7 +180,7 @@
 
   <h3 id="NetEnhancements_ClosedXML_ExcelGenerator_ToDataSet__1_System_Collections_Generic_IEnumerable___0__" data-uid="NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet``1(System.Collections.Generic.IEnumerable{``0})">
   ToDataSet&lt;T&gt;(IEnumerable&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelGenerator.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelGenerator.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts a collection of objects to a dataset with one table containing the object data.</p>
@@ -179,7 +188,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DataSet ToDataSet&lt;T&gt;(IEnumerable&lt;T&gt; list) where T : class, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public static DataSet ToDataSet&lt;T&gt;(IEnumerable&lt;T&gt; list)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
