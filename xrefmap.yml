@@ -1784,12 +1784,12 @@ references:
   fullName.vb: NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet(Of T)(ClosedXML.Excel.IXLWorkbook, System.Collections.Generic.IReadOnlyCollection(Of T), Boolean, Integer, Integer, String)
   nameWithType: WorkbookExtensions.AddAndPopulateSheet<T>(IXLWorkbook, IReadOnlyCollection<T>, bool, int, int, string?)
   nameWithType.vb: WorkbookExtensions.AddAndPopulateSheet(Of T)(IXLWorkbook, IReadOnlyCollection(Of T), Boolean, Integer, Integer, String)
-- uid: NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes(ClosedXML.Excel.XLWorkbook)
-  name: ToBytes(XLWorkbook)
-  href: api/NetEnhancements.ClosedXML.WorkbookExtensions.html#NetEnhancements_ClosedXML_WorkbookExtensions_ToBytes_ClosedXML_Excel_XLWorkbook_
-  commentId: M:NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes(ClosedXML.Excel.XLWorkbook)
-  fullName: NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes(ClosedXML.Excel.XLWorkbook)
-  nameWithType: WorkbookExtensions.ToBytes(XLWorkbook)
+- uid: NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes(ClosedXML.Excel.IXLWorkbook)
+  name: ToBytes(IXLWorkbook)
+  href: api/NetEnhancements.ClosedXML.WorkbookExtensions.html#NetEnhancements_ClosedXML_WorkbookExtensions_ToBytes_ClosedXML_Excel_IXLWorkbook_
+  commentId: M:NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes(ClosedXML.Excel.IXLWorkbook)
+  fullName: NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes(ClosedXML.Excel.IXLWorkbook)
+  nameWithType: WorkbookExtensions.ToBytes(IXLWorkbook)
 - uid: NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes*
   name: ToBytes
   href: api/NetEnhancements.ClosedXML.WorkbookExtensions.html#NetEnhancements_ClosedXML_WorkbookExtensions_ToBytes_
