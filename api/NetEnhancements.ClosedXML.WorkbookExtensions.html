@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ExcelGenerator
+      <title>Class WorkbookExtensions
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ExcelGenerator
+      <meta name="title" content="Class WorkbookExtensions
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_ExcelGenerator.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.ExcelGenerator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_WorkbookExtensions.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.WorkbookExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -77,13 +77,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="NetEnhancements.ClosedXML.ExcelGenerator">
+        <article data-uid="NetEnhancements.ClosedXML.WorkbookExtensions">
 
 
 
-  <h1 id="NetEnhancements_ClosedXML_ExcelGenerator" data-uid="NetEnhancements.ClosedXML.ExcelGenerator" class="text-break">
-    Class ExcelGenerator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelGenerator.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <h1 id="NetEnhancements_ClosedXML_WorkbookExtensions" data-uid="NetEnhancements.ClosedXML.WorkbookExtensions" class="text-break">
+    Class WorkbookExtensions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorkbookExtensions.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -91,12 +91,12 @@
   <dl><dt>Assembly</dt><dd>NetEnhancements.ClosedXML.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Provides methods for generating Excel workbooks and datasets from collections of objects.</p>
+  <div class="markdown summary"><p>Provides extension methods for working with Excel workbooks.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ExcelGenerator</code></pre>
+    <pre><code class="lang-csharp hljs">public static class WorkbookExtensions</code></pre>
   </div>
 
 
@@ -106,7 +106,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ExcelGenerator</span></div>
+      <div><span class="xref">WorkbookExtensions</span></div>
     </dd>
   </dl>
 
@@ -122,23 +122,26 @@
 </h2>
 
 
-  <a id="NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel_" data-uid="NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel*"></a>
+  <a id="NetEnhancements_ClosedXML_WorkbookExtensions_AddAndPopulateSheet_" data-uid="NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet*"></a>
 
-  <h3 id="NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel__1_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_String_" data-uid="NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String)">
-  GenerateExcel&lt;T&gt;(IReadOnlyCollection&lt;T&gt;, bool, int, int, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelGenerator.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_ClosedXML_WorkbookExtensions_AddAndPopulateSheet__1_ClosedXML_Excel_IXLWorkbook_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_String_" data-uid="NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet``1(ClosedXML.Excel.IXLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String)">
+  AddAndPopulateSheet&lt;T&gt;(IXLWorkbook, IReadOnlyCollection&lt;T&gt;, bool, int, int, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorkbookExtensions.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Generates an Excel workbook containing one worksheet with the data from a collection of objects.</p>
+  <div class="markdown level1 summary"><p>Adds a new worksheet to the workbook containing the data from a collection of objects.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IXLWorkbook GenerateExcel&lt;T&gt;(IReadOnlyCollection&lt;T&gt; dataList, bool printHeaders = true, int startingRow = 1, int startingColumn = 1, string? sheetName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IXLWorkbook AddAndPopulateSheet&lt;T&gt;(this IXLWorkbook workbook, IReadOnlyCollection&lt;T&gt; dataList, bool printHeaders = true, int startingRow = 1, int startingColumn = 1, string? sheetName = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>workbook</code> <span class="xref">IXLWorkbook</span></dt>
+    <dd><p>The workbook to add the worksheet to.</p>
+</dd>
     <dt><code>dataList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
     <dd><p>The collection of objects to add to the worksheet.</p>
 </dd>
@@ -159,7 +162,7 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">IXLWorkbook</span></dt>
-    <dd><p>A <span class="xref">ClosedXML.Excel.XLWorkbook</span> workbook containing one worksheet with the data from the collection, or an empty workbook if the collection is empty.</p>
+    <dd><p>A <span class="xref">ClosedXML.Excel.XLWorkbook</span> workbook with the new worksheet added.</p>
 </dd>
   </dl>
 
@@ -179,41 +182,35 @@
 
 
 
-  <a id="NetEnhancements_ClosedXML_ExcelGenerator_ToDataSet_" data-uid="NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet*"></a>
+  <a id="NetEnhancements_ClosedXML_WorkbookExtensions_ToBytes_" data-uid="NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes*"></a>
 
-  <h3 id="NetEnhancements_ClosedXML_ExcelGenerator_ToDataSet__1_System_Collections_Generic_IEnumerable___0__" data-uid="NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet``1(System.Collections.Generic.IEnumerable{``0})">
-  ToDataSet&lt;T&gt;(IEnumerable&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelGenerator.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_ClosedXML_WorkbookExtensions_ToBytes_ClosedXML_Excel_XLWorkbook_" data-uid="NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes(ClosedXML.Excel.XLWorkbook)">
+  ToBytes(XLWorkbook)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorkbookExtensions.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Converts a collection of objects to a dataset with one table containing the object data.</p>
+  <div class="markdown level1 summary"><p>Saves the workbook as a byte array in the Excel file format.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DataSet ToDataSet&lt;T&gt;(IEnumerable&lt;T&gt; list)</code></pre>
+    <pre><code class="lang-csharp hljs">public static byte[] ToBytes(this XLWorkbook workbook)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>The collection of objects to convert to a dataset.</p>
+    <dt><code>workbook</code> <span class="xref">XLWorkbook</span></dt>
+    <dd><p>The workbook to save.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.dataset">DataSet</a></dt>
-    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.dataset">DataSet</a> dataset containing one table with the object data.</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a> array representing the Excel file.</p>
 </dd>
   </dl>
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The type of the objects in the collection.</p>
-</dd>
-  </dl>
 
 
 
@@ -228,7 +225,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelGenerator.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorkbookExtensions.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
         

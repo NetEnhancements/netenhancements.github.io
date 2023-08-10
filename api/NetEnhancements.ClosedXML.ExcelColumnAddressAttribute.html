@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ExcelColumnDisabledAttribute
+      <title>Class ExcelColumnAddressAttribute
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ExcelColumnDisabledAttribute
+      <meta name="title" content="Class ExcelColumnAddressAttribute
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_ExcelColumnDisabledAttribute.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/NetEnhancements/NetEnhancements/new/main/apiSpec/new?filename=NetEnhancements_ClosedXML_ExcelColumnAddressAttribute.md&amp;value=---%0Auid%3A%20NetEnhancements.ClosedXML.ExcelColumnAddressAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -77,13 +77,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute">
+        <article data-uid="NetEnhancements.ClosedXML.ExcelColumnAddressAttribute">
 
 
 
-  <h1 id="NetEnhancements_ClosedXML_ExcelColumnDisabledAttribute" data-uid="NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute" class="text-break">
-    Class ExcelColumnDisabledAttribute
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnDisabledAttribute.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="NetEnhancements_ClosedXML_ExcelColumnAddressAttribute" data-uid="NetEnhancements.ClosedXML.ExcelColumnAddressAttribute" class="text-break">
+    Class ExcelColumnAddressAttribute
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnAddressAttribute.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -91,13 +91,13 @@
   <dl><dt>Assembly</dt><dd>NetEnhancements.ClosedXML.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Marks property as to not be included when writing to Excel.</p>
+  <div class="markdown summary"><p>Determine in which column letter(s) the property's data resides.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Property)]
-public class ExcelColumnDisabledAttribute : Attribute</code></pre>
+public class ExcelColumnAddressAttribute : Attribute</code></pre>
   </div>
 
 
@@ -108,7 +108,7 @@ public class ExcelColumnDisabledAttribute : Attribute</code></pre>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
-      <div><span class="xref">ExcelColumnDisabledAttribute</span></div>
+      <div><span class="xref">ExcelColumnAddressAttribute</span></div>
     </dd>
   </dl>
 
@@ -130,11 +130,115 @@ public class ExcelColumnDisabledAttribute : Attribute</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnAddressAttribute__ctor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.#ctor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnAddressAttribute__ctor_System_Int32_" data-uid="NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.#ctor(System.Int32)">
+  ExcelColumnAddressAttribute(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnAddressAttribute.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines the 1-based column's index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExcelColumnAddressAttribute(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnAddressAttribute__ctor_" data-uid="NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.#ctor*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnAddressAttribute__ctor_System_String_" data-uid="NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.#ctor(System.String)">
+  ExcelColumnAddressAttribute(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnAddressAttribute.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines the column address (&quot;A&quot; = 1, &quot;AA&quot; = 27, ...).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExcelColumnAddressAttribute(string address)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>address</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NetEnhancements_ClosedXML_ExcelColumnAddressAttribute_Index_" data-uid="NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.Index*"></a>
+
+  <h3 id="NetEnhancements_ClosedXML_ExcelColumnAddressAttribute_Index" data-uid="NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.Index">
+  Index
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnAddressAttribute.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The 1-based index of the column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Index { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnDisabledAttribute.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/ExcelColumnAddressAttribute.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
         

@@ -403,6 +403,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute.yml",
       "output": {
         ".html": {
@@ -447,6 +457,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.ClosedXML.RowParser-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.WorkbookExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.WorkbookExtensions.html"
         }
       },
       "version": ""
@@ -1450,6 +1470,26 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ClosedXML/CustomizingOutput.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ClosedXML/CustomizingOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ClosedXML/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ClosedXML/index.html"
         }
       },
       "version": ""
