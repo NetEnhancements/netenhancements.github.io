@@ -124,9 +124,9 @@
 
   <a id="NetEnhancements_ClosedXML_WorkbookExtensions_AddAndPopulateSheet_" data-uid="NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet*"></a>
 
-  <h3 id="NetEnhancements_ClosedXML_WorkbookExtensions_AddAndPopulateSheet__1_ClosedXML_Excel_IXLWorkbook_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_String_" data-uid="NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet``1(ClosedXML.Excel.IXLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String)">
-  AddAndPopulateSheet&lt;T&gt;(IXLWorkbook, IReadOnlyCollection&lt;T&gt;, bool, int, int, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorkbookExtensions.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_ClosedXML_WorkbookExtensions_AddAndPopulateSheet__1_ClosedXML_Excel_IXLWorkbook_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_String_System_Boolean_" data-uid="NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet``1(ClosedXML.Excel.IXLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String,System.Boolean)">
+  AddAndPopulateSheet&lt;T&gt;(IXLWorkbook, IReadOnlyCollection&lt;T&gt;, bool, int, int, string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.ClosedXML/WorkbookExtensions.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a new worksheet to the workbook containing the data from a collection of objects.</p>
@@ -134,7 +134,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IXLWorkbook AddAndPopulateSheet&lt;T&gt;(this IXLWorkbook workbook, IReadOnlyCollection&lt;T&gt; dataList, bool printHeaders = true, int startingRow = 1, int startingColumn = 1, string? sheetName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IXLWorkbook AddAndPopulateSheet&lt;T&gt;(this IXLWorkbook workbook, IReadOnlyCollection&lt;T&gt; dataList, bool printHeaders = true, int startingRow = 1, int startingColumn = 1, string? sheetName = null, bool createTable = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -156,6 +156,9 @@
 </dd>
     <dt><code>sheetName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The name to give to the new worksheet.</p>
+</dd>
+    <dt><code>createTable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Wheter to create a table of the data and create filters and basic styling</p>
 </dd>
   </dl>
 

@@ -403,10 +403,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.Condition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.html"
         }
       },
       "version": ""

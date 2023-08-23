@@ -1348,6 +1348,102 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.ColumnExtensions.LetterToIndex
   nameWithType: ColumnExtensions.LetterToIndex
+- uid: NetEnhancements.ClosedXML.Condition
+  name: Condition
+  href: api/NetEnhancements.ClosedXML.Condition.html
+  commentId: T:NetEnhancements.ClosedXML.Condition
+  fullName: NetEnhancements.ClosedXML.Condition
+  nameWithType: Condition
+- uid: NetEnhancements.ClosedXML.Condition.WhenContains
+  name: WhenContains
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenContains
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenContains
+  fullName: NetEnhancements.ClosedXML.Condition.WhenContains
+  nameWithType: Condition.WhenContains
+- uid: NetEnhancements.ClosedXML.Condition.WhenEndsWith
+  name: WhenEndsWith
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenEndsWith
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenEndsWith
+  fullName: NetEnhancements.ClosedXML.Condition.WhenEndsWith
+  nameWithType: Condition.WhenEndsWith
+- uid: NetEnhancements.ClosedXML.Condition.WhenEqualOrGreaterThan
+  name: WhenEqualOrGreaterThan
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenEqualOrGreaterThan
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenEqualOrGreaterThan
+  fullName: NetEnhancements.ClosedXML.Condition.WhenEqualOrGreaterThan
+  nameWithType: Condition.WhenEqualOrGreaterThan
+- uid: NetEnhancements.ClosedXML.Condition.WhenEqualOrLessThan
+  name: WhenEqualOrLessThan
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenEqualOrLessThan
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenEqualOrLessThan
+  fullName: NetEnhancements.ClosedXML.Condition.WhenEqualOrLessThan
+  nameWithType: Condition.WhenEqualOrLessThan
+- uid: NetEnhancements.ClosedXML.Condition.WhenEquals
+  name: WhenEquals
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenEquals
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenEquals
+  fullName: NetEnhancements.ClosedXML.Condition.WhenEquals
+  nameWithType: Condition.WhenEquals
+- uid: NetEnhancements.ClosedXML.Condition.WhenGreaterThan
+  name: WhenGreaterThan
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenGreaterThan
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenGreaterThan
+  fullName: NetEnhancements.ClosedXML.Condition.WhenGreaterThan
+  nameWithType: Condition.WhenGreaterThan
+- uid: NetEnhancements.ClosedXML.Condition.WhenIsBlank
+  name: WhenIsBlank
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenIsBlank
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenIsBlank
+  fullName: NetEnhancements.ClosedXML.Condition.WhenIsBlank
+  nameWithType: Condition.WhenIsBlank
+- uid: NetEnhancements.ClosedXML.Condition.WhenIsError
+  name: WhenIsError
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenIsError
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenIsError
+  fullName: NetEnhancements.ClosedXML.Condition.WhenIsError
+  nameWithType: Condition.WhenIsError
+- uid: NetEnhancements.ClosedXML.Condition.WhenIsTrue
+  name: WhenIsTrue
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenIsTrue
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenIsTrue
+  fullName: NetEnhancements.ClosedXML.Condition.WhenIsTrue
+  nameWithType: Condition.WhenIsTrue
+- uid: NetEnhancements.ClosedXML.Condition.WhenLessThan
+  name: WhenLessThan
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenLessThan
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenLessThan
+  fullName: NetEnhancements.ClosedXML.Condition.WhenLessThan
+  nameWithType: Condition.WhenLessThan
+- uid: NetEnhancements.ClosedXML.Condition.WhenNotBlank
+  name: WhenNotBlank
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenNotBlank
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenNotBlank
+  fullName: NetEnhancements.ClosedXML.Condition.WhenNotBlank
+  nameWithType: Condition.WhenNotBlank
+- uid: NetEnhancements.ClosedXML.Condition.WhenNotContains
+  name: WhenNotContains
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenNotContains
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenNotContains
+  fullName: NetEnhancements.ClosedXML.Condition.WhenNotContains
+  nameWithType: Condition.WhenNotContains
+- uid: NetEnhancements.ClosedXML.Condition.WhenNotEquals
+  name: WhenNotEquals
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenNotEquals
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenNotEquals
+  fullName: NetEnhancements.ClosedXML.Condition.WhenNotEquals
+  nameWithType: Condition.WhenNotEquals
+- uid: NetEnhancements.ClosedXML.Condition.WhenNotError
+  name: WhenNotError
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenNotError
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenNotError
+  fullName: NetEnhancements.ClosedXML.Condition.WhenNotError
+  nameWithType: Condition.WhenNotError
+- uid: NetEnhancements.ClosedXML.Condition.WhenStartsWith
+  name: WhenStartsWith
+  href: api/NetEnhancements.ClosedXML.Condition.html#NetEnhancements_ClosedXML_Condition_WhenStartsWith
+  commentId: F:NetEnhancements.ClosedXML.Condition.WhenStartsWith
+  fullName: NetEnhancements.ClosedXML.Condition.WhenStartsWith
+  nameWithType: Condition.WhenStartsWith
 - uid: NetEnhancements.ClosedXML.ExcelColumnAddressAttribute
   name: ExcelColumnAddressAttribute
   href: api/NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.html
@@ -1395,6 +1491,38 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.Index
   nameWithType: ExcelColumnAddressAttribute.Index
+- uid: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute
+  name: ExcelColumnConditionalStyleAttribute
+  href: api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.html
+  commentId: T:NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute
+  fullName: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute
+  nameWithType: ExcelColumnConditionalStyleAttribute
+- uid: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Condition
+  name: Condition
+  href: api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnConditionalStyleAttribute_Condition
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Condition
+  fullName: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Condition
+  nameWithType: ExcelColumnConditionalStyleAttribute.Condition
+- uid: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Condition*
+  name: Condition
+  href: api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnConditionalStyleAttribute_Condition_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Condition
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Condition
+  nameWithType: ExcelColumnConditionalStyleAttribute.Condition
+- uid: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Value
+  name: Value
+  href: api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnConditionalStyleAttribute_Value
+  commentId: P:NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Value
+  fullName: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Value
+  nameWithType: ExcelColumnConditionalStyleAttribute.Value
+- uid: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Value*
+  name: Value
+  href: api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.html#NetEnhancements_ClosedXML_ExcelColumnConditionalStyleAttribute_Value_
+  commentId: Overload:NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Value
+  isSpec: "True"
+  fullName: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Value
+  nameWithType: ExcelColumnConditionalStyleAttribute.Value
 - uid: NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute
   name: ExcelColumnDisabledAttribute
   href: api/NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute.html
@@ -1692,15 +1820,15 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel
   nameWithType: ExcelGenerator.GenerateExcel
-- uid: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String)
-  name: GenerateExcel<T>(IReadOnlyCollection<T>, bool, int, int, string?)
-  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel__1_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_String_
-  commentId: M:NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String)
-  name.vb: GenerateExcel(Of T)(IReadOnlyCollection(Of T), Boolean, Integer, Integer, String)
-  fullName: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel<T>(System.Collections.Generic.IReadOnlyCollection<T>, bool, int, int, string?)
-  fullName.vb: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T), Boolean, Integer, Integer, String)
-  nameWithType: ExcelGenerator.GenerateExcel<T>(IReadOnlyCollection<T>, bool, int, int, string?)
-  nameWithType.vb: ExcelGenerator.GenerateExcel(Of T)(IReadOnlyCollection(Of T), Boolean, Integer, Integer, String)
+- uid: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String,System.Boolean)
+  name: GenerateExcel<T>(IReadOnlyCollection<T>, bool, int, int, string?, bool)
+  href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_GenerateExcel__1_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_String_System_Boolean_
+  commentId: M:NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel``1(System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String,System.Boolean)
+  name.vb: GenerateExcel(Of T)(IReadOnlyCollection(Of T), Boolean, Integer, Integer, String, Boolean)
+  fullName: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel<T>(System.Collections.Generic.IReadOnlyCollection<T>, bool, int, int, string?, bool)
+  fullName.vb: NetEnhancements.ClosedXML.ExcelGenerator.GenerateExcel(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T), Boolean, Integer, Integer, String, Boolean)
+  nameWithType: ExcelGenerator.GenerateExcel<T>(IReadOnlyCollection<T>, bool, int, int, string?, bool)
+  nameWithType.vb: ExcelGenerator.GenerateExcel(Of T)(IReadOnlyCollection(Of T), Boolean, Integer, Integer, String, Boolean)
 - uid: NetEnhancements.ClosedXML.ExcelGenerator.ToDataSet*
   name: ToDataSet
   href: api/NetEnhancements.ClosedXML.ExcelGenerator.html#NetEnhancements_ClosedXML_ExcelGenerator_ToDataSet_
@@ -1775,15 +1903,15 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet
   nameWithType: WorkbookExtensions.AddAndPopulateSheet
-- uid: NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet``1(ClosedXML.Excel.IXLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String)
-  name: AddAndPopulateSheet<T>(IXLWorkbook, IReadOnlyCollection<T>, bool, int, int, string?)
-  href: api/NetEnhancements.ClosedXML.WorkbookExtensions.html#NetEnhancements_ClosedXML_WorkbookExtensions_AddAndPopulateSheet__1_ClosedXML_Excel_IXLWorkbook_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_String_
-  commentId: M:NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet``1(ClosedXML.Excel.IXLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String)
-  name.vb: AddAndPopulateSheet(Of T)(IXLWorkbook, IReadOnlyCollection(Of T), Boolean, Integer, Integer, String)
-  fullName: NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet<T>(ClosedXML.Excel.IXLWorkbook, System.Collections.Generic.IReadOnlyCollection<T>, bool, int, int, string?)
-  fullName.vb: NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet(Of T)(ClosedXML.Excel.IXLWorkbook, System.Collections.Generic.IReadOnlyCollection(Of T), Boolean, Integer, Integer, String)
-  nameWithType: WorkbookExtensions.AddAndPopulateSheet<T>(IXLWorkbook, IReadOnlyCollection<T>, bool, int, int, string?)
-  nameWithType.vb: WorkbookExtensions.AddAndPopulateSheet(Of T)(IXLWorkbook, IReadOnlyCollection(Of T), Boolean, Integer, Integer, String)
+- uid: NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet``1(ClosedXML.Excel.IXLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String,System.Boolean)
+  name: AddAndPopulateSheet<T>(IXLWorkbook, IReadOnlyCollection<T>, bool, int, int, string?, bool)
+  href: api/NetEnhancements.ClosedXML.WorkbookExtensions.html#NetEnhancements_ClosedXML_WorkbookExtensions_AddAndPopulateSheet__1_ClosedXML_Excel_IXLWorkbook_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_String_System_Boolean_
+  commentId: M:NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet``1(ClosedXML.Excel.IXLWorkbook,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.String,System.Boolean)
+  name.vb: AddAndPopulateSheet(Of T)(IXLWorkbook, IReadOnlyCollection(Of T), Boolean, Integer, Integer, String, Boolean)
+  fullName: NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet<T>(ClosedXML.Excel.IXLWorkbook, System.Collections.Generic.IReadOnlyCollection<T>, bool, int, int, string?, bool)
+  fullName.vb: NetEnhancements.ClosedXML.WorkbookExtensions.AddAndPopulateSheet(Of T)(ClosedXML.Excel.IXLWorkbook, System.Collections.Generic.IReadOnlyCollection(Of T), Boolean, Integer, Integer, String, Boolean)
+  nameWithType: WorkbookExtensions.AddAndPopulateSheet<T>(IXLWorkbook, IReadOnlyCollection<T>, bool, int, int, string?, bool)
+  nameWithType.vb: WorkbookExtensions.AddAndPopulateSheet(Of T)(IXLWorkbook, IReadOnlyCollection(Of T), Boolean, Integer, Integer, String, Boolean)
 - uid: NetEnhancements.ClosedXML.WorkbookExtensions.ToBytes(ClosedXML.Excel.IXLWorkbook)
   name: ToBytes(IXLWorkbook)
   href: api/NetEnhancements.ClosedXML.WorkbookExtensions.html#NetEnhancements_ClosedXML_WorkbookExtensions_ToBytes_ClosedXML_Excel_IXLWorkbook_
@@ -1826,15 +1954,15 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.WorksheetExtensions.Populate
   nameWithType: WorksheetExtensions.Populate
-- uid: NetEnhancements.ClosedXML.WorksheetExtensions.Populate``1(ClosedXML.Excel.IXLWorksheet,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32)
-  name: Populate<T>(IXLWorksheet, IReadOnlyCollection<T>, bool, int, int)
-  href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_Populate__1_ClosedXML_Excel_IXLWorksheet_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_
-  commentId: M:NetEnhancements.ClosedXML.WorksheetExtensions.Populate``1(ClosedXML.Excel.IXLWorksheet,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32)
-  name.vb: Populate(Of T)(IXLWorksheet, IReadOnlyCollection(Of T), Boolean, Integer, Integer)
-  fullName: NetEnhancements.ClosedXML.WorksheetExtensions.Populate<T>(ClosedXML.Excel.IXLWorksheet, System.Collections.Generic.IReadOnlyCollection<T>, bool, int, int)
-  fullName.vb: NetEnhancements.ClosedXML.WorksheetExtensions.Populate(Of T)(ClosedXML.Excel.IXLWorksheet, System.Collections.Generic.IReadOnlyCollection(Of T), Boolean, Integer, Integer)
-  nameWithType: WorksheetExtensions.Populate<T>(IXLWorksheet, IReadOnlyCollection<T>, bool, int, int)
-  nameWithType.vb: WorksheetExtensions.Populate(Of T)(IXLWorksheet, IReadOnlyCollection(Of T), Boolean, Integer, Integer)
+- uid: NetEnhancements.ClosedXML.WorksheetExtensions.Populate``1(ClosedXML.Excel.IXLWorksheet,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.Boolean)
+  name: Populate<T>(IXLWorksheet, IReadOnlyCollection<T>, bool, int, int, bool)
+  href: api/NetEnhancements.ClosedXML.WorksheetExtensions.html#NetEnhancements_ClosedXML_WorksheetExtensions_Populate__1_ClosedXML_Excel_IXLWorksheet_System_Collections_Generic_IReadOnlyCollection___0__System_Boolean_System_Int32_System_Int32_System_Boolean_
+  commentId: M:NetEnhancements.ClosedXML.WorksheetExtensions.Populate``1(ClosedXML.Excel.IXLWorksheet,System.Collections.Generic.IReadOnlyCollection{``0},System.Boolean,System.Int32,System.Int32,System.Boolean)
+  name.vb: Populate(Of T)(IXLWorksheet, IReadOnlyCollection(Of T), Boolean, Integer, Integer, Boolean)
+  fullName: NetEnhancements.ClosedXML.WorksheetExtensions.Populate<T>(ClosedXML.Excel.IXLWorksheet, System.Collections.Generic.IReadOnlyCollection<T>, bool, int, int, bool)
+  fullName.vb: NetEnhancements.ClosedXML.WorksheetExtensions.Populate(Of T)(ClosedXML.Excel.IXLWorksheet, System.Collections.Generic.IReadOnlyCollection(Of T), Boolean, Integer, Integer, Boolean)
+  nameWithType: WorksheetExtensions.Populate<T>(IXLWorksheet, IReadOnlyCollection<T>, bool, int, int, bool)
+  nameWithType.vb: WorksheetExtensions.Populate(Of T)(IXLWorksheet, IReadOnlyCollection(Of T), Boolean, Integer, Integer, Boolean)
 - uid: NetEnhancements.EntityFramework
   name: NetEnhancements.EntityFramework
   href: api/NetEnhancements.EntityFramework.html
