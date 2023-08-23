@@ -1523,12 +1523,12 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.Value
   nameWithType: ExcelColumnConditionalStyleAttribute.Value
-- uid: NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute
-  name: ExcelColumnDisabledAttribute
-  href: api/NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute.html
-  commentId: T:NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute
-  fullName: NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute
-  nameWithType: ExcelColumnDisabledAttribute
+- uid: NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute
+  name: ExcelColumnIgnoredAttribute
+  href: api/NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute.html
+  commentId: T:NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute
+  fullName: NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute
+  nameWithType: ExcelColumnIgnoredAttribute
 - uid: NetEnhancements.ClosedXML.ExcelColumnNameAttribute
   name: ExcelColumnNameAttribute
   href: api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.html

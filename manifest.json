@@ -433,10 +433,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute.yml",
+      "source_relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnDisabledAttribute.html"
+          "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute.html"
         }
       },
       "version": ""
