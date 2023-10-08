@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "/home/runner/work/NetEnhancements/NetEnhancements/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -1604,7 +1603,6 @@
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
