@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="NetEnhancements_AspNet_Conventions_AreaPolicy" data-uid="NetEnhancements.AspNet.Conventions.AreaPolicy" class="text-break">
-Class AreaPolicy  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L34"><i class="bi bi-code-slash"></i></a>
+Class AreaPolicy  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,8 +153,8 @@ Class AreaPolicy  <a class="header-action link-secondary" title="View source" hr
   <a id="NetEnhancements_AspNet_Conventions_AreaPolicy__ctor_" data-uid="NetEnhancements.AspNet.Conventions.AreaPolicy.#ctor*"></a>
 
   <h3 id="NetEnhancements_AspNet_Conventions_AreaPolicy__ctor_System_String_Microsoft_AspNetCore_Mvc_Filters_IFilterMetadata___" data-uid="NetEnhancements.AspNet.Conventions.AreaPolicy.#ctor(System.String,Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata[])">
-  AreaPolicy(string?, params IFilterMetadata[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  AreaPolicy(string, params IFilterMetadata[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Configures an area policy using an area name and zero or more filters.</p>
@@ -162,13 +162,13 @@ Class AreaPolicy  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AreaPolicy(string? AreaName, params IFilterMetadata[] Filters)</code></pre>
+    <pre><code class="lang-csharp hljs">public AreaPolicy(string AreaName, params IFilterMetadata[] Filters)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>AreaName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the area to apply the filters to. <code>null</code> means no area.</p>
+    <dd><p>The name of the area to apply the filters to. Use <a class="xref" href="NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html#NetEnhancements_AspNet_Conventions_DefaultAreaPolicy_PolicyName">PolicyName</a> to indicate any unspecified area (including no area).</p>
 </dd>
     <dt><code>Filters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.ifiltermetadata">IFilterMetadata</a>[]</dt>
     <dd><p>The filter(s) to apply, if any.</p>
@@ -194,15 +194,15 @@ Class AreaPolicy  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="NetEnhancements_AspNet_Conventions_AreaPolicy_AreaName" data-uid="NetEnhancements.AspNet.Conventions.AreaPolicy.AreaName">
   AreaName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The name of the area to apply the filters to. <code>null</code> means no area.</p>
+  <div class="markdown level1 summary"><p>The name of the area to apply the filters to. Use <a class="xref" href="NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html#NetEnhancements_AspNet_Conventions_DefaultAreaPolicy_PolicyName">PolicyName</a> to indicate any unspecified area (including no area).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? AreaName { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string AreaName { get; init; }</code></pre>
   </div>
 
 
@@ -226,7 +226,7 @@ Class AreaPolicy  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="NetEnhancements_AspNet_Conventions_AreaPolicy_Filters" data-uid="NetEnhancements.AspNet.Conventions.AreaPolicy.Filters">
   Filters
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The filter(s) to apply, if any.</p>
@@ -258,7 +258,7 @@ Class AreaPolicy  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L34" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 

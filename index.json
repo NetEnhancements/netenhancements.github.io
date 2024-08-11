@@ -1,8 +1,13 @@
 {
+  "api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.html": {
+    "href": "api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.html",
+    "title": "Class ControllerEndpointRouteBuilderExtensions",
+    "keywords": "Class ControllerEndpointRouteBuilderExtensions Namespace NetEnhancements.AspNet Assembly NetEnhancements.AspNet.dll Contains extension methods for using Controllers with IEndpointRouteBuilder. public static class ControllerEndpointRouteBuilderExtensions Inheritance object ControllerEndpointRouteBuilderExtensions Methods MapDefaultAreaControllerRoute(IEndpointRouteBuilder) Adds endpoints for controller actions to the IEndpointRouteBuilder and adds the default route {area:exists}/{controller=Home}/{action=Index}/{id?} for routing within areas, named \"defaultAreas\". public static ControllerActionEndpointConventionBuilder MapDefaultAreaControllerRoute(this IEndpointRouteBuilder endpoints) Parameters endpoints IEndpointRouteBuilder The IEndpointRouteBuilder. Returns ControllerActionEndpointConventionBuilder A ControllerActionEndpointConventionBuilder for configuring endpoints associated with controller actions for this route."
+  },
   "api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.html",
     "title": "Class AreaAuthorizationPolicyConvention",
-    "keywords": "Class AreaAuthorizationPolicyConvention Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll Applies the provided policies to MVC Controllers and Razor Pages. public class AreaAuthorizationPolicyConvention : IControllerModelConvention, IPageApplicationModelConvention, IPageConvention Inheritance object AreaAuthorizationPolicyConvention Implements IControllerModelConvention IPageApplicationModelConvention IPageConvention Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Constructors AreaAuthorizationPolicyConvention(List<AreaPolicy>) Instantiates the convention with the given policies. public AreaAuthorizationPolicyConvention(List<AreaPolicy> policies) Parameters policies List<AreaPolicy> Methods Apply(ControllerModel) Called to apply the convention to the ControllerModel. public void Apply(ControllerModel controller) Parameters controller ControllerModel The ControllerModel. Apply(PageApplicationModel) Called to apply the convention to the PageApplicationModel. public void Apply(PageApplicationModel model) Parameters model PageApplicationModel The PageApplicationModel."
+    "keywords": "Class AreaAuthorizationPolicyConvention Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll Applies the provided policies to MVC Controllers and Razor Pages. public class AreaAuthorizationPolicyConvention : IControllerModelConvention, IPageApplicationModelConvention, IPageConvention Inheritance object AreaAuthorizationPolicyConvention Implements IControllerModelConvention IPageApplicationModelConvention IPageConvention Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Constructors AreaAuthorizationPolicyConvention(IReadOnlyCollection<AreaPolicy>) Instantiates the convention with the given policies. public AreaAuthorizationPolicyConvention(IReadOnlyCollection<AreaPolicy> policies) Parameters policies IReadOnlyCollection<AreaPolicy> Methods Apply(ControllerModel) Called to apply the convention to the ControllerModel. public void Apply(ControllerModel controller) Parameters controller ControllerModel The ControllerModel. Apply(PageApplicationModel) Called to apply the convention to the PageApplicationModel. public void Apply(PageApplicationModel model) Parameters model PageApplicationModel The PageApplicationModel."
   },
   "api/NetEnhancements.AspNet.Conventions.AreaControllerRoutingConvention.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.AreaControllerRoutingConvention.html",
@@ -12,7 +17,7 @@
   "api/NetEnhancements.AspNet.Conventions.AreaPolicy.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.AreaPolicy.html",
     "title": "Class AreaPolicy",
-    "keywords": "Class AreaPolicy Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll Configures an area policy using an area name and zero or more filters. public record AreaPolicy : IEquatable<AreaPolicy> Inheritance object AreaPolicy Implements IEquatable<AreaPolicy> Derived DefaultAreaPolicy Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Constructors AreaPolicy(string?, params IFilterMetadata[]) Configures an area policy using an area name and zero or more filters. public AreaPolicy(string? AreaName, params IFilterMetadata[] Filters) Parameters AreaName string The name of the area to apply the filters to. null means no area. Filters IFilterMetadata[] The filter(s) to apply, if any. Properties AreaName The name of the area to apply the filters to. null means no area. public string? AreaName { get; init; } Property Value string Filters The filter(s) to apply, if any. public IFilterMetadata[] Filters { get; init; } Property Value IFilterMetadata[]"
+    "keywords": "Class AreaPolicy Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll Configures an area policy using an area name and zero or more filters. public record AreaPolicy : IEquatable<AreaPolicy> Inheritance object AreaPolicy Implements IEquatable<AreaPolicy> Derived DefaultAreaPolicy Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Constructors AreaPolicy(string, params IFilterMetadata[]) Configures an area policy using an area name and zero or more filters. public AreaPolicy(string AreaName, params IFilterMetadata[] Filters) Parameters AreaName string The name of the area to apply the filters to. Use PolicyName to indicate any unspecified area (including no area). Filters IFilterMetadata[] The filter(s) to apply, if any. Properties AreaName The name of the area to apply the filters to. Use PolicyName to indicate any unspecified area (including no area). public string AreaName { get; init; } Property Value string Filters The filter(s) to apply, if any. public IFilterMetadata[] Filters { get; init; } Property Value IFilterMetadata[]"
   },
   "api/NetEnhancements.AspNet.Conventions.AreaRoutingAttribute.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.AreaRoutingAttribute.html",
@@ -27,12 +32,7 @@
   "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html",
     "title": "Class DefaultAreaPolicy",
-    "keywords": "Class DefaultAreaPolicy Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll Registers filters for the \"default area policy\", i.e. not applicable to any other registered policy. public record DefaultAreaPolicy : AreaPolicy, IEquatable<AreaPolicy>, IEquatable<DefaultAreaPolicy> Inheritance object AreaPolicy DefaultAreaPolicy Implements IEquatable<AreaPolicy> IEquatable<DefaultAreaPolicy> Inherited Members AreaPolicy.AreaName AreaPolicy.Filters Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Constructors DefaultAreaPolicy() Registers filters for the \"default area policy\", i.e. not applicable to any other registered policy. public DefaultAreaPolicy() Fields PolicyName Placeholder name to recognize the default policy being applied. public const string PolicyName = \"(DefaultPolicy)\" Field Value string"
-  },
-  "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.html": {
-    "href": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.html",
-    "title": "Class DefaultAreaPolicyFilter",
-    "keywords": "Class DefaultAreaPolicyFilter Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll Represents the default policy, applied to all unspecified areas (including no area). public class DefaultAreaPolicyFilter : AuthorizeFilter, IAsyncAuthorizationFilter, IFilterFactory, IFilterMetadata Inheritance object AuthorizeFilter DefaultAreaPolicyFilter Implements IAsyncAuthorizationFilter IFilterFactory IFilterMetadata Inherited Members AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext) AuthorizeFilter.PolicyProvider AuthorizeFilter.AuthorizeData AuthorizeFilter.Policy Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Constructors DefaultAreaPolicyFilter() public DefaultAreaPolicyFilter()"
+    "keywords": "Class DefaultAreaPolicy Namespace NetEnhancements.AspNet.Conventions Assembly NetEnhancements.AspNet.dll Registers filters for the \"default area policy\", i.e. not applicable to any other registered policy. public record DefaultAreaPolicy : AreaPolicy, IEquatable<AreaPolicy>, IEquatable<DefaultAreaPolicy> Inheritance object AreaPolicy DefaultAreaPolicy Implements IEquatable<AreaPolicy> IEquatable<DefaultAreaPolicy> Inherited Members AreaPolicy.AreaName AreaPolicy.Filters Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Constructors DefaultAreaPolicy() Registers filters for the \"default area policy\", i.e. not applicable to any other registered policy. public DefaultAreaPolicy() Fields PolicyName Placeholder name to recognize the default area policy being applied. public const string PolicyName = \"(DefaultAreaPolicy)\" Field Value string"
   },
   "api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.html",
@@ -47,7 +47,7 @@
   "api/NetEnhancements.AspNet.Conventions.html": {
     "href": "api/NetEnhancements.AspNet.Conventions.html",
     "title": "Namespace NetEnhancements.AspNet.Conventions",
-    "keywords": "Namespace NetEnhancements.AspNet.Conventions Classes AreaAuthorizationPolicyConvention Applies the provided policies to MVC Controllers and Razor Pages. AreaControllerRoutingConvention Apply this convention to route all controllers based on their \"Areas.\" namespace, if any. This prevents having to put [Area(\"Foo\")] on every controller. AreaPolicy Configures an area policy using an area name and zero or more filters. AreaRoutingAttribute Apply to a controller to auto-route its area based on its namespace. So instead of [Area(\"Foo\")], use [AreaRouting] on a controller in the MyProject.Areas.Foo.Controllers namespace, inferring \"Foo\". ControllerModelExtensions Extension methods for ControllerModel. DefaultAreaPolicy Registers filters for the \"default area policy\", i.e. not applicable to any other registered policy. DefaultAreaPolicyFilter Represents the default policy, applied to all unspecified areas (including no area). PageModelRoutePrefixConvention Apply to update or remove an area route prefix. RoutePrefixConvention<TControllerBase>"
+    "keywords": "Namespace NetEnhancements.AspNet.Conventions Classes AreaAuthorizationPolicyConvention Applies the provided policies to MVC Controllers and Razor Pages. AreaControllerRoutingConvention Apply this convention to route all controllers based on their \"Areas.\" namespace, if any. This prevents having to put [Area(\"Foo\")] on every controller. AreaPolicy Configures an area policy using an area name and zero or more filters. AreaRoutingAttribute Apply to a controller to auto-route its area based on its namespace. So instead of [Area(\"Foo\")], use [AreaRouting] on a controller in the MyProject.Areas.Foo.Controllers namespace, inferring \"Foo\". ControllerModelExtensions Extension methods for ControllerModel. DefaultAreaPolicy Registers filters for the \"default area policy\", i.e. not applicable to any other registered policy. PageModelRoutePrefixConvention Apply to update or remove an area route prefix. RoutePrefixConvention<TControllerBase>"
   },
   "api/NetEnhancements.AspNet.Filters.UnauthorizedAccessExceptionFilter.html": {
     "href": "api/NetEnhancements.AspNet.Filters.UnauthorizedAccessExceptionFilter.html",
@@ -69,15 +69,30 @@
     "title": "Class HttpContextExtensions",
     "keywords": "Class HttpContextExtensions Namespace NetEnhancements.AspNet Assembly NetEnhancements.AspNet.dll public static class HttpContextExtensions Inheritance object HttpContextExtensions Methods GetRequestIPAddress(HttpContext) public static string GetRequestIPAddress(this HttpContext context) Parameters context HttpContext Returns string"
   },
+  "api/NetEnhancements.AspNet.MvcBuilderExtensions.html": {
+    "href": "api/NetEnhancements.AspNet.MvcBuilderExtensions.html",
+    "title": "Class MvcBuilderExtensions",
+    "keywords": "Class MvcBuilderExtensions Namespace NetEnhancements.AspNet Assembly NetEnhancements.AspNet.dll Inject MVC enhancements. public static class MvcBuilderExtensions Inheritance object MvcBuilderExtensions Methods AddRouteDebugger(IMvcBuilder) Registers the IRouteDebugger. public static IMvcBuilder AddRouteDebugger(this IMvcBuilder builder) Parameters builder IMvcBuilder Returns IMvcBuilder"
+  },
   "api/NetEnhancements.AspNet.MvcOptionsExtensions.html": {
     "href": "api/NetEnhancements.AspNet.MvcOptionsExtensions.html",
     "title": "Class MvcOptionsExtensions",
     "keywords": "Class MvcOptionsExtensions Namespace NetEnhancements.AspNet Assembly NetEnhancements.AspNet.dll Extension method container for MVC options. public static class MvcOptionsExtensions Inheritance object MvcOptionsExtensions Methods UseAreaControllerNamespace(MvcOptions) Applies the AreaControllerRoutingConvention convention that routes controllers based on their \"Areas.\" namespace, if any. public static void UseAreaControllerNamespace(this MvcOptions options) Parameters options MvcOptions UseGeneralRoutePrefix(RazorPagesOptions, string, string, bool) public static void UseGeneralRoutePrefix(this RazorPagesOptions options, string areaName, string prefix, bool removeAreaFromUrl = false) Parameters options RazorPagesOptions areaName string prefix string removeAreaFromUrl bool UseGeneralRoutePrefix<TControllerBase>(MvcOptions, IRouteTemplateProvider) public static void UseGeneralRoutePrefix<TControllerBase>(this MvcOptions opts, IRouteTemplateProvider routeAttribute) where TControllerBase : Controller Parameters opts MvcOptions routeAttribute IRouteTemplateProvider Type Parameters TControllerBase UseGeneralRoutePrefix<TControllerBase>(MvcOptions, string) public static void UseGeneralRoutePrefix<TControllerBase>(this MvcOptions options, string prefix) where TControllerBase : Controller Parameters options MvcOptions prefix string Type Parameters TControllerBase"
   },
-  "api/NetEnhancements.AspNet.RouteModel.html": {
-    "href": "api/NetEnhancements.AspNet.RouteModel.html",
+  "api/NetEnhancements.AspNet.Routing.IRouteDebugger.html": {
+    "href": "api/NetEnhancements.AspNet.Routing.IRouteDebugger.html",
+    "title": "Interface IRouteDebugger",
+    "keywords": "Interface IRouteDebugger Namespace NetEnhancements.AspNet.Routing Assembly NetEnhancements.AspNet.dll Contains functionality to debug the routing system. public interface IRouteDebugger Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Methods GetRoutes() Retrieve all routes registered with ASP.NET. IReadOnlyCollection<RouteModel> GetRoutes() Returns IReadOnlyCollection<RouteModel>"
+  },
+  "api/NetEnhancements.AspNet.Routing.RouteModel.html": {
+    "href": "api/NetEnhancements.AspNet.Routing.RouteModel.html",
     "title": "Class RouteModel",
-    "keywords": "Class RouteModel Namespace NetEnhancements.AspNet Assembly NetEnhancements.AspNet.dll An ASP.NET Core route. public class RouteModel Inheritance object RouteModel Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Properties Area The area the route points to. public string? Area { get; set; } Property Value string Name Route name. public string? Name { get; set; } Property Value string Template Route template. public string? Template { get; set; } Property Value string"
+    "keywords": "Class RouteModel Namespace NetEnhancements.AspNet.Routing Assembly NetEnhancements.AspNet.dll An ASP.NET Core route. public class RouteModel Inheritance object RouteModel Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Properties Area The area the route points to. public string? Area { get; set; } Property Value string Methods The HTTP methods through which the route is accessible; all if empty. public IReadOnlyList<string> Methods { get; set; } Property Value IReadOnlyList<string> Name Route, page or controller name. public string? Name { get; set; } Property Value string Template Route template. public string? Template { get; set; } Property Value string"
+  },
+  "api/NetEnhancements.AspNet.Routing.html": {
+    "href": "api/NetEnhancements.AspNet.Routing.html",
+    "title": "Namespace NetEnhancements.AspNet.Routing",
+    "keywords": "Namespace NetEnhancements.AspNet.Routing Classes RouteModel An ASP.NET Core route. Interfaces IRouteDebugger Contains functionality to debug the routing system."
   },
   "api/NetEnhancements.AspNet.SelectListExtensions.html": {
     "href": "api/NetEnhancements.AspNet.SelectListExtensions.html",
@@ -103,11 +118,6 @@
     "href": "api/NetEnhancements.AspNet.SharedConstants.html",
     "title": "Class SharedConstants",
     "keywords": "Class SharedConstants Namespace NetEnhancements.AspNet Assembly NetEnhancements.AspNet.dll public static class SharedConstants Inheritance object SharedConstants Fields UnknownIpAddress public const string UnknownIpAddress = \"(Unknown)\" Field Value string XForwardedFor public const string XForwardedFor = \"X-Forwarded-For\" Field Value string"
-  },
-  "api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html": {
-    "href": "api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html",
-    "title": "Class SnakeCaseNamingPolicy",
-    "keywords": "Class SnakeCaseNamingPolicy Namespace NetEnhancements.AspNet Assembly NetEnhancements.AspNet.dll Policy to name JSON properties in snake_case. public class SnakeCaseNamingPolicy : JsonNamingPolicy Inheritance object JsonNamingPolicy SnakeCaseNamingPolicy Inherited Members JsonNamingPolicy.CamelCase JsonNamingPolicy.KebabCaseLower JsonNamingPolicy.KebabCaseUpper JsonNamingPolicy.SnakeCaseLower JsonNamingPolicy.SnakeCaseUpper Extension Methods CollectionExtensions.In<T>(T?, params T[]) CollectionExtensions.In<T>(T?, IEnumerable<T>) Properties Instance An instance of the SnakeCaseNamingPolicy. public static SnakeCaseNamingPolicy Instance { get; } Property Value SnakeCaseNamingPolicy Methods ConvertName(string) When overridden in a derived class, converts the specified name according to the policy. public override string ConvertName(string name) Parameters name string The name to convert. Returns string The converted name."
   },
   "api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.html": {
     "href": "api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.html",
@@ -152,7 +162,7 @@
   "api/NetEnhancements.AspNet.html": {
     "href": "api/NetEnhancements.AspNet.html",
     "title": "Namespace NetEnhancements.AspNet",
-    "keywords": "Namespace NetEnhancements.AspNet Tag helpers, routing conventions. Classes HtmlHelperExtensions HttpContextExtensions MvcOptionsExtensions Extension method container for MVC options. RouteModel An ASP.NET Core route. SelectListExtensions SessionExtensions SharedConstants SnakeCaseNamingPolicy Policy to name JSON properties in snake_case. ViewContextExtensions"
+    "keywords": "Namespace NetEnhancements.AspNet Tag helpers, routing conventions. Classes ControllerEndpointRouteBuilderExtensions Contains extension methods for using Controllers with IEndpointRouteBuilder. HtmlHelperExtensions HttpContextExtensions MvcBuilderExtensions Inject MVC enhancements. MvcOptionsExtensions Extension method container for MVC options. SelectListExtensions SessionExtensions SharedConstants ViewContextExtensions"
   },
   "api/NetEnhancements.Business.BusinessResult-1.html": {
     "href": "api/NetEnhancements.Business.BusinessResult-1.html",
@@ -749,20 +759,20 @@
     "title": "HTML Helper Extensions",
     "keywords": "HTML Helper Extensions TODO"
   },
+  "articles/aspnet/conventions/AreaAuthorizationPolicyConvention.html": {
+    "href": "articles/aspnet/conventions/AreaAuthorizationPolicyConvention.html",
+    "title": "Area Authorization Policy Convention",
+    "keywords": "Area Authorization Policy Convention ASP.NET Core has a concept of \"policies\". Herein you configure policies during startup: builder.Services.AddAuthorization(o => { o.AddPolicy(\"RequireAdmin\", p => { p.RequireAuthenticatedUser(); p.RequireRole(\"Admin\"); }); }); Which you then apply to controllers or Razor Pages: [Authorize(Policy = \"RequireAdmin\")] public class UsersController : Controller { } This [Authorize(Policy = \"RequireAdmin\")] needs to be applied to all controllers and pages within that area which you want to secure. Not anymore! Using our AreaAuthorizationPolicyConvention you don't have to anymore. You still have to tell ASP.NET about the policies you want to recognize as shown before. But for applying them, things have been made somewhat easier. First, you build the convention using AreaPolicies: AreaPolicy[] areaPolicies = [ // Identity area: uses its own policies, leave as-is. new (AreaName: \"Identity\"), // Admin area: requires a logged in admin user. new (AreaName: \"Admin\", new AuthorizeFilter(adminAreaPolicy)), // Policy for all other areas (including none). new DefaultAreaPolicy(), ]; // Configure policies per Area. var areaPolicyConvention = new AreaAuthorizationPolicyConvention(areaPolicies); Then configure the conventions: // Configure MVC. mvcBuilder.AddMvcOptions(options => { // Apply the policies to controllers. options.Conventions.Add(areaPolicyConvention); }); // Configure Razor Pages. mvcBuilder.AddRazorPagesOptions(options => { // Apply the policies to pages. options.Conventions.Add(areaPolicyConvention); }); (Default)AreaPolicy Each AreaPolicy links an area name to a policy to apply it to. You don't use areas, or have stuff outside of areas? Use the DefaultAreaPolicy!"
+  },
   "articles/aspnet/conventions/AreaControllerRouting.html": {
     "href": "articles/aspnet/conventions/AreaControllerRouting.html",
     "title": "Area Controller Routing Convention",
     "keywords": "Area Controller Routing Convention With ASP.NET Core, if you have a controller that lives in an area, say FooController in the area Bar, you'll have to annotate the controller: namespace MyApp.Areas.Bar { [Area(\"Bar\")] public class FooController : Controller { } } This [Area(\"Bar\")] needs to be applied to all controllers within that area. Not anymore! Using our UseAreaControllerNamespace() you don't have to anymore: var mvcBuilder = builder.Services.AddMvc() // or .AddControllers() .AddMvcOptions(options => { options.UseAreaControllerNamespace(); } This method registers the AreaControllerRoutingConvention, which registers controllers within an Areas namespace as if they had the Area attribute applied. The rules: The controller must be in a namespace that contains \".Areas.\" What follows \"Areas.\" will be taken as area name: MyApp.Areas.Bar.FooController will be registered as having the area \"Bar\". If the controller has attribute routing applied ([Route(\"...\")]), it won't be registered. The route for the controller will be registered as \"[area]/[controller]/[action]/{id?}\", having [area] replaced with the detected area name from the namespace."
   },
-  "articles/aspnet/conventions/index.html": {
-    "href": "articles/aspnet/conventions/index.html",
-    "title": "Conventions",
-    "keywords": "Conventions Area Controller Routing Convention"
-  },
   "articles/aspnet/index.html": {
     "href": "articles/aspnet/index.html",
     "title": "ASP.NET",
-    "keywords": "ASP.NET Conventions HTML Helper Extensions"
+    "keywords": "ASP.NET Core Enhancements We offer various extensions for ASP.NET Core. Default Area Route Call app.MapDefaultAreaControllerRoute() to register the route {area:exists}/{controller=Home}/{action=Index}/{id?}. This enables routing into any existing area. See also the Area Controller Routing Convention."
   },
   "articles/index.html": {
     "href": "articles/index.html",

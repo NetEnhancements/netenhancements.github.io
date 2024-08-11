@@ -12,6 +12,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.yml",
       "output": {
         ".html": {
@@ -66,16 +76,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.html"
         }
       },
       "version": ""
@@ -152,6 +152,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.MvcBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.MvcBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.AspNet.MvcOptionsExtensions.yml",
       "output": {
         ".html": {
@@ -162,10 +172,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.AspNet.RouteModel.yml",
+      "source_relative_path": "api/NetEnhancements.AspNet.Routing.IRouteDebugger.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetEnhancements.AspNet.RouteModel.html"
+          "relative_path": "api/NetEnhancements.AspNet.Routing.IRouteDebugger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Routing.RouteModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Routing.RouteModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.Routing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.Routing.html"
         }
       },
       "version": ""
@@ -216,16 +246,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetEnhancements.AspNet.SharedConstants.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html"
         }
       },
       "version": ""
@@ -1525,20 +1545,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/aspnet/conventions/AreaControllerRouting.md",
+      "source_relative_path": "articles/aspnet/conventions/AreaAuthorizationPolicyConvention.md",
       "output": {
         ".html": {
-          "relative_path": "articles/aspnet/conventions/AreaControllerRouting.html"
+          "relative_path": "articles/aspnet/conventions/AreaAuthorizationPolicyConvention.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/aspnet/conventions/index.md",
+      "source_relative_path": "articles/aspnet/conventions/AreaControllerRouting.md",
       "output": {
         ".html": {
-          "relative_path": "articles/aspnet/conventions/index.html"
+          "relative_path": "articles/aspnet/conventions/AreaControllerRouting.html"
         }
       },
       "version": ""

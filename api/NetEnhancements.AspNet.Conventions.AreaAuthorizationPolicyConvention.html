@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention" data-uid="NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention" class="text-break">
-Class AreaAuthorizationPolicyConvention  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L39"><i class="bi bi-code-slash"></i></a>
+Class AreaAuthorizationPolicyConvention  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -148,9 +148,9 @@ Class AreaAuthorizationPolicyConvention  <a class="header-action link-secondary"
 
   <a id="NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention__ctor_" data-uid="NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.#ctor*"></a>
 
-  <h3 id="NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention__ctor_System_Collections_Generic_List_NetEnhancements_AspNet_Conventions_AreaPolicy__" data-uid="NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.#ctor(System.Collections.Generic.List{NetEnhancements.AspNet.Conventions.AreaPolicy})">
-  AreaAuthorizationPolicyConvention(List&lt;AreaPolicy&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention__ctor_System_Collections_Generic_IReadOnlyCollection_NetEnhancements_AspNet_Conventions_AreaPolicy__" data-uid="NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.#ctor(System.Collections.Generic.IReadOnlyCollection{NetEnhancements.AspNet.Conventions.AreaPolicy})">
+  AreaAuthorizationPolicyConvention(IReadOnlyCollection&lt;AreaPolicy&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Instantiates the convention with the given policies.</p>
@@ -158,12 +158,12 @@ Class AreaAuthorizationPolicyConvention  <a class="header-action link-secondary"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AreaAuthorizationPolicyConvention(List&lt;AreaPolicy&gt; policies)</code></pre>
+    <pre><code class="lang-csharp hljs">public AreaAuthorizationPolicyConvention(IReadOnlyCollection&lt;AreaPolicy&gt; policies)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>policies</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="NetEnhancements.AspNet.Conventions.AreaPolicy.html">AreaPolicy</a>&gt;</dt>
+    <dt><code>policies</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="NetEnhancements.AspNet.Conventions.AreaPolicy.html">AreaPolicy</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -186,7 +186,7 @@ Class AreaAuthorizationPolicyConvention  <a class="header-action link-secondary"
 
   <h3 id="NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention_Apply_Microsoft_AspNetCore_Mvc_ApplicationModels_ControllerModel_" data-uid="NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.Apply(Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerModel)">
   Apply(ControllerModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called to apply the convention to the <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.applicationmodels.controllermodel">ControllerModel</a>.</p>
@@ -219,7 +219,7 @@ Class AreaAuthorizationPolicyConvention  <a class="header-action link-secondary"
 
   <h3 id="NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention_Apply_Microsoft_AspNetCore_Mvc_ApplicationModels_PageApplicationModel_" data-uid="NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.Apply(Microsoft.AspNetCore.Mvc.ApplicationModels.PageApplicationModel)">
   Apply(PageApplicationModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called to apply the convention to the <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.applicationmodels.pageapplicationmodel">PageApplicationModel</a>.</p>
@@ -252,7 +252,7 @@ Class AreaAuthorizationPolicyConvention  <a class="header-action link-secondary"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L39" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.AspNet/Conventions/AreaAuthorizationPolicyConvention.cs/#L30" class="edit-link">Edit this page</a>
         </div>
 
 

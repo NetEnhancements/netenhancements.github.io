@@ -7,6 +7,25 @@ references:
   commentId: N:NetEnhancements.AspNet
   fullName: NetEnhancements.AspNet
   nameWithType: NetEnhancements.AspNet
+- uid: NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions
+  name: ControllerEndpointRouteBuilderExtensions
+  href: api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.html
+  commentId: T:NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions
+  fullName: NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions
+  nameWithType: ControllerEndpointRouteBuilderExtensions
+- uid: NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.MapDefaultAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)
+  name: MapDefaultAreaControllerRoute(IEndpointRouteBuilder)
+  href: api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.html#NetEnhancements_AspNet_ControllerEndpointRouteBuilderExtensions_MapDefaultAreaControllerRoute_Microsoft_AspNetCore_Routing_IEndpointRouteBuilder_
+  commentId: M:NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.MapDefaultAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)
+  fullName: NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.MapDefaultAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)
+  nameWithType: ControllerEndpointRouteBuilderExtensions.MapDefaultAreaControllerRoute(IEndpointRouteBuilder)
+- uid: NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.MapDefaultAreaControllerRoute*
+  name: MapDefaultAreaControllerRoute
+  href: api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.html#NetEnhancements_AspNet_ControllerEndpointRouteBuilderExtensions_MapDefaultAreaControllerRoute_
+  commentId: Overload:NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.MapDefaultAreaControllerRoute
+  isSpec: "True"
+  fullName: NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.MapDefaultAreaControllerRoute
+  nameWithType: ControllerEndpointRouteBuilderExtensions.MapDefaultAreaControllerRoute
 - uid: NetEnhancements.AspNet.Conventions
   name: NetEnhancements.AspNet.Conventions
   href: api/NetEnhancements.AspNet.Conventions.html
@@ -19,15 +38,15 @@ references:
   commentId: T:NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention
   fullName: NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention
   nameWithType: AreaAuthorizationPolicyConvention
-- uid: NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.#ctor(System.Collections.Generic.List{NetEnhancements.AspNet.Conventions.AreaPolicy})
-  name: AreaAuthorizationPolicyConvention(List<AreaPolicy>)
-  href: api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.html#NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention__ctor_System_Collections_Generic_List_NetEnhancements_AspNet_Conventions_AreaPolicy__
-  commentId: M:NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.#ctor(System.Collections.Generic.List{NetEnhancements.AspNet.Conventions.AreaPolicy})
-  name.vb: New(List(Of AreaPolicy))
-  fullName: NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.AreaAuthorizationPolicyConvention(System.Collections.Generic.List<NetEnhancements.AspNet.Conventions.AreaPolicy>)
-  fullName.vb: NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.New(System.Collections.Generic.List(Of NetEnhancements.AspNet.Conventions.AreaPolicy))
-  nameWithType: AreaAuthorizationPolicyConvention.AreaAuthorizationPolicyConvention(List<AreaPolicy>)
-  nameWithType.vb: AreaAuthorizationPolicyConvention.New(List(Of AreaPolicy))
+- uid: NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.#ctor(System.Collections.Generic.IReadOnlyCollection{NetEnhancements.AspNet.Conventions.AreaPolicy})
+  name: AreaAuthorizationPolicyConvention(IReadOnlyCollection<AreaPolicy>)
+  href: api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.html#NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention__ctor_System_Collections_Generic_IReadOnlyCollection_NetEnhancements_AspNet_Conventions_AreaPolicy__
+  commentId: M:NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.#ctor(System.Collections.Generic.IReadOnlyCollection{NetEnhancements.AspNet.Conventions.AreaPolicy})
+  name.vb: New(IReadOnlyCollection(Of AreaPolicy))
+  fullName: NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.AreaAuthorizationPolicyConvention(System.Collections.Generic.IReadOnlyCollection<NetEnhancements.AspNet.Conventions.AreaPolicy>)
+  fullName.vb: NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.New(System.Collections.Generic.IReadOnlyCollection(Of NetEnhancements.AspNet.Conventions.AreaPolicy))
+  nameWithType: AreaAuthorizationPolicyConvention.AreaAuthorizationPolicyConvention(IReadOnlyCollection<AreaPolicy>)
+  nameWithType.vb: AreaAuthorizationPolicyConvention.New(IReadOnlyCollection(Of AreaPolicy))
 - uid: NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.#ctor*
   name: AreaAuthorizationPolicyConvention
   href: api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.html#NetEnhancements_AspNet_Conventions_AreaAuthorizationPolicyConvention__ctor_
@@ -83,13 +102,13 @@ references:
   fullName: NetEnhancements.AspNet.Conventions.AreaPolicy
   nameWithType: AreaPolicy
 - uid: NetEnhancements.AspNet.Conventions.AreaPolicy.#ctor(System.String,Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata[])
-  name: AreaPolicy(string?, params IFilterMetadata[])
+  name: AreaPolicy(string, params IFilterMetadata[])
   href: api/NetEnhancements.AspNet.Conventions.AreaPolicy.html#NetEnhancements_AspNet_Conventions_AreaPolicy__ctor_System_String_Microsoft_AspNetCore_Mvc_Filters_IFilterMetadata___
   commentId: M:NetEnhancements.AspNet.Conventions.AreaPolicy.#ctor(System.String,Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata[])
   name.vb: New(String, ParamArray IFilterMetadata())
-  fullName: NetEnhancements.AspNet.Conventions.AreaPolicy.AreaPolicy(string?, params Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata[])
+  fullName: NetEnhancements.AspNet.Conventions.AreaPolicy.AreaPolicy(string, params Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata[])
   fullName.vb: NetEnhancements.AspNet.Conventions.AreaPolicy.New(String, ParamArray Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata())
-  nameWithType: AreaPolicy.AreaPolicy(string?, params IFilterMetadata[])
+  nameWithType: AreaPolicy.AreaPolicy(string, params IFilterMetadata[])
   nameWithType.vb: AreaPolicy.New(String, ParamArray IFilterMetadata())
 - uid: NetEnhancements.AspNet.Conventions.AreaPolicy.#ctor*
   name: AreaPolicy
@@ -196,31 +215,6 @@ references:
   commentId: F:NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.PolicyName
   fullName: NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.PolicyName
   nameWithType: DefaultAreaPolicy.PolicyName
-- uid: NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter
-  name: DefaultAreaPolicyFilter
-  href: api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.html
-  commentId: T:NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter
-  fullName: NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter
-  nameWithType: DefaultAreaPolicyFilter
-- uid: NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.#ctor
-  name: DefaultAreaPolicyFilter()
-  href: api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.html#NetEnhancements_AspNet_Conventions_DefaultAreaPolicyFilter__ctor
-  commentId: M:NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.#ctor
-  name.vb: New()
-  fullName: NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.DefaultAreaPolicyFilter()
-  fullName.vb: NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.New()
-  nameWithType: DefaultAreaPolicyFilter.DefaultAreaPolicyFilter()
-  nameWithType.vb: DefaultAreaPolicyFilter.New()
-- uid: NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.#ctor*
-  name: DefaultAreaPolicyFilter
-  href: api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.html#NetEnhancements_AspNet_Conventions_DefaultAreaPolicyFilter__ctor_
-  commentId: Overload:NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.DefaultAreaPolicyFilter
-  fullName.vb: NetEnhancements.AspNet.Conventions.DefaultAreaPolicyFilter.New
-  nameWithType: DefaultAreaPolicyFilter.DefaultAreaPolicyFilter
-  nameWithType.vb: DefaultAreaPolicyFilter.New
 - uid: NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention
   name: PageModelRoutePrefixConvention
   href: api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.html
@@ -370,6 +364,25 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.AspNet.HttpContextExtensions.GetRequestIPAddress
   nameWithType: HttpContextExtensions.GetRequestIPAddress
+- uid: NetEnhancements.AspNet.MvcBuilderExtensions
+  name: MvcBuilderExtensions
+  href: api/NetEnhancements.AspNet.MvcBuilderExtensions.html
+  commentId: T:NetEnhancements.AspNet.MvcBuilderExtensions
+  fullName: NetEnhancements.AspNet.MvcBuilderExtensions
+  nameWithType: MvcBuilderExtensions
+- uid: NetEnhancements.AspNet.MvcBuilderExtensions.AddRouteDebugger(Microsoft.Extensions.DependencyInjection.IMvcBuilder)
+  name: AddRouteDebugger(IMvcBuilder)
+  href: api/NetEnhancements.AspNet.MvcBuilderExtensions.html#NetEnhancements_AspNet_MvcBuilderExtensions_AddRouteDebugger_Microsoft_Extensions_DependencyInjection_IMvcBuilder_
+  commentId: M:NetEnhancements.AspNet.MvcBuilderExtensions.AddRouteDebugger(Microsoft.Extensions.DependencyInjection.IMvcBuilder)
+  fullName: NetEnhancements.AspNet.MvcBuilderExtensions.AddRouteDebugger(Microsoft.Extensions.DependencyInjection.IMvcBuilder)
+  nameWithType: MvcBuilderExtensions.AddRouteDebugger(IMvcBuilder)
+- uid: NetEnhancements.AspNet.MvcBuilderExtensions.AddRouteDebugger*
+  name: AddRouteDebugger
+  href: api/NetEnhancements.AspNet.MvcBuilderExtensions.html#NetEnhancements_AspNet_MvcBuilderExtensions_AddRouteDebugger_
+  commentId: Overload:NetEnhancements.AspNet.MvcBuilderExtensions.AddRouteDebugger
+  isSpec: "True"
+  fullName: NetEnhancements.AspNet.MvcBuilderExtensions.AddRouteDebugger
+  nameWithType: MvcBuilderExtensions.AddRouteDebugger
 - uid: NetEnhancements.AspNet.MvcOptionsExtensions
   name: MvcOptionsExtensions
   href: api/NetEnhancements.AspNet.MvcOptionsExtensions.html
@@ -423,50 +436,88 @@ references:
   fullName.vb: NetEnhancements.AspNet.MvcOptionsExtensions.UseGeneralRoutePrefix(Of TControllerBase)(Microsoft.AspNetCore.Mvc.MvcOptions, String)
   nameWithType: MvcOptionsExtensions.UseGeneralRoutePrefix<TControllerBase>(MvcOptions, string)
   nameWithType.vb: MvcOptionsExtensions.UseGeneralRoutePrefix(Of TControllerBase)(MvcOptions, String)
-- uid: NetEnhancements.AspNet.RouteModel
+- uid: NetEnhancements.AspNet.Routing
+  name: NetEnhancements.AspNet.Routing
+  href: api/NetEnhancements.AspNet.Routing.html
+  commentId: N:NetEnhancements.AspNet.Routing
+  fullName: NetEnhancements.AspNet.Routing
+  nameWithType: NetEnhancements.AspNet.Routing
+- uid: NetEnhancements.AspNet.Routing.IRouteDebugger
+  name: IRouteDebugger
+  href: api/NetEnhancements.AspNet.Routing.IRouteDebugger.html
+  commentId: T:NetEnhancements.AspNet.Routing.IRouteDebugger
+  fullName: NetEnhancements.AspNet.Routing.IRouteDebugger
+  nameWithType: IRouteDebugger
+- uid: NetEnhancements.AspNet.Routing.IRouteDebugger.GetRoutes
+  name: GetRoutes()
+  href: api/NetEnhancements.AspNet.Routing.IRouteDebugger.html#NetEnhancements_AspNet_Routing_IRouteDebugger_GetRoutes
+  commentId: M:NetEnhancements.AspNet.Routing.IRouteDebugger.GetRoutes
+  fullName: NetEnhancements.AspNet.Routing.IRouteDebugger.GetRoutes()
+  nameWithType: IRouteDebugger.GetRoutes()
+- uid: NetEnhancements.AspNet.Routing.IRouteDebugger.GetRoutes*
+  name: GetRoutes
+  href: api/NetEnhancements.AspNet.Routing.IRouteDebugger.html#NetEnhancements_AspNet_Routing_IRouteDebugger_GetRoutes_
+  commentId: Overload:NetEnhancements.AspNet.Routing.IRouteDebugger.GetRoutes
+  isSpec: "True"
+  fullName: NetEnhancements.AspNet.Routing.IRouteDebugger.GetRoutes
+  nameWithType: IRouteDebugger.GetRoutes
+- uid: NetEnhancements.AspNet.Routing.RouteModel
   name: RouteModel
-  href: api/NetEnhancements.AspNet.RouteModel.html
-  commentId: T:NetEnhancements.AspNet.RouteModel
-  fullName: NetEnhancements.AspNet.RouteModel
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html
+  commentId: T:NetEnhancements.AspNet.Routing.RouteModel
+  fullName: NetEnhancements.AspNet.Routing.RouteModel
   nameWithType: RouteModel
-- uid: NetEnhancements.AspNet.RouteModel.Area
+- uid: NetEnhancements.AspNet.Routing.RouteModel.Area
   name: Area
-  href: api/NetEnhancements.AspNet.RouteModel.html#NetEnhancements_AspNet_RouteModel_Area
-  commentId: P:NetEnhancements.AspNet.RouteModel.Area
-  fullName: NetEnhancements.AspNet.RouteModel.Area
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html#NetEnhancements_AspNet_Routing_RouteModel_Area
+  commentId: P:NetEnhancements.AspNet.Routing.RouteModel.Area
+  fullName: NetEnhancements.AspNet.Routing.RouteModel.Area
   nameWithType: RouteModel.Area
-- uid: NetEnhancements.AspNet.RouteModel.Area*
+- uid: NetEnhancements.AspNet.Routing.RouteModel.Area*
   name: Area
-  href: api/NetEnhancements.AspNet.RouteModel.html#NetEnhancements_AspNet_RouteModel_Area_
-  commentId: Overload:NetEnhancements.AspNet.RouteModel.Area
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html#NetEnhancements_AspNet_Routing_RouteModel_Area_
+  commentId: Overload:NetEnhancements.AspNet.Routing.RouteModel.Area
   isSpec: "True"
-  fullName: NetEnhancements.AspNet.RouteModel.Area
+  fullName: NetEnhancements.AspNet.Routing.RouteModel.Area
   nameWithType: RouteModel.Area
-- uid: NetEnhancements.AspNet.RouteModel.Name
-  name: Name
-  href: api/NetEnhancements.AspNet.RouteModel.html#NetEnhancements_AspNet_RouteModel_Name
-  commentId: P:NetEnhancements.AspNet.RouteModel.Name
-  fullName: NetEnhancements.AspNet.RouteModel.Name
-  nameWithType: RouteModel.Name
-- uid: NetEnhancements.AspNet.RouteModel.Name*
-  name: Name
-  href: api/NetEnhancements.AspNet.RouteModel.html#NetEnhancements_AspNet_RouteModel_Name_
-  commentId: Overload:NetEnhancements.AspNet.RouteModel.Name
+- uid: NetEnhancements.AspNet.Routing.RouteModel.Methods
+  name: Methods
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html#NetEnhancements_AspNet_Routing_RouteModel_Methods
+  commentId: P:NetEnhancements.AspNet.Routing.RouteModel.Methods
+  fullName: NetEnhancements.AspNet.Routing.RouteModel.Methods
+  nameWithType: RouteModel.Methods
+- uid: NetEnhancements.AspNet.Routing.RouteModel.Methods*
+  name: Methods
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html#NetEnhancements_AspNet_Routing_RouteModel_Methods_
+  commentId: Overload:NetEnhancements.AspNet.Routing.RouteModel.Methods
   isSpec: "True"
-  fullName: NetEnhancements.AspNet.RouteModel.Name
+  fullName: NetEnhancements.AspNet.Routing.RouteModel.Methods
+  nameWithType: RouteModel.Methods
+- uid: NetEnhancements.AspNet.Routing.RouteModel.Name
+  name: Name
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html#NetEnhancements_AspNet_Routing_RouteModel_Name
+  commentId: P:NetEnhancements.AspNet.Routing.RouteModel.Name
+  fullName: NetEnhancements.AspNet.Routing.RouteModel.Name
   nameWithType: RouteModel.Name
-- uid: NetEnhancements.AspNet.RouteModel.Template
+- uid: NetEnhancements.AspNet.Routing.RouteModel.Name*
+  name: Name
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html#NetEnhancements_AspNet_Routing_RouteModel_Name_
+  commentId: Overload:NetEnhancements.AspNet.Routing.RouteModel.Name
+  isSpec: "True"
+  fullName: NetEnhancements.AspNet.Routing.RouteModel.Name
+  nameWithType: RouteModel.Name
+- uid: NetEnhancements.AspNet.Routing.RouteModel.Template
   name: Template
-  href: api/NetEnhancements.AspNet.RouteModel.html#NetEnhancements_AspNet_RouteModel_Template
-  commentId: P:NetEnhancements.AspNet.RouteModel.Template
-  fullName: NetEnhancements.AspNet.RouteModel.Template
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html#NetEnhancements_AspNet_Routing_RouteModel_Template
+  commentId: P:NetEnhancements.AspNet.Routing.RouteModel.Template
+  fullName: NetEnhancements.AspNet.Routing.RouteModel.Template
   nameWithType: RouteModel.Template
-- uid: NetEnhancements.AspNet.RouteModel.Template*
+- uid: NetEnhancements.AspNet.Routing.RouteModel.Template*
   name: Template
-  href: api/NetEnhancements.AspNet.RouteModel.html#NetEnhancements_AspNet_RouteModel_Template_
-  commentId: Overload:NetEnhancements.AspNet.RouteModel.Template
+  href: api/NetEnhancements.AspNet.Routing.RouteModel.html#NetEnhancements_AspNet_Routing_RouteModel_Template_
+  commentId: Overload:NetEnhancements.AspNet.Routing.RouteModel.Template
   isSpec: "True"
-  fullName: NetEnhancements.AspNet.RouteModel.Template
+  fullName: NetEnhancements.AspNet.Routing.RouteModel.Template
   nameWithType: RouteModel.Template
 - uid: NetEnhancements.AspNet.SelectListExtensions
   name: SelectListExtensions
@@ -631,41 +682,6 @@ references:
   commentId: F:NetEnhancements.AspNet.SharedConstants.XForwardedFor
   fullName: NetEnhancements.AspNet.SharedConstants.XForwardedFor
   nameWithType: SharedConstants.XForwardedFor
-- uid: NetEnhancements.AspNet.SnakeCaseNamingPolicy
-  name: SnakeCaseNamingPolicy
-  href: api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html
-  commentId: T:NetEnhancements.AspNet.SnakeCaseNamingPolicy
-  fullName: NetEnhancements.AspNet.SnakeCaseNamingPolicy
-  nameWithType: SnakeCaseNamingPolicy
-- uid: NetEnhancements.AspNet.SnakeCaseNamingPolicy.ConvertName(System.String)
-  name: ConvertName(string)
-  href: api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html#NetEnhancements_AspNet_SnakeCaseNamingPolicy_ConvertName_System_String_
-  commentId: M:NetEnhancements.AspNet.SnakeCaseNamingPolicy.ConvertName(System.String)
-  name.vb: ConvertName(String)
-  fullName: NetEnhancements.AspNet.SnakeCaseNamingPolicy.ConvertName(string)
-  fullName.vb: NetEnhancements.AspNet.SnakeCaseNamingPolicy.ConvertName(String)
-  nameWithType: SnakeCaseNamingPolicy.ConvertName(string)
-  nameWithType.vb: SnakeCaseNamingPolicy.ConvertName(String)
-- uid: NetEnhancements.AspNet.SnakeCaseNamingPolicy.ConvertName*
-  name: ConvertName
-  href: api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html#NetEnhancements_AspNet_SnakeCaseNamingPolicy_ConvertName_
-  commentId: Overload:NetEnhancements.AspNet.SnakeCaseNamingPolicy.ConvertName
-  isSpec: "True"
-  fullName: NetEnhancements.AspNet.SnakeCaseNamingPolicy.ConvertName
-  nameWithType: SnakeCaseNamingPolicy.ConvertName
-- uid: NetEnhancements.AspNet.SnakeCaseNamingPolicy.Instance
-  name: Instance
-  href: api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html#NetEnhancements_AspNet_SnakeCaseNamingPolicy_Instance
-  commentId: P:NetEnhancements.AspNet.SnakeCaseNamingPolicy.Instance
-  fullName: NetEnhancements.AspNet.SnakeCaseNamingPolicy.Instance
-  nameWithType: SnakeCaseNamingPolicy.Instance
-- uid: NetEnhancements.AspNet.SnakeCaseNamingPolicy.Instance*
-  name: Instance
-  href: api/NetEnhancements.AspNet.SnakeCaseNamingPolicy.html#NetEnhancements_AspNet_SnakeCaseNamingPolicy_Instance_
-  commentId: Overload:NetEnhancements.AspNet.SnakeCaseNamingPolicy.Instance
-  isSpec: "True"
-  fullName: NetEnhancements.AspNet.SnakeCaseNamingPolicy.Instance
-  nameWithType: SnakeCaseNamingPolicy.Instance
 - uid: NetEnhancements.AspNet.TagHelpers
   name: NetEnhancements.AspNet.TagHelpers
   href: api/NetEnhancements.AspNet.TagHelpers.html
