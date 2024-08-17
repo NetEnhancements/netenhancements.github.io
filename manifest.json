@@ -252,6 +252,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.StaticFiles.CachingPhysicalFileProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.StaticFiles.CachingPhysicalFileProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.StaticFiles.PhysicalFileCachingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.StaticFiles.PhysicalFileCachingOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.AspNet.StaticFiles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.AspNet.StaticFiles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.yml",
       "output": {
         ".html": {
@@ -1529,6 +1559,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/ClosedXML/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/aspnet/CachingPhysicalFileProvider.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/aspnet/CachingPhysicalFileProvider.html"
         }
       },
       "version": ""
