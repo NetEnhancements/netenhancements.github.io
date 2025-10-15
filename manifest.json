@@ -18,7 +18,11 @@
           "relative_path": "api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.ControllerEndpointRouteBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Contains extension methods for using Controllers with <xref href=\"Microsoft.AspNetCore.Routing.IEndpointRouteBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.AreaAuthorizationPolicyConvention.yml\" sourcestartlinenumber=\"1\">Applies the provided policies to MVC Controllers and Razor Pages.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.AreaControllerRoutingConvention.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions.AreaControllerRoutingConvention",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.AreaControllerRoutingConvention.yml\" sourcestartlinenumber=\"1\">Apply this convention to route all controllers based on their &quot;Areas.&quot; namespace, if any.</p>\n<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.AreaControllerRoutingConvention.yml\" sourcestartlinenumber=\"3\">This prevents having to put [Area(&quot;Foo&quot;)] on every controller.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.AreaPolicy.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions.AreaPolicy",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.AreaPolicy.yml\" sourcestartlinenumber=\"1\">Configures an area policy using an area name and zero or more filters.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.AreaRoutingAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions.AreaRoutingAttribute",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.AreaRoutingAttribute.yml\" sourcestartlinenumber=\"1\">Apply to a controller to auto-route its area based on its namespace.</p>\n<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.AreaRoutingAttribute.yml\" sourcestartlinenumber=\"3\">So instead of [Area(&quot;Foo&quot;)], use [AreaRouting] on a controller in the MyProject.Areas.Foo.Controllers namespace, inferring &quot;Foo&quot;.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.ControllerModelExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions.ControllerModelExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.ControllerModelExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerModel\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions.DefaultAreaPolicy",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.DefaultAreaPolicy.yml\" sourcestartlinenumber=\"1\">Registers filters for the &quot;default area policy&quot;, i.e. not applicable to any other registered policy.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Conventions.PageModelRoutePrefixConvention.yml\" sourcestartlinenumber=\"1\">Apply to update or remove an area route prefix.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +130,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.RoutePrefixConvention-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions.RoutePrefixConvention<TControllerBase>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -108,7 +144,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Conventions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Conventions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -118,7 +158,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Filters.UnauthorizedAccessExceptionFilter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Filters.UnauthorizedAccessExceptionFilter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -128,7 +172,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Filters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Filters",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -138,7 +186,11 @@
           "relative_path": "api/NetEnhancements.AspNet.HtmlHelperExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.HtmlHelperExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -148,7 +200,11 @@
           "relative_path": "api/NetEnhancements.AspNet.HttpContextExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.HttpContextExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -158,7 +214,11 @@
           "relative_path": "api/NetEnhancements.AspNet.MvcBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.MvcBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.MvcBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Inject MVC enhancements.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +228,11 @@
           "relative_path": "api/NetEnhancements.AspNet.MvcOptionsExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.MvcOptionsExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.MvcOptionsExtensions.yml\" sourcestartlinenumber=\"1\">Extension method container for MVC options.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -178,7 +242,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Routing.IRouteDebugger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Routing.IRouteDebugger",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Routing.IRouteDebugger.yml\" sourcestartlinenumber=\"1\">Contains functionality to debug the routing system.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -188,7 +256,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Routing.RouteModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Routing.RouteModel",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Routing.RouteModel.yml\" sourcestartlinenumber=\"1\">An ASP.NET Core route.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -198,7 +270,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Routing.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Routing",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -208,7 +284,11 @@
           "relative_path": "api/NetEnhancements.AspNet.SelectListExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.SelectListExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -218,7 +298,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Session.SessionObject-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Session.SessionObject<TValue>",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Session.SessionObject-1.yml\" sourcestartlinenumber=\"1\">Stores an object of type <code class=\"typeparamref\">TValue</code> in the session by key, serializing it to JSON.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -228,7 +312,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Session.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Session",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -238,7 +326,11 @@
           "relative_path": "api/NetEnhancements.AspNet.SessionExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.SessionExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -248,7 +340,11 @@
           "relative_path": "api/NetEnhancements.AspNet.SharedConstants.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.SharedConstants",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -258,7 +354,11 @@
           "relative_path": "api/NetEnhancements.AspNet.StaticFiles.CachingPhysicalFileProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.StaticFiles.CachingPhysicalFileProvider",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.StaticFiles.CachingPhysicalFileProvider.yml\" sourcestartlinenumber=\"1\">Serves files from the filesystem, after which they are cached in-memory for faster responses.</p>\n<p sourcefile=\"api/NetEnhancements.AspNet.StaticFiles.CachingPhysicalFileProvider.yml\" sourcestartlinenumber=\"3\">The design of this class assumes that files under the root are never changed during the application lifetime.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -268,7 +368,11 @@
           "relative_path": "api/NetEnhancements.AspNet.StaticFiles.PhysicalFileCachingOptions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.StaticFiles.PhysicalFileCachingOptions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.StaticFiles.PhysicalFileCachingOptions.yml\" sourcestartlinenumber=\"1\">Configures the cache options.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -278,7 +382,11 @@
           "relative_path": "api/NetEnhancements.AspNet.StaticFiles.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.StaticFiles",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -288,7 +396,11 @@
           "relative_path": "api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.TagHelpers.DateTagHelper",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.TagHelpers.DateTagHelper.yml\" sourcestartlinenumber=\"1\">Prints a date and time value in a human-readable format, with the original date and time as an abbr tag's title.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -298,7 +410,11 @@
           "relative_path": "api/NetEnhancements.AspNet.TagHelpers.PriceTagHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.TagHelpers.PriceTagHelper",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.TagHelpers.PriceTagHelper.yml\" sourcestartlinenumber=\"1\">qMxX-QOV9tI</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -308,7 +424,11 @@
           "relative_path": "api/NetEnhancements.AspNet.TagHelpers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.TagHelpers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -318,7 +438,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Validation.DependencyInjection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Validation.DependencyInjection",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Validation.DependencyInjection.yml\" sourcestartlinenumber=\"1\">Dependency Injection container extensions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -328,7 +452,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Validation.ModelStateExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Validation.ModelStateExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Validation.ModelStateExtensions.yml\" sourcestartlinenumber=\"1\"><xref href=\"Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary\" data-throw-if-not-resolved=\"false\"></xref> extensions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -338,7 +466,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.AspNet.Validation.ValidationAttributeLocalizerOptions.yml\" sourcestartlinenumber=\"1\">Options class to configure the validation attribute localization.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -348,7 +480,11 @@
           "relative_path": "api/NetEnhancements.AspNet.Validation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.Validation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -358,7 +494,11 @@
           "relative_path": "api/NetEnhancements.AspNet.ViewContextExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet.ViewContextExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -368,7 +508,11 @@
           "relative_path": "api/NetEnhancements.AspNet.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.AspNet",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.Aspnet.md\" sourcestartlinenumber=\"5\">Tag helpers, routing conventions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -378,7 +522,11 @@
           "relative_path": "api/NetEnhancements.Business.BusinessResult-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Business.BusinessResult<T>",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Business.BusinessResult-1.yml\" sourcestartlinenumber=\"1\">A wrapper class for calls into the business layer, so controllers don't have to do their own error handling.</p>\n<p sourcefile=\"api/NetEnhancements.Business.BusinessResult-1.yml\" sourcestartlinenumber=\"3\">Contains data when successful.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -388,7 +536,11 @@
           "relative_path": "api/NetEnhancements.Business.BusinessResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Business.BusinessResult",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Business.BusinessResult.yml\" sourcestartlinenumber=\"1\">A wrapper class for calls into the business layer, so controllers don't have to do their own error handling.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -398,7 +550,11 @@
           "relative_path": "api/NetEnhancements.Business.BusinessResultToStatusCodeExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Business.BusinessResultToStatusCodeExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -408,7 +564,11 @@
           "relative_path": "api/NetEnhancements.Business.Managers.ManagerBase-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Business.Managers.ManagerBase<TDbContext>",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Business.Managers.ManagerBase-1.yml\" sourcestartlinenumber=\"1\">Base class for Business Logic classes that talk to the database, which prevents you from having to create try-catch blocks.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -418,7 +578,11 @@
           "relative_path": "api/NetEnhancements.Business.Managers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Business.Managers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -428,7 +592,11 @@
           "relative_path": "api/NetEnhancements.Business.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Business",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.Business.md\" sourcestartlinenumber=\"5\">Brings Shared, EntityFramework and AspNet together.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -438,7 +606,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.CellExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.CellExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.CellExtensions.yml\" sourcestartlinenumber=\"1\">Extension method container.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -448,7 +620,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.ColumnExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.ColumnExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.ColumnExtensions.yml\" sourcestartlinenumber=\"1\">Extension method container.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -458,7 +634,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.Condition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.Condition",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.Condition.yml\" sourcestartlinenumber=\"1\">Specifies the conditions for when to apply the conditional styling.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -468,7 +648,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.ExcelColumnAddressAttribute",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.ExcelColumnAddressAttribute.yml\" sourcestartlinenumber=\"1\">Determine in which column letter(s) the property's data resides.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -478,7 +662,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.ExcelColumnConditionalStyleAttribute.yml\" sourcestartlinenumber=\"1\">Gives the property a custom style name when writing to Excel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -488,7 +676,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.ExcelColumnIgnoredAttribute.yml\" sourcestartlinenumber=\"1\">Marks property as to not be included when writing to Excel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -498,7 +690,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.ExcelColumnNameAttribute",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.ExcelColumnNameAttribute.yml\" sourcestartlinenumber=\"1\">Gives the property a custom column name when writing to Excel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -508,7 +704,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.ExcelColumnStyleAttribute",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.ExcelColumnStyleAttribute.yml\" sourcestartlinenumber=\"1\">Gives the property a custom style name when writing to Excel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -518,7 +718,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.ExcelGenerator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.ExcelGenerator",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.ExcelGenerator.yml\" sourcestartlinenumber=\"1\">Provides methods for generating Excel workbooks and datasets from collections of objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -528,7 +732,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.RowParser-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.RowParser<TRow>",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.RowParser-1.yml\" sourcestartlinenumber=\"1\">Parses an <xref href=\"ClosedXML.Excel.IXLRow\" data-throw-if-not-resolved=\"false\"></xref> into the given <code class=\"typeparamref\">TRow</code> type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -538,7 +746,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.WorkbookExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.WorkbookExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.WorkbookExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for working with Excel workbooks.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -548,7 +760,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.WorksheetExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML.WorksheetExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.ClosedXML.WorksheetExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for working with Excel worksheets.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -558,7 +774,11 @@
           "relative_path": "api/NetEnhancements.ClosedXML.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.ClosedXML",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.ClosedXML.md\" sourcestartlinenumber=\"5\">Readers and writers for objects-to-OpenXML.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -568,7 +788,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.DateOnlyComparer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.DateOnlyComparer",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.DateOnlyComparer.yml\" sourcestartlinenumber=\"1\">Compares <xref href=\"System.DateOnly\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -578,7 +802,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.DateOnlyConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.DateOnlyConverter",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.DateOnlyConverter.yml\" sourcestartlinenumber=\"1\">Converts <xref href=\"System.DateOnly\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> and vice versa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -588,7 +816,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.Entity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.Entity",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.Entity.yml\" sourcestartlinenumber=\"1\">Base entity with created/modified fields.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -598,7 +830,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.EntityExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.EntityExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.EntityExtensions.yml\" sourcestartlinenumber=\"1\">Extension method container for entities.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -608,7 +844,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.EntityNotFoundException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.EntityNotFoundException",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.EntityNotFoundException.yml\" sourcestartlinenumber=\"1\">An exception indicating an expected entity was not found.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -618,7 +858,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.GuidIdEntity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.GuidIdEntity",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.GuidIdEntity.yml\" sourcestartlinenumber=\"1\">Base entity with a GUID as PK and created/modified fields.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -628,7 +872,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.IGuidIdEntity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.IGuidIdEntity",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.IGuidIdEntity.yml\" sourcestartlinenumber=\"1\">Denotes an entity with a <xref href=\"System.Guid\" data-throw-if-not-resolved=\"false\"></xref> <xref href=\"NetEnhancements.EntityFramework.IGuidIdEntity.Id\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -638,7 +886,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.ITimestampedEntity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.ITimestampedEntity",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.ITimestampedEntity.yml\" sourcestartlinenumber=\"1\">Denotes an entity with a <xref href=\"NetEnhancements.EntityFramework.ITimestampedEntity.Created\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"NetEnhancements.EntityFramework.ITimestampedEntity.Modified\" data-throw-if-not-resolved=\"false\"></xref> property.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -648,7 +900,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.IntIdEntity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.IntIdEntity",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.IntIdEntity.yml\" sourcestartlinenumber=\"1\">Base entity with an int as PK and created/modified fields.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -658,7 +914,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.ModelBuilderExtension.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.ModelBuilderExtension",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.ModelBuilderExtension.yml\" sourcestartlinenumber=\"1\">From various posts at <a href=\"https://stackoverflow.com/questions/47673524/ef-core-soft-delete-with-shadow-properties-and-query-filters\" sourcefile=\"api/NetEnhancements.EntityFramework.ModelBuilderExtension.yml\" sourcestartlinenumber=\"1\">https://stackoverflow.com/questions/47673524/ef-core-soft-delete-with-shadow-properties-and-query-filters</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -668,7 +928,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Entity Framework doesn't support DateOnly/TimeOnly natively.</p>\n<p sourcefile=\"api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.yml\" sourcestartlinenumber=\"3\"><a href=\"https://github.com/dotnet/efcore/issues/24507\" sourcefile=\"api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.yml\" sourcestartlinenumber=\"3\">https://github.com/dotnet/efcore/issues/24507</a>\n<a href=\"https://github.com/dotnet/SqlClient/issues/1009\" sourcefile=\"api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.yml\" sourcestartlinenumber=\"4\">https://github.com/dotnet/SqlClient/issues/1009</a></p>\n<p sourcefile=\"api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.yml\" sourcestartlinenumber=\"6\"><a href=\"https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew#dateonlytimeonly-supported-on-sql-server\" sourcefile=\"api/NetEnhancements.EntityFramework.ModelConfigurationBuilderExtensions.yml\" sourcestartlinenumber=\"6\">https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew#dateonlytimeonly-supported-on-sql-server</a> (Soon)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -678,7 +942,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.NullableDateOnlyComparer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.NullableDateOnlyComparer",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.NullableDateOnlyComparer.yml\" sourcestartlinenumber=\"1\">Compares <xref href=\"System.Nullable%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -688,7 +956,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.NullableDateOnlyConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.NullableDateOnlyConverter",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.NullableDateOnlyConverter.yml\" sourcestartlinenumber=\"1\">Converts nullable <xref href=\"System.DateOnly\" data-throw-if-not-resolved=\"false\"></xref> to nullable <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> and vice versa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -698,7 +970,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.NullableTimeOnlyComparer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.NullableTimeOnlyComparer",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.NullableTimeOnlyComparer.yml\" sourcestartlinenumber=\"1\">Compares <xref href=\"System.Nullable%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -708,7 +984,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.NullableTimeOnlyConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.NullableTimeOnlyConverter",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.NullableTimeOnlyConverter.yml\" sourcestartlinenumber=\"1\">Converts nullable <xref href=\"System.TimeOnly\" data-throw-if-not-resolved=\"false\"></xref> to nullable <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> and vice versa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -718,7 +998,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.Query.DataQuery.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.Query.DataQuery",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.Query.DataQuery.yml\" sourcestartlinenumber=\"1\">Allows for passing query strings and sort clauses from controllers to repositories.</p>\n<p sourcefile=\"api/NetEnhancements.EntityFramework.Query.DataQuery.yml\" sourcestartlinenumber=\"3\">TODO: nested queries, range queries, this is a POC.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -728,7 +1012,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.Query.OrderDirection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.Query.OrderDirection",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -738,7 +1026,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.Query.OrderExpression.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.Query.OrderExpression",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -748,7 +1040,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.Query.PagedQuery.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.Query.PagedQuery",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.Query.PagedQuery.yml\" sourcestartlinenumber=\"1\">Represents a database query involving paging.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -758,7 +1054,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.Query.PagedResults-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.Query.PagedResults<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -768,7 +1068,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.Query.QueryExpression.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.Query.QueryExpression",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -778,7 +1082,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.Query.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.Query",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -788,7 +1096,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.SqlServerDbContextExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.SqlServerDbContextExtensions.yml\" sourcestartlinenumber=\"1\">SQL Server extensions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -798,7 +1110,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.TimeOnlyComparer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.TimeOnlyComparer",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.TimeOnlyComparer.yml\" sourcestartlinenumber=\"1\">Compares <xref href=\"System.TimeOnly\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -808,7 +1124,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.TimeOnlyConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.TimeOnlyConverter",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.TimeOnlyConverter.yml\" sourcestartlinenumber=\"1\">Converts <xref href=\"System.TimeOnly\" data-throw-if-not-resolved=\"false\"></xref> to nullable <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> and vice versa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -818,7 +1138,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework.TimestampedEntityInterceptor",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.TimestampedEntityInterceptor.yml\" sourcestartlinenumber=\"1\">Intercepts saves to entities implementing <xref href=\"NetEnhancements.EntityFramework.ITimestampedEntity\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -828,7 +1152,11 @@
           "relative_path": "api/NetEnhancements.EntityFramework.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.EntityFramework",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.EntityFramework.md\" sourcestartlinenumber=\"5\">Extensions for Entity Framework.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -838,7 +1166,11 @@
           "relative_path": "api/NetEnhancements.Identity.Configuration.IdentitySettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Configuration.IdentitySettings",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -848,7 +1180,11 @@
           "relative_path": "api/NetEnhancements.Identity.Configuration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Configuration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -858,7 +1194,11 @@
           "relative_path": "api/NetEnhancements.Identity.Data.ApplicationRole.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Data.ApplicationRole",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Identity.Data.ApplicationRole.yml\" sourcestartlinenumber=\"1\">An application role with a <xref href=\"System.Guid\" data-throw-if-not-resolved=\"false\"></xref> PK.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -868,7 +1208,11 @@
           "relative_path": "api/NetEnhancements.Identity.Data.ApplicationUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Data.ApplicationUser",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Identity.Data.ApplicationUser.yml\" sourcestartlinenumber=\"1\">An application user with a <xref href=\"System.Guid\" data-throw-if-not-resolved=\"false\"></xref> PK.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -878,7 +1222,11 @@
           "relative_path": "api/NetEnhancements.Identity.Data.ApplicationUserRole.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Data.ApplicationUserRole",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Identity.Data.ApplicationUserRole.yml\" sourcestartlinenumber=\"1\">Junction table entity for linking users and roles with <xref href=\"System.Guid\" data-throw-if-not-resolved=\"false\"></xref> PKs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -888,7 +1236,11 @@
           "relative_path": "api/NetEnhancements.Identity.Data.IdentityDbContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Data.IdentityDbContext",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Identity.Data.IdentityDbContext.yml\" sourcestartlinenumber=\"1\">Base class for a DbContext to be used with NetEnhancements.Identity.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -898,7 +1250,11 @@
           "relative_path": "api/NetEnhancements.Identity.Data.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Data",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -908,7 +1264,11 @@
           "relative_path": "api/NetEnhancements.Identity.DependencyInjection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.DependencyInjection",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Identity.DependencyInjection.yml\" sourcestartlinenumber=\"1\">Dependency Injection extensions container.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -918,7 +1278,11 @@
           "relative_path": "api/NetEnhancements.Identity.Extensions.IdentityExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Extensions.IdentityExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -928,7 +1292,11 @@
           "relative_path": "api/NetEnhancements.Identity.Extensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Extensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -938,7 +1306,11 @@
           "relative_path": "api/NetEnhancements.Identity.Managers.ApplicationUserManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Managers.ApplicationUserManager",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Identity.Managers.ApplicationUserManager.yml\" sourcestartlinenumber=\"1\">Provides the APIs for managing user in a persistence store.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -948,7 +1320,11 @@
           "relative_path": "api/NetEnhancements.Identity.Managers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity.Managers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -958,7 +1334,11 @@
           "relative_path": "api/NetEnhancements.Identity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Identity",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.Identity.md\" sourcestartlinenumber=\"5\">A default implementation of ASP.NET Identity, with GUID PKs, extension methods to look up users, an Identity database schema and an ApplicationUserManager.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -968,7 +1348,11 @@
           "relative_path": "api/NetEnhancements.Imaging.DependencyInjection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.DependencyInjection",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.DependencyInjection.yml\" sourcestartlinenumber=\"1\">Dependency Injection extensions container.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -978,7 +1362,11 @@
           "relative_path": "api/NetEnhancements.Imaging.EntityFramework.Category.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.EntityFramework.Category",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.EntityFramework.Category.yml\" sourcestartlinenumber=\"1\">Default class for storing image categories.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -988,7 +1376,11 @@
           "relative_path": "api/NetEnhancements.Imaging.EntityFramework.CategoryBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.EntityFramework.CategoryBase",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.EntityFramework.CategoryBase.yml\" sourcestartlinenumber=\"1\">Base class for storing image categories.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -998,7 +1390,11 @@
           "relative_path": "api/NetEnhancements.Imaging.EntityFramework.Image.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.EntityFramework.Image",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.EntityFramework.Image.yml\" sourcestartlinenumber=\"1\">Default class for storing image metadata.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1008,7 +1404,11 @@
           "relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.EntityFramework.ImageBase<TCategory>",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.EntityFramework.ImageBase-1.yml\" sourcestartlinenumber=\"1\">Base class for storing image metadata.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1018,7 +1418,11 @@
           "relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageCategory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.EntityFramework.ImageCategory",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.EntityFramework.ImageCategory.yml\" sourcestartlinenumber=\"1\">Default image category junction table entity.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1028,7 +1432,11 @@
           "relative_path": "api/NetEnhancements.Imaging.EntityFramework.ImageCategoryBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.EntityFramework.ImageCategoryBase",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.EntityFramework.ImageCategoryBase.yml\" sourcestartlinenumber=\"1\">Junction table: relation between images and categories.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1038,7 +1446,11 @@
           "relative_path": "api/NetEnhancements.Imaging.EntityFramework.ModelBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.EntityFramework.ModelBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.EntityFramework.ModelBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Imaging-specific Dependency Injection Builder.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1048,7 +1460,11 @@
           "relative_path": "api/NetEnhancements.Imaging.EntityFramework.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.EntityFramework",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.Imaging.EntityFramework.md\" sourcestartlinenumber=\"5\">Store image metadata through Entity Framework.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1058,7 +1474,11 @@
           "relative_path": "api/NetEnhancements.Imaging.IImageInspector.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.IImageInspector",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.IImageInspector.yml\" sourcestartlinenumber=\"1\">Retrieve image information.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1068,7 +1488,11 @@
           "relative_path": "api/NetEnhancements.Imaging.IImageProcessor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.IImageProcessor",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.IImageProcessor.yml\" sourcestartlinenumber=\"1\">Contains methods for image manipulation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1078,7 +1502,11 @@
           "relative_path": "api/NetEnhancements.Imaging.IImageStore.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.IImageStore",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.IImageStore.yml\" sourcestartlinenumber=\"1\">Image storage abstraction layer.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1088,7 +1516,11 @@
           "relative_path": "api/NetEnhancements.Imaging.ImageFormat.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.ImageFormat",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.ImageFormat.yml\" sourcestartlinenumber=\"1\">Image encoding format.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1098,7 +1530,11 @@
           "relative_path": "api/NetEnhancements.Imaging.ImageInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.ImageInfo",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.ImageInfo.yml\" sourcestartlinenumber=\"1\">Image characteristics</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1108,7 +1544,11 @@
           "relative_path": "api/NetEnhancements.Imaging.ImagingBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.ImagingBuilder",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.ImagingBuilder.yml\" sourcestartlinenumber=\"1\">Imaging-specific Dependency Injection Builder.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1118,7 +1558,11 @@
           "relative_path": "api/NetEnhancements.Imaging.Resolution.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.Resolution",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.Resolution.yml\" sourcestartlinenumber=\"1\">Width and height of media.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1128,7 +1572,11 @@
           "relative_path": "api/NetEnhancements.Imaging.SizeCalculator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging.SizeCalculator",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Imaging.SizeCalculator.yml\" sourcestartlinenumber=\"1\">Calculates image sizes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1138,7 +1586,11 @@
           "relative_path": "api/NetEnhancements.Imaging.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Imaging",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.Imaging.md\" sourcestartlinenumber=\"5\">Lets you inspect images and resize them.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1148,7 +1600,11 @@
           "relative_path": "api/NetEnhancements.OAuth.TokenGenerator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.OAuth.TokenGenerator",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.OAuth.TokenGenerator.yml\" sourcestartlinenumber=\"1\">Used for API tokens.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1158,7 +1614,11 @@
           "relative_path": "api/NetEnhancements.OAuth.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.OAuth",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1168,7 +1628,11 @@
           "relative_path": "api/NetEnhancements.Services.ScheduledBackgroundService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Services.ScheduledBackgroundService",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Services.ScheduledBackgroundService.yml\" sourcestartlinenumber=\"1\">A <xref href=\"Microsoft.Extensions.Hosting.BackgroundService\" data-throw-if-not-resolved=\"false\"></xref> that calls <xref href=\"NetEnhancements.Services.ScheduledBackgroundService.ExecuteScheduledTaskAsync(System.IServiceProvider%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref> based on the <xref href=\"NetEnhancements.Services.ScheduledBackgroundService.CronSchedule\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1178,7 +1642,11 @@
           "relative_path": "api/NetEnhancements.Services.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Services",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.Services.md\" sourcestartlinenumber=\"5\">Background services.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1188,7 +1656,11 @@
           "relative_path": "api/NetEnhancements.Shared.AppStatus.ApplicationStatus.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Shared.AppStatus.ApplicationStatus",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Shared.AppStatus.ApplicationStatus.yml\" sourcestartlinenumber=\"1\">Represents the status of a deployed application.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1198,7 +1670,11 @@
           "relative_path": "api/NetEnhancements.Shared.AppStatus.ApplicationStatusBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Shared.AppStatus.ApplicationStatusBuilder",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Shared.AppStatus.ApplicationStatusBuilder.yml\" sourcestartlinenumber=\"1\">Reads application (main assembly) information.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1208,7 +1684,11 @@
           "relative_path": "api/NetEnhancements.Shared.AppStatus.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Shared.AppStatus",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1218,7 +1698,11 @@
           "relative_path": "api/NetEnhancements.Shared.Configuration.ConfigurationException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Shared.Configuration.ConfigurationException",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Shared.Configuration.ConfigurationException.yml\" sourcestartlinenumber=\"1\">Indicates that the configuration cannot be parsed or contains invalid values.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1228,7 +1712,11 @@
           "relative_path": "api/NetEnhancements.Shared.Configuration.ConfigurationExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Shared.Configuration.ConfigurationExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Shared.Configuration.ConfigurationExtensions.yml\" sourcestartlinenumber=\"1\">Extension method container for configuration.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1238,17 +1726,11 @@
           "relative_path": "api/NetEnhancements.Shared.Configuration.DependencyInjection.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.Shared.Configuration.LoggingSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetEnhancements.Shared.Configuration.LoggingSettings.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Shared.Configuration.DependencyInjection",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Shared.Configuration.DependencyInjection.yml\" sourcestartlinenumber=\"1\">Dependency Injection extensions container.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1258,27 +1740,11 @@
           "relative_path": "api/NetEnhancements.Shared.Configuration.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.Shared.Logging.DependencyInjection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetEnhancements.Shared.Logging.DependencyInjection.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.Shared.Logging.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetEnhancements.Shared.Logging.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Shared.Configuration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1288,7 +1754,11 @@
           "relative_path": "api/NetEnhancements.Util.AttributeValidator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.AttributeValidator",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.AttributeValidator.yml\" sourcestartlinenumber=\"1\">Wraps <xref href=\"System.ComponentModel.DataAnnotations.Validator.TryValidateObject(System.Object%2cSystem.ComponentModel.DataAnnotations.ValidationContext%2cSystem.Collections.Generic.ICollection%7bSystem.ComponentModel.DataAnnotations.ValidationResult%7d%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> into an easier-to-use method.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1298,7 +1768,11 @@
           "relative_path": "api/NetEnhancements.Util.CollectionExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.CollectionExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.CollectionExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for collections.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1308,7 +1782,11 @@
           "relative_path": "api/NetEnhancements.Util.CultureInfoExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.CultureInfoExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.CultureInfoExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.Globalization.CultureInfo\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1318,7 +1796,11 @@
           "relative_path": "api/NetEnhancements.Util.DateExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.DateExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.DateExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.DateOnly\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1328,7 +1810,11 @@
           "relative_path": "api/NetEnhancements.Util.EnumExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.EnumExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.EnumExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for enums.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1338,7 +1824,11 @@
           "relative_path": "api/NetEnhancements.Util.ExpressionExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.ExpressionExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.ExpressionExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for expressions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1348,7 +1838,11 @@
           "relative_path": "api/NetEnhancements.Util.Json.DateOnlyConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Json.DateOnlyConverter",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Json.DateOnlyConverter.yml\" sourcestartlinenumber=\"1\">A converter for <xref href=\"System.DateOnly\" data-throw-if-not-resolved=\"false\"></xref> with custom format support.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1358,7 +1852,11 @@
           "relative_path": "api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverter-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Json.EmptyStringToNullNumberConverter<TNumber>",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverter-1.yml\" sourcestartlinenumber=\"1\">Converts a given number type from empty strings to null,\nwhen the <xref href=\"System.Text.Json.JsonSerializerOptions\" data-throw-if-not-resolved=\"false\"></xref>.<xref href=\"System.Text.Json.JsonSerializerOptions.NumberHandling\" data-throw-if-not-resolved=\"false\"></xref> contains <xref href=\"System.Text.Json.Serialization.JsonNumberHandling.AllowReadingFromString\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p sourcefile=\"api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverter-1.yml\" sourcestartlinenumber=\"4\">Have this class factory-created by registering <xref href=\"NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1368,7 +1866,11 @@
           "relative_path": "api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Json.EmptyStringToNullNumberConverterFactory.yml\" sourcestartlinenumber=\"1\">Register this factory to let all nullable numeric types be conversible from empty string to null,\nwhen the <xref href=\"System.Text.Json.JsonSerializerOptions\" data-throw-if-not-resolved=\"false\"></xref>.<xref href=\"System.Text.Json.JsonSerializerOptions.NumberHandling\" data-throw-if-not-resolved=\"false\"></xref> contains <xref href=\"System.Text.Json.Serialization.JsonNumberHandling.AllowReadingFromString\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1378,7 +1880,11 @@
           "relative_path": "api/NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Json.JsonSerializerOptionsExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Json.JsonSerializerOptionsExtensions.yml\" sourcestartlinenumber=\"1\">Adds ShouldSerialize functionality to the <xref href=\"System.Text.Json.JsonSerializerOptions\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1388,7 +1894,11 @@
           "relative_path": "api/NetEnhancements.Util.Json.ParsingConverter-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Json.ParsingConverter<T>",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Json.ParsingConverter-1.yml\" sourcestartlinenumber=\"1\">Converts value types to and from JSON by parsing them in the formats specified in the constructor.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1398,7 +1908,11 @@
           "relative_path": "api/NetEnhancements.Util.Json.TimeOnlyConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Json.TimeOnlyConverter",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Json.TimeOnlyConverter.yml\" sourcestartlinenumber=\"1\">A converter for <xref href=\"System.TimeOnly\" data-throw-if-not-resolved=\"false\"></xref> with custom format support.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1408,7 +1922,11 @@
           "relative_path": "api/NetEnhancements.Util.Json.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Json",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1418,7 +1936,11 @@
           "relative_path": "api/NetEnhancements.Util.NumericExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.NumericExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.NumericExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for numeric types.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1428,7 +1950,11 @@
           "relative_path": "api/NetEnhancements.Util.RandomExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.RandomExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.RandomExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.Random\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1438,7 +1964,11 @@
           "relative_path": "api/NetEnhancements.Util.StreamExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.StreamExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.StreamExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.IO.Stream\" data-throw-if-not-resolved=\"false\"></xref>s.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1448,7 +1978,11 @@
           "relative_path": "api/NetEnhancements.Util.StringExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.StringExtensions",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.StringExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>s.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1458,7 +1992,11 @@
           "relative_path": "api/NetEnhancements.Util.Validation.IVatValidatable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Validation.IVatValidatable",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Validation.IVatValidatable.yml\" sourcestartlinenumber=\"1\">Applied to models on which you want to apply a <xref href=\"NetEnhancements.Util.Validation.VatNumberAttribute\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1468,7 +2006,11 @@
           "relative_path": "api/NetEnhancements.Util.Validation.NonZeroAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Validation.NonZeroAttribute",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Validation.NonZeroAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that a numeric property cannot have a value of zero (0).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1478,7 +2020,11 @@
           "relative_path": "api/NetEnhancements.Util.Validation.VatNumberAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Validation.VatNumberAttribute",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Validation.VatNumberAttribute.yml\" sourcestartlinenumber=\"1\">To validate model with a VAT property. Requires the model to implement <xref href=\"NetEnhancements.Util.Validation.IVatValidatable\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1488,7 +2034,11 @@
           "relative_path": "api/NetEnhancements.Util.Validation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Validation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1498,7 +2048,11 @@
           "relative_path": "api/NetEnhancements.Util.VatNumberValidator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.VatNumberValidator",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.VatNumberValidator.yml\" sourcestartlinenumber=\"1\">Validator for VAT numbers.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1508,7 +2062,11 @@
           "relative_path": "api/NetEnhancements.Util.Week.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.Week",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.Week.yml\" sourcestartlinenumber=\"1\">Represents a calendar week.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1518,7 +2076,11 @@
           "relative_path": "api/NetEnhancements.Util.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util",
+      "Summary": "\n<p sourcefile=\"namespaces/NetEnhancements.Util.md\" sourcestartlinenumber=\"5\">Extension methods for built-in value types and collections, as well as JSON helpers and validation attributes.</p>\n"
     },
     {
       "type": "Conceptual",

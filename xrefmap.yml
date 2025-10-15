@@ -4760,43 +4760,6 @@ references:
   fullName.vb: NetEnhancements.Shared.Configuration.DependencyInjection.RegisterSettings(Of TSettings)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, String, Boolean)
   nameWithType: DependencyInjection.RegisterSettings<TSettings>(IServiceCollection, IConfiguration, string?, bool)
   nameWithType.vb: DependencyInjection.RegisterSettings(Of TSettings)(IServiceCollection, IConfiguration, String, Boolean)
-- uid: NetEnhancements.Shared.Configuration.LoggingSettings
-  name: LoggingSettings
-  href: api/NetEnhancements.Shared.Configuration.LoggingSettings.html
-  commentId: T:NetEnhancements.Shared.Configuration.LoggingSettings
-  fullName: NetEnhancements.Shared.Configuration.LoggingSettings
-  nameWithType: LoggingSettings
-- uid: NetEnhancements.Shared.Configuration.LoggingSettings.Log4NetSectionName
-  name: Log4NetSectionName
-  href: api/NetEnhancements.Shared.Configuration.LoggingSettings.html#NetEnhancements_Shared_Configuration_LoggingSettings_Log4NetSectionName
-  commentId: F:NetEnhancements.Shared.Configuration.LoggingSettings.Log4NetSectionName
-  fullName: NetEnhancements.Shared.Configuration.LoggingSettings.Log4NetSectionName
-  nameWithType: LoggingSettings.Log4NetSectionName
-- uid: NetEnhancements.Shared.Logging
-  name: NetEnhancements.Shared.Logging
-  href: api/NetEnhancements.Shared.Logging.html
-  commentId: N:NetEnhancements.Shared.Logging
-  fullName: NetEnhancements.Shared.Logging
-  nameWithType: NetEnhancements.Shared.Logging
-- uid: NetEnhancements.Shared.Logging.DependencyInjection
-  name: DependencyInjection
-  href: api/NetEnhancements.Shared.Logging.DependencyInjection.html
-  commentId: T:NetEnhancements.Shared.Logging.DependencyInjection
-  fullName: NetEnhancements.Shared.Logging.DependencyInjection
-  nameWithType: DependencyInjection
-- uid: NetEnhancements.Shared.Logging.DependencyInjection.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AddLogging(IServiceCollection, IConfiguration)
-  href: api/NetEnhancements.Shared.Logging.DependencyInjection.html#NetEnhancements_Shared_Logging_DependencyInjection_AddLogging_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:NetEnhancements.Shared.Logging.DependencyInjection.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  fullName: NetEnhancements.Shared.Logging.DependencyInjection.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: DependencyInjection.AddLogging(IServiceCollection, IConfiguration)
-- uid: NetEnhancements.Shared.Logging.DependencyInjection.AddLogging*
-  name: AddLogging
-  href: api/NetEnhancements.Shared.Logging.DependencyInjection.html#NetEnhancements_Shared_Logging_DependencyInjection_AddLogging_
-  commentId: Overload:NetEnhancements.Shared.Logging.DependencyInjection.AddLogging
-  isSpec: "True"
-  fullName: NetEnhancements.Shared.Logging.DependencyInjection.AddLogging
-  nameWithType: DependencyInjection.AddLogging
 - uid: NetEnhancements.Util
   name: NetEnhancements.Util
   href: api/NetEnhancements.Util.html
