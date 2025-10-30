@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class EntityNotFoundException ">
       
-      <meta name="description" content="An exception indicating an expected entity was not found.">
+      <meta name="description" content="Exception indicating an expected entity was unexpectedly not found.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Class EntityNotFoundException  <a class="header-action link-secondary" title="Vi
   <dl><dt>Assembly</dt><dd>NetEnhancements.Util.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>An exception indicating an expected entity was not found.</p>
+  <div class="markdown summary"><p>Exception indicating an expected entity was unexpectedly not found.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -181,23 +181,127 @@ Class EntityNotFoundException  <a class="header-action link-secondary" title="Vi
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="constructors">Constructors
 </h2>
 
 
-  <a id="NetEnhancements_Util_EntityNotFoundException_From_" data-uid="NetEnhancements.Util.EntityNotFoundException.From*"></a>
+  <a id="NetEnhancements_Util_EntityNotFoundException__ctor_" data-uid="NetEnhancements.Util.EntityNotFoundException.#ctor*"></a>
 
-  <h3 id="NetEnhancements_Util_EntityNotFoundException_From__1_System_Object_System_Object___" data-uid="NetEnhancements.Util.EntityNotFoundException.From``1(System.Object,System.Object[])">
-  From&lt;TEntity&gt;(object, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/EntityNotFoundException.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NetEnhancements_Util_EntityNotFoundException__ctor_System_String_" data-uid="NetEnhancements.Util.EntityNotFoundException.#ctor(System.String)">
+  EntityNotFoundException(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/EntityNotFoundException.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initialize the exception with an entity type <code class="typeparamref">TEntity</code> and the given primary key value(s).</p>
+  <div class="markdown level1 summary"><p>Exception indicating an expected entity was unexpectedly not found.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static EntityNotFoundException From&lt;TEntity&gt;(object primaryKey, params object[] additionalKeys)</code></pre>
+    <pre><code class="lang-csharp hljs">public EntityNotFoundException(string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NetEnhancements_Util_EntityNotFoundException_EntityTypeName_" data-uid="NetEnhancements.Util.EntityNotFoundException.EntityTypeName*"></a>
+
+  <h3 id="NetEnhancements_Util_EntityNotFoundException_EntityTypeName" data-uid="NetEnhancements.Util.EntityNotFoundException.EntityTypeName">
+  EntityTypeName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/EntityNotFoundException.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Type name of the entity that was not found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required string EntityTypeName { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NetEnhancements_Util_EntityNotFoundException_Id_" data-uid="NetEnhancements.Util.EntityNotFoundException.Id*"></a>
+
+  <h3 id="NetEnhancements_Util_EntityNotFoundException_Id" data-uid="NetEnhancements.Util.EntityNotFoundException.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/EntityNotFoundException.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Primary key representation of the entity that was not found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required string Id { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NetEnhancements_Util_EntityNotFoundException_For_" data-uid="NetEnhancements.Util.EntityNotFoundException.For*"></a>
+
+  <h3 id="NetEnhancements_Util_EntityNotFoundException_For__1_System_Object_System_Object___" data-uid="NetEnhancements.Util.EntityNotFoundException.For``1(System.Object,System.Object[])">
+  For&lt;TEntity&gt;(object, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NetEnhancements/NetEnhancements/blob/main/src/NetEnhancements.Util/EntityNotFoundException.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create an <a class="xref" href="NetEnhancements.Util.EntityNotFoundException.html">EntityNotFoundException</a> for the given <code class="typeparamref">TEntity</code> and the primary key value(s).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EntityNotFoundException For&lt;TEntity&gt;(object primaryKey, params object[] additionalKeys)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

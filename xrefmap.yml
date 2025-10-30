@@ -5061,22 +5061,67 @@ references:
   commentId: T:NetEnhancements.Util.EntityNotFoundException
   fullName: NetEnhancements.Util.EntityNotFoundException
   nameWithType: EntityNotFoundException
-- uid: NetEnhancements.Util.EntityNotFoundException.From*
-  name: From
-  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_From_
-  commentId: Overload:NetEnhancements.Util.EntityNotFoundException.From
+- uid: NetEnhancements.Util.EntityNotFoundException.#ctor(System.String)
+  name: EntityNotFoundException(string)
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException__ctor_System_String_
+  commentId: M:NetEnhancements.Util.EntityNotFoundException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NetEnhancements.Util.EntityNotFoundException.EntityNotFoundException(string)
+  fullName.vb: NetEnhancements.Util.EntityNotFoundException.New(String)
+  nameWithType: EntityNotFoundException.EntityNotFoundException(string)
+  nameWithType.vb: EntityNotFoundException.New(String)
+- uid: NetEnhancements.Util.EntityNotFoundException.#ctor*
+  name: EntityNotFoundException
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException__ctor_
+  commentId: Overload:NetEnhancements.Util.EntityNotFoundException.#ctor
   isSpec: "True"
-  fullName: NetEnhancements.Util.EntityNotFoundException.From
-  nameWithType: EntityNotFoundException.From
-- uid: NetEnhancements.Util.EntityNotFoundException.From``1(System.Object,System.Object[])
-  name: From<TEntity>(object, params object[])
-  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_From__1_System_Object_System_Object___
-  commentId: M:NetEnhancements.Util.EntityNotFoundException.From``1(System.Object,System.Object[])
-  name.vb: From(Of TEntity)(Object, ParamArray Object())
-  fullName: NetEnhancements.Util.EntityNotFoundException.From<TEntity>(object, params object[])
-  fullName.vb: NetEnhancements.Util.EntityNotFoundException.From(Of TEntity)(Object, ParamArray Object())
-  nameWithType: EntityNotFoundException.From<TEntity>(object, params object[])
-  nameWithType.vb: EntityNotFoundException.From(Of TEntity)(Object, ParamArray Object())
+  name.vb: New
+  fullName: NetEnhancements.Util.EntityNotFoundException.EntityNotFoundException
+  fullName.vb: NetEnhancements.Util.EntityNotFoundException.New
+  nameWithType: EntityNotFoundException.EntityNotFoundException
+  nameWithType.vb: EntityNotFoundException.New
+- uid: NetEnhancements.Util.EntityNotFoundException.EntityTypeName
+  name: EntityTypeName
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_EntityTypeName
+  commentId: P:NetEnhancements.Util.EntityNotFoundException.EntityTypeName
+  fullName: NetEnhancements.Util.EntityNotFoundException.EntityTypeName
+  nameWithType: EntityNotFoundException.EntityTypeName
+- uid: NetEnhancements.Util.EntityNotFoundException.EntityTypeName*
+  name: EntityTypeName
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_EntityTypeName_
+  commentId: Overload:NetEnhancements.Util.EntityNotFoundException.EntityTypeName
+  isSpec: "True"
+  fullName: NetEnhancements.Util.EntityNotFoundException.EntityTypeName
+  nameWithType: EntityNotFoundException.EntityTypeName
+- uid: NetEnhancements.Util.EntityNotFoundException.For*
+  name: For
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_For_
+  commentId: Overload:NetEnhancements.Util.EntityNotFoundException.For
+  isSpec: "True"
+  fullName: NetEnhancements.Util.EntityNotFoundException.For
+  nameWithType: EntityNotFoundException.For
+- uid: NetEnhancements.Util.EntityNotFoundException.For``1(System.Object,System.Object[])
+  name: For<TEntity>(object, params object[])
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_For__1_System_Object_System_Object___
+  commentId: M:NetEnhancements.Util.EntityNotFoundException.For``1(System.Object,System.Object[])
+  name.vb: For(Of TEntity)(Object, ParamArray Object())
+  fullName: NetEnhancements.Util.EntityNotFoundException.For<TEntity>(object, params object[])
+  fullName.vb: NetEnhancements.Util.EntityNotFoundException.For(Of TEntity)(Object, ParamArray Object())
+  nameWithType: EntityNotFoundException.For<TEntity>(object, params object[])
+  nameWithType.vb: EntityNotFoundException.For(Of TEntity)(Object, ParamArray Object())
+- uid: NetEnhancements.Util.EntityNotFoundException.Id
+  name: Id
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_Id
+  commentId: P:NetEnhancements.Util.EntityNotFoundException.Id
+  fullName: NetEnhancements.Util.EntityNotFoundException.Id
+  nameWithType: EntityNotFoundException.Id
+- uid: NetEnhancements.Util.EntityNotFoundException.Id*
+  name: Id
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_Id_
+  commentId: Overload:NetEnhancements.Util.EntityNotFoundException.Id
+  isSpec: "True"
+  fullName: NetEnhancements.Util.EntityNotFoundException.Id
+  nameWithType: EntityNotFoundException.Id
 - uid: NetEnhancements.Util.EnumExtensions
   name: EnumExtensions
   href: api/NetEnhancements.Util.EnumExtensions.html

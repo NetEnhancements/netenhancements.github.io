@@ -1786,7 +1786,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetEnhancements.Util.EntityNotFoundException",
-      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.EntityNotFoundException.yml\" sourcestartlinenumber=\"1\">An exception indicating an expected entity was not found.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.EntityNotFoundException.yml\" sourcestartlinenumber=\"1\">Exception indicating an expected entity was unexpectedly not found.</p>\n"
     },
     {
       "type": "ManagedReference",
