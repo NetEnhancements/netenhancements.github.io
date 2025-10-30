@@ -838,20 +838,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.EntityFramework.EntityNotFoundException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetEnhancements.EntityFramework.EntityNotFoundException.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetEnhancements.EntityFramework.EntityNotFoundException",
-      "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.EntityNotFoundException.yml\" sourcestartlinenumber=\"1\">An exception indicating an expected entity was not found.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.EntityFramework.GuidIdEntity.yml",
       "output": {
         ".html": {
@@ -1045,20 +1031,6 @@
       "IsMRef": true,
       "Title": "NetEnhancements.EntityFramework.Query.PagedQuery",
       "Summary": "<p sourcefile=\"api/NetEnhancements.EntityFramework.Query.PagedQuery.yml\" sourcestartlinenumber=\"1\">Represents a database query involving paging.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetEnhancements.EntityFramework.Query.PagedResults-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetEnhancements.EntityFramework.Query.PagedResults-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetEnhancements.EntityFramework.Query.PagedResults<T>",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1804,6 +1776,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.EntityNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.EntityNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.EntityNotFoundException",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.EntityNotFoundException.yml\" sourcestartlinenumber=\"1\">An exception indicating an expected entity was not found.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetEnhancements.Util.EnumExtensions.yml",
       "output": {
         ".html": {
@@ -1941,6 +1927,20 @@
       "IsMRef": true,
       "Title": "NetEnhancements.Util.NumericExtensions",
       "Summary": "<p sourcefile=\"api/NetEnhancements.Util.NumericExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for numeric types.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetEnhancements.Util.PagedResults-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetEnhancements.Util.PagedResults-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetEnhancements.Util.PagedResults<TEntity>",
+      "Summary": "<p sourcefile=\"api/NetEnhancements.Util.PagedResults-1.yml\" sourcestartlinenumber=\"1\">Container for results and pagination.</p>\n"
     },
     {
       "type": "ManagedReference",

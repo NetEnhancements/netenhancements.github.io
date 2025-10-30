@@ -2277,28 +2277,6 @@ references:
   fullName.vb: NetEnhancements.EntityFramework.EntityExtensions.Page(Of T)(System.Linq.IQueryable(Of T), NetEnhancements.EntityFramework.Query.PagedQuery)
   nameWithType: EntityExtensions.Page<T>(IQueryable<T>, PagedQuery)
   nameWithType.vb: EntityExtensions.Page(Of T)(IQueryable(Of T), PagedQuery)
-- uid: NetEnhancements.EntityFramework.EntityNotFoundException
-  name: EntityNotFoundException
-  href: api/NetEnhancements.EntityFramework.EntityNotFoundException.html
-  commentId: T:NetEnhancements.EntityFramework.EntityNotFoundException
-  fullName: NetEnhancements.EntityFramework.EntityNotFoundException
-  nameWithType: EntityNotFoundException
-- uid: NetEnhancements.EntityFramework.EntityNotFoundException.FromEntity*
-  name: FromEntity
-  href: api/NetEnhancements.EntityFramework.EntityNotFoundException.html#NetEnhancements_EntityFramework_EntityNotFoundException_FromEntity_
-  commentId: Overload:NetEnhancements.EntityFramework.EntityNotFoundException.FromEntity
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.EntityNotFoundException.FromEntity
-  nameWithType: EntityNotFoundException.FromEntity
-- uid: NetEnhancements.EntityFramework.EntityNotFoundException.FromEntity``1(System.Object,System.Object[])
-  name: FromEntity<TEntity>(object, params object[])
-  href: api/NetEnhancements.EntityFramework.EntityNotFoundException.html#NetEnhancements_EntityFramework_EntityNotFoundException_FromEntity__1_System_Object_System_Object___
-  commentId: M:NetEnhancements.EntityFramework.EntityNotFoundException.FromEntity``1(System.Object,System.Object[])
-  name.vb: FromEntity(Of TEntity)(Object, ParamArray Object())
-  fullName: NetEnhancements.EntityFramework.EntityNotFoundException.FromEntity<TEntity>(object, params object[])
-  fullName.vb: NetEnhancements.EntityFramework.EntityNotFoundException.FromEntity(Of TEntity)(Object, ParamArray Object())
-  nameWithType: EntityNotFoundException.FromEntity<TEntity>(object, params object[])
-  nameWithType.vb: EntityNotFoundException.FromEntity(Of TEntity)(Object, ParamArray Object())
 - uid: NetEnhancements.EntityFramework.GuidIdEntity
   name: GuidIdEntity
   href: api/NetEnhancements.EntityFramework.GuidIdEntity.html
@@ -2920,119 +2898,6 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.EntityFramework.Query.PagedQuery.PerPage
   nameWithType: PagedQuery.PerPage
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1
-  name: PagedResults<T>
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html
-  commentId: T:NetEnhancements.EntityFramework.Query.PagedResults`1
-  name.vb: PagedResults(Of T)
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T)
-  nameWithType: PagedResults<T>
-  nameWithType.vb: PagedResults(Of T)
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.#ctor(System.Collections.Generic.IList{`0},NetEnhancements.EntityFramework.Query.PagedQuery,System.Int64)
-  name: PagedResults(IList<T>, PagedQuery, long)
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1__ctor_System_Collections_Generic_IList__0__NetEnhancements_EntityFramework_Query_PagedQuery_System_Int64_
-  commentId: M:NetEnhancements.EntityFramework.Query.PagedResults`1.#ctor(System.Collections.Generic.IList{`0},NetEnhancements.EntityFramework.Query.PagedQuery,System.Int64)
-  name.vb: New(IList(Of T), PagedQuery, Long)
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.PagedResults(System.Collections.Generic.IList<T>, NetEnhancements.EntityFramework.Query.PagedQuery, long)
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).New(System.Collections.Generic.IList(Of T), NetEnhancements.EntityFramework.Query.PagedQuery, Long)
-  nameWithType: PagedResults<T>.PagedResults(IList<T>, PagedQuery, long)
-  nameWithType.vb: PagedResults(Of T).New(IList(Of T), PagedQuery, Long)
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.#ctor*
-  name: PagedResults
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1__ctor_
-  commentId: Overload:NetEnhancements.EntityFramework.Query.PagedResults`1.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.PagedResults
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).New
-  nameWithType: PagedResults<T>.PagedResults
-  nameWithType.vb: PagedResults(Of T).New
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.CurrentPage
-  name: CurrentPage
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_CurrentPage
-  commentId: P:NetEnhancements.EntityFramework.Query.PagedResults`1.CurrentPage
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.CurrentPage
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).CurrentPage
-  nameWithType: PagedResults<T>.CurrentPage
-  nameWithType.vb: PagedResults(Of T).CurrentPage
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.CurrentPage*
-  name: CurrentPage
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_CurrentPage_
-  commentId: Overload:NetEnhancements.EntityFramework.Query.PagedResults`1.CurrentPage
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.CurrentPage
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).CurrentPage
-  nameWithType: PagedResults<T>.CurrentPage
-  nameWithType.vb: PagedResults(Of T).CurrentPage
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.Items
-  name: Items
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_Items
-  commentId: P:NetEnhancements.EntityFramework.Query.PagedResults`1.Items
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.Items
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).Items
-  nameWithType: PagedResults<T>.Items
-  nameWithType.vb: PagedResults(Of T).Items
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.Items*
-  name: Items
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_Items_
-  commentId: Overload:NetEnhancements.EntityFramework.Query.PagedResults`1.Items
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.Items
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).Items
-  nameWithType: PagedResults<T>.Items
-  nameWithType.vb: PagedResults(Of T).Items
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.ItemsPerPage
-  name: ItemsPerPage
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_ItemsPerPage
-  commentId: P:NetEnhancements.EntityFramework.Query.PagedResults`1.ItemsPerPage
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.ItemsPerPage
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).ItemsPerPage
-  nameWithType: PagedResults<T>.ItemsPerPage
-  nameWithType.vb: PagedResults(Of T).ItemsPerPage
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.ItemsPerPage*
-  name: ItemsPerPage
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_ItemsPerPage_
-  commentId: Overload:NetEnhancements.EntityFramework.Query.PagedResults`1.ItemsPerPage
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.ItemsPerPage
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).ItemsPerPage
-  nameWithType: PagedResults<T>.ItemsPerPage
-  nameWithType.vb: PagedResults(Of T).ItemsPerPage
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.TotalItems
-  name: TotalItems
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_TotalItems
-  commentId: P:NetEnhancements.EntityFramework.Query.PagedResults`1.TotalItems
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.TotalItems
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).TotalItems
-  nameWithType: PagedResults<T>.TotalItems
-  nameWithType.vb: PagedResults(Of T).TotalItems
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.TotalItems*
-  name: TotalItems
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_TotalItems_
-  commentId: Overload:NetEnhancements.EntityFramework.Query.PagedResults`1.TotalItems
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.TotalItems
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).TotalItems
-  nameWithType: PagedResults<T>.TotalItems
-  nameWithType.vb: PagedResults(Of T).TotalItems
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.TotalPages
-  name: TotalPages
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_TotalPages
-  commentId: P:NetEnhancements.EntityFramework.Query.PagedResults`1.TotalPages
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.TotalPages
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).TotalPages
-  nameWithType: PagedResults<T>.TotalPages
-  nameWithType.vb: PagedResults(Of T).TotalPages
-- uid: NetEnhancements.EntityFramework.Query.PagedResults`1.TotalPages*
-  name: TotalPages
-  href: api/NetEnhancements.EntityFramework.Query.PagedResults-1.html#NetEnhancements_EntityFramework_Query_PagedResults_1_TotalPages_
-  commentId: Overload:NetEnhancements.EntityFramework.Query.PagedResults`1.TotalPages
-  isSpec: "True"
-  fullName: NetEnhancements.EntityFramework.Query.PagedResults<T>.TotalPages
-  fullName.vb: NetEnhancements.EntityFramework.Query.PagedResults(Of T).TotalPages
-  nameWithType: PagedResults<T>.TotalPages
-  nameWithType.vb: PagedResults(Of T).TotalPages
 - uid: NetEnhancements.EntityFramework.Query.QueryExpression
   name: QueryExpression
   href: api/NetEnhancements.EntityFramework.Query.QueryExpression.html
@@ -5190,6 +5055,28 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.DateExtensions.WeekNumbersUntil
   nameWithType: DateExtensions.WeekNumbersUntil
+- uid: NetEnhancements.Util.EntityNotFoundException
+  name: EntityNotFoundException
+  href: api/NetEnhancements.Util.EntityNotFoundException.html
+  commentId: T:NetEnhancements.Util.EntityNotFoundException
+  fullName: NetEnhancements.Util.EntityNotFoundException
+  nameWithType: EntityNotFoundException
+- uid: NetEnhancements.Util.EntityNotFoundException.From*
+  name: From
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_From_
+  commentId: Overload:NetEnhancements.Util.EntityNotFoundException.From
+  isSpec: "True"
+  fullName: NetEnhancements.Util.EntityNotFoundException.From
+  nameWithType: EntityNotFoundException.From
+- uid: NetEnhancements.Util.EntityNotFoundException.From``1(System.Object,System.Object[])
+  name: From<TEntity>(object, params object[])
+  href: api/NetEnhancements.Util.EntityNotFoundException.html#NetEnhancements_Util_EntityNotFoundException_From__1_System_Object_System_Object___
+  commentId: M:NetEnhancements.Util.EntityNotFoundException.From``1(System.Object,System.Object[])
+  name.vb: From(Of TEntity)(Object, ParamArray Object())
+  fullName: NetEnhancements.Util.EntityNotFoundException.From<TEntity>(object, params object[])
+  fullName.vb: NetEnhancements.Util.EntityNotFoundException.From(Of TEntity)(Object, ParamArray Object())
+  nameWithType: EntityNotFoundException.From<TEntity>(object, params object[])
+  nameWithType.vb: EntityNotFoundException.From(Of TEntity)(Object, ParamArray Object())
 - uid: NetEnhancements.Util.EnumExtensions
   name: EnumExtensions
   href: api/NetEnhancements.Util.EnumExtensions.html
@@ -5698,6 +5585,182 @@ references:
   isSpec: "True"
   fullName: NetEnhancements.Util.NumericExtensions.TryParseDecimal
   nameWithType: NumericExtensions.TryParseDecimal
+- uid: NetEnhancements.Util.PagedResults`1
+  name: PagedResults<TEntity>
+  href: api/NetEnhancements.Util.PagedResults-1.html
+  commentId: T:NetEnhancements.Util.PagedResults`1
+  name.vb: PagedResults(Of TEntity)
+  fullName: NetEnhancements.Util.PagedResults<TEntity>
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity)
+  nameWithType: PagedResults<TEntity>
+  nameWithType.vb: PagedResults(Of TEntity)
+- uid: NetEnhancements.Util.PagedResults`1.#ctor
+  name: PagedResults()
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1__ctor
+  commentId: M:NetEnhancements.Util.PagedResults`1.#ctor
+  name.vb: New()
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.PagedResults()
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).New()
+  nameWithType: PagedResults<TEntity>.PagedResults()
+  nameWithType.vb: PagedResults(Of TEntity).New()
+- uid: NetEnhancements.Util.PagedResults`1.#ctor(System.Collections.Generic.IReadOnlyCollection{`0},System.Int64,System.Int64,System.Int64)
+  name: PagedResults(IReadOnlyCollection<TEntity>, long, long, long)
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1__ctor_System_Collections_Generic_IReadOnlyCollection__0__System_Int64_System_Int64_System_Int64_
+  commentId: M:NetEnhancements.Util.PagedResults`1.#ctor(System.Collections.Generic.IReadOnlyCollection{`0},System.Int64,System.Int64,System.Int64)
+  name.vb: New(IReadOnlyCollection(Of TEntity), Long, Long, Long)
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.PagedResults(System.Collections.Generic.IReadOnlyCollection<TEntity>, long, long, long)
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).New(System.Collections.Generic.IReadOnlyCollection(Of TEntity), Long, Long, Long)
+  nameWithType: PagedResults<TEntity>.PagedResults(IReadOnlyCollection<TEntity>, long, long, long)
+  nameWithType.vb: PagedResults(Of TEntity).New(IReadOnlyCollection(Of TEntity), Long, Long, Long)
+- uid: NetEnhancements.Util.PagedResults`1.#ctor*
+  name: PagedResults
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1__ctor_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.PagedResults
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).New
+  nameWithType: PagedResults<TEntity>.PagedResults
+  nameWithType.vb: PagedResults(Of TEntity).New
+- uid: NetEnhancements.Util.PagedResults`1.ConvertUsing*
+  name: ConvertUsing
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_ConvertUsing_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.ConvertUsing
+  isSpec: "True"
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.ConvertUsing
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).ConvertUsing
+  nameWithType: PagedResults<TEntity>.ConvertUsing
+  nameWithType.vb: PagedResults(Of TEntity).ConvertUsing
+- uid: NetEnhancements.Util.PagedResults`1.ConvertUsingAsync*
+  name: ConvertUsingAsync
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_ConvertUsingAsync_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.ConvertUsingAsync
+  isSpec: "True"
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.ConvertUsingAsync
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).ConvertUsingAsync
+  nameWithType: PagedResults<TEntity>.ConvertUsingAsync
+  nameWithType.vb: PagedResults(Of TEntity).ConvertUsingAsync
+- uid: NetEnhancements.Util.PagedResults`1.ConvertUsingAsync``1(System.Func{`0,System.Threading.Tasks.Task{``0}})
+  name: ConvertUsingAsync<TDestination>(Func<TEntity, Task<TDestination>>)
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_ConvertUsingAsync__1_System_Func__0_System_Threading_Tasks_Task___0___
+  commentId: M:NetEnhancements.Util.PagedResults`1.ConvertUsingAsync``1(System.Func{`0,System.Threading.Tasks.Task{``0}})
+  name.vb: ConvertUsingAsync(Of TDestination)(Func(Of TEntity, Task(Of TDestination)))
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.ConvertUsingAsync<TDestination>(System.Func<TEntity, System.Threading.Tasks.Task<TDestination>>)
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).ConvertUsingAsync(Of TDestination)(System.Func(Of TEntity, System.Threading.Tasks.Task(Of TDestination)))
+  nameWithType: PagedResults<TEntity>.ConvertUsingAsync<TDestination>(Func<TEntity, Task<TDestination>>)
+  nameWithType.vb: PagedResults(Of TEntity).ConvertUsingAsync(Of TDestination)(Func(Of TEntity, Task(Of TDestination)))
+- uid: NetEnhancements.Util.PagedResults`1.ConvertUsing``1(System.Func{`0,``0})
+  name: ConvertUsing<TDestination>(Func<TEntity, TDestination>)
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_ConvertUsing__1_System_Func__0___0__
+  commentId: M:NetEnhancements.Util.PagedResults`1.ConvertUsing``1(System.Func{`0,``0})
+  name.vb: ConvertUsing(Of TDestination)(Func(Of TEntity, TDestination))
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.ConvertUsing<TDestination>(System.Func<TEntity, TDestination>)
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).ConvertUsing(Of TDestination)(System.Func(Of TEntity, TDestination))
+  nameWithType: PagedResults<TEntity>.ConvertUsing<TDestination>(Func<TEntity, TDestination>)
+  nameWithType.vb: PagedResults(Of TEntity).ConvertUsing(Of TDestination)(Func(Of TEntity, TDestination))
+- uid: NetEnhancements.Util.PagedResults`1.CurrentPage
+  name: CurrentPage
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_CurrentPage
+  commentId: P:NetEnhancements.Util.PagedResults`1.CurrentPage
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.CurrentPage
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).CurrentPage
+  nameWithType: PagedResults<TEntity>.CurrentPage
+  nameWithType.vb: PagedResults(Of TEntity).CurrentPage
+- uid: NetEnhancements.Util.PagedResults`1.CurrentPage*
+  name: CurrentPage
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_CurrentPage_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.CurrentPage
+  isSpec: "True"
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.CurrentPage
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).CurrentPage
+  nameWithType: PagedResults<TEntity>.CurrentPage
+  nameWithType.vb: PagedResults(Of TEntity).CurrentPage
+- uid: NetEnhancements.Util.PagedResults`1.From*
+  name: From
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_From_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.From
+  isSpec: "True"
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.From
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).From
+  nameWithType: PagedResults<TEntity>.From
+  nameWithType.vb: PagedResults(Of TEntity).From
+- uid: NetEnhancements.Util.PagedResults`1.From``1(NetEnhancements.Util.PagedResults{``0},System.Collections.Generic.IReadOnlyCollection{`0})
+  name: From<TSource>(PagedResults<TSource>, IReadOnlyCollection<TEntity>)
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_From__1_NetEnhancements_Util_PagedResults___0__System_Collections_Generic_IReadOnlyCollection__0__
+  commentId: M:NetEnhancements.Util.PagedResults`1.From``1(NetEnhancements.Util.PagedResults{``0},System.Collections.Generic.IReadOnlyCollection{`0})
+  name.vb: From(Of TSource)(PagedResults(Of TSource), IReadOnlyCollection(Of TEntity))
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.From<TSource>(NetEnhancements.Util.PagedResults<TSource>, System.Collections.Generic.IReadOnlyCollection<TEntity>)
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).From(Of TSource)(NetEnhancements.Util.PagedResults(Of TSource), System.Collections.Generic.IReadOnlyCollection(Of TEntity))
+  nameWithType: PagedResults<TEntity>.From<TSource>(PagedResults<TSource>, IReadOnlyCollection<TEntity>)
+  nameWithType.vb: PagedResults(Of TEntity).From(Of TSource)(PagedResults(Of TSource), IReadOnlyCollection(Of TEntity))
+- uid: NetEnhancements.Util.PagedResults`1.Items
+  name: Items
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_Items
+  commentId: P:NetEnhancements.Util.PagedResults`1.Items
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.Items
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).Items
+  nameWithType: PagedResults<TEntity>.Items
+  nameWithType.vb: PagedResults(Of TEntity).Items
+- uid: NetEnhancements.Util.PagedResults`1.Items*
+  name: Items
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_Items_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.Items
+  isSpec: "True"
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.Items
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).Items
+  nameWithType: PagedResults<TEntity>.Items
+  nameWithType.vb: PagedResults(Of TEntity).Items
+- uid: NetEnhancements.Util.PagedResults`1.ItemsPerPage
+  name: ItemsPerPage
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_ItemsPerPage
+  commentId: P:NetEnhancements.Util.PagedResults`1.ItemsPerPage
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.ItemsPerPage
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).ItemsPerPage
+  nameWithType: PagedResults<TEntity>.ItemsPerPage
+  nameWithType.vb: PagedResults(Of TEntity).ItemsPerPage
+- uid: NetEnhancements.Util.PagedResults`1.ItemsPerPage*
+  name: ItemsPerPage
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_ItemsPerPage_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.ItemsPerPage
+  isSpec: "True"
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.ItemsPerPage
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).ItemsPerPage
+  nameWithType: PagedResults<TEntity>.ItemsPerPage
+  nameWithType.vb: PagedResults(Of TEntity).ItemsPerPage
+- uid: NetEnhancements.Util.PagedResults`1.TotalItems
+  name: TotalItems
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_TotalItems
+  commentId: P:NetEnhancements.Util.PagedResults`1.TotalItems
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.TotalItems
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).TotalItems
+  nameWithType: PagedResults<TEntity>.TotalItems
+  nameWithType.vb: PagedResults(Of TEntity).TotalItems
+- uid: NetEnhancements.Util.PagedResults`1.TotalItems*
+  name: TotalItems
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_TotalItems_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.TotalItems
+  isSpec: "True"
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.TotalItems
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).TotalItems
+  nameWithType: PagedResults<TEntity>.TotalItems
+  nameWithType.vb: PagedResults(Of TEntity).TotalItems
+- uid: NetEnhancements.Util.PagedResults`1.TotalPages
+  name: TotalPages
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_TotalPages
+  commentId: P:NetEnhancements.Util.PagedResults`1.TotalPages
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.TotalPages
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).TotalPages
+  nameWithType: PagedResults<TEntity>.TotalPages
+  nameWithType.vb: PagedResults(Of TEntity).TotalPages
+- uid: NetEnhancements.Util.PagedResults`1.TotalPages*
+  name: TotalPages
+  href: api/NetEnhancements.Util.PagedResults-1.html#NetEnhancements_Util_PagedResults_1_TotalPages_
+  commentId: Overload:NetEnhancements.Util.PagedResults`1.TotalPages
+  isSpec: "True"
+  fullName: NetEnhancements.Util.PagedResults<TEntity>.TotalPages
+  fullName.vb: NetEnhancements.Util.PagedResults(Of TEntity).TotalPages
+  nameWithType: PagedResults<TEntity>.TotalPages
+  nameWithType.vb: PagedResults(Of TEntity).TotalPages
 - uid: NetEnhancements.Util.RandomExtensions
   name: RandomExtensions
   href: api/NetEnhancements.Util.RandomExtensions.html

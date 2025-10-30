@@ -359,7 +359,8 @@ Class BusinessResult  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Success { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[MemberNotNullWhen(false, &quot;StatusMessage&quot;)]
+public bool Success { get; }</code></pre>
   </div>
 
 
